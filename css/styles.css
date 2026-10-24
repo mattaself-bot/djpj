@@ -53,7 +53,7 @@ button { font: inherit; color: inherit; }
 /* ---------- stage: DJPJ fills the screen above the dock ---------- */
 .stage {
   min-height: 100dvh;
-  display: grid; grid-template-rows: auto 1fr; justify-items: center;
+  display: grid; grid-template-rows: auto 1fr auto; justify-items: center;
   padding: max(10px, env(safe-area-inset-top)) 16px calc(var(--dock-h) + 16px + env(safe-area-inset-bottom));
 }
 .topbar { width: 100%; display: flex; align-items: center; justify-content: center; min-height: 56px; }
@@ -73,10 +73,35 @@ button { font: inherit; color: inherit; }
 /* as big as the screen allows, keeping the booth's 480x420 shape plus room for the bubble */
 .booth-wrap {
   position: relative; align-self: center;
-  width: min(100%, 860px, calc((100dvh - var(--dock-h) - 150px) * 480 / 420));
+  width: min(100%, 860px, calc((100dvh - var(--dock-h) - 250px) * 480 / 420));
   min-width: 280px; padding-top: 52px;
 }
 .booth { display: block; width: 100%; height: auto; position: relative; }
+/* the lion watches over the booth, breathing with the beat */
+.lion {
+  position: absolute; left: 50%; top: 4px; width: 88%; height: auto; transform: translateX(-50%);
+  opacity: .3; pointer-events: none; user-select: none;
+  filter: drop-shadow(0 0 40px rgba(122, 44, 255, .6));
+}
+.stage:has(.booth.playing) .lion { animation: lion-breathe calc(var(--beat) * 2) ease-in-out infinite; }
+.stage:has(.booth.paused) .lion { animation-play-state: paused; }
+@keyframes lion-breathe { 0%, 100% { transform: translateX(-50%) scale(1); opacity: .28; } 50% { transform: translateX(-50%) scale(1.025); opacity: .36; } }
+
+/* emotes float up from DJPJ's head */
+.emotes { position: absolute; inset: 0; pointer-events: none; z-index: 2; overflow: visible; }
+.emote {
+  position: absolute; font-size: clamp(26px, 4.4vw, 40px); line-height: 1;
+  animation: emote-up 1.9s ease-out forwards; filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .5));
+}
+.emote.word {
+  font: 400 clamp(15px, 2.4vw, 22px) Bungee, Impact, sans-serif; letter-spacing: 1px; white-space: nowrap;
+  background: linear-gradient(90deg, var(--pink), var(--amber)); -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+@keyframes emote-up {
+  0% { opacity: 0; transform: translate(-50%, 10px) scale(.4) rotate(var(--tilt, 0deg)); }
+  15% { opacity: 1; transform: translate(-50%, 0) scale(1.2) rotate(var(--tilt, 0deg)); }
+  100% { opacity: 0; transform: translate(calc(-50% + var(--drift, 0px)), -110px) scale(1) rotate(calc(var(--tilt, 0deg) * -1)); }
+}
 #viz { position: absolute; inset: auto 0 18% 0; width: 100%; height: 34%; opacity: .55; pointer-events: none; }
 
 /* DJPJ's speech bubble: the status line, so tricks and effects read as part of the show */
@@ -127,6 +152,51 @@ button { font: inherit; color: inherit; }
 .booth.a-on .deck-a .deck-led, .booth.b-on .deck-b .deck-led { opacity: 1; }
 .booth.paused * { animation-play-state: paused !important; }
 
+/* his whole body grooves behind the table; the scratching arm and legs move with him */
+.booth .dj, .booth .arm-scratch-body, .booth .legs { transform-box: view-box; transform-origin: 240px 400px; }
+.booth.playing .dj, .booth.playing .arm-scratch-body { animation: groove calc(var(--beat) * 2) ease-in-out infinite; }
+.booth.playing .legs { animation: groove-legs calc(var(--beat) * 2) ease-in-out infinite; }
+@keyframes groove {
+  0%, 100% { transform: translate(-4px, 0); }
+  25%, 75% { transform: translate(0, 3px); }
+  50% { transform: translate(4px, 0); }
+}
+@keyframes groove-legs { 0%, 100% { transform: translateX(-2px); } 50% { transform: translateX(2px); } }
+
+/* moves (app.js adds one for a few bars) */
+.booth.playing.move-hype .dj, .booth.playing.move-hype .arm-scratch-body { animation: jump var(--beat) cubic-bezier(.3, 0, .4, 1) infinite; }
+.booth.playing.move-hype .arm-up { animation: pump-big calc(var(--beat) / 1) ease-in-out infinite; }
+@keyframes jump { 0%, 100% { transform: translateY(2px); } 35% { transform: translateY(-11px); } }
+@keyframes pump-big { 0%, 100% { transform: rotate(-6deg); } 50% { transform: rotate(-22deg) translateY(-6px); } }
+
+.booth.playing.move-lean .dj, .booth.playing.move-lean .arm-scratch-body { animation: lean calc(var(--beat) * 2) ease-in-out infinite; }
+.booth.playing.move-lean .arm-scratch { animation-duration: calc(var(--beat) / 4); }
+@keyframes lean { 0%, 100% { transform: translate(-12px, 7px) rotate(-3deg); } 50% { transform: translate(-9px, 10px) rotate(-2deg); } }
+
+.booth.playing.move-headbang .head { animation: headbang var(--beat) cubic-bezier(.5, 0, .5, 1) infinite; }
+@keyframes headbang { 0%, 100% { transform: translateY(0) rotate(0); } 40% { transform: translateY(10px) rotate(5deg); } }
+
+.booth.playing.move-wave .arm-up { animation: wave calc(var(--beat) * 2) ease-in-out infinite; }
+@keyframes wave { 0%, 100% { transform: rotate(-26deg); } 50% { transform: rotate(18deg); } }
+
+.booth.playing.move-point .arm-up { animation: point calc(var(--beat) * 2) ease-in-out infinite; }
+@keyframes point { 0%, 100% { transform: rotate(48deg); } 50% { transform: rotate(42deg) translateX(3px); } }
+
+.booth.playing.move-sway .dj, .booth.playing.move-sway .arm-scratch-body { animation: sway calc(var(--beat) * 4) ease-in-out infinite; }
+@keyframes sway {
+  0%, 100% { transform: translate(-11px, 0) rotate(-2.5deg); }
+  25%, 75% { transform: translate(0, 4px) rotate(0); }
+  50% { transform: translate(11px, 0) rotate(2.5deg); }
+}
+
+/* faces */
+.booth .mouth-open { display: none; }
+.booth.face-shout .mouth-grin { display: none; }
+.booth.face-shout .mouth-open { display: inline; }
+.booth .brows { transition: transform .15s; }
+.booth.face-surprise .brows { transform: translateY(-5px); }
+.booth.face-shout .brows { transform: translateY(-3px); }
+
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes bob { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(5px) rotate(-1.5deg); } }
 @keyframes pump { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-9deg); } }
@@ -140,7 +210,8 @@ button { font: inherit; color: inherit; }
   100% { opacity: 0; transform: translateY(-60px) rotate(15deg); }
 }
 @media (prefers-reduced-motion: reduce) {
-  .booth *, .bubble, .ticker span, .tip-bucket { animation: none !important; }
+  .booth *, .bubble, .ticker span, .tip-jar, .tip-jar *, .lion { animation: none !important; }
+  .emote { animation-duration: .01s !important; }
 }
 
 /* ---------- panels ---------- */
@@ -213,18 +284,25 @@ button { font: inherit; color: inherit; }
 .check input { width: 20px; height: 20px; accent-color: var(--pink); flex: none; }
 .check small { color: var(--muted); }
 
-/* ---------- tip bucket: always in the top-right corner ---------- */
-.tip-bucket {
-  position: fixed; z-index: 30; top: max(10px, env(safe-area-inset-top)); right: 12px;
-  width: 60px; height: 60px; padding: 5px; border-radius: 50%;
-  border: 2px solid rgba(255, 176, 32, .6); background: rgba(23, 16, 41, .85); cursor: pointer;
-  box-shadow: 0 0 22px rgba(255, 176, 32, .35); transition: transform .12s;
+/* ---------- tip jar: front and center under the booth ---------- */
+.tip-jar {
+  display: inline-flex; align-items: center; gap: 12px; margin-top: 6px;
+  padding: 6px 24px 6px 8px; border-radius: 99px; cursor: pointer; text-align: left;
+  border: 2px solid #ffd34d; background: linear-gradient(180deg, #ffc23d, #ff9f0a); color: #1b1100;
+  box-shadow: 0 0 0 4px rgba(255, 176, 32, .18), 0 10px 34px rgba(255, 176, 32, .35);
+  transition: transform .12s, box-shadow .2s;
 }
-.tip-bucket svg { display: block; width: 100%; height: 100%; }
-.tip-bucket:hover { transform: rotate(-8deg) scale(1.06); }
-.tip-bucket:active { transform: scale(.94); }
-.tip-bucket.jingle { animation: jingle .6s ease-in-out; }
-@keyframes jingle { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-14deg); } 50% { transform: rotate(10deg); } 75% { transform: rotate(-6deg); } }
+.tip-jar svg { width: 62px; height: 62px; flex: none; transform-origin: 50% 90%; }
+.tip-jar-text { display: grid; line-height: 1.15; }
+.tip-jar-text b { font: 400 20px Bungee, Impact, sans-serif; letter-spacing: 1px; }
+.tip-jar-text small { font-size: 12.5px; font-weight: 700; opacity: .8; }
+.tip-jar:hover { transform: translateY(-2px); box-shadow: 0 0 0 6px rgba(255, 176, 32, .25), 0 14px 40px rgba(255, 176, 32, .5); }
+.tip-jar:active { transform: scale(.97); }
+.stage:has(.booth.playing) .tip-jar svg { animation: jar-bob calc(var(--beat) * 2) ease-in-out infinite; }
+.stage:has(.booth.paused) .tip-jar svg { animation-play-state: paused; }
+@keyframes jar-bob { 0%, 100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg) translateY(-2px); } }
+.tip-jar.jingle svg { animation: jingle .6s ease-in-out; }
+@keyframes jingle { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-16deg); } 50% { transform: rotate(12deg); } 75% { transform: rotate(-6deg); } }
 
 /* ---------- dock ---------- */
 .dock {
@@ -366,7 +444,10 @@ button { font: inherit; color: inherit; }
   .np-time { display: none; }
   .now-bar .icon-btn { width: 38px; height: 38px; }
   .sheet, .sheet.left, .sheet.right { left: 8px; right: 8px; width: auto; max-height: calc(100dvh - var(--dock-h) - 72px); }
-  .tip-bucket { width: 52px; height: 52px; right: 8px; }
+  .bubble { font-size: 13px; padding: 7px 12px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+  .tip-jar { padding: 4px 18px 4px 6px; gap: 8px; }
+  .tip-jar svg { width: 48px; height: 48px; }
+  .tip-jar-text b { font-size: 17px; }
 }
 @media (max-width: 420px) {
   .fx { min-height: 56px; font-size: 10.5px; }

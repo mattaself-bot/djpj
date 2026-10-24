@@ -55,6 +55,8 @@ export class AutoDJ extends EventTarget {
 
   emit(type, detail) { this.dispatchEvent(new CustomEvent(type, { detail })); }
   status(msg) { this.emit('status', msg); }
+  // tell the booth to dance: fired on the audio clock so the move lands with what you hear
+  cue(kind, t) { this.at(t, () => this.emit('move', kind)); }
   liveDeck() { return this.current?.deck || null; }
   other(deck) { return this.engine.decks[0] === deck ? this.engine.decks[1] : this.engine.decks[0]; }
   upcoming() { return this.crate ? this.crate.preview(3) : []; }
@@ -267,6 +269,8 @@ export class AutoDJ extends EventTarget {
     this.sinceBig = p.big ? 0 : this.sinceBig + 1;
     this.next = null;
     this.status(`🎚️ ${TRANSITIONS[p.type].label} into “${nxt.title}”`);
+    this.cue(p.big ? 'big' : p.type, t0);
+    this.cue('land', res.tLive);
 
     // a tempo-matched record eases back to its own speed once the blend is done
     if (rate !== 1) {
@@ -309,6 +313,7 @@ export class AutoDJ extends EventTarget {
     if (Math.random() < (FLAIR_ODDS[this.style] ?? 0.25)) {
       this.lastFlair = randomFlair(this.style, this.lastFlair);
       runFlair(this.lastFlair, this, T);
+      this.cue('flair', T);
     }
   }
 
@@ -332,6 +337,7 @@ export class AutoDJ extends EventTarget {
       if (linePos < hookEnd - 0.01 || !rampDone) return false;
       const t1 = T + (real / 2 >= 1 ? real / 2 : real);
       deck.rewind(T, t1, prep.inPoint);
+      this.cue('rewind', T);
       tr.done = true;
       this.busyUntil = t1 + 0.1;
       this.lineDone = t1;
@@ -350,6 +356,7 @@ export class AutoDJ extends EventTarget {
       const dur = Math.max(1, Math.floor(8 / h.bars)) * h.bars * real; // two passes of a 4-bar hook
       if (T + dur > mixT - real) return false;
       sampler.play(h.buffer, T, { rate, dur, loop: true, gain: 0.6, hp: 280, echo: 0.2, fade: 0.01 });
+      this.cue('callback', T);
       at(deck.mid.gain, -5, T);
       at(deck.mid.gain, 0, T + dur);
       tr.done = true;
@@ -367,6 +374,7 @@ export class AutoDJ extends EventTarget {
       if (rate == null) return this.fallback(tr) && this.runTrick(tr, deck, prep, T, linePos, real, mixT);
       const bars = T + 2 * real <= mixT && Math.random() < 0.5 ? 2 : 1;
       sampler.play(hook.buffer, T, { rate, dur: bars * real, gain: 0.5, hp: 450, echo: 0.55, fade: 0.01 });
+      this.cue('tease', T);
       tr.done = true;
       this.at(T, () => this.status(`👀 Teasing “${nxt.title}”…`));
       return true;

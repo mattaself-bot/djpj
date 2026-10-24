@@ -269,6 +269,7 @@ function renderUpNext() {
 function bindPlayer() {
   dj.addEventListener('status', e => say(e.detail));
   dj.addEventListener('track', e => showTrack(e.detail));
+  dj.addEventListener('move', e => perform(e.detail));
   dj.addEventListener('queue', e => {
     if (e.detail.loading) queueState = { loading: e.detail.loading };
     else Object.assign(queueState, e.detail);
@@ -282,6 +283,8 @@ function bindPlayer() {
   $('#btn-skip').addEventListener('click', () => dj.skip());
   $('#btn-stop').addEventListener('click', () => {
     dj.stop();
+    setMove(null);
+    setFace(null);
     $('#np-details').hidden = true;
     $('#np-art').removeAttribute('src');
     $('#np-progress').style.width = '0';
@@ -315,6 +318,7 @@ function bindPlayer() {
     if (!b || !dj.current) return;
     engine.init();
     const on = runFX(b.dataset.fx, dj);
+    perform(`fx:${b.dataset.fx}`);
     if (b.hasAttribute('aria-pressed')) b.setAttribute('aria-pressed', String(!!on));
     b.classList.remove('flash');
     void b.offsetWidth; // restart the flash animation
@@ -354,6 +358,111 @@ if ('mediaSession' in navigator) {
 
 // ---------- the animated booth + visualizer ----------
 const booth = $('#booth');
+const stage = $('.stage');
+
+// ---------- DJPJ's moves, faces and emotes ----------
+// Each cue from the set (a transition, trick or flourish) gets a dance move for a few bars,
+// sometimes a face, and emotes that float up from his head.
+const MOVES = {
+  big: { move: 'hype', bars: 4, face: 'shout', emotes: ['🔥', '🙌', '🎉'], word: "LET'S GO!" },
+  drop: { move: 'hype', bars: 2, face: 'shout', emotes: ['💥', '🔥'] },
+  slam: { move: 'headbang', bars: 2, face: 'shout', emotes: ['💥'] },
+  blend: { move: 'sway', bars: 4, emotes: ['😎'] },
+  filter: { move: 'lean', bars: 2, emotes: ['🎚️'] },
+  loopout: { move: 'lean', bars: 2, emotes: ['🔁'] },
+  roll: { move: 'headbang', bars: 2, emotes: ['🥁'] },
+  echo: { move: 'wave', bars: 2, emotes: ['👋'] },
+  cut: { move: 'lean', bars: 1, emotes: ['💿'] },
+  spin: { move: 'lean', bars: 1, face: 'surprise', emotes: ['🌀'] },
+  brake: { move: 'lean', bars: 1, face: 'surprise', emotes: ['🛑'] },
+  wash: { move: 'wave', bars: 4, emotes: ['🌊', '✨'] },
+  land: { emotes: ['🎶'] },
+  rewind: { move: 'point', bars: 2, face: 'shout', emotes: ['🔁', '😤'], word: 'PULL UP!' },
+  callback: { move: 'wave', bars: 4, emotes: ['🎙️', '💯'], word: 'REMEMBER THIS?' },
+  tease: { move: 'point', bars: 2, face: 'surprise', emotes: ['👀', '🤫'] },
+  flair: { move: 'lean', bars: 1, emotes: ['✨'] },
+  tip: { move: 'hype', bars: 2, face: 'shout', emotes: ['💸', '🙏', '💛'], word: 'THANK YOU!' },
+  'fx:airhorn': { move: 'hype', bars: 1, face: 'shout', emotes: ['📢'] },
+  'fx:scratch': { move: 'lean', bars: 1, emotes: ['💿'] },
+  'fx:echo': { move: 'wave', bars: 1, emotes: ['🔁'] },
+  'fx:reverb': { move: 'sway', bars: 2, emotes: ['🌊'] },
+  'fx:filter': { move: 'lean', bars: 2, emotes: ['🎚️'] },
+  'fx:roll': { move: 'headbang', bars: 1, emotes: ['🥁'] },
+  'fx:gate': { move: 'headbang', bars: 1, emotes: ['✂️'] },
+  'fx:boom': { move: 'hype', bars: 1, face: 'shout', emotes: ['💥'] },
+  'fx:flanger': { move: 'sway', bars: 2, emotes: ['🌀'] },
+  'fx:phaser': { move: 'sway', bars: 2, emotes: ['🪐'] },
+  'fx:bass': { move: 'headbang', bars: 1, emotes: ['🔊'] },
+  'fx:riser': { move: 'point', bars: 2, face: 'surprise', emotes: ['🚀'] },
+  'fx:laser': { move: 'point', bars: 1, emotes: ['⚡'] },
+  'fx:siren': { move: 'wave', bars: 2, emotes: ['🚨'] },
+  'fx:spin': { move: 'lean', bars: 1, face: 'surprise', emotes: ['⏪'] },
+  'fx:brake': { move: 'lean', bars: 1, face: 'surprise', emotes: ['🛑'] },
+};
+// between cues he still works the crowd, more often the harder the vibe
+const IDLE = {
+  smooth: { odds: 0.3, moves: ['sway', 'sway', 'wave'], emotes: ['😎', '🎶', '✨'] },
+  club: { odds: 0.45, moves: ['sway', 'headbang', 'wave', 'lean'], emotes: ['😎', '🎶', '🔥', '🕺', '💃'] },
+  hype: { odds: 0.65, moves: ['headbang', 'hype', 'wave', 'point'], emotes: ['🔥', '🙌', '🤘', '💯', '🕺'] },
+};
+const pickOne = list => list[Math.floor(Math.random() * list.length)];
+const beatSec = () => parseFloat(getComputedStyle(stage).getPropertyValue('--beat')) || 0.5;
+let moveTimer, faceTimer, nextIdle = 0;
+
+function setMove(name, secs) {
+  booth.classList.forEach(c => c.startsWith('move-') && booth.classList.remove(c));
+  clearTimeout(moveTimer);
+  if (!name) return;
+  booth.classList.add(`move-${name}`);
+  moveTimer = setTimeout(() => booth.classList.remove(`move-${name}`), secs * 1000);
+}
+
+function setFace(name, secs) {
+  booth.classList.remove('face-shout', 'face-surprise');
+  clearTimeout(faceTimer);
+  if (!name) return;
+  booth.classList.add(`face-${name}`);
+  faceTimer = setTimeout(() => booth.classList.remove(`face-${name}`), Math.min(secs, 2.4) * 1000);
+}
+
+function emote(text, word = false) {
+  const layer = $('#emotes');
+  if (layer.childElementCount > 8) layer.firstElementChild.remove();
+  const wrap = layer.getBoundingClientRect(), svg = booth.getBoundingClientRect();
+  const el = document.createElement('span');
+  el.className = word ? 'emote word' : 'emote';
+  el.textContent = text;
+  // around his head: x 180-300, y 40 in the booth's 480x420 drawing
+  const x = svg.left - wrap.left + svg.width * ((word ? 240 : 180 + Math.random() * 120) / 480);
+  el.style.left = `${x}px`;
+  el.style.top = `${svg.top - wrap.top + svg.height * ((word ? 20 : 40) / 420)}px`;
+  el.style.setProperty('--drift', `${Math.round((Math.random() - 0.5) * 60)}px`);
+  el.style.setProperty('--tilt', `${Math.round((Math.random() - 0.5) * 30)}deg`);
+  el.addEventListener('animationend', () => el.remove());
+  layer.appendChild(el);
+}
+
+function perform(kind) {
+  const m = MOVES[kind];
+  if (!m || dj.paused) return;
+  const secs = (m.bars || 1) * 4 * beatSec();
+  if (dj.current) {
+    if (m.move) setMove(m.move, secs);
+    if (m.face) setFace(m.face, secs);
+    nextIdle = (engine.now || 0) + secs + 4 * beatSec();
+  }
+  m.emotes.forEach((e, i) => setTimeout(() => emote(e), i * 220));
+  if (m.word) setTimeout(() => emote(m.word, true), 120);
+}
+
+function idleMoves(now, beat) {
+  if (now < nextIdle) return;
+  nextIdle = now + 8 * beat;
+  const idle = IDLE[settings.style] || IDLE.club;
+  if (booth.getAttribute('class').includes('move-') || Math.random() > idle.odds) return;
+  setMove(pickOne(idle.moves), 4 * beat * (Math.random() < 0.5 ? 1 : 2));
+  if (Math.random() < 0.6) emote(pickOne(idle.emotes));
+}
 const xfader = $('#xfader');
 const canvas = $('#viz');
 const g2d = canvas.getContext('2d');
@@ -408,7 +517,8 @@ function frame() {
   if (cur && !dj.paused) {
     const p = cur.track.prep;
     const beat = (60 / (p.bpm * cur.deck.rateAt(now))).toFixed(2) + 's';
-    if (beat !== lastBeat) { booth.style.setProperty('--beat', beat); lastBeat = beat; }
+    if (beat !== lastBeat) { stage.style.setProperty('--beat', beat); lastBeat = beat; }
+    idleMoves(now, parseFloat(beat));
     const pos = cur.deck.posAt(now);
     const total = p.outPoint - p.inPoint;
     $('#np-progress').style.width = `${Math.min(100, Math.max(0, ((pos - p.inPoint) / total) * 100))}%`;
@@ -436,8 +546,9 @@ initTips();
 // a successful tip gets an air horn salute if a set is playing
 window.addEventListener('djpj:tipped', () => {
   trackEvent('tip');
-  $('.tip-bucket').classList.add('jingle');
-  setTimeout(() => $('.tip-bucket').classList.remove('jingle'), 700);
+  $('.tip-jar').classList.add('jingle');
+  setTimeout(() => $('.tip-jar').classList.remove('jingle'), 700);
+  perform('tip');
   if (dj.current) runFX('airhorn', dj);
 });
 requestAnimationFrame(frame);
