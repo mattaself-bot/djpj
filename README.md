@@ -78,7 +78,7 @@ Everything lives in `js/config.js`:
 
 - **Ads:** apply for [Google AdSense](https://adsense.google.com) once the site has its own domain and some traffic.
   Then set `ads.enabled`, `adsenseClient` and the two slot IDs. Ad spots already sit in the crate and DJ effects sheets.
-- **Tips:** the tip bucket (always in the top-right corner) opens a pop-up over the page, so the set keeps playing. It offers quick amounts, a Venmo
+- **Tips:** the tip jar (right under DJPJ) opens a pop-up over the page, so the set keeps playing. It offers quick amounts, a Venmo
   button (opens the app on phones), and a Venmo QR code for people on computers. Change the handle in
   `tips.venmo`. Apple Pay / Google Pay through Stripe is built in. Follow [worker/README.md](worker/README.md)
   to switch it on: a Stripe account, a free Cloudflare Worker, then two values in `tips.stripe`.
