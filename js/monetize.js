@@ -1,4 +1,4 @@
-// Ads, tips and privacy-friendly analytics, all driven by config.js. Everything is off by default.
+// Ads and privacy-friendly analytics, driven by config.js and off by default. Tips live in tip.js.
 import { CONFIG } from './config.js';
 
 function loadScript(src, attrs = {}) {
@@ -10,13 +10,7 @@ function loadScript(src, attrs = {}) {
 }
 
 export function initMonetization() {
-  const { ads, tipUrl, analytics } = CONFIG;
-
-  if (tipUrl) {
-    const tip = document.getElementById('tip');
-    tip.href = tipUrl;
-    tip.hidden = false;
-  }
+  const { ads, analytics } = CONFIG;
 
   if (ads.enabled && ads.adsenseClient) {
     loadScript(`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ads.adsenseClient}`, { crossorigin: 'anonymous' });

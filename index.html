@@ -20,7 +20,7 @@
       <div class="booth-wrap">
         <canvas id="viz" aria-hidden="true"></canvas>
         <svg id="booth" class="booth" viewBox="0 0 480 420" role="img" aria-labelledby="booth-title">
-          <title id="booth-title">DJPJ: a bearded DJ in a backwards cap, polo shirt and jeans, spinning two turntables</title>
+          <title id="booth-title">DJPJ: a bearded DJ in sunglasses, a backwards cap, polo shirt and jeans, spinning two turntables</title>
           <defs>
             <radialGradient id="g-glow" cx="50%" cy="45%" r="55%">
               <stop offset="0" stop-color="#7a2cff" stop-opacity=".55"/>
@@ -45,6 +45,18 @@
             <linearGradient id="g-jeans" x1="0" y1="0" x2="0" y2="1">
               <stop offset="0" stop-color="#3d6aa6"/>
               <stop offset="1" stop-color="#2c5288"/>
+            </linearGradient>
+            <linearGradient id="g-lens" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#3b404c"/>
+              <stop offset=".55" stop-color="#121419"/>
+              <stop offset="1" stop-color="#2c2232"/>
+            </linearGradient>
+            <!-- beard: dark brown on the cheeks, going gray to white at the chin -->
+            <linearGradient id="g-beard" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#3d2a1d"/>
+              <stop offset=".45" stop-color="#4a3526"/>
+              <stop offset=".7" stop-color="#8d847a"/>
+              <stop offset="1" stop-color="#e4dfd8"/>
             </linearGradient>
             <clipPath id="clip-label"><circle r="17"/></clipPath>
           </defs>
@@ -110,57 +122,52 @@
               <!-- backwards cap brim, peeking out behind the head -->
               <path d="M276,58 C312,50 342,62 354,84 C334,80 306,80 288,90 Z" fill="#1a2a47"/>
               <!-- ears -->
-              <ellipse cx="181" cy="122" rx="10" ry="16" fill="#efbf9b" stroke="#d8a27e" stroke-width="1.2"/>
-              <ellipse cx="299" cy="122" rx="10" ry="16" fill="#efbf9b" stroke="#d8a27e" stroke-width="1.2"/>
-              <path d="M184,116 q-4,6 0,12 M296,116 q4,6 0,12" stroke="#d29a76" stroke-width="1.5" fill="none"/>
-              <!-- face -->
-              <path d="M184,92 C182,60 206,46 240,46 C274,46 298,60 296,92 L296,128 C296,166 274,188 240,190 C206,188 184,166 184,128 Z" fill="#f2c7a5"/>
-              <!-- sideburns: salt and pepper -->
-              <path d="M184,84 L195,84 L196,124 L186,130 Z" fill="#6b4a33"/>
-              <path d="M296,84 L285,84 L284,124 L294,130 Z" fill="#6b4a33"/>
-              <path d="M188,92 L189,118 M292,92 L291,118" stroke="#c9c2b8" stroke-width="1.3"/>
-              <!-- forehead lines (late 40s) -->
-              <path d="M222,90 Q240,86 258,90 M226,95 Q240,92 254,95" stroke="#d9a07c" stroke-width="1.3" fill="none" stroke-linecap="round"/>
-              <!-- eyebrows -->
-              <path d="M203,101 Q217,93 231,100" stroke="#4d3423" stroke-width="6" fill="none" stroke-linecap="round"/>
-              <path d="M249,100 Q263,93 277,101" stroke="#4d3423" stroke-width="6" fill="none" stroke-linecap="round"/>
-              <path d="M209,98 l4,-2 M267,96 l4,2" stroke="#cfc8be" stroke-width="1.4" stroke-linecap="round"/>
-              <!-- eyes -->
-              <g class="eyes">
-                <ellipse cx="217" cy="113" rx="10" ry="7.5" fill="#fff"/>
-                <ellipse cx="263" cy="113" rx="10" ry="7.5" fill="#fff"/>
-                <circle cx="219" cy="114" r="4.6" fill="#3b2a1c"/>
-                <circle cx="261" cy="114" r="4.6" fill="#3b2a1c"/>
-                <circle cx="220.5" cy="112.5" r="1.5" fill="#fff"/>
-                <circle cx="262.5" cy="112.5" r="1.5" fill="#fff"/>
+              <ellipse cx="177" cy="124" rx="10" ry="16" fill="#ecb894" stroke="#d29a76" stroke-width="1.2"/>
+              <ellipse cx="303" cy="124" rx="10" ry="16" fill="#ecb894" stroke="#d29a76" stroke-width="1.2"/>
+              <path d="M180,118 q-4,6 0,12 M300,118 q4,6 0,12" stroke="#cf9470" stroke-width="1.5" fill="none"/>
+              <!-- face: full and round -->
+              <path d="M180,92 C178,58 204,44 240,44 C276,44 302,58 300,92 L301,130 C301,170 276,192 240,194 C204,192 179,170 179,130 Z" fill="#efbf9c"/>
+              <!-- short dark hair at the temples, a little gray -->
+              <path d="M180,84 L194,84 L195,122 L182,128 Z" fill="#3a2a1f"/>
+              <path d="M300,84 L286,84 L285,122 L298,128 Z" fill="#3a2a1f"/>
+              <path d="M184,90 L185,118 M296,90 L295,118" stroke="#a9a39b" stroke-width="1.3"/>
+              <!-- forehead line -->
+              <path d="M222,93 Q240,89 258,93" stroke="#d9a07c" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+              <!-- dark sunglasses -->
+              <g class="shades">
+                <path d="M182,110 L195,106 M298,110 L285,106" stroke="#0d0d10" stroke-width="4" stroke-linecap="round"/>
+                <rect x="193" y="99" width="43" height="27" rx="11" fill="url(#g-lens)" stroke="#0d0d10" stroke-width="3.5"/>
+                <rect x="244" y="99" width="43" height="27" rx="11" fill="url(#g-lens)" stroke="#0d0d10" stroke-width="3.5"/>
+                <path d="M236,106 Q240,101 244,106" stroke="#0d0d10" stroke-width="3.5" fill="none"/>
+                <path d="M200,106 L213,106 M199,111 L206,111 M251,106 L264,106 M250,111 L257,111" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".55"/>
               </g>
-              <!-- smile-squint lids, bags and crow's feet -->
-              <path d="M206,111 Q217,103 228,111 M252,111 Q263,103 274,111" stroke="#c98a66" stroke-width="1.6" fill="none"/>
-              <path d="M209,122 Q217,126 225,122 M255,122 Q263,126 271,122" stroke="#d9a07c" stroke-width="1.3" fill="none"/>
-              <path d="M203,109 l-6,-3 M203,114 l-7,0 M204,118 l-6,3 M277,109 l6,-3 M277,114 l7,0 M276,118 l6,3" stroke="#d29a76" stroke-width="1.2" stroke-linecap="round"/>
+              <!-- smile lines peeking out from the shades -->
+              <path d="M189,121 l-6,3 M291,121 l6,3" stroke="#d29a76" stroke-width="1.2" stroke-linecap="round"/>
               <!-- big caricature nose -->
-              <path d="M234,112 C231,126 222,134 226,142 C231,149 249,149 254,142 C258,134 249,126 246,112 Z" fill="#eab08a" stroke="#c98a66" stroke-width="1.4"/>
-              <ellipse cx="233" cy="141" rx="3" ry="2" fill="#b77556"/>
-              <ellipse cx="247" cy="141" rx="3" ry="2" fill="#b77556"/>
+              <path d="M234,124 C231,131 223,136 227,143 C232,150 248,150 253,143 C257,136 249,131 246,124 Z" fill="#e6ad88" stroke="#c98a66" stroke-width="1.4"/>
+              <ellipse cx="233" cy="142" rx="3" ry="2" fill="#b77556"/>
+              <ellipse cx="247" cy="142" rx="3" ry="2" fill="#b77556"/>
               <!-- rosy cheeks -->
-              <ellipse cx="203" cy="135" rx="8" ry="5" fill="#ff8a8a" opacity=".35"/>
-              <ellipse cx="277" cy="135" rx="8" ry="5" fill="#ff8a8a" opacity=".35"/>
-              <!-- full beard, brown going grey -->
-              <path d="M186,122 C186,160 200,198 240,204 C280,198 294,160 294,122 C290,142 280,152 268,154 C256,148 224,148 212,154 C200,152 190,142 186,122 Z" fill="#5d4029"/>
-              <path d="M226,186 q3,8 0,14 M240,188 q2,8 0,14 M254,186 q-3,8 0,14 M206,172 q4,6 2,12 M274,172 q-4,6 -2,12 M196,150 q3,6 3,12 M284,150 q-3,6 -3,12" stroke="#cbc3b7" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".9"/>
-              <!-- mustache -->
-              <path d="M212,152 C220,141 235,142 240,148 C245,142 260,141 268,152 C258,157 247,154 240,152 C233,154 222,157 212,152 Z" fill="#4f3522"/>
-              <path d="M228,149 q-6,2 -10,5 M252,149 q6,2 10,5" stroke="#cbc3b7" stroke-width="1.2" fill="none"/>
-              <!-- open grin -->
-              <path d="M220,160 Q240,182 260,160 Q240,166 220,160 Z" fill="#3a1414"/>
-              <path d="M223,161 Q240,166.5 257,161 L255.5,164.5 Q240,169 224.5,164.5 Z" fill="#fff"/>
-              <path d="M232,172 Q240,176 248,172" stroke="#e86a6a" stroke-width="3" fill="none" stroke-linecap="round"/>
+              <ellipse cx="200" cy="138" rx="9" ry="5" fill="#ff8a8a" opacity=".35"/>
+              <ellipse cx="280" cy="138" rx="9" ry="5" fill="#ff8a8a" opacity=".35"/>
+              <!-- full beard: dark on the cheeks, gray to white at the chin -->
+              <path d="M180,124 C180,166 198,206 240,212 C282,206 300,166 300,124 C294,144 282,154 268,157 C256,151 224,151 212,157 C198,154 186,144 180,124 Z" fill="url(#g-beard)"/>
+              <path d="M194,150 q3,6 3,12 M286,150 q-3,6 -3,12 M204,168 q4,6 2,12 M276,168 q-4,6 -2,12 M216,182 q3,7 1,13 M264,182 q-3,7 -1,13 M228,188 q3,8 0,14 M240,190 q2,8 0,14 M252,188 q-3,8 0,14" stroke="#f2eee8" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".75"/>
+              <path d="M190,136 q2,6 2,10 M290,136 q-2,6 -2,10" stroke="#8d847a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+              <!-- mustache with a few gray hairs -->
+              <path d="M210,155 C219,144 235,145 240,151 C245,145 261,144 270,155 C259,160 247,157 240,155 C233,157 221,160 210,155 Z" fill="#3f2b1e"/>
+              <path d="M227,151 q-6,2 -10,5 M253,151 q6,2 10,5 M240,152 l0,3" stroke="#bdb5aa" stroke-width="1.2" fill="none"/>
+              <!-- easy grin -->
+              <path d="M222,163 Q240,180 258,163 Q240,168 222,163 Z" fill="#3a1414"/>
+              <path d="M225,164 Q240,169 255,164 L254,167 Q240,172 226,167 Z" fill="#fff"/>
+              <!-- gray soul patch under the lip -->
+              <ellipse cx="240" cy="182" rx="7" ry="5" fill="#d9d4cc"/>
               <!-- backwards baseball cap -->
               <path d="M180,88 C178,44 206,24 240,24 C274,24 302,44 300,88 C280,82 200,82 180,88 Z" fill="#22365c"/>
               <path d="M240,26 L240,82 M210,32 Q200,54 196,84 M270,32 Q280,54 284,84" stroke="#1a2a47" stroke-width="1.6" fill="none"/>
               <path d="M180,88 C200,82 280,82 300,88 L300,93 C280,87 200,87 180,93 Z" fill="#1a2a47"/>
               <!-- snapback opening + strap (the "back" of the cap, facing forward) -->
-              <path d="M223,87 Q240,62 257,87 Z" fill="#6b4a33"/>
+              <path d="M223,87 Q240,62 257,87 Z" fill="#3a2a1f"/>
               <path d="M226,84 Q240,79 254,84" stroke="#e9e9ef" stroke-width="4" fill="none" stroke-linecap="round"/>
               <circle cx="233" cy="82.5" r="1.3" fill="#22365c"/>
               <circle cx="240" cy="81.5" r="1.3" fill="#22365c"/>
@@ -283,6 +290,8 @@
           </div>
         </div>
 
+        <button class="btn tip tip-inline" type="button" data-tip hidden>💸 Enjoying the set? Tip the DJ</button>
+
         <h3 class="sub-title">DJ effects</h3>
         <div id="fx-pad" class="fx-pad"></div>
 
@@ -335,7 +344,7 @@
     </main>
 
     <footer class="footer">
-      <a id="tip" class="btn tip" href="#" target="_blank" rel="noopener" hidden>💸 Tip the DJ on Venmo</a>
+      <button class="btn tip" type="button" data-tip hidden>💸 Tip the DJ</button>
       <p>Music streams from <a href="https://audius.co" target="_blank" rel="noopener">Audius</a> (full tracks by independent artists),
         <a href="https://www.apple.com/apple-music/" target="_blank" rel="noopener">Apple iTunes</a> (30-second previews, so tap "View source" to buy or stream the full song), and the
         <a href="https://archive.org/details/georgeblood" target="_blank" rel="noopener">Internet Archive</a> (public-domain 78rpm records).
@@ -343,6 +352,28 @@
       <p class="muted small">DJPJ mixes live in your browser. Nothing is recorded or stored.</p>
     </footer>
   </div>
+  <dialog id="tip-dialog" class="tip-dialog" aria-labelledby="tip-title">
+    <form method="dialog" class="tip-close"><button class="icon-btn" aria-label="Close">✕</button></form>
+    <h2 id="tip-title" class="tip-title">Tip the DJ 🎧</h2>
+    <p class="muted small tip-sub">Tips keep DJPJ free and the decks spinning. The music keeps playing while you tip.</p>
+    <div id="tip-amounts" class="tip-amounts" role="radiogroup" aria-label="Tip amount"></div>
+    <label class="tip-custom">Other amount $<input id="tip-custom" type="number" min="1" max="500" step="1" inputmode="numeric" placeholder="e.g. 15"></label>
+
+    <div id="tip-wallet" class="tip-wallet" hidden>
+      <div id="express-checkout"></div>
+      <div class="tip-or"><span>or</span></div>
+    </div>
+
+    <div class="tip-venmo">
+      <a id="venmo-link" class="btn venmo" href="#" target="_blank" rel="noopener">Tip with Venmo</a>
+      <div class="venmo-qr">
+        <div id="venmo-qr" class="qr" aria-label="Venmo QR code"></div>
+        <p class="small muted">On a computer? Scan with your phone's camera to tip in Venmo.</p>
+      </div>
+    </div>
+    <p id="tip-msg" class="tip-msg" role="status" aria-live="polite"></p>
+  </dialog>
+
   <script type="module" src="js/app.js"></script>
 </body>
 </html>

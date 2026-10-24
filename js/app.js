@@ -8,6 +8,7 @@ import * as itunes from './sources/itunes.js';
 import * as archive from './sources/archive.js';
 import { FX_LIST, runFX } from './audio/fx.js';
 import { initMonetization, trackEvent } from './monetize.js';
+import { initTips } from './tip.js';
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -349,4 +350,10 @@ bindControls();
 bindSearch();
 bindPlayer();
 initMonetization();
+initTips();
+// a successful tip gets an air horn salute if a set is playing
+window.addEventListener('djpj:tipped', () => {
+  trackEvent('tip');
+  if (dj.current) runFX('airhorn', dj);
+});
 requestAnimationFrame(frame);

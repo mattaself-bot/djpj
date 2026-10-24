@@ -230,6 +230,42 @@ main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; min-widt
 .footer p { max-width: 720px; margin: 10px auto; }
 .tip { background: var(--amber); color: #1b1100; border-color: transparent; }
 
+/* ---------- tip pop-up ---------- */
+.tip-inline { width: 100%; margin-top: 12px; }
+.tip-dialog {
+  width: min(420px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); overflow: auto;
+  padding: 20px; border-radius: 20px; border: 1px solid var(--line); color: var(--text);
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  box-shadow: 0 20px 80px rgba(0, 0, 0, .6);
+}
+.tip-dialog::backdrop { background: rgba(5, 2, 12, .7); backdrop-filter: blur(3px); }
+.tip-close { position: absolute; top: 10px; right: 10px; margin: 0; }
+.icon-btn { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); background: #120c22; cursor: pointer; }
+.tip-title { margin: 0 40px 4px 0; font-size: 22px; font-weight: 800; }
+.tip-sub { margin: 0 0 14px; }
+.tip-amounts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.tip-amounts button {
+  min-height: 48px; border-radius: 12px; border: 1px solid var(--line); background: #120c22;
+  font-size: 17px; font-weight: 800; cursor: pointer;
+}
+.tip-amounts button[aria-checked="true"] { background: linear-gradient(90deg, var(--pink), #b23dff); border-color: transparent; }
+.tip-custom { display: flex; align-items: center; gap: 6px; margin: 10px 0 16px; color: var(--muted); font-weight: 600; font-size: 14px; }
+.tip-custom input {
+  width: 96px; min-height: 40px; padding: 0 10px; border-radius: 10px; border: 1px solid var(--line);
+  background: #0f0a1d; color: var(--text); font-size: 16px;
+}
+.tip-wallet { margin-bottom: 4px; }
+.tip-or { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 12px; margin: 14px 0; }
+.tip-or::before, .tip-or::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.btn.venmo { width: 100%; background: #008cff; border-color: transparent; font-size: 16px; }
+.venmo-qr { display: grid; justify-items: center; gap: 4px; margin-top: 14px; text-align: center; }
+.venmo-qr p { margin: 0; }
+.qr { width: 168px; height: 168px; background: #fff; border-radius: 12px; padding: 8px; }
+.qr svg { display: block; width: 100%; height: 100%; }
+/* phones pay in the app; the QR code is for scanning from a computer screen */
+@media (hover: none) and (pointer: coarse) { .venmo-qr { display: none; } }
+.tip-msg { min-height: 20px; margin: 12px 0 0; text-align: center; font-weight: 700; color: var(--amber); }
+
 /* ---------- desktop: booth on the left, controls on the right ---------- */
 @media (min-width: 960px) {
   .app { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 0 28px; align-items: start; }
