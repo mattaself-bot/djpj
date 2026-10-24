@@ -25,7 +25,7 @@ const LINK = { audius: 'Open on Audius', itunes: 'Get the full song on Apple Mus
 // ---------- settings (remembered per browser) ----------
 const settings = (() => {
   // clean lyrics unless the listener opts in; the old `clean` flag is dropped so everyone starts clean
-  const defaults = { mode: 'full', archive: false, explicit: false, style: 'club' };
+  const defaults = { mode: 'full', archive: false, explicit: false, style: 'club', smoke: false, strobe: false };
   try {
     const { clean, ...saved } = JSON.parse(localStorage.getItem('djpj:settings') || '{}');
     return { ...defaults, ...saved };
@@ -266,6 +266,35 @@ function renderUpNext() {
   $('#up-next').innerHTML = items.slice(0, 4).join('') || '<li>Picking records…</li>';
 }
 
+// ---------- booth smoke and strobe ----------
+const calm = matchMedia('(prefers-reduced-motion: reduce)');
+
+function syncBooth() {
+  stage.classList.toggle('smoke-on', !!settings.smoke);
+  document.querySelectorAll('[data-booth]').forEach(b => b.setAttribute('aria-pressed', String(!!settings[b.dataset.booth])));
+  if (!settings.strobe) $('#strobe').style.opacity = 0;
+}
+
+function bindBooth() {
+  document.querySelectorAll('[data-booth]').forEach(b => b.addEventListener('click', () => {
+    settings[b.dataset.booth] = !settings[b.dataset.booth];
+    save();
+    syncBooth();
+  }));
+  syncBooth();
+}
+
+// Flash on the beat of the live record. Kept to under three flashes a second (the usual
+// photosensitivity limit) by skipping every other beat on fast tempos; off for reduced motion.
+function strobe(prep, pos, beatSecs) {
+  const el = $('#strobe');
+  if (!settings.strobe || calm.matches) { el.style.opacity = 0; return; }
+  const beats = (pos - prep.firstBeat) / (60 / prep.bpm);
+  const every = beatSecs < 0.36 ? 2 : 1;
+  const phase = (((beats / every) % 1) + 1) % 1;
+  el.style.opacity = phase < 0.1 ? (0.6 * (1 - phase / 0.1)).toFixed(2) : 0;
+}
+
 function bindPlayer() {
   dj.addEventListener('status', e => say(e.detail));
   dj.addEventListener('track', e => showTrack(e.detail));
@@ -285,6 +314,7 @@ function bindPlayer() {
     dj.stop();
     setMove(null);
     setFace(null);
+    $('#strobe').style.opacity = 0;
     $('#np-details').hidden = true;
     $('#np-art').removeAttribute('src');
     $('#np-progress').style.width = '0';
@@ -498,6 +528,7 @@ function frame() {
   const cur = dj.current;
   booth.classList.toggle('playing', !!cur && !dj.waiting);
   booth.classList.toggle('paused', dj.paused);
+  if (!cur || dj.paused) $('#strobe').style.opacity = 0;
   if (!engine.ctx) return;
   const now = engine.now;
   const [A, B] = engine.decks;
@@ -520,6 +551,7 @@ function frame() {
     if (beat !== lastBeat) { stage.style.setProperty('--beat', beat); lastBeat = beat; }
     idleMoves(now, parseFloat(beat));
     const pos = cur.deck.posAt(now);
+    strobe(p, pos, parseFloat(beat));
     const total = p.outPoint - p.inPoint;
     $('#np-progress').style.width = `${Math.min(100, Math.max(0, ((pos - p.inPoint) / total) * 100))}%`;
     $('#np-time').textContent = `${fmt(pos - p.inPoint)} / ${fmt(total)}`;
@@ -539,6 +571,7 @@ function frame() {
 renderGenres();
 bindControls();
 bindSheets();
+bindBooth();
 bindSearch();
 bindPlayer();
 initMonetization();
