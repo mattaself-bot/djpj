@@ -11,7 +11,7 @@ export const CONFIG = {
   // "Tip the DJ" pop-up.
   tips: {
     amounts: [2, 5, 10, 20],   // quick-pick buttons, in dollars
-    venmo: 'mattaself',        // Venmo username without the @; swap in the business profile when it's ready
+    venmo: 'djpjapp',          // Venmo Business username, without the @
     stripe: {                  // Apple Pay / Google Pay; stays hidden until both are filled in
       publishableKey: '',      // pk_live_... from the Stripe dashboard (public by design, safe to commit)
       workerUrl: '',           // e.g. 'https://djpj-tips.<subdomain>.workers.dev' (see worker/README.md)
