@@ -1,11 +1,12 @@
 # Apple Pay / Google Pay tips
 
-**Status:** live in Stripe **test mode**. The worker runs at `https://tips.djpj.app` with a test secret key, and
-`js/config.js` holds the `pk_test_…` key. To take real money:
-1. Finish **Verify your business** in Stripe, then switch the dashboard out of the sandbox.
-2. In live mode, add `djpj.app` under Settings → Payment method domains.
-3. Cloudflare → Workers & Pages → djpj-tips → Settings → Variables and Secrets: edit `STRIPE_SECRET_KEY` to the `sk_live_…` key.
-4. Put the `pk_live_…` key in `js/config.js` and push.
+**Status:** live, taking real tips. The worker runs at `https://tips.djpj.app` with the `sk_live_…` secret,
+`js/config.js` holds the `pk_live_…` key, and `djpj.app` is registered under Settings → Payment method domains
+in live mode with Apple Pay and Google Pay enabled.
+
+To test without real money again: register `djpj.app` in the sandbox (already done), rotate `STRIPE_SECRET_KEY`
+in Cloudflare (Workers & Pages → djpj-tips → Settings → Variables and Secrets) to an `sk_test_…` key, and
+put the matching `pk_test_…` key in `js/config.js`. The two keys must always come from the same mode.
 
 Klarna and other pay-later options are hidden in the tip button (`tip.js`). Stripe now manages payment types
 from its dashboard, not from code.
