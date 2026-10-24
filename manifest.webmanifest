@@ -1,0 +1,10 @@
+{
+  "name": "DJPJ",
+  "short_name": "DJPJ",
+  "description": "Your personal auto-DJ. Pick a genre or song and DJPJ spins a never-ending mix.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b0716",
+  "theme_color": "#0b0716",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

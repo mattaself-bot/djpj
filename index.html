@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>DJPJ · Your Personal Auto-DJ</title>
+  <meta name="description" content="Pick a genre or a song and DJPJ spins a never-ending, beat-matched DJ set right in your browser. Free.">
+  <meta name="theme-color" content="#0b0716">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <h1 class="logo">DJPJ</h1>
+      <div class="booth-wrap">
+        <canvas id="viz" aria-hidden="true"></canvas>
+        <svg id="booth" class="booth" viewBox="0 0 480 420" role="img" aria-labelledby="booth-title">
+          <title id="booth-title">DJPJ: a bearded DJ in a backwards cap, polo shirt and jeans, spinning two turntables</title>
+          <defs>
+            <radialGradient id="g-glow" cx="50%" cy="45%" r="55%">
+              <stop offset="0" stop-color="#7a2cff" stop-opacity=".55"/>
+              <stop offset="1" stop-color="#7a2cff" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="g-beam-l" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#ff3da8" stop-opacity=".55"/>
+              <stop offset="1" stop-color="#ff3da8" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="g-beam-r" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#22e3ff" stop-opacity=".5"/>
+              <stop offset="1" stop-color="#22e3ff" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="g-logo" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#ff3da8"/>
+              <stop offset="1" stop-color="#22e3ff"/>
+            </linearGradient>
+            <linearGradient id="g-table" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#2d2545"/>
+              <stop offset="1" stop-color="#15101f"/>
+            </linearGradient>
+            <linearGradient id="g-jeans" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#3d6aa6"/>
+              <stop offset="1" stop-color="#2c5288"/>
+            </linearGradient>
+            <clipPath id="clip-label"><circle r="17"/></clipPath>
+          </defs>
+
+          <!-- stage lights -->
+          <g class="lights">
+            <polygon class="beam beam-l" points="30,-10 70,-10 250,420 110,420" fill="url(#g-beam-l)"/>
+            <polygon class="beam beam-r" points="410,-10 450,-10 370,420 230,420" fill="url(#g-beam-r)"/>
+            <circle class="glow" cx="240" cy="170" r="190" fill="url(#g-glow)"/>
+          </g>
+
+          <!-- floating notes -->
+          <g class="notes" fill="#ffb020" font-size="26" font-family="serif">
+            <text class="note n1" x="70" y="150">♪</text>
+            <text class="note n2" x="392" y="120">♫</text>
+            <text class="note n3" x="96" y="80">♫</text>
+            <text class="note n4" x="370" y="190">♪</text>
+          </g>
+
+          <!-- legs (jeans) + sneakers, visible under the table -->
+          <g class="legs">
+            <path d="M204,262 L197,388 L233,388 L239,262 Z" fill="url(#g-jeans)"/>
+            <path d="M241,262 L247,388 L283,388 L276,262 Z" fill="url(#g-jeans)"/>
+            <path d="M218,300 L215,386 M262,300 L265,386" stroke="#6f97cf" stroke-width="1.4" stroke-dasharray="3 3" fill="none"/>
+            <rect x="196" y="378" width="38" height="10" rx="2" fill="#4c7bb8"/>
+            <rect x="246" y="378" width="38" height="10" rx="2" fill="#4c7bb8"/>
+            <path d="M190,398 C190,388 204,386 222,388 L236,390 C240,398 236,404 222,404 L196,404 C192,404 190,402 190,398 Z" fill="#f4f4f4"/>
+            <path d="M290,398 C290,388 276,386 258,388 L244,390 C240,398 244,404 258,404 L284,404 C288,404 290,402 290,398 Z" fill="#f4f4f4"/>
+            <path d="M194,400 L234,400 M246,400 L286,400" stroke="#ff3da8" stroke-width="2.5"/>
+          </g>
+
+          <!-- the DJ (everything above the table) -->
+          <g class="dj">
+            <!-- raised fist-pump arm -->
+            <g class="arm-up">
+              <path d="M298,206 L324,168 L330,126" stroke="#f0c39f" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <path d="M286,196 C302,190 316,198 318,212 L302,226 C294,218 288,208 286,196 Z" fill="#d63b3b"/>
+              <rect x="325" y="88" width="9" height="26" rx="4.5" fill="#f0c39f" stroke="#d8a27e" stroke-width="1"/>
+              <circle cx="331" cy="118" r="11" fill="#f0c39f" stroke="#d8a27e" stroke-width="1"/>
+              <path d="M323,114 L338,114 M323,120 L338,120" stroke="#d8a27e" stroke-width="1.2"/>
+            </g>
+
+            <!-- torso: polo shirt -->
+            <path d="M166,262 C164,228 170,204 196,194 L222,188 L240,206 L258,188 L284,194 C310,204 316,228 314,262 Z" fill="#d63b3b"/>
+            <path d="M184,262 C192,250 200,244 210,246 M296,262 C288,250 280,244 270,246" stroke="#b02c2c" stroke-width="2" fill="none"/>
+            <rect x="235" y="206" width="10" height="32" rx="2" fill="#bd3030"/>
+            <circle cx="240" cy="215" r="2.4" fill="#fff"/>
+            <circle cx="240" cy="228" r="2.4" fill="#fff"/>
+            <!-- neck -->
+            <rect x="224" y="178" width="32" height="26" rx="8" fill="#e9b693"/>
+            <!-- collar -->
+            <path d="M222,186 L240,207 L228,216 L212,196 Z" fill="#c13232" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M258,186 L240,207 L252,216 L268,196 Z" fill="#c13232" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/>
+            <!-- headphones around the neck -->
+            <path d="M206,198 Q240,236 274,198" stroke="#1d1d26" stroke-width="6" fill="none" stroke-linecap="round"/>
+            <ellipse cx="203" cy="201" rx="11" ry="14" fill="#1d1d26"/>
+            <ellipse cx="203" cy="201" rx="6" ry="8" fill="#22e3ff" class="cup"/>
+            <ellipse cx="277" cy="201" rx="11" ry="14" fill="#1d1d26"/>
+            <ellipse cx="277" cy="201" rx="6" ry="8" fill="#ff3da8" class="cup"/>
+
+            <!-- head (bobs to the beat) -->
+            <g class="head">
+              <!-- backwards cap brim, peeking out behind the head -->
+              <path d="M276,58 C312,50 342,62 354,84 C334,80 306,80 288,90 Z" fill="#1a2a47"/>
+              <!-- ears -->
+              <ellipse cx="181" cy="122" rx="10" ry="16" fill="#efbf9b" stroke="#d8a27e" stroke-width="1.2"/>
+              <ellipse cx="299" cy="122" rx="10" ry="16" fill="#efbf9b" stroke="#d8a27e" stroke-width="1.2"/>
+              <path d="M184,116 q-4,6 0,12 M296,116 q4,6 0,12" stroke="#d29a76" stroke-width="1.5" fill="none"/>
+              <!-- face -->
+              <path d="M184,92 C182,60 206,46 240,46 C274,46 298,60 296,92 L296,128 C296,166 274,188 240,190 C206,188 184,166 184,128 Z" fill="#f2c7a5"/>
+              <!-- sideburns: salt and pepper -->
+              <path d="M184,84 L195,84 L196,124 L186,130 Z" fill="#6b4a33"/>
+              <path d="M296,84 L285,84 L284,124 L294,130 Z" fill="#6b4a33"/>
+              <path d="M188,92 L189,118 M292,92 L291,118" stroke="#c9c2b8" stroke-width="1.3"/>
+              <!-- forehead lines (late 40s) -->
+              <path d="M222,90 Q240,86 258,90 M226,95 Q240,92 254,95" stroke="#d9a07c" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+              <!-- eyebrows -->
+              <path d="M203,101 Q217,93 231,100" stroke="#4d3423" stroke-width="6" fill="none" stroke-linecap="round"/>
+              <path d="M249,100 Q263,93 277,101" stroke="#4d3423" stroke-width="6" fill="none" stroke-linecap="round"/>
+              <path d="M209,98 l4,-2 M267,96 l4,2" stroke="#cfc8be" stroke-width="1.4" stroke-linecap="round"/>
+              <!-- eyes -->
+              <g class="eyes">
+                <ellipse cx="217" cy="113" rx="10" ry="7.5" fill="#fff"/>
+                <ellipse cx="263" cy="113" rx="10" ry="7.5" fill="#fff"/>
+                <circle cx="219" cy="114" r="4.6" fill="#3b2a1c"/>
+                <circle cx="261" cy="114" r="4.6" fill="#3b2a1c"/>
+                <circle cx="220.5" cy="112.5" r="1.5" fill="#fff"/>
+                <circle cx="262.5" cy="112.5" r="1.5" fill="#fff"/>
+              </g>
+              <!-- smile-squint lids, bags and crow's feet -->
+              <path d="M206,111 Q217,103 228,111 M252,111 Q263,103 274,111" stroke="#c98a66" stroke-width="1.6" fill="none"/>
+              <path d="M209,122 Q217,126 225,122 M255,122 Q263,126 271,122" stroke="#d9a07c" stroke-width="1.3" fill="none"/>
+              <path d="M203,109 l-6,-3 M203,114 l-7,0 M204,118 l-6,3 M277,109 l6,-3 M277,114 l7,0 M276,118 l6,3" stroke="#d29a76" stroke-width="1.2" stroke-linecap="round"/>
+              <!-- big caricature nose -->
+              <path d="M234,112 C231,126 222,134 226,142 C231,149 249,149 254,142 C258,134 249,126 246,112 Z" fill="#eab08a" stroke="#c98a66" stroke-width="1.4"/>
+              <ellipse cx="233" cy="141" rx="3" ry="2" fill="#b77556"/>
+              <ellipse cx="247" cy="141" rx="3" ry="2" fill="#b77556"/>
+              <!-- rosy cheeks -->
+              <ellipse cx="203" cy="135" rx="8" ry="5" fill="#ff8a8a" opacity=".35"/>
+              <ellipse cx="277" cy="135" rx="8" ry="5" fill="#ff8a8a" opacity=".35"/>
+              <!-- full beard, brown going grey -->
+              <path d="M186,122 C186,160 200,198 240,204 C280,198 294,160 294,122 C290,142 280,152 268,154 C256,148 224,148 212,154 C200,152 190,142 186,122 Z" fill="#5d4029"/>
+              <path d="M226,186 q3,8 0,14 M240,188 q2,8 0,14 M254,186 q-3,8 0,14 M206,172 q4,6 2,12 M274,172 q-4,6 -2,12 M196,150 q3,6 3,12 M284,150 q-3,6 -3,12" stroke="#cbc3b7" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".9"/>
+              <!-- mustache -->
+              <path d="M212,152 C220,141 235,142 240,148 C245,142 260,141 268,152 C258,157 247,154 240,152 C233,154 222,157 212,152 Z" fill="#4f3522"/>
+              <path d="M228,149 q-6,2 -10,5 M252,149 q6,2 10,5" stroke="#cbc3b7" stroke-width="1.2" fill="none"/>
+              <!-- open grin -->
+              <path d="M220,160 Q240,182 260,160 Q240,166 220,160 Z" fill="#3a1414"/>
+              <path d="M223,161 Q240,166.5 257,161 L255.5,164.5 Q240,169 224.5,164.5 Z" fill="#fff"/>
+              <path d="M232,172 Q240,176 248,172" stroke="#e86a6a" stroke-width="3" fill="none" stroke-linecap="round"/>
+              <!-- backwards baseball cap -->
+              <path d="M180,88 C178,44 206,24 240,24 C274,24 302,44 300,88 C280,82 200,82 180,88 Z" fill="#22365c"/>
+              <path d="M240,26 L240,82 M210,32 Q200,54 196,84 M270,32 Q280,54 284,84" stroke="#1a2a47" stroke-width="1.6" fill="none"/>
+              <path d="M180,88 C200,82 280,82 300,88 L300,93 C280,87 200,87 180,93 Z" fill="#1a2a47"/>
+              <!-- snapback opening + strap (the "back" of the cap, facing forward) -->
+              <path d="M223,87 Q240,62 257,87 Z" fill="#6b4a33"/>
+              <path d="M226,84 Q240,79 254,84" stroke="#e9e9ef" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <circle cx="233" cy="82.5" r="1.3" fill="#22365c"/>
+              <circle cx="240" cy="81.5" r="1.3" fill="#22365c"/>
+              <circle cx="247" cy="82.5" r="1.3" fill="#22365c"/>
+              <circle cx="240" cy="25" r="4.5" fill="#1a2a47"/>
+            </g>
+          </g>
+
+          <!-- the booth -->
+          <g class="table">
+            <rect x="56" y="270" width="16" height="132" fill="#241d36"/>
+            <rect x="408" y="270" width="16" height="132" fill="#241d36"/>
+            <path d="M58,280 L70,320 L58,360 L70,400 M410,280 L422,320 L410,360 L422,400" stroke="#3b3156" stroke-width="2" fill="none"/>
+            <rect x="34" y="254" width="412" height="18" rx="5" fill="url(#g-table)" stroke="#3b3156"/>
+            <rect class="led" x="40" y="268" width="400" height="2.5" rx="1" fill="url(#g-logo)"/>
+            <rect x="170" y="272" width="140" height="40" rx="7" fill="#0f0b1c" stroke="#ff3da8" stroke-width="2" class="banner"/>
+            <text x="240" y="301" text-anchor="middle" font-family="Bungee, Impact, sans-serif" font-size="26" fill="url(#g-logo)" letter-spacing="2">DJPJ</text>
+            <ellipse cx="240" cy="408" rx="190" ry="8" fill="#000" opacity=".35"/>
+          </g>
+
+          <!-- left turntable (deck A) -->
+          <g class="deck deck-a">
+            <rect x="56" y="234" width="140" height="24" rx="5" fill="#2a2438" stroke="#3d3456"/>
+            <ellipse cx="126" cy="243" rx="56" ry="13" fill="#15121d"/>
+            <g transform="translate(126 243) scale(1 0.23)">
+              <g class="platter">
+                <circle r="50" fill="#111"/>
+                <circle r="44" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+                <circle r="36" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+                <circle r="28" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+                <circle r="18" fill="#ff3da8"/>
+                <image class="label-art" x="-17" y="-17" width="34" height="34" clip-path="url(#clip-label)" preserveAspectRatio="xMidYMid slice" href=""/>
+                <rect x="-2" y="-46" width="4" height="12" fill="#ffb020"/>
+              </g>
+            </g>
+            <circle cx="184" cy="238" r="4.5" fill="#9a9ab0"/>
+            <path d="M184,238 L176,246 L152,249" stroke="#d1d1e0" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+            <circle class="deck-led" cx="66" cy="252" r="2.5" fill="#3dffa0"/>
+          </g>
+
+          <!-- right turntable (deck B) -->
+          <g class="deck deck-b">
+            <rect x="284" y="234" width="140" height="24" rx="5" fill="#2a2438" stroke="#3d3456"/>
+            <ellipse cx="354" cy="243" rx="56" ry="13" fill="#15121d"/>
+            <g transform="translate(354 243) scale(1 0.23)">
+              <g class="platter">
+                <circle r="50" fill="#111"/>
+                <circle r="44" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+                <circle r="36" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+                <circle r="28" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+                <circle r="18" fill="#22e3ff"/>
+                <image class="label-art" x="-17" y="-17" width="34" height="34" clip-path="url(#clip-label)" preserveAspectRatio="xMidYMid slice" href=""/>
+                <rect x="-2" y="-46" width="4" height="12" fill="#ffb020"/>
+              </g>
+            </g>
+            <circle cx="412" cy="238" r="4.5" fill="#9a9ab0"/>
+            <path d="M412,238 L404,246 L380,249" stroke="#d1d1e0" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+            <circle class="deck-led" cx="414" cy="252" r="2.5" fill="#3dffa0"/>
+          </g>
+
+          <!-- mixer -->
+          <g class="mixer">
+            <rect x="200" y="232" width="80" height="26" rx="4" fill="#1f1a2d" stroke="#3d3456"/>
+            <circle cx="212" cy="239" r="3.2" fill="#8d8aa3"/>
+            <circle cx="224" cy="239" r="3.2" fill="#8d8aa3"/>
+            <circle cx="256" cy="239" r="3.2" fill="#8d8aa3"/>
+            <circle cx="268" cy="239" r="3.2" fill="#8d8aa3"/>
+            <rect class="vu vu-a" x="236" y="236" width="3" height="10" fill="#3dffa0"/>
+            <rect class="vu vu-b" x="241" y="236" width="3" height="10" fill="#3dffa0"/>
+            <line x1="222" y1="252" x2="258" y2="252" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
+            <rect id="xfader" x="236" y="248.5" width="8" height="7" rx="1.5" fill="#ffb020"/>
+          </g>
+
+          <!-- scratching arm (drawn over the left deck) -->
+          <g class="arm-scratch">
+            <path d="M186,206 L170,232 L144,240" stroke="#f0c39f" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <path d="M194,196 C178,196 166,206 164,220 L182,230 C186,220 190,208 194,196 Z" fill="#d63b3b"/>
+            <ellipse cx="139" cy="241" rx="12" ry="7" fill="#f0c39f" stroke="#d8a27e" stroke-width="1"/>
+            <path d="M130,239 l-6,1 M131,243 l-6,1" stroke="#d8a27e" stroke-width="1.2" stroke-linecap="round"/>
+          </g>
+        </svg>
+      </div>
+      <p class="tagline">Pick a vibe. DJPJ spins the rest.</p>
+    </header>
+
+    <main>
+      <!-- live set (hidden until a set starts) -->
+      <section id="player" class="panel player" hidden>
+        <div class="now">
+          <img id="np-art" class="np-art" alt="" width="96" height="96">
+          <div class="np-meta">
+            <div class="np-label">Now spinning</div>
+            <div id="np-title" class="np-title">—</div>
+            <div id="np-artist" class="np-artist"></div>
+            <div class="np-tags">
+              <span id="np-source" class="badge"></span>
+              <span id="np-bpm" class="badge ghost"></span>
+              <span id="np-key" class="badge ghost"></span>
+            </div>
+          </div>
+        </div>
+        <div class="progress"><div id="np-progress" class="progress-bar"></div></div>
+        <div class="row between small muted">
+          <span id="np-time">0:00</span>
+          <a id="np-link" href="#" target="_blank" rel="noopener">View source</a>
+        </div>
+        <div id="status" class="status" role="status" aria-live="polite">Warming up the decks…</div>
+
+        <div class="controls">
+          <button id="btn-pause" class="btn" type="button">⏸ Pause</button>
+          <button id="btn-skip" class="btn" type="button">⏭ Next</button>
+          <button id="btn-stop" class="btn ghost" type="button">⏹ Stop</button>
+        </div>
+        <div class="row gap">
+          <label class="vol">🔊 <input id="volume" type="range" min="0" max="1" step="0.01" value="0.9" aria-label="Volume"></label>
+          <div class="seg" role="radiogroup" aria-label="Mix style" data-bind="style">
+            <button type="button" data-value="smooth">Smooth</button>
+            <button type="button" data-value="club">Club</button>
+            <button type="button" data-value="hype">Hype</button>
+          </div>
+        </div>
+
+        <h3 class="sub-title">DJ effects</h3>
+        <div id="fx-pad" class="fx-pad"></div>
+
+        <div class="lists">
+          <div>
+            <h3 class="sub-title">Up next</h3>
+            <ol id="up-next" class="tracklist"></ol>
+          </div>
+          <div>
+            <h3 class="sub-title">Set list</h3>
+            <ol id="history" class="tracklist" reversed></ol>
+          </div>
+        </div>
+        <div class="ad-slot" data-slot="player" hidden></div>
+      </section>
+
+      <!-- picker -->
+      <section id="home" class="panel">
+        <h2 id="home-title" class="section-title">What are we spinning?</h2>
+        <form id="search-form" class="search" role="search" autocomplete="off">
+          <input id="search" type="search" placeholder="Search a song or artist, e.g. Jessie's Girl" aria-label="Search songs">
+          <button class="btn primary" type="submit">Search</button>
+        </form>
+        <div id="results" class="results" hidden></div>
+
+        <h2 class="section-title">…or pick a genre</h2>
+        <div id="genres" class="genre-grid"></div>
+
+        <div class="settings">
+          <div class="setting">
+            <div class="setting-label">Music</div>
+            <div class="seg wide" role="radiogroup" aria-label="Music source" data-bind="mode">
+              <button type="button" data-value="full">Full-length tracks<small>Indie artists · Audius</small></button>
+              <button type="button" data-value="hits">Real hits<small>30-sec clips · iTunes</small></button>
+            </div>
+          </div>
+          <label class="check"><input type="checkbox" data-bind="archive"> Mix in public-domain classics <small>(1920s 78s from the Internet Archive)</small></label>
+          <label class="check"><input type="checkbox" data-bind="clean"> Clean lyrics only <small>(real hits)</small></label>
+          <div class="setting">
+            <div class="setting-label">Vibe</div>
+            <div class="seg" role="radiogroup" aria-label="Mix style" data-bind="style">
+              <button type="button" data-value="smooth">Smooth</button>
+              <button type="button" data-value="club">Club</button>
+              <button type="button" data-value="hype">Hype</button>
+            </div>
+          </div>
+        </div>
+        <div class="ad-slot" data-slot="home" hidden></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a id="tip" class="btn tip" href="#" target="_blank" rel="noopener" hidden>☕ Tip the DJ</a>
+      <p>Music streams from <a href="https://audius.co" target="_blank" rel="noopener">Audius</a> (full tracks by independent artists),
+        <a href="https://www.apple.com/apple-music/" target="_blank" rel="noopener">Apple iTunes</a> (30-second previews, so tap "View source" to buy or stream the full song), and the
+        <a href="https://archive.org/details/georgeblood" target="_blank" rel="noopener">Internet Archive</a> (public-domain 78rpm records).
+        All rights belong to the artists.</p>
+      <p class="muted small">DJPJ mixes live in your browser. Nothing is recorded or stored.</p>
+    </footer>
+  </div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
