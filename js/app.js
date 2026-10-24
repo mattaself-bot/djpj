@@ -24,8 +24,12 @@ const LINK = { audius: 'Open on Audius', itunes: 'Get the full song on Apple Mus
 
 // ---------- settings (remembered per browser) ----------
 const settings = (() => {
-  const defaults = { mode: 'full', archive: false, clean: false, style: 'club' };
-  try { return { ...defaults, ...JSON.parse(localStorage.getItem('djpj:settings') || '{}') }; } catch { return defaults; }
+  // clean lyrics unless the listener opts in; the old `clean` flag is dropped so everyone starts clean
+  const defaults = { mode: 'full', archive: false, explicit: false, style: 'club' };
+  try {
+    const { clean, ...saved } = JSON.parse(localStorage.getItem('djpj:settings') || '{}');
+    return { ...defaults, ...saved };
+  } catch { return defaults; }
 })();
 const save = () => { try { localStorage.setItem('djpj:settings', JSON.stringify(settings)); } catch { /* private mode */ } };
 
@@ -68,7 +72,7 @@ function startSet({ genreKey, seedTrack = null }) {
   $('#home-title').textContent = 'Switch it up';
   player.scrollIntoView({ behavior: 'smooth', block: 'start' });
   requestWakeLock();
-  dj.play({ genreKey, seedTrack, mode: settings.mode, archive: settings.archive, clean: settings.clean });
+  dj.play({ genreKey, seedTrack, mode: settings.mode, archive: settings.archive, clean: !settings.explicit });
   trackEvent(`set/${genreKey}${seedTrack ? '/search' : ''}`);
 }
 
@@ -97,7 +101,7 @@ async function doSearch(q) {
   box.hidden = false;
   box.innerHTML = '<div class="muted small">Flipping through the crates…</div>';
   const [hits, full, pd] = await Promise.allSettled([
-    itunes.search(q, { limit: 8, clean: settings.clean }),
+    itunes.search(q, { limit: 8, clean: !settings.explicit }),
     audius.search(q, 6),
     archive.search(q, 4),
   ]);
