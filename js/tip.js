@@ -99,8 +99,9 @@ async function mountWallet() {
   await loadScript('https://js.stripe.com/v3/');
   const stripe = window.Stripe(tips.stripe.publishableKey);
   const elements = stripe.elements({ mode: 'payment', amount: amount * 100, currency: 'usd', appearance: { theme: 'night' } });
+  // wallets only: no pay-later or other express options for a tip
   const button = elements.create('expressCheckout', {
-    paymentMethods: { applePay: 'auto', googlePay: 'auto', link: 'never', paypal: 'never', amazonPay: 'never' },
+    paymentMethods: { applePay: 'auto', googlePay: 'auto', link: 'never', paypal: 'never', amazonPay: 'never', klarna: 'never' },
     buttonType: { applePay: 'donate', googlePay: 'donate' },
     buttonHeight: 48,
   });
