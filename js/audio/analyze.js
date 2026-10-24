@@ -99,3 +99,71 @@ export function analyze(buffer, hintBpm = null) {
 
   return { bpm: Math.round(bestBpm * 100) / 100, firstBeat, start, end, rms, confidence };
 }
+
+// Song structure on top of the beat grid: which beat is the "one", where the 8-bar phrases start
+// (sections in pop and dance music change on those lines), how loud each bar is, and the hook,
+// the loudest 4-bar stretch, which DJPJ loops, teases and calls back.
+export function structure(buffer, a) {
+  const sr = buffer.sampleRate, spb = 60 / a.bpm;
+  const L = buffer.getChannelData(0);
+  const R = buffer.numberOfChannels > 1 ? buffer.getChannelData(1) : L;
+  const alpha = 1 - Math.exp((-2 * Math.PI * 150) / sr);
+  const beats = [];
+  for (let t = a.firstBeat; t + spb <= a.end; t += spb) {
+    const i0 = Math.floor(t * sr), i1 = Math.floor((t + spb) * sr), kickEnd = i0 + Math.floor((i1 - i0) / 4);
+    let all = 0, kick = 0, lp = 0;
+    for (let i = i0; i < i1; i += 2) {
+      const x = (L[i] + R[i]) * 0.5 || 0;
+      lp += alpha * (x - lp);
+      all += x * x;
+      if (i < kickEnd) kick += lp * lp;
+    }
+    beats.push({ all: all / ((i1 - i0) / 2), kick: kick / ((kickEnd - i0) / 2) });
+  }
+  if (beats.length < 16) return { downbeat: a.firstBeat, phraseStart: a.firstBeat, bars: [], hook: null };
+
+  // the one: kicks land hardest on it, and the music changes on it
+  let best = -1, phase = 0;
+  for (let p = 0; p < 4; p++) {
+    let s = 0, n = 0;
+    for (let i = p; i < beats.length; i += 4) {
+      const prev = beats[i - 1]?.all ?? beats[i].all;
+      s += Math.sqrt(beats[i].kick) + Math.max(0, Math.sqrt(beats[i].all) - Math.sqrt(prev));
+      n++;
+    }
+    if (s / n > best) { best = s / n; phase = p; }
+  }
+  const downbeat = a.firstBeat + phase * spb;
+  const bars = [];
+  for (let i = phase; i + 4 <= beats.length; i += 4) {
+    bars.push(Math.sqrt((beats[i].all + beats[i + 1].all + beats[i + 2].all + beats[i + 3].all) / 4));
+  }
+
+  // phrases: the 8-bar offset where bar-to-bar energy jumps line up best
+  let phraseOff = 0;
+  if (bars.length >= 24) {
+    best = -1;
+    for (let q = 0; q < 8; q++) {
+      let s = 0, n = 0;
+      for (let j = q || 8; j < bars.length; j += 8) { s += Math.abs(bars[j] - bars[j - 1]); n++; }
+      if (n && s / n > best) { best = s / n; phraseOff = q; }
+    }
+  }
+  const phraseStart = downbeat + phraseOff * 4 * spb;
+
+  const sorted = [...bars].sort((x, y) => x - y);
+  const median = sorted[Math.floor(sorted.length / 2)] || 1;
+  return { downbeat, phraseStart, bars: bars.map(e => e / median) };
+}
+
+// Loudest `len`-bar window between two track times, starting on a bar line (returns its start time).
+export function loudest(s, spb, from, to, len = 4) {
+  const bar = 4 * spb;
+  let best = -1, at = null;
+  for (let j = Math.max(0, Math.ceil((from - s.downbeat) / bar - 1e-3)); (j + len) * bar + s.downbeat <= to; j++) {
+    let e = 0;
+    for (let k = 0; k < len; k++) e += s.bars[j + k] ?? 0;
+    if (e > best) { best = e; at = s.downbeat + j * bar; }
+  }
+  return at;
+}
