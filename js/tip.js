@@ -45,7 +45,7 @@ export function initTips() {
   });
   $('#tip-custom').addEventListener('input', e => {
     const v = Math.round(+e.target.value);
-    if (v >= 1 && v <= 500) setAmount(v);
+    if (v >= 2 && v <= 500) setAmount(v);
   });
 
   // back from a wallet that needed a redirect
