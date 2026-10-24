@@ -13,8 +13,8 @@ export const CONFIG = {
     amounts: [2, 5, 10, 20],   // quick-pick buttons, in dollars
     venmo: 'djpjapp',          // Venmo Business username, without the @
     stripe: {                  // Apple Pay / Google Pay; stays hidden until both are filled in
-      // test-mode key for now; swap in pk_live_... once the Stripe account is verified
-      publishableKey: 'pk_test_51UU7iiCpfW6rT9nFaZJXbJVjDFeGauxdoyhQ2Gq01NDuyUnx9seBbYqbIjTXcimVb8bNUns0wezvfwIUjRiNwiBQ00ogF5501O',
+      // live key (the sandbox key was pk_test_51UU7ii...5501O)
+      publishableKey: 'pk_live_51UU7iiCpfW6rT9nFnFiCk99oFdXKV0MaOZB0NSoSmBWhvt1MU0nAgqV65YG0OYYT2tqpbcURjwcYcrjnRtsEzrVC00QOcQDWqc',
       workerUrl: 'https://tips.djpj.app', // the Cloudflare Worker in worker/
     },
   },
