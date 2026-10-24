@@ -218,6 +218,64 @@ button { font: inherit; color: inherit; }
   50% { transform: translate(11px, 0) rotate(2.5deg); }
 }
 
+/* ---------- dance moves (the Dance moves pads): big, whole-body, a few bars each ----------
+   They work with or without a set playing, and win over the smaller cue moves above. */
+.booth[class*="dance-"] .dj, .booth[class*="dance-"] .arm-scratch-body, .booth[class*="dance-"] .legs { will-change: transform; }
+
+/* spin: a full turn, faked by flipping him through his own width */
+.booth.dance-spin .dj, .booth.dance-spin .arm-scratch-body, .booth.dance-spin .legs { animation: d-spin calc(var(--beat) * 2) ease-in-out infinite; }
+@keyframes d-spin { 0%, 100% { transform: scaleX(1); } 25% { transform: scaleX(.06); } 50% { transform: scaleX(-1); } 75% { transform: scaleX(.06); } }
+
+/* jump: up off the floor every two beats, with a squat to load it */
+.booth.dance-jump .dj, .booth.dance-jump .arm-scratch-body, .booth.dance-jump .legs { animation: d-jump calc(var(--beat) * 2) cubic-bezier(.3, 0, .3, 1) infinite; }
+.booth.dance-jump .arm-up { animation: pump-big var(--beat) ease-in-out infinite; }
+@keyframes d-jump { 0%, 100% { transform: translateY(0) scaleY(1); } 12% { transform: translateY(5px) scaleY(.96); } 45% { transform: translateY(-38px) scaleY(1.02); } 70% { transform: translateY(0) scaleY(1); } }
+
+/* floss: arm swings one way, hips the other, every beat */
+.booth.dance-floss .arm-up { animation: d-floss-arm var(--beat) ease-in-out infinite alternate; }
+.booth.dance-floss .dj, .booth.dance-floss .arm-scratch-body, .booth.dance-floss .legs { animation: d-floss-hips var(--beat) ease-in-out infinite alternate; }
+@keyframes d-floss-arm { from { transform: rotate(-45deg); } to { transform: rotate(55deg); } }
+@keyframes d-floss-hips { from { transform: translateX(12px) rotate(1.5deg); } to { transform: translateX(-12px) rotate(-1.5deg); } }
+
+/* dab: snap into it, hold, come back up */
+.booth.dance-dab .arm-up { animation: d-dab-arm calc(var(--beat) * 4) ease-in-out infinite; }
+.booth.dance-dab .head { animation: d-dab-head calc(var(--beat) * 4) ease-in-out infinite; }
+.booth.dance-dab .dj, .booth.dance-dab .arm-scratch-body { animation: d-dab-body calc(var(--beat) * 4) ease-in-out infinite; }
+@keyframes d-dab-arm { 0%, 100% { transform: rotate(0); } 12%, 70% { transform: rotate(68deg); } }
+@keyframes d-dab-head { 0%, 100% { transform: none; } 12%, 70% { transform: translate(-8px, 12px) rotate(-20deg); } }
+@keyframes d-dab-body { 0%, 100% { transform: none; } 12%, 70% { transform: translate(-6px, 6px) rotate(-5deg); } }
+
+/* raise the roof: push the ceiling up on every beat */
+.booth.dance-roof .arm-up { animation: d-roof var(--beat) cubic-bezier(.4, 0, .2, 1) infinite; }
+.booth.dance-roof .dj, .booth.dance-roof .arm-scratch-body { animation: jump var(--beat) cubic-bezier(.3, 0, .4, 1) infinite; }
+@keyframes d-roof { 0%, 100% { transform: translateY(8px) rotate(4deg); } 40% { transform: translateY(-22px) rotate(-8deg); } }
+
+/* shuffle: quick side steps with a hop between */
+.booth.dance-shuffle .dj, .booth.dance-shuffle .arm-scratch-body, .booth.dance-shuffle .legs { animation: d-shuffle calc(var(--beat) * 2) linear infinite; }
+@keyframes d-shuffle {
+  0%, 100% { transform: translate(-20px, 0); }
+  25% { transform: translate(0, -9px); }
+  50% { transform: translate(20px, 0); }
+  75% { transform: translate(0, -9px); }
+}
+
+/* body roll: a wave down through the shoulders and hips */
+.booth.dance-roll .dj, .booth.dance-roll .arm-scratch-body { animation: d-roll calc(var(--beat) * 2) ease-in-out infinite; }
+.booth.dance-roll .head { animation: d-roll-head calc(var(--beat) * 2) ease-in-out infinite; }
+@keyframes d-roll {
+  0%, 100% { transform: translateY(0) skewX(0); }
+  25% { transform: translate(-6px, 6px) skewX(9deg) rotate(2deg); }
+  50% { transform: translateY(-4px) skewX(0); }
+  75% { transform: translate(6px, 6px) skewX(-9deg) rotate(-2deg); }
+}
+@keyframes d-roll-head { 0%, 100% { transform: none; } 25% { transform: translateX(8px) rotate(-6deg); } 75% { transform: translateX(-8px) rotate(6deg); } }
+
+/* disco: Saturday-night point, up to the sky then down across the floor */
+.booth.dance-disco .arm-up { animation: d-disco calc(var(--beat) * 2) cubic-bezier(.7, 0, .3, 1) infinite; }
+.booth.dance-disco .dj, .booth.dance-disco .arm-scratch-body { animation: d-disco-hips calc(var(--beat) * 2) cubic-bezier(.7, 0, .3, 1) infinite; }
+@keyframes d-disco { 0%, 100% { transform: rotate(-24deg); } 50% { transform: rotate(118deg); } }
+@keyframes d-disco-hips { 0%, 100% { transform: translateX(8px) rotate(2deg); } 50% { transform: translate(-8px, 5px) rotate(-3deg); } }
+
 /* faces */
 .booth .mouth-open { display: none; }
 .booth.face-shout .mouth-grin { display: none; }
@@ -404,6 +462,8 @@ button { font: inherit; color: inherit; }
 .vol input { flex: 1; accent-color: var(--pink); }
 .fx-hint { margin: 10px 0 8px; }
 .booth-toggles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.dance-pad { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.dance-pad .fx[aria-pressed="true"] { border-color: var(--amber); box-shadow: 0 0 0 1px var(--amber), 0 0 16px rgba(255, 176, 32, .45); }
 .booth-note { margin: 2px 0 0; }
 .credits { margin-top: 18px; border-top: 1px dashed var(--line); padding-top: 6px; }
 .credits p { margin: 8px 0; }

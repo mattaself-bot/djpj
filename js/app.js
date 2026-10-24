@@ -266,6 +266,47 @@ function renderUpNext() {
   $('#up-next').innerHTML = items.slice(0, 4).join('') || '<li>Picking records…</li>';
 }
 
+// ---------- dance moves: the big ones, on demand from the DJ effects panel ----------
+const DANCES = [
+  { id: 'spin', label: 'Spin', icon: '🌀', emotes: ['🌀'], word: 'SPIN!' },
+  { id: 'jump', label: 'Jump', icon: '🦘', emotes: ['🙌', '🔥'], word: 'JUMP!' },
+  { id: 'floss', label: 'Floss', icon: '🕺', emotes: ['🕺'] },
+  { id: 'dab', label: 'Dab', icon: '😎', emotes: ['😎'], word: 'DAB!' },
+  { id: 'roof', label: 'Raise the roof', icon: '🙌', emotes: ['🙌', '🏠'], word: 'RAISE THE ROOF!' },
+  { id: 'shuffle', label: 'Shuffle', icon: '👟', emotes: ['👟', '⚡'] },
+  { id: 'roll', label: 'Body roll', icon: '🌊', emotes: ['🌊'] },
+  { id: 'disco', label: 'Disco', icon: '🪩', emotes: ['🪩', '✨'], word: 'DISCO!' },
+];
+let danceTimer = null;
+
+function dance(id) {
+  const was = $('#dance-pad [aria-pressed="true"]')?.dataset.dance;
+  booth.classList.forEach(c => c.startsWith('dance-') && booth.classList.remove(c));
+  document.querySelectorAll('#dance-pad .fx').forEach(b => b.setAttribute('aria-pressed', 'false'));
+  clearTimeout(danceTimer);
+  if (!id || id === was) return; // tapping the active dance stops it
+  const d = DANCES.find(x => x.id === id);
+  booth.classList.add(`dance-${id}`);
+  $(`#dance-pad [data-dance="${id}"]`).setAttribute('aria-pressed', 'true');
+  d.emotes.forEach((e, i) => setTimeout(() => emote(e), i * 200));
+  if (d.word) setTimeout(() => emote(d.word, true), 100);
+  setFace(id === 'dab' ? null : 'shout', 1.2);
+  nextIdle = (engine.now || 0) + 16 * beatSec() + 4 * beatSec();
+  danceTimer = setTimeout(() => dance(null), 16 * beatSec() * 1000); // four bars
+}
+
+function bindDances() {
+  const pad = $('#dance-pad');
+  pad.innerHTML = DANCES.map(d => `
+    <button class="fx" type="button" data-dance="${d.id}" aria-pressed="false">
+      <span class="i" aria-hidden="true">${d.icon}</span><span>${esc(d.label)}</span>
+    </button>`).join('');
+  pad.addEventListener('click', e => {
+    const b = e.target.closest('[data-dance]');
+    if (b) dance(b.dataset.dance);
+  });
+}
+
 // ---------- booth smoke and strobe ----------
 const calm = matchMedia('(prefers-reduced-motion: reduce)');
 
@@ -314,6 +355,7 @@ function bindPlayer() {
     dj.stop();
     setMove(null);
     setFace(null);
+    dance(null);
     $('#strobe').style.opacity = 0;
     $('#np-details').hidden = true;
     $('#np-art').removeAttribute('src');
@@ -476,8 +518,9 @@ function perform(kind) {
   const m = MOVES[kind];
   if (!m || dj.paused) return;
   const secs = (m.bars || 1) * 4 * beatSec();
+  const dancing = booth.getAttribute('class').includes('dance-');
   if (dj.current) {
-    if (m.move) setMove(m.move, secs);
+    if (m.move && !dancing) setMove(m.move, secs);
     if (m.face) setFace(m.face, secs);
     nextIdle = (engine.now || 0) + secs + 4 * beatSec();
   }
@@ -489,7 +532,7 @@ function idleMoves(now, beat) {
   if (now < nextIdle) return;
   nextIdle = now + 8 * beat;
   const idle = IDLE[settings.style] || IDLE.club;
-  if (booth.getAttribute('class').includes('move-') || Math.random() > idle.odds) return;
+  if (/\b(move|dance)-/.test(booth.getAttribute('class')) || Math.random() > idle.odds) return;
   setMove(pickOne(idle.moves), 4 * beat * (Math.random() < 0.5 ? 1 : 2));
   if (Math.random() < 0.6) emote(pickOne(idle.emotes));
 }
@@ -572,6 +615,7 @@ renderGenres();
 bindControls();
 bindSheets();
 bindBooth();
+bindDances();
 bindSearch();
 bindPlayer();
 initMonetization();
