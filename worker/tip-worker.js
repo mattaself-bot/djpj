@@ -2,7 +2,7 @@
 // The Stripe secret key lives only here, as the STRIPE_SECRET_KEY secret; the website never sees it.
 
 const ALLOWED_ORIGINS = ['https://djpj.app', 'https://www.djpj.app', 'http://localhost:5173'];
-const MIN_CENTS = 100;    // $1
+const MIN_CENTS = 200;    // $2 (tiny amounts are what card testers use)
 const MAX_CENTS = 50000;  // $500
 
 export default {
@@ -23,6 +23,13 @@ export default {
     if (!allowed) return json({ error: 'Origin not allowed' }, 403);
     if (!env.STRIPE_SECRET_KEY) return json({ error: 'Tips are not set up yet' }, 503);
 
+    // a few tip attempts per minute per visitor, which stops bots from testing stolen cards in bulk
+    if (env.TIP_LIMITER) {
+      const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
+      const { success } = await env.TIP_LIMITER.limit({ key: ip });
+      if (!success) return json({ error: 'Too many tries. Please wait a minute and try again.' }, 429);
+    }
+
     let amount;
     try {
       ({ amount } = await request.json());
@@ -30,7 +37,7 @@ export default {
       return json({ error: 'Bad request' }, 400);
     }
     if (!Number.isInteger(amount) || amount < MIN_CENTS || amount > MAX_CENTS) {
-      return json({ error: 'Tips must be between $1 and $500' }, 400);
+      return json({ error: 'Tips must be between $2 and $500' }, 400);
     }
 
     const res = await fetch('https://api.stripe.com/v1/payment_intents', {

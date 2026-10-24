@@ -5,3 +5,12 @@ compatibility_date = "2026-10-01"
 # served at https://tips.djpj.app (Cloudflare adds the DNS record itself)
 workers_dev = false
 routes = [{ pattern = "tips.djpj.app", custom_domain = true }]
+
+# at most 5 tip attempts per visitor (IP address) per minute
+[[ratelimits]]
+name = "TIP_LIMITER"
+namespace_id = "1001"
+
+  [ratelimits.simple]
+  limit = 5
+  period = 60
