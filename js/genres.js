@@ -11,7 +11,7 @@ export const PD_LAST_YEAR = new Date().getFullYear() - 101;
 export const GENRES = [
   {
     key: 'modern-rap', label: 'Modern Rap', sub: '2000s+', icon: '🎤', hue: 275,
-    audius: { genres: ['Hip-Hop/Rap', 'Trap'], searches: [] },
+    audius: { genres: ['Hip-Hop/Rap', 'Trap'], searches: ['hip hop', 'rap', 'trap'], genreFilter: ['Hip-Hop/Rap', 'Trap'] },
     itunes: {
       years: [2000, 9999],
       artists: ['Kendrick Lamar', 'Drake', 'J. Cole', 'Travis Scott', 'Eminem', 'Kanye West', 'Lil Wayne', 'Post Malone',

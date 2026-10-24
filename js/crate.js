@@ -86,6 +86,13 @@ export class Crate {
       return this.take(this.pdPool, prev);
     }
     for (let i = 0; i < 3 && this.pool.length < 4; i++) await this.refill();
+    // one source down or empty for this genre: borrow from the other rather than stop the set
+    if (!this.pool.length && !this.archiveOnly && !this.fellBack) {
+      this.fellBack = true;
+      this.mode = this.mode === 'full' ? 'hits' : 'full';
+      console.warn('[crate] nothing from the main source, trying', this.mode);
+      await this.refill();
+    }
     if (!this.pool.length) return this.pdPool.length ? this.take(this.pdPool, prev) : null;
     this.sincePD++;
     return this.take(this.pool, prev);

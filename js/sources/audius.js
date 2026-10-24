@@ -8,9 +8,16 @@ async function get(path, params = {}) {
   const url = new URL(API + path);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
   url.searchParams.set('app_name', CONFIG.appName);
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Audius ${res.status}`);
-  return (await res.json()).data || [];
+  // Audius sometimes answers 5xx or stalls for half a minute; give up after 10 s and try once more
+  for (let attempt = 0; ; attempt++) {
+    try {
+      const res = await fetch(url, { signal: AbortSignal.timeout(10000) });
+      if (res.ok) return (await res.json()).data || [];
+      if (res.status < 500 || attempt) throw new Error(`Audius ${res.status}`);
+    } catch (e) {
+      if (attempt || e.message?.startsWith('Audius 4')) throw e;
+    }
+  }
 }
 
 // Skip gated, deleted and unusually short or long uploads (DJ tools, hour-long mixes).
@@ -39,7 +46,7 @@ export function toTrack(t) {
 }
 
 export async function trending(genre) {
-  const time = ['week', 'month', 'year', 'allTime'][Math.floor(Math.random() * 4)];
+  const time = ['week', 'month', 'allTime'][Math.floor(Math.random() * 3)]; // 'year' is no longer accepted
   return (await get('/tracks/trending', { genre, time, limit: 100 })).filter(playable).map(toTrack);
 }
 
