@@ -14,7 +14,7 @@ export const CONFIG = {
     venmo: 'djpjapp',          // Venmo Business username, without the @
     stripe: {                  // Apple Pay / Google Pay; stays hidden until both are filled in
       // test-mode key for now; swap in pk_live_... once the Stripe account is verified
-      publishableKey: 'pk_test_51UU7iiCpfW6rT9nFaZJXbJVjDFeGauxdoyhQ2Gq01NDuyUnx9seBbYqbIjTXcimVb8bNUns0wezvfwIUjRiNwiBQ00o',
+      publishableKey: 'pk_test_51UU7iiCpfW6rT9nFaZJXbJVjDFeGauxdoyhQ2Gq01NDuyUnx9seBbYqbIjTXcimVb8bNUns0wezvfwIUjRiNwiBQ00ogF5501O',
       workerUrl: 'https://tips.djpj.app', // the Cloudflare Worker in worker/
     },
   },
