@@ -1,7 +1,5 @@
-// How each genre maps onto the three music sources.
-//   audius.genres    Audius genre names, pulled from their trending charts
-//   audius.searches  extra keyword searches (results limited to audius.genreFilter when given)
-//   itunes.artists   seed artists for "Real hits" mode; itunes.years limits release years
+// How each genre maps onto the music sources.
+//   itunes.artists   seed artists whose hits fill the crate; itunes.years limits release years
 //   archive          Internet Archive subject clause for public-domain 78s (null = nothing fits)
 
 // US sound recordings become public domain 100 years after the end of their release year
@@ -11,7 +9,6 @@ export const PD_LAST_YEAR = new Date().getFullYear() - 101;
 export const GENRES = [
   {
     key: 'modern-rap', label: 'Modern Rap', sub: '2000s+', icon: '🎤', hue: 275,
-    audius: { genres: ['Hip-Hop/Rap', 'Trap'], searches: ['hip hop', 'rap', 'trap'], genreFilter: ['Hip-Hop/Rap', 'Trap'] },
     itunes: {
       years: [2000, 9999],
       artists: ['Kendrick Lamar', 'Drake', 'J. Cole', 'Travis Scott', 'Eminem', 'Kanye West', 'Lil Wayne', 'Post Malone',
@@ -22,10 +19,6 @@ export const GENRES = [
   },
   {
     key: 'old-school-rap', label: 'Old School Rap', sub: 'pre-1999', icon: '📼', hue: 28,
-    audius: {
-      genres: [], genreFilter: ['Hip-Hop/Rap'],
-      searches: ['boom bap', 'old school hip hop', '90s hip hop', 'golden era hip hop', 'east coast rap', 'old school'],
-    },
     itunes: {
       years: [1979, 1998],
       artists: ['Run-DMC', 'LL Cool J', 'Public Enemy', 'A Tribe Called Quest', 'N.W.A', 'Dr. Dre', 'Snoop Dogg',
@@ -36,7 +29,6 @@ export const GENRES = [
   },
   {
     key: 'country', label: 'Country', sub: 'Boots & twang', icon: '🤠', hue: 38,
-    audius: { genres: ['Country'], searches: ['americana', 'country'], genreFilter: ['Country', 'Folk', 'Acoustic'] },
     itunes: {
       years: [0, 9999],
       artists: ['Luke Combs', 'Morgan Wallen', 'Chris Stapleton', 'Garth Brooks', 'George Strait', 'Carrie Underwood',
@@ -47,7 +39,6 @@ export const GENRES = [
   },
   {
     key: 'electronic', label: 'Electronic', sub: 'EDM · techno · bass', icon: '🎛️', hue: 190,
-    audius: { genres: ['Electronic', 'Techno', 'Dubstep', 'Drum & Bass', 'Trance', 'Future Bass', 'Electro', 'Hardstyle'] },
     itunes: {
       years: [0, 9999],
       artists: ['Daft Punk', 'Avicii', 'Calvin Harris', 'deadmau5', 'Skrillex', 'Kygo', 'Zedd', 'Swedish House Mafia',
@@ -58,7 +49,6 @@ export const GENRES = [
   },
   {
     key: 'house', label: 'House / Dance', sub: 'Four on the floor', icon: '🪩', hue: 318,
-    audius: { genres: ['House', 'Deep House', 'Tech House', 'Progressive House', 'Future House', 'Disco', 'Tropical House'] },
     itunes: {
       years: [0, 9999],
       artists: ['FISHER', 'Disclosure', 'Duke Dumont', 'Purple Disco Machine', 'John Summit', 'Dom Dolla', 'Frankie Knuckles',
@@ -69,10 +59,6 @@ export const GENRES = [
   },
   {
     key: 'classic-rock', label: 'Classic Rock', sub: "'60s – '80s", icon: '🎸', hue: 2,
-    audius: {
-      genres: ['Rock'], genreFilter: ['Rock', 'Alternative', 'Blues', 'Metal', 'Punk'],
-      searches: ['classic rock', '70s rock', '80s rock', 'blues rock', 'southern rock', 'arena rock'],
-    },
     itunes: {
       years: [1963, 1992],
       artists: ['Rick Springfield', 'Journey', 'Boston', 'Foreigner', 'Led Zeppelin', 'The Rolling Stones', 'AC/DC', 'Queen',
@@ -84,7 +70,6 @@ export const GENRES = [
   },
   {
     key: 'pop', label: 'Pop', sub: 'Chart toppers', icon: '⭐', hue: 210,
-    audius: { genres: ['Pop'] },
     itunes: {
       years: [0, 9999],
       artists: ['Taylor Swift', 'Dua Lipa', 'The Weeknd', 'Ariana Grande', 'Harry Styles', 'Bruno Mars', 'Lady Gaga', 'Katy Perry',
@@ -95,7 +80,6 @@ export const GENRES = [
   },
   {
     key: 'rnb', label: 'R&B / Soul', sub: 'Grooves & funk', icon: '🎷', hue: 345,
-    audius: { genres: ['R&B/Soul', 'Funk'] },
     itunes: {
       years: [0, 9999],
       artists: ['Usher', 'Beyoncé', 'Alicia Keys', 'SZA', 'Marvin Gaye', 'Stevie Wonder', 'Aretha Franklin', 'Boyz II Men',
@@ -106,7 +90,6 @@ export const GENRES = [
   },
   {
     key: 'latin', label: 'Latin / Reggae', sub: 'Reggaeton to roots', icon: '🌴', hue: 140,
-    audius: { genres: ['Latin', 'Reggae', 'Dancehall', 'Moombahton'] },
     itunes: {
       years: [0, 9999],
       artists: ['Bad Bunny', 'J Balvin', 'Daddy Yankee', 'Shakira', 'KAROL G', 'Bob Marley & The Wailers', 'Sean Paul', 'Shaggy',
@@ -117,7 +100,6 @@ export const GENRES = [
   },
   {
     key: 'christian', label: 'Contemporary Christian', sub: 'Worship & CCM', icon: '🕊️', hue: 52,
-    audius: { genres: ['Devotional'], searches: ['worship', 'christian', 'gospel'], genreFilter: ['Devotional'] },
     itunes: {
       years: [0, 9999],
       artists: ['Lauren Daigle', 'for KING & COUNTRY', 'Casting Crowns', 'MercyMe', 'Hillsong UNITED', 'Chris Tomlin', 'TobyMac',
@@ -128,8 +110,7 @@ export const GENRES = [
   },
   {
     key: 'roaring20s', label: "Roaring '20s", sub: 'Public-domain 78s', icon: '🎺', hue: 44,
-    audius: null,
-    archiveOnly: true, // in full-length mode this genre plays only from the Internet Archive
+    archiveOnly: true, // plays only full-length public-domain 78s from the Internet Archive
     itunes: {
       years: [1900, 1940],
       artists: ['Louis Armstrong', 'Bessie Smith', 'Duke Ellington', 'Jelly Roll Morton', 'Paul Whiteman', 'Al Jolson',
