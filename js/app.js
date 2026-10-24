@@ -42,6 +42,64 @@ function syncControls() {
   });
   document.querySelectorAll('input[type=checkbox][data-bind]').forEach(cb => { cb.checked = !!settings[cb.dataset.bind]; });
   dj.style = settings.style;
+  $('#fx-sub').textContent = `${settings.style[0].toUpperCase()}${settings.style.slice(1)} vibe`;
+}
+
+// ---------- dock sheets: the crate on the left, DJ effects on the right ----------
+const SHEETS = { crate: ['#crate-btn', '#crate-sheet'], fx: ['#fx-btn', '#fx-sheet'] };
+const narrow = matchMedia('(max-width: 720px)');
+
+function openSheet(name, open) {
+  const [btn, sheet] = SHEETS[name];
+  open ??= $(sheet).hidden;
+  // phones only have room for one sheet at a time
+  if (open && narrow.matches) for (const k in SHEETS) if (k !== name) openSheet(k, false);
+  const opening = open && $(sheet).hidden;
+  $(sheet).hidden = !open;
+  if (opening) $(sheet).scrollTop = 0; // reopen at the top: what's playing, then the queue
+  $(btn).setAttribute('aria-expanded', String(open));
+}
+
+function bindSheets() {
+  for (const [name, [btn, sheet]] of Object.entries(SHEETS)) {
+    $(btn).addEventListener('click', () => openSheet(name));
+    $(sheet).querySelector('[data-close]').addEventListener('click', () => openSheet(name, false));
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') for (const k in SHEETS) openSheet(k, false);
+  });
+  // tapping the stage closes whatever is open, so the DJ is back in view
+  $('.stage').addEventListener('click', () => { for (const k in SHEETS) openSheet(k, false); });
+  openSheet('crate', true); // first thing a visitor sees: the genres
+  // re-measure the ticker when the dock changes width (rotating a phone, resizing a window)
+  let lastW = 0;
+  new ResizeObserver(([e]) => {
+    const w = Math.round(e.contentRect.width);
+    if (w !== lastW) { lastW = w; setTicker(); }
+  }).observe($('.ticker'));
+}
+
+let tickerText = '';
+function setTicker(text = tickerText) {
+  const box = $('.ticker'), span = $('#np-ticker');
+  tickerText = text;
+  box.classList.remove('scroll');
+  span.textContent = text;
+  if (span.offsetWidth > box.clientWidth) {
+    // doubled with a gap so the marquee loops seamlessly
+    span.textContent = `${text}      •      ${text}      •      `;
+    box.style.setProperty('--ticker-dur', `${Math.max(8, text.length / 4)}s`);
+    box.classList.add('scroll');
+  }
+}
+
+function say(msg) {
+  const b = $('#status');
+  if (b.textContent === msg) return;
+  b.textContent = msg;
+  b.classList.remove('pop');
+  void b.offsetWidth; // restart the pop animation
+  b.classList.add('pop');
 }
 
 function bindControls() {
@@ -64,13 +122,17 @@ function bindControls() {
 function startSet({ genreKey, seedTrack = null }) {
   engine.init(); // inside the tap, so mobile browsers allow sound
   document.querySelectorAll('.genre').forEach(b => b.classList.toggle('active', b.dataset.genre === genreKey));
-  const player = $('#player');
-  if (player.hidden) {
-    player.hidden = false;
+  const details = $('#np-details');
+  if (details.hidden) {
+    details.hidden = false;
     resetNowPlaying();
   }
+  const g = GENRES.find(x => x.key === genreKey);
+  $('#crate-icon').textContent = g?.icon || '💿';
+  $('#crate-sub').textContent = g?.label || 'Your pick';
   $('#home-title').textContent = 'Switch it up';
-  player.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  ['#btn-pause', '#btn-skip'].forEach(s => { $(s).disabled = false; });
+  for (const k in SHEETS) openSheet(k, false); // the DJ takes the stage
   requestWakeLock();
   dj.play({ genreKey, seedTrack, mode: settings.mode, archive: settings.archive, clean: !settings.explicit });
   trackEvent(`set/${genreKey}${seedTrack ? '/search' : ''}`);
@@ -149,6 +211,7 @@ let queueState = {};
 
 function resetNowPlaying() {
   $('#np-art').removeAttribute('src');
+  setTicker('Digging through the crates…');
   $('#np-title').textContent = '—';
   $('#np-artist').textContent = '';
   ['#np-source', '#np-bpm', '#np-key'].forEach(s => { $(s).textContent = ''; });
@@ -157,12 +220,19 @@ function resetNowPlaying() {
   $('#np-link').hidden = true;
   $('#history').innerHTML = '';
   $('#up-next').innerHTML = '<li>Picking records…</li>';
-  $('#btn-pause').textContent = '⏸ Pause';
+  setPauseButton(false);
   queueState = {};
+}
+
+function setPauseButton(paused) {
+  const b = $('#btn-pause');
+  b.textContent = paused ? '▶' : '⏸';
+  b.setAttribute('aria-label', paused ? 'Resume' : 'Pause');
 }
 
 function showTrack(t) {
   $('#np-art').src = t.art || 'favicon.svg';
+  setTicker(`${t.title} · ${t.artist}`);
   $('#np-title').textContent = t.title;
   $('#np-artist').textContent = t.artist + (t.year ? ` · ${t.year}` : '');
   const src = $('#np-source');
@@ -197,7 +267,7 @@ function renderUpNext() {
 }
 
 function bindPlayer() {
-  dj.addEventListener('status', e => { $('#status').textContent = e.detail; });
+  dj.addEventListener('status', e => say(e.detail));
   dj.addEventListener('track', e => showTrack(e.detail));
   dj.addEventListener('queue', e => {
     if (e.detail.loading) queueState = { loading: e.detail.loading };
@@ -207,13 +277,20 @@ function bindPlayer() {
 
   $('#btn-pause').addEventListener('click', async () => {
     engine.init();
-    const paused = await dj.togglePause();
-    $('#btn-pause').textContent = paused ? '▶ Resume' : '⏸ Pause';
+    setPauseButton(await dj.togglePause());
   });
   $('#btn-skip').addEventListener('click', () => dj.skip());
   $('#btn-stop').addEventListener('click', () => {
     dj.stop();
-    $('#player').hidden = true;
+    $('#np-details').hidden = true;
+    $('#np-art').removeAttribute('src');
+    $('#np-progress').style.width = '0';
+    $('#np-time').textContent = '0:00';
+    setTicker('Nothing spinning yet. Open the crate to start a set.');
+    say('Pick a vibe. DJPJ spins the rest.');
+    $('#crate-icon').textContent = '💿';
+    $('#crate-sub').textContent = 'Pick a genre';
+    ['#btn-pause', '#btn-skip'].forEach(s => { $(s).disabled = true; });
     $('#home-title').textContent = 'What are we spinning?';
     document.querySelectorAll('.genre.active').forEach(b => b.classList.remove('active'));
     document.querySelectorAll('.fx[aria-pressed]').forEach(b => b.setAttribute('aria-pressed', 'false'));
@@ -351,6 +428,7 @@ function frame() {
 // ---------- go ----------
 renderGenres();
 bindControls();
+bindSheets();
 bindSearch();
 bindPlayer();
 initMonetization();
@@ -358,6 +436,8 @@ initTips();
 // a successful tip gets an air horn salute if a set is playing
 window.addEventListener('djpj:tipped', () => {
   trackEvent('tip');
+  $('.tip-bucket').classList.add('jingle');
+  setTimeout(() => $('.tip-bucket').classList.remove('jingle'), 700);
   if (dj.current) runFX('airhorn', dj);
 });
 requestAnimationFrame(frame);
