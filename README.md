@@ -53,7 +53,9 @@ Keyboard: Space pauses or resumes, N skips to the next track.
 2. Repo → Settings → Pages → "Deploy from a branch" → `main` / root.
 3. The site goes live at `https://<user>.github.io/<repo>/`. The empty `.nojekyll` file makes Pages serve the files as-is.
 
-A custom domain (e.g. `djpj.com`, about $12/yr) can be added in the same Pages settings.
+Live at **https://djpj.app**. The `CNAME` file tells Pages the domain, and Cloudflare DNS has four A records for
+`djpj.app` (185.199.108–111.153) plus a `www` CNAME to `mattaself-bot.github.io`, all set to "DNS only".
+Keep them DNS only: GitHub issues the HTTPS certificate itself, and `.app` domains require HTTPS.
 
 ## Monetization (off until you turn it on)
 

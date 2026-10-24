@@ -8,7 +8,8 @@ export const CONFIG = {
     slots: { home: '', player: '' }, // AdSense ad-unit slot IDs for the two ad spots
   },
 
-  tipUrl: '',                // e.g. 'https://ko-fi.com/djpj' (shows a "Tip the DJ" button when set)
+  // "Tip the DJ" button. On phones this opens the Venmo app on a payment to @mattaself.
+  tipUrl: 'https://venmo.com/mattaself?txn=pay&note=Tip%20for%20DJPJ%20%F0%9F%8E%A7',
 
   analytics: {
     goatcounter: '',         // e.g. 'djpj' for https://djpj.goatcounter.com (free, no cookies)
