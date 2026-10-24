@@ -1,6 +1,7 @@
 // Web Audio graph.
 //   deck: sources -> srcGain/fxGain -> trim -> low/mid/high EQ -> high-pass -> low-pass -> fader -> mix bus
 //                                                                     fader -> delay send / reverb send
+//   sampler (teases, callbacks) -> mix bus
 //   mix bus -> flanger -> phaser -> limiter -> volume -> analyser -> speakers
 
 export const at = (p, v, t) => p.setValueAtTime(v, t);
@@ -123,6 +124,40 @@ class Phaser extends Insert {
     }
     node.connect(this.wet);
     lfo.start();
+  }
+}
+
+// A one-shot sample channel over the decks: teases of the next record and callbacks of earlier hooks.
+// Every shot gets its own filters, so they can overlap.
+class Sampler {
+  constructor(engine) { this.engine = engine; this.ctx = engine.ctx; }
+  play(buffer, when, { rate = 1, dur = buffer.duration / rate, gain = 0.7, hp = 20, lp = 20000, fade = 0.02, loop = false, echo = 0, verb = 0 } = {}) {
+    const ctx = this.ctx, e = this.engine;
+    const s = ctx.createBufferSource();
+    s.buffer = buffer;
+    s.playbackRate.value = rate;
+    s.loop = loop;
+    const g = ctx.createGain();
+    const h = Object.assign(ctx.createBiquadFilter(), { type: 'highpass' });
+    h.frequency.value = hp;
+    const l = Object.assign(ctx.createBiquadFilter(), { type: 'lowpass' });
+    l.frequency.value = lp;
+    s.connect(g).connect(h).connect(l).connect(e.bus);
+    const sends = [[echo, e.echo.input], [verb, e.reverb.input]].filter(([v]) => v > 0).map(([v, dest]) => {
+      const sg = ctx.createGain();
+      sg.gain.value = v;
+      l.connect(sg).connect(dest);
+      return sg;
+    });
+    const end = when + dur;
+    at(g.gain, 0, when);
+    ramp(g.gain, gain, when + fade);
+    at(g.gain, gain, Math.max(when + fade, end - fade));
+    ramp(g.gain, 0, end);
+    s.start(when);
+    s.stop(end + 0.01);
+    s.onended = () => { for (const n of [s, g, h, l, ...sends]) { try { n.disconnect(); } catch { /* gone */ } } };
+    return { gain: g.gain, hp: h.frequency, lp: l.frequency, end };
   }
 }
 
@@ -266,12 +301,16 @@ export class Deck {
     ramp(pr, rate, when + dur);
   }
 
-  // Beat-grid helpers (track time).
+  // Beat-grid helpers (track time). Bars count from the downbeat, 8-bar phrases from the phrase start.
   beatAfter(pos, div = 1) {
     const step = this.spb / div, fb = this.prep.firstBeat;
     return fb + Math.ceil((pos - fb) / step - 1e-3) * step;
   }
-  barAfter(pos) { return this.beatAfter(pos, 0.25); }
+  gridAfter(pos, step, origin) { return origin + Math.ceil((pos - origin) / step - 1e-3) * step; }
+  barAfter(pos) { return this.gridAfter(pos, 4 * this.spb, this.prep.downbeat ?? this.prep.firstBeat); }
+  phraseAfter(pos) { return this.gridAfter(pos, 32 * this.spb, this.prep.phraseStart ?? this.prep.firstBeat); }
+  // Bars left from pos until the next phrase line (0 when pos sits on one).
+  barsToPhrase(pos) { return Math.round((this.phraseAfter(pos) - pos) / (4 * this.spb)); }
 
   // Slip loop: from t0 to t1 the audio repeats `len` seconds starting at `from`, while the
   // track keeps running underneath, so it picks up where it would have been.
@@ -330,6 +369,27 @@ export class Deck {
     at(this.srcGain.gain, 0, t0);
     this.main?.stop(t0 + 0.02);
     this.endsAt = t0 + dur;
+  }
+
+  // "Run it back": spin the record backwards, then drop it again from `pos` on time t1.
+  // The deck keeps playing; its timeline restarts at pos.
+  rewind(t0, t1, pos) {
+    if (!this.main) return;
+    const p = this.posAt(t0), rate = this.rateAt(t0), spin = Math.min(1.3, (t1 - t0) * 0.85);
+    const rev = reverseSlice(this.ctx, this.buffer, Math.max(0, p - 6), p);
+    const s = this._src(rev, 2.8);
+    const g = this.ctx.createGain();
+    s.connect(g).connect(this.fxGain);
+    at(s.playbackRate, 2.8, t0);
+    xramp(s.playbackRate, 0.2, t0 + spin);
+    at(g.gain, 1, t0);
+    ramp(g.gain, 0, t0 + spin);
+    s.start(t0, 0);
+    s.stop(t0 + spin);
+    at(this.srcGain.gain, 0, t0);
+    this.main.stop(t0 + 0.02);
+    this.start(t1, pos, rate);
+    at(this.srcGain.gain, 1, t1);
   }
 
   // Power-off turntable stop. Ends the deck.
@@ -405,6 +465,7 @@ export class Engine {
     this.sfxBus.connect(sfxVerb).connect(this.reverb.input);
 
     this.decks = [new Deck(this, 'A'), new Deck(this, 'B')];
+    this.sampler = new Sampler(this);
     return ctx.resume();
   }
 

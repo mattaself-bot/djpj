@@ -33,14 +33,29 @@ Notes:
 
 ## How the mixing works
 
-- `js/audio/prep.js`: downloads and decodes each track. `analyze.js` detects tempo, beat grid and loudness.
-  DJPJ then picks a bar-aligned in-point and out-point.
+The timing comes from real sets. Timestamped tracklists from 238 live DJ sets on YouTube (7,475 track changes)
+set how long each genre's records play: about 78 seconds for rap and R&B, 96 for pop/open format, 113 for country,
+145 for EDM and 210 for house (`MIX` in `js/genres.js`). The **Vibe** setting stretches that by about 25%
+either way, and every record varies around it the way it does in a real set.
+
+- `js/audio/prep.js`: downloads and decodes each track. `analyze.js` detects tempo, beat grid, loudness, the
+  downbeat, 8-bar phrase lines and the hook (the loudest 4 bars). Full tracks mix in and out on phrase lines.
+  30-second previews get a **DJ edit**: whole bars re-arranged (hook repeat, double hook, intro vamp, reprise,
+  outro loop) so a clip plays about as long as that genre's records do live, with a different shape each time.
 - `js/crate.js`: gathers candidates per genre and picks the next record. It favors matching tempos,
   harmonically compatible keys (`keys.js`, Camelot wheel) and a different artist from the last one.
 - `js/dj.js`: runs two decks, preloads the next record, and schedules each transition on the audio clock.
-- `js/audio/transitions.js`: bass-swap blend (tempo-matched), filter sweep, loop roll, echo out,
-  scratch cut, backspin, turntable brake, and riser + reverb wash. The **Vibe** setting (Smooth / Club / Hype)
-  changes which transitions he picks, how long each record plays, and how often he throws in effects.
+  Between transitions he works the phrase lines: a flourish into the next section, and on some records a
+  trick, rotated so no two sets come out the same:
+  - **rewind**: spin back and run the record again from the top
+  - **callback**: an earlier record's hook looped over the current beat
+  - **tease**: a bar or two of the next record's hook before it comes in
+- `js/audio/transitions.js`: bass-swap blend (16–32 bars for house and techno, shorter for quick-mix genres),
+  filter sweep, loop & filter out, cut on the one, drop into the hook, loop roll, echo out, scratch cut,
+  backspin, turntable brake, and riser + reverb wash. How a genre is mixed live (`family` in `MIX`) and the
+  Vibe decide which ones he picks, and he doesn't repeat one of the last two.
+- Air horns, sirens and impacts are saved for rare big moments (none on Smooth). Comments on those 238 sets
+  praise transitions and mashups but complain about air horns and scratching for its own sake.
 - `js/audio/fx.js`: the FX pad. Air horn, scratch, echo, reverb, filter sweep, beat roll, gate chop,
   drop boom, flanger, phaser, bass kill, riser, laser, siren, plus "backspin → next" and "brake → next".
   All sound effects are synthesized, so there are no samples to license.

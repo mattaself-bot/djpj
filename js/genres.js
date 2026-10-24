@@ -141,6 +141,27 @@ export const GENRES = [
 
 export const genreByKey = key => GENRES.find(g => g.key === key) || GENRES[0];
 
+// How DJs actually play each genre, measured from timestamped tracklists of 238 live sets on YouTube
+// (7,475 track changes: Boiler Room, club, festival, bar and wedding sets).
+//   play    median seconds a record plays before the next one takes over
+//   family  'club'  long phrase-matched blends (house, techno, EDM)
+//           'urban' quick mixing: cuts on the one, echo outs, loops, rewinds (rap, R&B, Latin, pop)
+//           'band'  songs breathe, short blends and echo fades (rock, country, worship)
+export const MIX = {
+  'modern-rap': { play: 78, family: 'urban' },
+  'old-school-rap': { play: 80, family: 'urban' },
+  country: { play: 113, family: 'band' },
+  electronic: { play: 145, family: 'club' },
+  house: { play: 210, family: 'club' },
+  'classic-rock': { play: 176, family: 'band' },
+  pop: { play: 96, family: 'urban' },
+  rnb: { play: 78, family: 'urban' },
+  latin: { play: 85, family: 'urban' },
+  christian: { play: 142, family: 'band' },
+  roaring20s: { play: 150, family: 'band' },
+};
+export const mixFor = key => MIX[key] || MIX.pop;
+
 // Best-guess genre for a song found by search, so DJPJ knows what to play after it.
 export function genreFor(genreName, year) {
   const g = (genreName || '').toLowerCase();
