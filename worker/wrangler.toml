@@ -1,3 +1,7 @@
 name = "djpj-tips"
 main = "tip-worker.js"
 compatibility_date = "2026-10-01"
+
+# served at https://tips.djpj.app (Cloudflare adds the DNS record itself)
+workers_dev = false
+routes = [{ pattern = "tips.djpj.app", custom_domain = true }]
