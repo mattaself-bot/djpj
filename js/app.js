@@ -3,7 +3,6 @@ import { Engine } from './audio/engine.js';
 import { AutoDJ } from './dj.js';
 import { GENRES, genreFor } from './genres.js';
 import { camelotLabel } from './keys.js';
-import * as audius from './sources/audius.js';
 import * as itunes from './sources/itunes.js';
 import * as archive from './sources/archive.js';
 import { FX_LIST, runFX } from './audio/fx.js';
@@ -18,16 +17,16 @@ const engine = new Engine();
 const dj = new AutoDJ(engine);
 window.djpj = { dj, engine }; // handy for poking at the set from the browser console
 
-const SOURCE = { audius: 'Full track · Audius', itunes: '30-sec preview · iTunes', archive: 'Public domain · Archive' };
-const SHORT = { audius: 'Full', itunes: 'Hit · 30s', archive: '1920s' };
-const LINK = { audius: 'Open on Audius', itunes: 'Get the full song on Apple Music', archive: 'View on the Internet Archive' };
+const SOURCE = { itunes: '30-sec preview · iTunes', archive: 'Public domain · Archive' };
+const SHORT = { itunes: 'Hit · 30s', archive: '1920s' };
+const LINK = { itunes: 'Get the full song on Apple Music', archive: 'View on the Internet Archive' };
 
 // ---------- settings (remembered per browser) ----------
 const settings = (() => {
-  // clean lyrics unless the listener opts in; the old `clean` flag is dropped so everyone starts clean
-  const defaults = { mode: 'full', archive: false, explicit: false, style: 'club', smoke: false, strobe: false };
+  // clean lyrics unless the listener opts in; the old `clean` and `mode` (Audius full tracks) flags are dropped
+  const defaults = { archive: false, explicit: false, style: 'club', smoke: false, strobe: false };
   try {
-    const { clean, ...saved } = JSON.parse(localStorage.getItem('djpj:settings') || '{}');
+    const { clean, mode, ...saved } = JSON.parse(localStorage.getItem('djpj:settings') || '{}');
     return { ...defaults, ...saved };
   } catch { return defaults; }
 })();
@@ -134,7 +133,7 @@ function startSet({ genreKey, seedTrack = null }) {
   ['#btn-pause', '#btn-skip'].forEach(s => { $(s).disabled = false; });
   for (const k in SHEETS) openSheet(k, false); // the DJ takes the stage
   requestWakeLock();
-  dj.play({ genreKey, seedTrack, mode: settings.mode, archive: settings.archive, clean: !settings.explicit });
+  dj.play({ genreKey, seedTrack, archive: settings.archive, clean: !settings.explicit });
   trackEvent(`set/${genreKey}${seedTrack ? '/search' : ''}`);
 }
 
@@ -162,14 +161,13 @@ async function doSearch(q) {
   const token = ++searchToken;
   box.hidden = false;
   box.innerHTML = '<div class="muted small">Flipping through the crates…</div>';
-  const [hits, full, pd] = await Promise.allSettled([
-    itunes.search(q, { limit: 8, clean: !settings.explicit }),
-    audius.search(q, 6),
+  const [hits, pd] = await Promise.allSettled([
+    itunes.search(q, { limit: 10, clean: !settings.explicit }),
     archive.search(q, 4),
   ]);
   if (token !== searchToken) return;
   results = [];
-  const groups = [['Real hits · 30-second previews', hits], ['Full-length indie tracks', full], ['Public-domain 78s', pd]];
+  const groups = [['Real hits · 30-second previews', hits], ['Public-domain 78s', pd]];
   const html = groups.map(([label, r]) => {
     if (r.status !== 'fulfilled' || !r.value.length) return '';
     return `<div class="group">${label}</div>` + r.value.map(t => {

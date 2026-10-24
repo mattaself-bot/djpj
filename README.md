@@ -19,8 +19,7 @@ block ES modules on `file://`.
 
 | Source | What you get | Used for |
 |---|---|---|
-| [Audius](https://audius.co) | Full-length tracks from independent artists, with BPM and key data | "Full-length tracks" mode |
-| [iTunes Search API](https://performance-partners.apple.com/search-api) | The real commercial catalog, but only 30-second previews | "Real hits" mode and song search |
+| [iTunes Search API](https://performance-partners.apple.com/search-api) | The real commercial catalog, clean versions by default, but only 30-second previews | Every genre and song search |
 | [Internet Archive · Great 78 Project](https://archive.org/details/georgeblood) | Full-length 78rpm records old enough to be US public domain | "Roaring '20s" genre and the "public-domain classics" option |
 
 Notes:
@@ -29,7 +28,8 @@ Notes:
 - **Public domain cutoff:** US recordings become public domain 100 years after the end of their release year,
   so the cutoff moves forward every January (`PD_LAST_YEAR` in `js/genres.js`). The Archive's year field
   is usually right but not guaranteed.
-- **Audius** artists upload to stream. Credit is shown on every track, with a link back to the artist.
+- **Why not Audius?** It was dropped because uploaders rarely mark explicit songs, so clean mode couldn't be
+  trusted, and the quality of uploads varied too much for a party set.
 
 ## How the mixing works
 

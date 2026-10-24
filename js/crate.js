@@ -1,5 +1,4 @@
 // The crate: gathers candidate tracks for a set and picks what plays next.
-import * as audius from './sources/audius.js';
 import * as itunes from './sources/itunes.js';
 import * as archive from './sources/archive.js';
 import { genreByKey } from './genres.js';
@@ -15,11 +14,10 @@ export function tempoDistance(a, b) {
 }
 
 export class Crate {
-  constructor({ genreKey, seedTrack = null, mode = 'full', archive: useArchive = false, clean = false }) {
+  constructor({ genreKey, seedTrack = null, archive: useArchive = false, clean = true }) {
     this.genre = genreByKey(genreKey);
-    this.mode = mode;
     this.clean = clean;
-    this.archiveOnly = mode === 'full' && !!this.genre.archiveOnly;
+    this.archiveOnly = !!this.genre.archiveOnly;
     this.useArchive = (useArchive || this.archiveOnly) && !!this.genre.archive;
     this.seed = seedTrack;
     this.forced = seedTrack ? [seedTrack] : [];
@@ -43,20 +41,7 @@ export class Crate {
     const g = this.genre, jobs = [];
     const first = this.refills++ === 0;
 
-    if (!this.archiveOnly && this.mode === 'full' && g.audius) {
-      for (const name of pickN(g.audius.genres, 2)) jobs.push(audius.trending(name).then(l => this.add(l, this.pool)));
-      const searches = pickN(g.audius.searches, g.audius.genres.length ? 1 : 2);
-      // a searched-for song gets its own lookup on Audius first (covers, remixes, same-titled tracks)
-      if (first && this.seed && this.seed.source !== 'audius') searches.unshift(`${this.seed.title}`);
-      for (const q of searches) {
-        jobs.push(audius.search(q).then(l => {
-          const filter = g.audius.genreFilter;
-          this.add(filter ? l.filter(t => filter.includes(t.genre)) : l, this.pool);
-        }));
-      }
-    }
-
-    if (!this.archiveOnly && this.mode === 'hits') {
+    if (!this.archiveOnly) {
       let fresh = g.itunes.artists.filter(a => !this.artistsUsed.has(a));
       if (fresh.length < 3) { this.artistsUsed.clear(); fresh = g.itunes.artists; }
       const artists = pickN(fresh, 3);
@@ -86,13 +71,6 @@ export class Crate {
       return this.take(this.pdPool, prev);
     }
     for (let i = 0; i < 3 && this.pool.length < 4; i++) await this.refill();
-    // one source down or empty for this genre: borrow from the other rather than stop the set
-    if (!this.pool.length && !this.archiveOnly && !this.fellBack) {
-      this.fellBack = true;
-      this.mode = this.mode === 'full' ? 'hits' : 'full';
-      console.warn('[crate] nothing from the main source, trying', this.mode);
-      await this.refill();
-    }
     if (!this.pool.length) return this.pdPool.length ? this.take(this.pdPool, prev) : null;
     this.sincePD++;
     return this.take(this.pool, prev);

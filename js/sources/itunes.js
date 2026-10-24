@@ -34,6 +34,8 @@ export function toTrack(r) {
   };
 }
 
+// explicit=No already asks Apple for clean versions; double-check each track's own label too
+const cleanOk = r => r.trackExplicitness !== 'explicit';
 const usable = r => r.kind === 'song' && r.previewUrl && !/\b(live|karaoke|instrumental)\b/i.test(r.trackName);
 
 function dedupe(tracks) {
@@ -48,12 +50,12 @@ function dedupe(tracks) {
 
 export async function search(term, { limit = 10, clean = false } = {}) {
   const res = await query({ term, limit: limit * 2, ...(clean ? { explicit: 'No' } : {}) });
-  return dedupe(res.filter(usable).map(toTrack)).slice(0, limit);
+  return dedupe(res.filter(r => usable(r) && (!clean || cleanOk(r))).map(toTrack)).slice(0, limit);
 }
 
 export async function byArtist(artist, { clean = false } = {}) {
   const res = await query({ term: artist, attribute: 'artistTerm', limit: 40, ...(clean ? { explicit: 'No' } : {}) });
   const want = norm(artist);
-  const mine = res.filter(r => usable(r) && (norm(r.artistName).includes(want) || want.includes(norm(r.artistName))));
+  const mine = res.filter(r => usable(r) && (!clean || cleanOk(r)) && (norm(r.artistName).includes(want) || want.includes(norm(r.artistName))));
   return dedupe(mine.map(toTrack));
 }
