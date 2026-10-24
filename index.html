@@ -68,8 +68,8 @@
 
           <!-- stage lights -->
           <g class="lights">
-            <polygon class="beam beam-l" points="30,-10 70,-10 250,420 110,420" fill="url(#g-beam-l)"/>
-            <polygon class="beam beam-r" points="410,-10 450,-10 370,420 230,420" fill="url(#g-beam-r)"/>
+            <polygon class="beam beam-l" points="14,-10 50,-10 40,420 -150,420" fill="url(#g-beam-l)"/>
+            <polygon class="beam beam-r" points="430,-10 466,-10 630,420 440,420" fill="url(#g-beam-r)"/>
             <circle class="glow" cx="240" cy="170" r="190" fill="url(#g-glow)"/>
           </g>
 
@@ -266,6 +266,8 @@
           </g>
           </g>
         </svg>
+      <div class="smoke" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div id="strobe" class="strobe" aria-hidden="true"></div>
     </div>
     <button class="tip-jar" type="button" data-tip hidden>
       <svg viewBox="0 0 64 64" aria-hidden="true">
@@ -381,6 +383,18 @@
       </div>
     </div>
     <label class="vol">🔊 <input id="volume" type="range" min="0" max="1" step="0.01" value="0.9" aria-label="Volume"></label>
+    <div class="setting">
+      <div class="setting-label">Dance moves</div>
+      <div id="dance-pad" class="dance-pad"></div>
+    </div>
+    <div class="setting">
+      <div class="setting-label">Booth</div>
+      <div class="booth-toggles">
+        <button class="fx" type="button" data-booth="smoke" aria-pressed="false"><span class="i" aria-hidden="true">🌫️</span><span>Smoke</span></button>
+        <button class="fx" type="button" data-booth="strobe" aria-pressed="false"><span class="i" aria-hidden="true">💡</span><span>Strobe</span></button>
+      </div>
+      <p class="muted small booth-note">Strobe flashes with the beat. Skip it if flashing lights bother you.</p>
+    </div>
     <p class="muted small fx-hint">Tap to throw an effect on the live mix.</p>
     <div id="fx-pad" class="fx-pad"></div>
     <div class="ad-slot" data-slot="player" hidden></div>
