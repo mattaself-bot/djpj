@@ -31,6 +31,13 @@ Notes:
 - **Why not Audius?** It was dropped because uploaders rarely mark explicit songs, so clean mode couldn't be
   trusted, and the quality of uploads varied too much for a party set.
 
+## Song catalogs
+
+A genre with `catalog` settings in `js/genres.js` plays from a reviewed song list instead of searching its
+artists live. Build or refresh one with `node tools/build-catalog.mjs <genre>` (about 3 minutes; it writes
+`data/catalog/<genre>.json`). Songs taken out live in `data/catalog/exclude.json`, so a rebuild never brings
+them back. `tools/review/` is the private review page used to pick them.
+
 ## How the mixing works
 
 The timing comes from real sets. Timestamped tracklists from 238 live DJ sets on YouTube (7,475 track changes)

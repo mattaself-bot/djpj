@@ -8,6 +8,20 @@ const { norm } = itunes;
 const pickN = (list, n) => [...(list || [])].sort(() => Math.random() - 0.5).slice(0, n);
 const inYears = (t, [lo, hi]) => !t.year || (t.year >= lo && t.year <= hi);
 
+// A genre's reviewed song list (built by tools/build-catalog.mjs), minus the songs taken out of it.
+const catalogs = new Map();
+function loadCatalog(key) {
+  if (!catalogs.has(key)) {
+    const get = path => fetch(new URL(`../data/catalog/${path}`, import.meta.url)).then(r => (r.ok ? r.json() : null));
+    catalogs.set(key, Promise.all([get(`${key}.json`), get('exclude.json')]).then(([cat, exclude]) => {
+      if (!cat) return null;
+      const out = new Set(exclude?.[key] || []);
+      return cat.songs.filter(s => !out.has(s.id));
+    }).catch(() => null));
+  }
+  return catalogs.get(key);
+}
+
 // Distance between tempos, treating half/double time as equivalent (70 BPM mixes with 140).
 export function tempoDistance(a, b) {
   return Math.min(...[1, 2, 0.5].map(m => Math.abs(a / (b * m) - 1)));
@@ -31,7 +45,7 @@ export class Crate {
   }
 
   sig(t) { return norm(t.artist) + '|' + norm(t.title); }
-  markSeen(t) { this.seen.add(t.id); this.seen.add(this.sig(t)); }
+  markSeen(t) { this.seen.add(t.id); this.seen.add(this.sig(t)); if (t.songKey) this.seen.add(t.songKey); }
   isSeen(t) { return this.seen.has(t.id) || this.seen.has(this.sig(t)); }
   add(list, into) {
     for (const t of list) if (!this.isSeen(t) && !into.some(x => x.id === t.id || this.sig(x) === this.sig(t))) into.push(t);
@@ -41,7 +55,25 @@ export class Crate {
     const g = this.genre, jobs = [];
     const first = this.refills++ === 0;
 
-    if (!this.archiveOnly) {
+    const songs = this.genre.catalog && !this.archiveOnly ? await loadCatalog(g.key) : null;
+    if (songs) {
+      // a dozen unplayed songs, no more than two by one artist; clean mode skips songs with no clean cut
+      const cut = s => (this.clean ? s.cleanId : s.explicitId || s.cleanId);
+      const fresh = pickN(songs.filter(s => cut(s) && !this.seen.has(s.id) && !this.pool.some(t => t.songKey === s.id)), songs.length);
+      const perArtist = {}, batch = [];
+      for (const s of fresh) {
+        if (batch.length === 12) break;
+        if ((perArtist[s.artist] = (perArtist[s.artist] || 0) + 1) <= 2) batch.push(s);
+      }
+      if (!batch.length) this.seen.clear(); // the whole catalog has played: start it over
+      else {
+        jobs.push(itunes.lookup(batch.map(cut)).then(l => {
+          // keep the catalog's song key so exclusions and repeats match however Apple titles the track
+          const keyOf = new Map(batch.map(s => [String(cut(s)), s.id]));
+          this.add(l.map(t => ({ ...t, songKey: keyOf.get(t.id.slice(3)) })), this.pool);
+        }));
+      }
+    } else if (!this.archiveOnly) {
       let fresh = g.itunes.artists.filter(a => !this.artistsUsed.has(a));
       if (fresh.length < 3) { this.artistsUsed.clear(); fresh = g.itunes.artists; }
       const artists = pickN(fresh, 3);

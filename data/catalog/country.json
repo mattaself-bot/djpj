@@ -1,0 +1,5103 @@
+{
+ "genre": "country",
+ "built": "2026-11-03",
+ "artists": [
+  "Luke Combs",
+  "Morgan Wallen",
+  "Chris Stapleton",
+  "Garth Brooks",
+  "George Strait",
+  "Carrie Underwood",
+  "Kenny Chesney",
+  "Zach Bryan",
+  "Dolly Parton",
+  "Johnny Cash",
+  "Shania Twain",
+  "Alan Jackson",
+  "Brooks & Dunn",
+  "Tim McGraw",
+  "Toby Keith",
+  "Luke Bryan",
+  "Blake Shelton",
+  "Miranda Lambert",
+  "Keith Urban",
+  "Jason Aldean",
+  "Cody Johnson",
+  "Lainey Wilson",
+  "Kane Brown",
+  "Thomas Rhett",
+  "Brad Paisley",
+  "Reba McEntire",
+  "Willie Nelson",
+  "Dierks Bentley",
+  "Eric Church",
+  "Old Dominion",
+  "Dan + Shay",
+  "Kelsea Ballerini",
+  "Chris Young",
+  "Sam Hunt",
+  "Rascal Flatts",
+  "Trace Adkins",
+  "Faith Hill",
+  "Randy Travis",
+  "Merle Haggard",
+  "Travis Tritt",
+  "Lee Brice",
+  "Riley Green",
+  "Bailey Zimmerman",
+  "HARDY",
+  "Jordan Davis",
+  "Parker McCollum",
+  "Megan Moroney",
+  "Ella Langley",
+  "Keith Whitley",
+  "STELLA LEFTY",
+  "John Anderson",
+  "The Red Clay Strays",
+  "Mack Geiger",
+  "Everen Hale",
+  "Stephen Wilson Jr."
+ ],
+ "songs": [
+  {
+   "id": "luke combs|be by you",
+   "title": "Be By You",
+   "artist": "Luke Combs",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 1862634805,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/b6/e5/4cb6e5b1-2db0-88c0-f025-b79cad3b8fab/196873832111.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "luke combs|where the wild things are",
+   "title": "Where the Wild Things Are",
+   "artist": "Luke Combs",
+   "year": 2023,
+   "rank": 2,
+   "cleanId": 1666738581,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7d/24/14/7d241439-671a-d957-9613-2f738f43a064/196589485991.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "luke combs|beautiful crazy",
+   "title": "Beautiful Crazy",
+   "artist": "Luke Combs",
+   "year": 2018,
+   "rank": 3,
+   "cleanId": 1376707066,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/4b/59/f44b59a2-62c7-e9c7-df8b-4b8e7d772b41/886447048443.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "luke combs|fast car",
+   "title": "Fast Car",
+   "artist": "Luke Combs",
+   "year": 2023,
+   "rank": 4,
+   "cleanId": 1666738585,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7d/24/14/7d241439-671a-d957-9613-2f738f43a064/196589485991.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "luke combs|she got the best of me",
+   "title": "She Got the Best of Me",
+   "artist": "Luke Combs",
+   "year": 2018,
+   "rank": 5,
+   "cleanId": 1376707081,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/4b/59/f44b59a2-62c7-e9c7-df8b-4b8e7d772b41/886447048443.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "luke combs|sleepless in a hotel room",
+   "title": "Sleepless in a Hotel Room",
+   "artist": "Luke Combs",
+   "year": 2026,
+   "rank": 6,
+   "cleanId": 1862634798,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/b6/e5/4cb6e5b1-2db0-88c0-f025-b79cad3b8fab/196873832111.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "luke combs|ain t no love in oklahoma",
+   "title": "Ain't No Love In Oklahoma",
+   "artist": "Luke Combs",
+   "year": 2024,
+   "rank": 7,
+   "cleanId": 1746560129,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d1/a0/62/d1a062f2-df00-7975-ec2c-d5eacbc0741c/075679646439.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "luke combs|forever after all",
+   "title": "Forever After All",
+   "artist": "Luke Combs",
+   "year": 2020,
+   "rank": 8,
+   "cleanId": 1527782455,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/81/55/08/8155084d-26e7-e914-35b0-8bbe6edf2668/886448691341.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "luke combs|hurricane",
+   "title": "Hurricane",
+   "artist": "Luke Combs",
+   "year": 2015,
+   "rank": 9,
+   "cleanId": 1228888134,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/83/bf/3c83bf3e-bf4a-7e69-5668-d55f5a8e38e0/886446460840.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "luke combs|the kind of love we make",
+   "title": "The Kind of Love We Make",
+   "artist": "Luke Combs",
+   "year": 2022,
+   "rank": 10,
+   "cleanId": 1619408877,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bd/cf/7e/bdcf7e23-dd60-9205-4264-47ca82371145/886449722594.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "morgan wallen|been by now",
+   "title": "Been By Now",
+   "artist": "Morgan Wallen",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 6792676860,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "morgan wallen|last thing you need",
+   "title": "Last Thing You Need",
+   "artist": "Morgan Wallen",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6812477290,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "morgan wallen|i m the problem",
+   "title": "I'm The Problem",
+   "artist": "Morgan Wallen",
+   "year": 2025,
+   "rank": 3,
+   "cleanId": 1802103970,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/ef/26/1eef2600-29f4-5423-3052-26874afd2947/25UMGIM46050.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "morgan wallen and tate mcrae|what i want",
+   "title": "What I Want",
+   "artist": "Morgan Wallen & Tate McRae",
+   "year": 2025,
+   "rank": 4,
+   "cleanId": 1802103975,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/ef/26/1eef2600-29f4-5423-3052-26874afd2947/25UMGIM46050.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "morgan wallen|20 cigarettes",
+   "title": "20 Cigarettes",
+   "artist": "Morgan Wallen",
+   "year": 2025,
+   "rank": 5,
+   "cleanId": 1802104202,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/ef/26/1eef2600-29f4-5423-3052-26874afd2947/25UMGIM46050.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "morgan wallen|i got better",
+   "title": "I Got Better",
+   "artist": "Morgan Wallen",
+   "year": 2025,
+   "rank": 6,
+   "cleanId": 1802103972,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/ef/26/1eef2600-29f4-5423-3052-26874afd2947/25UMGIM46050.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "morgan wallen|thinkin bout me",
+   "title": "Thinkin’ Bout Me",
+   "artist": "Morgan Wallen",
+   "year": 2023,
+   "rank": 7,
+   "cleanId": 1818425528,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/eb/b3/82ebb3c6-2bd4-31fd-0eb9-57667f3590e1/00602455239419_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "morgan wallen|just in case",
+   "title": "Just In Case",
+   "artist": "Morgan Wallen",
+   "year": 2025,
+   "rank": 8,
+   "cleanId": 1802103977,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/ef/26/1eef2600-29f4-5423-3052-26874afd2947/25UMGIM46050.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "morgan wallen|spin you around",
+   "title": "Spin You Around (1/24)",
+   "artist": "Morgan Wallen",
+   "year": 2015,
+   "rank": 9,
+   "cleanId": 1727612051,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1e/63/b8/1e63b83f-afaf-5b25-d6d5-0acf5df4f005/24UMGIM08460.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "morgan wallen|chasin you",
+   "title": "Chasin' You",
+   "artist": "Morgan Wallen",
+   "year": 2018,
+   "rank": 10,
+   "cleanId": 1752598329,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/80/bb/18/80bb1895-326f-e618-9aa8-d2338bb35f0c/842812106569_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "chris stapleton|tennessee whiskey",
+   "title": "Tennessee Whiskey",
+   "artist": "Chris Stapleton",
+   "year": 2015,
+   "rank": 1,
+   "cleanId": 1440827492,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/4b/60/e24b6016-8278-bb18-cf5d-d44bf68371da/00602547223838.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "chris stapleton|you should probably leave",
+   "title": "You Should Probably Leave",
+   "artist": "Chris Stapleton",
+   "year": 2020,
+   "rank": 2,
+   "cleanId": 1528423169,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/34/12/78/34127801-ad2b-4469-4916-d661bba34a94/20UMGIM71875.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "chris stapleton|think i m in love with you",
+   "title": "Think I'm In Love With You",
+   "artist": "Chris Stapleton",
+   "year": 2023,
+   "rank": 3,
+   "cleanId": 1697401278,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f1/2a/d7/f12ad765-1d90-3959-c872-35cc34c8359a/23UMGIM80471.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "chris stapleton|white horse",
+   "title": "White Horse",
+   "artist": "Chris Stapleton",
+   "year": 2023,
+   "rank": 4,
+   "cleanId": 1697401286,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f1/2a/d7/f12ad765-1d90-3959-c872-35cc34c8359a/23UMGIM80471.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "chris stapleton|starting over",
+   "title": "Starting Over",
+   "artist": "Chris Stapleton",
+   "year": 2020,
+   "rank": 5,
+   "cleanId": 1528423148,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/34/12/78/34127801-ad2b-4469-4916-d661bba34a94/20UMGIM71875.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "chris stapleton|broken halos",
+   "title": "Broken Halos",
+   "artist": "Chris Stapleton",
+   "year": 2017,
+   "rank": 6,
+   "cleanId": 1440901947,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8b/f6/00/8bf60032-a7ef-4fbe-89c5-07be8edd0848/00602557542783.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "chris stapleton|joy of my life",
+   "title": "Joy of My Life",
+   "artist": "Chris Stapleton",
+   "year": 2020,
+   "rank": 7,
+   "cleanId": 1528423159,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/34/12/78/34127801-ad2b-4469-4916-d661bba34a94/20UMGIM71875.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "chris stapleton|fire away",
+   "title": "Fire Away",
+   "artist": "Chris Stapleton",
+   "year": 2015,
+   "rank": 8,
+   "cleanId": 1440827490,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/4b/60/e24b6016-8278-bb18-cf5d-d44bf68371da/00602547223838.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "chris stapleton|millionaire",
+   "title": "Millionaire",
+   "artist": "Chris Stapleton",
+   "year": 2017,
+   "rank": 9,
+   "cleanId": 1440901087,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/da/ce/7b/dace7b1f-cff4-8a8d-1eb7-c07abcd7974f/00602557970661.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "chris stapleton|loving you on my mind",
+   "title": "Loving You On My Mind",
+   "artist": "Chris Stapleton",
+   "year": 2023,
+   "rank": 10,
+   "cleanId": 1697401283,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f1/2a/d7/f12ad765-1d90-3959-c872-35cc34c8359a/23UMGIM80471.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "garth brooks|hard luck woman",
+   "title": "Hard Luck Woman",
+   "artist": "Garth Brooks",
+   "year": 1994,
+   "rank": 1,
+   "cleanId": 1619436637,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/26/09/c3/2609c3c1-3613-ab77-2941-9e0f3b2ab37d/20UMGIM53084.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "garth brooks and trisha yearwood|where your road leads",
+   "title": "Where Your Road Leads",
+   "artist": "Garth Brooks & Trisha Yearwood",
+   "year": 1998,
+   "rank": 2,
+   "cleanId": 1443934270,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/13/74/76/13747662-6ee9-e87e-0caa-e434af3ed18b/00008817002323.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "garth brooks and steve wariner|burnin the roadhouse down",
+   "title": "Burnin' the Roadhouse Down",
+   "artist": "Garth Brooks & Steve Wariner",
+   "year": 1998,
+   "rank": 3,
+   "cleanId": 714561363,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/ba/ea/12/baea121f-cca1-90ca-bb13-c00f7ec6e78f/00094636493152.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "garth brooks and trisha yearwood|shallow",
+   "title": "Shallow",
+   "artist": "Garth Brooks & Trisha Yearwood",
+   "year": 2019,
+   "rank": 4,
+   "cleanId": 1836050954,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/7b/80/517b806c-0428-a496-f8f5-5b814b75c824/850001590167_Cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "garth brooks and steve wariner|katie wants a fast one",
+   "title": "Katie Wants a Fast One",
+   "artist": "Garth Brooks & Steve Wariner",
+   "year": 2000,
+   "rank": 5,
+   "cleanId": 714561234,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/ba/ea/12/baea121f-cca1-90ca-bb13-c00f7ec6e78f/00094636493152.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "garth brooks tribute|friends in low places",
+   "title": "Friends in Low Places",
+   "artist": "Garth Brooks Tribute",
+   "year": 2023,
+   "rank": 6,
+   "cleanId": 1704862193,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/47/20/b24720e4-e805-c3dd-b90f-a06be88e6357/055120922367.png/100x100bb.jpg"
+  },
+  {
+   "id": "garth brooks tribute|the dance",
+   "title": "The Dance",
+   "artist": "Garth Brooks Tribute",
+   "year": 2023,
+   "rank": 7,
+   "cleanId": 1704862194,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/47/20/b24720e4-e805-c3dd-b90f-a06be88e6357/055120922367.png/100x100bb.jpg"
+  },
+  {
+   "id": "garth brooks tribute|the thunder rolls",
+   "title": "The Thunder Rolls",
+   "artist": "Garth Brooks Tribute",
+   "year": 2023,
+   "rank": 8,
+   "cleanId": 1704862195,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/47/20/b24720e4-e805-c3dd-b90f-a06be88e6357/055120922367.png/100x100bb.jpg"
+  },
+  {
+   "id": "garth brooks|phoenix",
+   "title": "Phoenix",
+   "artist": "Garth Brooks",
+   "year": 2017,
+   "rank": 9,
+   "cleanId": 1710180201,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/16/dd/c416dd66-eece-aa6d-3fa9-8e123a087bd3/4050538312669.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "garth brooks tribute|callin baton rouge",
+   "title": "Callin' Baton Rouge",
+   "artist": "Garth Brooks Tribute",
+   "year": 2023,
+   "rank": 10,
+   "cleanId": 1704862192,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/47/20/b24720e4-e805-c3dd-b90f-a06be88e6357/055120922367.png/100x100bb.jpg"
+  },
+  {
+   "id": "george strait|amarillo by morning",
+   "title": "Amarillo By Morning",
+   "artist": "George Strait",
+   "year": 1982,
+   "rank": 1,
+   "cleanId": 1440764256,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bf/7a/fc/bf7afc70-65d3-15e7-996c-199242baf537/00076732556726.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "george strait|troubadour",
+   "title": "Troubadour",
+   "artist": "George Strait",
+   "year": 2008,
+   "rank": 2,
+   "cleanId": 1440755144,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e7/d6/53/e7d65307-63b5-ea14-7b00-90b0a0fa917f/08UMGIM02875.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "george strait|carrying your love with me",
+   "title": "Carrying Your Love With Me",
+   "artist": "George Strait",
+   "year": 1997,
+   "rank": 3,
+   "cleanId": 1440786901,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/07/62/ed07622d-8460-47a6-f0dd-c92309697bde/06UMGIM21149.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "george strait|check yes or no",
+   "title": "Check Yes or No",
+   "artist": "George Strait",
+   "year": 1995,
+   "rank": 4,
+   "cleanId": 1445734001,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8b/c4/02/8bc40212-dfb4-9bf2-875b-8d8bb27e62bf/06UMGIM21092.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "george strait|give it away",
+   "title": "Give It Away",
+   "artist": "George Strait",
+   "year": 2006,
+   "rank": 5,
+   "cleanId": 1440715553,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/57/33/c2/5733c27f-54d7-3de4-daea-7f37399322ab/00602498889602.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "george strait|i can still make cheyenne",
+   "title": "I Can Still Make Cheyenne",
+   "artist": "George Strait",
+   "year": 1996,
+   "rank": 6,
+   "cleanId": 1452793320,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b3/0d/41/b30d4133-d7b9-b790-fc64-cb35e207e7d0/06UMGIM16097.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "george strait|the chair",
+   "title": "The Chair",
+   "artist": "George Strait",
+   "year": 1985,
+   "rank": 7,
+   "cleanId": 1452792488,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b3/0d/41/b30d4133-d7b9-b790-fc64-cb35e207e7d0/06UMGIM16097.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "george strait|you look so good in love",
+   "title": "You Look So Good In Love",
+   "artist": "George Strait",
+   "year": 1983,
+   "rank": 8,
+   "cleanId": 1452792479,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b3/0d/41/b30d4133-d7b9-b790-fc64-cb35e207e7d0/06UMGIM16097.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "george strait|write this down",
+   "title": "Write This Down",
+   "artist": "George Strait",
+   "year": 1999,
+   "rank": 9,
+   "cleanId": 1444030627,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/40/41/87/404187fe-9deb-af4c-9c3c-c123674ee91b/00008817005027.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "george strait|here for a good time",
+   "title": "Here for a Good Time",
+   "artist": "George Strait",
+   "year": 2011,
+   "rank": 10,
+   "cleanId": 1440772411,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/42/d5/20/42d52023-0ce6-1d82-831b-c530701851df/00602527784908.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "carrie underwood|before he cheats",
+   "title": "Before He Cheats",
+   "artist": "Carrie Underwood",
+   "year": 2005,
+   "rank": 1,
+   "cleanId": 1837980977,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/0c/1c/040c1ce8-64b8-53aa-77a9-5b4a477bc542/196873582207.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "carrie underwood|blown away",
+   "title": "Blown Away",
+   "artist": "Carrie Underwood",
+   "year": 2012,
+   "rank": 2,
+   "cleanId": 510168338,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/eb/e6/b6ebe609-77fb-02ec-54e0-b06d91b441a5/886443417083.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "carrie underwood|two black cadillacs",
+   "title": "Two Black Cadillacs",
+   "artist": "Carrie Underwood",
+   "year": 2012,
+   "rank": 3,
+   "cleanId": 510168339,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/eb/e6/b6ebe609-77fb-02ec-54e0-b06d91b441a5/886443417083.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "carrie underwood|church bells",
+   "title": "Church Bells",
+   "artist": "Carrie Underwood",
+   "year": 2015,
+   "rank": 4,
+   "cleanId": 1038916752,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/44/33/95/443395ad-f165-0773-275d-3cb4ba5315b0/dj.nyzvtavs.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "carrie underwood|jesus take the wheel",
+   "title": "Jesus, Take the Wheel",
+   "artist": "Carrie Underwood",
+   "year": 2005,
+   "rank": 5,
+   "cleanId": 214695747,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e7/14/80/e714805d-8aff-9e66-b25f-c75e5683a130/mzi.omppwbeg.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "carrie underwood|cowboy casanova",
+   "title": "Cowboy Casanova",
+   "artist": "Carrie Underwood",
+   "year": 2009,
+   "rank": 6,
+   "cleanId": 336669067,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e9/3c/7f/e93c7f81-262d-40c1-0ef6-a5624c076f6c/dj.slprfiyl.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "carrie underwood|all american girl",
+   "title": "All-American Girl",
+   "artist": "Carrie Underwood",
+   "year": 2007,
+   "rank": 7,
+   "cleanId": 265826612,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/81/b9/2c81b9b2-6b48-b37f-dad3-7028cfe05340/dj.obikybjo.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "carrie underwood|just a dream",
+   "title": "Just a Dream",
+   "artist": "Carrie Underwood",
+   "year": 2007,
+   "rank": 8,
+   "cleanId": 265826626,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/81/b9/2c81b9b2-6b48-b37f-dad3-7028cfe05340/dj.obikybjo.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "carrie underwood|good girl",
+   "title": "Good Girl",
+   "artist": "Carrie Underwood",
+   "year": 2012,
+   "rank": 9,
+   "cleanId": 510168330,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/eb/e6/b6ebe609-77fb-02ec-54e0-b06d91b441a5/886443417083.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "carrie underwood|something in the water",
+   "title": "Something in the Water",
+   "artist": "Carrie Underwood",
+   "year": 2014,
+   "rank": 10,
+   "cleanId": 934482823,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bd/56/62/bd5662de-b864-5879-d071-5bbfbc2fe789/886444908795.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kenny chesney|somewhere with you",
+   "title": "Somewhere With You",
+   "artist": "Kenny Chesney",
+   "year": 2010,
+   "rank": 1,
+   "cleanId": 393009583,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6f/bd/cf/6fbdcfc8-cd43-7706-e248-0236c5a29c06/dj.spqtvrqj.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kenny chesney|carry on",
+   "title": "Carry On",
+   "artist": "Kenny Chesney",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 1893511608,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/af/11/cdaf11cc-0a13-0010-175a-d78d70c1f0d9/093624819967.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kenny chesney|american kids",
+   "title": "American Kids",
+   "artist": "Kenny Chesney",
+   "year": 2014,
+   "rank": 3,
+   "cleanId": 904056331,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/4c/b9/cf4cb941-426d-e60f-2470-8a20c7ea42ea/886444749657.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kenny chesney|summertime",
+   "title": "Summertime",
+   "artist": "Kenny Chesney",
+   "year": 2005,
+   "rank": 4,
+   "cleanId": 262613509,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5d/7d/f2/5d7df222-335e-eae6-2b83-8cc731af5b7c/mzi.sxhpnzpg.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kenny chesney|i go back",
+   "title": "I Go Back",
+   "artist": "Kenny Chesney",
+   "year": 2004,
+   "rank": 5,
+   "cleanId": 262613590,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/28/f5/27/28f5277d-5c64-ec46-8de1-582dc7e002f9/dj.sxriubhh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kenny chesney|there goes my life",
+   "title": "There Goes My Life",
+   "artist": "Kenny Chesney",
+   "year": 2003,
+   "rank": 6,
+   "cleanId": 262613507,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/28/f5/27/28f5277d-5c64-ec46-8de1-582dc7e002f9/dj.sxriubhh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kenny chesney and uncle kracker|when the sun goes down",
+   "title": "When the Sun Goes Down",
+   "artist": "Kenny Chesney & Uncle Kracker",
+   "year": 2004,
+   "rank": 7,
+   "cleanId": 262613641,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/28/f5/27/28f5277d-5c64-ec46-8de1-582dc7e002f9/dj.sxriubhh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kenny chesney|the good stuff",
+   "title": "The Good Stuff",
+   "artist": "Kenny Chesney",
+   "year": 2002,
+   "rank": 8,
+   "cleanId": 255274014,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/6c/e3/526ce3af-5005-ed21-1071-f77ed30e7f5d/dj.etgtqjrb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kenny chesney|she thinks my tractor s sexy",
+   "title": "She Thinks My Tractor's Sexy",
+   "artist": "Kenny Chesney",
+   "year": 1999,
+   "rank": 9,
+   "cleanId": 254560485,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/91/16/06/91160616-b43f-fece-e19a-1216c6305fea/mzm.cqaruvwq.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kenny chesney|no shoes no shirt no problems",
+   "title": "No Shoes, No Shirt, No Problems",
+   "artist": "Kenny Chesney",
+   "year": 2002,
+   "rank": 10,
+   "cleanId": 269960642,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/b2/6c/73b26ce8-acea-8aa8-a2cc-7a0384c197c4/dj.zprewtww.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach bryan and lana del rey|lies",
+   "title": "Lies",
+   "artist": "Zach Bryan & Lana Del Rey",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 6822944296,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "zach bryan|something in the orange",
+   "title": "Something in the Orange",
+   "artist": "Zach Bryan",
+   "year": 2022,
+   "rank": 2,
+   "cleanId": 1620419734,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d6/cd/d8/d6cdd86f-db67-ffc8-cd5e-26c4559686c3/054391903860.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "zach bryan|pink skies",
+   "title": "Pink Skies",
+   "artist": "Zach Bryan",
+   "year": 2024,
+   "rank": 3,
+   "cleanId": 1747842759,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/25/58/a3255839-0068-40f0-9985-7603f061c30f/054391263575.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "zach bryan|lodi when",
+   "title": "Lodi When",
+   "artist": "Zach Bryan",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 6822944289,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "zach bryan|i remember everything",
+   "title": "I Remember Everything",
+   "artist": "Zach Bryan",
+   "year": 2023,
+   "rank": 5,
+   "cleanId": 1703217516,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ce/36/7f/ce367f3d-2a4f-46ee-1434-e3fbb52f1fc8/093624849797.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "zach bryan|28",
+   "title": "28",
+   "artist": "Zach Bryan",
+   "year": 2024,
+   "rank": 6,
+   "cleanId": 1819829902,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/2e/c1/f62ec15a-3294-0743-e80c-c5e890171a14/093624828730.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "zach bryan|oklahoma smokeshow",
+   "title": "Oklahoma Smokeshow",
+   "artist": "Zach Bryan",
+   "year": 2022,
+   "rank": 7,
+   "cleanId": 1633178998,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/be/ea/e9/beeae98a-33a4-6e1d-6efc-b8dd098b0a2c/093624866459.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "zach bryan|plastic cigarette",
+   "title": "Plastic Cigarette",
+   "artist": "Zach Bryan",
+   "year": 2026,
+   "rank": 8,
+   "cleanId": 1867328778,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/15/82/cf158280-e899-3a6f-3060-b55255200a3c/093624823384.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "zach bryan|revival",
+   "title": "Revival",
+   "artist": "Zach Bryan",
+   "year": 2020,
+   "rank": 9,
+   "cleanId": 1542103756,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/a2/80/01a2808f-8a15-fc76-235b-8e315085dc10/093624884538.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "zach bryan|nine ball",
+   "title": "Nine Ball",
+   "artist": "Zach Bryan",
+   "year": 2023,
+   "rank": 10,
+   "cleanId": 1708146678,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/42/42/d9/4242d9f7-f21d-76ab-3e21-1496aa3b3caa/093624848486.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "dolly parton|9 to 5",
+   "title": "9 to 5",
+   "artist": "Dolly Parton",
+   "year": 1980,
+   "rank": 1,
+   "cleanId": 282883590,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "dolly parton|jolene",
+   "title": "Jolene",
+   "artist": "Dolly Parton",
+   "year": 1973,
+   "rank": 2,
+   "cleanId": 1062400330,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/f8/1e/0bf81e88-de6e-aba3-9fd4-e7407bfbcc31/886445438048.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "dolly parton and kenny rogers|islands in the stream",
+   "title": "Islands In the Stream",
+   "artist": "Dolly Parton & Kenny Rogers",
+   "year": 1983,
+   "rank": 3,
+   "cleanId": 282883594,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "dolly parton|i will always love you",
+   "title": "I Will Always Love You",
+   "artist": "Dolly Parton",
+   "year": 1974,
+   "rank": 4,
+   "cleanId": 282883579,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "dolly parton|here you come again",
+   "title": "Here You Come Again",
+   "artist": "Dolly Parton",
+   "year": 1977,
+   "rank": 5,
+   "cleanId": 1062401017,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/01/0c/75/010c75b5-ac46-382c-5862-33679d13dc65/886445438932.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "dolly parton|coat of many colors",
+   "title": "Coat of Many Colors",
+   "artist": "Dolly Parton",
+   "year": 1971,
+   "rank": 6,
+   "cleanId": 217532827,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9b/1d/11/9b1d1141-2332-5100-822a-0cd571ebffd6/dj.zuericqk.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "dolly parton|two doors down",
+   "title": "Two Doors Down",
+   "artist": "Dolly Parton",
+   "year": 1977,
+   "rank": 7,
+   "cleanId": 1062401023,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/01/0c/75/010c75b5-ac46-382c-5862-33679d13dc65/886445438932.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "dolly parton|why d you come in here lookin like that",
+   "title": "Why'd You Come In Here Lookin' Like That",
+   "artist": "Dolly Parton",
+   "year": 1989,
+   "rank": 8,
+   "cleanId": 169595968,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/1b/e7/07/1be707f6-4ecf-8838-c1c9-09a309c4ad4b/dj.lddflwlr.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "dolly parton|hard candy christmas",
+   "title": "Hard Candy Christmas",
+   "artist": "Dolly Parton",
+   "year": 1984,
+   "rank": 9,
+   "cleanId": 258613237,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/59/e5/6f/59e56f9c-645c-02c2-1020-1e96f5506d2b/dj.vwmzfxdz.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "dolly parton|light of a clear blue morning",
+   "title": "Light of a Clear Blue Morning",
+   "artist": "Dolly Parton",
+   "year": 1977,
+   "rank": 10,
+   "cleanId": 216335200,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/04/e2/e8/mzi.whivobzh.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "johnny cash|ring of fire",
+   "title": "Ring of Fire",
+   "artist": "Johnny Cash",
+   "year": 1963,
+   "rank": 1,
+   "cleanId": 251002253,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5f/13/bc/5f13bc30-0f68-ed45-466c-b491e9201558/dj.yjweejkt.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "johnny cash|folsom prison blues",
+   "title": "Folsom Prison Blues",
+   "artist": "Johnny Cash",
+   "year": 1955,
+   "rank": 2,
+   "cleanId": 1290122979,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/4b/b6/d74bb621-7319-d6a7-6f69-b43249253c60/LM00177737.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "johnny cash|hurt",
+   "title": "Hurt",
+   "artist": "Johnny Cash",
+   "year": 2002,
+   "rank": 3,
+   "cleanId": 1452875626,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9f/b0/3c/9fb03c5a-28f5-9609-a5fa-8471b6b32fc1/00602498613351.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "johnny cash|god s gonna cut you down",
+   "title": "God's Gonna Cut You Down",
+   "artist": "Johnny Cash",
+   "year": 2006,
+   "rank": 4,
+   "cleanId": 1440824064,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/65/0a/73/650a730d-9108-11e6-46fe-efea648207b5/00602537351183.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "johnny cash|a boy named sue",
+   "title": "A Boy Named Sue",
+   "artist": "Johnny Cash",
+   "year": 1954,
+   "rank": 5,
+   "cleanId": 158628583,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/34/3d/99/343d99e4-4a38-2940-fa64-bc886e41c975/074644603125.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "johnny cash with june carter cash|jackson",
+   "title": "Jackson",
+   "artist": "Johnny Cash with June Carter Cash",
+   "year": 1967,
+   "rank": 6,
+   "cleanId": 251002611,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5f/13/bc/5f13bc30-0f68-ed45-466c-b491e9201558/dj.yjweejkt.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "johnny cash|i ve been everywhere",
+   "title": "I've Been Everywhere",
+   "artist": "Johnny Cash",
+   "year": 1996,
+   "rank": 7,
+   "cleanId": 1442463314,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f1/a9/43/f1a94386-b3f0-537f-6daf-8eec1d75c891/00602537351169.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "johnny cash|riders in the sky",
+   "title": "(Ghost) Riders In the Sky",
+   "artist": "Johnny Cash",
+   "year": 1979,
+   "rank": 8,
+   "cleanId": 251003094,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5f/13/bc/5f13bc30-0f68-ed45-466c-b491e9201558/dj.yjweejkt.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "johnny cash|the man comes around",
+   "title": "The Man Comes Around",
+   "artist": "Johnny Cash",
+   "year": 2002,
+   "rank": 9,
+   "cleanId": 1440811245,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/42/cd/ac42cddb-98f0-a78b-6aac-4f08266d30c4/00602537277353.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "johnny cash|i won t back down",
+   "title": "I Won't Back Down",
+   "artist": "Johnny Cash",
+   "year": 2000,
+   "rank": 10,
+   "cleanId": 1440821731,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/90/3a/3e/903a3e60-f6c0-0d6f-8856-e3154b6a1300/00602537351121.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "shania twain|man i feel like a woman",
+   "title": "Man! I Feel Like a Woman!",
+   "artist": "Shania Twain",
+   "year": 1997,
+   "rank": 1,
+   "cleanId": 1445668856,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/2f/98/1e2f98c2-3fa6-9601-9825-6a6d19a99cf3/06UMGIM07033.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "shania twain|any man of mine",
+   "title": "Any Man of Mine",
+   "artist": "Shania Twain",
+   "year": 1995,
+   "rank": 2,
+   "cleanId": 1440867120,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/92/92/94/92929471-71e2-4ff7-131e-2ad7693c4aaf/06UMGIM15740.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "shania twain|you re still the one",
+   "title": "You're Still the One",
+   "artist": "Shania Twain",
+   "year": 1997,
+   "rank": 3,
+   "cleanId": 1445669197,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/2f/98/1e2f98c2-3fa6-9601-9825-6a6d19a99cf3/06UMGIM07033.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "shania twain|that don t impress me much",
+   "title": "That Don't Impress Me Much",
+   "artist": "Shania Twain",
+   "year": 1997,
+   "rank": 4,
+   "cleanId": 1445669387,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/2f/98/1e2f98c2-3fa6-9601-9825-6a6d19a99cf3/06UMGIM07033.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "shania twain|whose bed have your boots been under",
+   "title": "Whose Bed Have Your Boots Been Under?",
+   "artist": "Shania Twain",
+   "year": 1995,
+   "rank": 5,
+   "cleanId": 1440867123,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/92/92/94/92929471-71e2-4ff7-131e-2ad7693c4aaf/06UMGIM15740.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "shania twain|from this moment on",
+   "title": "From This Moment On",
+   "artist": "Shania Twain",
+   "year": 1997,
+   "rank": 6,
+   "cleanId": 1445669171,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/2f/98/1e2f98c2-3fa6-9601-9825-6a6d19a99cf3/06UMGIM07033.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "shania twain|honey i m home",
+   "title": "Honey, I'm Home",
+   "artist": "Shania Twain",
+   "year": 1997,
+   "rank": 7,
+   "cleanId": 1445669383,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/2f/98/1e2f98c2-3fa6-9601-9825-6a6d19a99cf3/06UMGIM07033.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "shania twain|don t be stupid",
+   "title": "Don't Be Stupid (You Know I Love You)",
+   "artist": "Shania Twain",
+   "year": 1997,
+   "rank": 8,
+   "cleanId": 1445668984,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/2f/98/1e2f98c2-3fa6-9601-9825-6a6d19a99cf3/06UMGIM07033.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "shania twain|party for two",
+   "title": "Party For Two [Remastered 2023]",
+   "artist": "Shania Twain",
+   "year": 2004,
+   "rank": 9,
+   "cleanId": 1713844888,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1a/69/f7/1a69f728-24af-dfc9-1e09-fe96d78e0e0f/23UM1IM14819.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "shania twain|i m outta here",
+   "title": "(If You're Not In It for Love) I'm Outta Here!",
+   "artist": "Shania Twain",
+   "year": 1995,
+   "rank": 10,
+   "cleanId": 1440867129,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/92/92/94/92929471-71e2-4ff7-131e-2ad7693c4aaf/06UMGIM15740.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alan jackson|drive",
+   "title": "Drive (For Daddy Gene)",
+   "artist": "Alan Jackson",
+   "year": 2002,
+   "rank": 1,
+   "cleanId": 255369593,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7a/ff/d1/7affd173-b1d0-63e6-7733-e42dcb7cc52c/dj.xmftukxb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alan jackson|chattahoochee",
+   "title": "Chattahoochee",
+   "artist": "Alan Jackson",
+   "year": 1992,
+   "rank": 2,
+   "cleanId": 260758659,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/40/9a/a7/409aa786-3918-f37b-1986-35d38391d62c/mzm.bpsvirpa.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alan jackson|remember when",
+   "title": "Remember When",
+   "artist": "Alan Jackson",
+   "year": 2003,
+   "rank": 3,
+   "cleanId": 270220273,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/88/7d/20887d76-984a-7e0d-d04b-d5f00b6c5111/dj.htakyhgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alan jackson|little bitty",
+   "title": "Little Bitty",
+   "artist": "Alan Jackson",
+   "year": 1996,
+   "rank": 4,
+   "cleanId": 258627373,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/35/c2/3a/35c23a43-8673-f879-c354-7f1eb6ddc8a3/dj.rdepnkrr.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alan jackson|good time",
+   "title": "Good Time",
+   "artist": "Alan Jackson",
+   "year": 2008,
+   "rank": 5,
+   "cleanId": 1118483543,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/bf/fe/5dbffe28-87cd-2525-af0a-06e1548fcace/886445732160.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alan jackson|it s five o clock somewhere",
+   "title": "It's Five O'Clock Somewhere",
+   "artist": "Alan Jackson",
+   "year": 2003,
+   "rank": 6,
+   "cleanId": 270220272,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/88/7d/20887d76-984a-7e0d-d04b-d5f00b6c5111/dj.htakyhgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alan jackson|livin on love",
+   "title": "Livin' On Love",
+   "artist": "Alan Jackson",
+   "year": 1994,
+   "rank": 7,
+   "cleanId": 258730384,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6e/40/cb/6e40cbaa-110f-1fdb-8d32-883105cfd399/dj.qekodxzb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alan jackson|gone country",
+   "title": "Gone Country",
+   "artist": "Alan Jackson",
+   "year": 1994,
+   "rank": 8,
+   "cleanId": 302994283,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/25/e7/d7/25e7d758-ddae-41cd-0569-b886ec9559ad/mzi.ecnlwbvp.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alan jackson|where i come from",
+   "title": "Where I Come from",
+   "artist": "Alan Jackson",
+   "year": 2000,
+   "rank": 9,
+   "cleanId": 400705893,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5b/cf/2d/5bcf2df7-df88-aed2-aedc-8f199530a559/mzi.gdbvpcqr.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alan jackson|chasin that neon rainbow",
+   "title": "Chasin' That Neon Rainbow",
+   "artist": "Alan Jackson",
+   "year": 1990,
+   "rank": 10,
+   "cleanId": 303184816,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ea/ce/48/eace480a-d8f5-b1de-5f20-cff7f5ad4e02/dj.cpfrqjal.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brooks and dunn|neon moon",
+   "title": "Neon Moon",
+   "artist": "Brooks & Dunn",
+   "year": 1991,
+   "rank": 1,
+   "cleanId": 258643362,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a4/db/c5/a4dbc5c7-bc69-931a-0e46-c6e11e86e003/078221885225.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brooks and dunn|boot scootin boogie",
+   "title": "Boot Scootin' Boogie",
+   "artist": "Brooks & Dunn",
+   "year": 1991,
+   "rank": 2,
+   "cleanId": 258642521,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a4/db/c5/a4dbc5c7-bc69-931a-0e46-c6e11e86e003/078221885225.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brooks and dunn|red dirt road",
+   "title": "Red Dirt Road",
+   "artist": "Brooks & Dunn",
+   "year": 2003,
+   "rank": 3,
+   "cleanId": 1403586724,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6e/c9/00/6ec900c4-31cd-bde1-2eb1-b47bcfcc9c55/886443650176.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brooks and dunn|my maria",
+   "title": "My Maria",
+   "artist": "Brooks & Dunn",
+   "year": 1996,
+   "rank": 4,
+   "cleanId": 258642336,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a4/db/c5/a4dbc5c7-bc69-931a-0e46-c6e11e86e003/078221885225.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brooks and dunn|brand new man",
+   "title": "Brand New Man",
+   "artist": "Brooks & Dunn",
+   "year": 1991,
+   "rank": 5,
+   "cleanId": 291896524,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9a/48/05/9a48053f-66d8-88ed-4030-93e1de524ebb/078221865821.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brooks and dunn|ain t nothing bout you",
+   "title": "Ain't Nothing 'Bout You",
+   "artist": "Brooks & Dunn",
+   "year": 2001,
+   "rank": 6,
+   "cleanId": 255436813,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/4f/17/c2/4f17c22c-1cee-173e-80b4-85d6e911712b/dj.rpbyvvac.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brooks and dunn|you re gonna miss me when i m gone",
+   "title": "You're Gonna Miss Me When I'm Gone",
+   "artist": "Brooks & Dunn",
+   "year": 1994,
+   "rank": 7,
+   "cleanId": 258642452,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a4/db/c5/a4dbc5c7-bc69-931a-0e46-c6e11e86e003/078221885225.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brooks and dunn|play something country",
+   "title": "Play Something Country",
+   "artist": "Brooks & Dunn",
+   "year": 2005,
+   "rank": 8,
+   "cleanId": 407580027,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/0e/2c/110e2c42-ce4e-f1e5-1b3e-9f01b56dc04f/884977848410.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brooks and dunn|cowgirls don t cry",
+   "title": "Cowgirls Don't Cry",
+   "artist": "Brooks & Dunn",
+   "year": 2007,
+   "rank": 9,
+   "cleanId": 273363658,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/75/09/3d/75093d63-9a22-899c-7715-ba2888381a06/888880303479.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brooks and dunn|believe",
+   "title": "Believe",
+   "artist": "Brooks & Dunn",
+   "year": 2005,
+   "rank": 10,
+   "cleanId": 1452952088,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/07/ca/93/07ca93b0-9d21-5504-208f-57cd56a4eea7/886447550373.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tim mcgraw|don t take the girl",
+   "title": "Don't Take the Girl",
+   "artist": "Tim McGraw",
+   "year": 1994,
+   "rank": 1,
+   "cleanId": 80604828,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/fc/a7/20fca733-8677-ba96-05bf-7f3bc2b805de/mzi.ckseeycn.tif/100x100bb.jpg"
+  },
+  {
+   "id": "tim mcgraw|humble and kind",
+   "title": "Humble and Kind",
+   "artist": "Tim McGraw",
+   "year": 2015,
+   "rank": 2,
+   "cleanId": 1440935153,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/19/f5/4b/19f54b4c-cfbb-1be1-6988-6bb5d5c4f042/15UMDIM00558.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tim mcgraw|i like it i love it",
+   "title": "I Like It, I Love It",
+   "artist": "Tim McGraw",
+   "year": 1995,
+   "rank": 3,
+   "cleanId": 80604886,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/fc/a7/20fca733-8677-ba96-05bf-7f3bc2b805de/mzi.ckseeycn.tif/100x100bb.jpg"
+  },
+  {
+   "id": "tim mcgraw|just to see you smile",
+   "title": "Just to See You Smile",
+   "artist": "Tim McGraw",
+   "year": 1997,
+   "rank": 4,
+   "cleanId": 80604896,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/fc/a7/20fca733-8677-ba96-05bf-7f3bc2b805de/mzi.ckseeycn.tif/100x100bb.jpg"
+  },
+  {
+   "id": "tim mcgraw|my best friend",
+   "title": "My Best Friend",
+   "artist": "Tim McGraw",
+   "year": 1999,
+   "rank": 5,
+   "cleanId": 68874818,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/56/09/b5560986-7841-cd6c-6c9e-2c09e8d1b4e9/715187794221.png/100x100bb.jpg"
+  },
+  {
+   "id": "tim mcgraw|something like that",
+   "title": "Something Like That",
+   "artist": "Tim McGraw",
+   "year": 1999,
+   "rank": 6,
+   "cleanId": 68875122,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/56/09/b5560986-7841-cd6c-6c9e-2c09e8d1b4e9/715187794221.png/100x100bb.jpg"
+  },
+  {
+   "id": "tim mcgraw|indian outlaw",
+   "title": "Indian Outlaw",
+   "artist": "Tim McGraw",
+   "year": 1994,
+   "rank": 7,
+   "cleanId": 80604823,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/fc/a7/20fca733-8677-ba96-05bf-7f3bc2b805de/mzi.ckseeycn.tif/100x100bb.jpg"
+  },
+  {
+   "id": "tim mcgraw|my little girl",
+   "title": "My Little Girl",
+   "artist": "Tim McGraw",
+   "year": 2006,
+   "rank": 8,
+   "cleanId": 195036698,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/28/da/5e28da29-9ff4-9171-1a88-1826969eb28e/mzi.jxonopvq.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tim mcgraw|where the green grass grows",
+   "title": "Where the Green Grass Grows",
+   "artist": "Tim McGraw",
+   "year": 1997,
+   "rank": 9,
+   "cleanId": 68872449,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/27/f0/fc27f091-9080-92d4-3e9d-293a7e6c5d09/715187788626.png/100x100bb.jpg"
+  },
+  {
+   "id": "tim mcgraw|my next thirty years",
+   "title": "My Next Thirty Years",
+   "artist": "Tim McGraw",
+   "year": 1999,
+   "rank": 10,
+   "cleanId": 80605036,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/fc/a7/20fca733-8677-ba96-05bf-7f3bc2b805de/mzi.ckseeycn.tif/100x100bb.jpg"
+  },
+  {
+   "id": "toby keith|should ve been a cowboy",
+   "title": "Should've Been a Cowboy",
+   "artist": "Toby Keith",
+   "year": 1993,
+   "rank": 1,
+   "cleanId": 1436536526,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/b2/32/31b23282-ffc6-27fd-93fe-27cc2925687a/18UMGIM55675.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "toby keith|as good as i once was",
+   "title": "As Good As I Once Was",
+   "artist": "Toby Keith",
+   "year": 2005,
+   "rank": 2,
+   "cleanId": 1440767987,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3f/1a/82/3f1a82e2-f51f-5792-c582-8dc8a3539aa6/06UMGIM15707.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "toby keith|courtesy of the red white and blue",
+   "title": "Courtesy of the Red, White and Blue (The Angry American)",
+   "artist": "Toby Keith",
+   "year": 2002,
+   "rank": 3,
+   "cleanId": 1440510903,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/fc/44/a5fc44c4-558a-1132-9c3d-3ea05443c1a3/06UMGIM19854.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "toby keith|how do you like me now",
+   "title": "How Do You Like Me Now?!",
+   "artist": "Toby Keith",
+   "year": 1999,
+   "rank": 4,
+   "cleanId": 1443724414,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/1e/5a/c21e5aef-6aed-0283-79f2-df642a8d5b6b/06UMGIM73030.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "toby keith|i love this bar",
+   "title": "I Love This Bar",
+   "artist": "Toby Keith",
+   "year": 2003,
+   "rank": 5,
+   "cleanId": 1445085664,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/ea/ee/2deaeeca-0d8d-123d-232a-670c4ddd5edb/06UMGIM16927.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "toby keith|wish i didn t know now",
+   "title": "Wish I Didn't Know Now",
+   "artist": "Toby Keith",
+   "year": 1993,
+   "rank": 6,
+   "cleanId": 1452801489,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e8/1b/44/e81b44cc-9a2f-9960-1a99-e6eb4389a113/08UMGIM03456.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "toby keith|american soldier",
+   "title": "American Soldier",
+   "artist": "Toby Keith",
+   "year": 2003,
+   "rank": 7,
+   "cleanId": 1452802596,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e8/1b/44/e81b44cc-9a2f-9960-1a99-e6eb4389a113/08UMGIM03456.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "toby keith|beer for my horses",
+   "title": "Beer for My Horses",
+   "artist": "Toby Keith",
+   "year": 2002,
+   "rank": 8,
+   "cleanId": 1440510908,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/fc/44/a5fc44c4-558a-1132-9c3d-3ea05443c1a3/06UMGIM19854.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "toby keith|i wanna talk about me",
+   "title": "I Wanna Talk About Me",
+   "artist": "Toby Keith",
+   "year": 2001,
+   "rank": 9,
+   "cleanId": 1449750670,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/78/f6/90/78f69046-6f02-f0e5-deb8-494817ad89b5/06UMGIM00720.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "toby keith|red solo cup",
+   "title": "Red Solo Cup",
+   "artist": "Toby Keith",
+   "year": 2011,
+   "rank": 10,
+   "cleanId": 1434740155,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/06/85/97/068597d7-0074-f60d-ad4d-c8662b2eea30/602527814063.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luke bryan|country girl",
+   "title": "Country Girl (Shake It For Me)",
+   "artist": "Luke Bryan",
+   "year": 2011,
+   "rank": 1,
+   "cleanId": 1617201884,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a4/6d/40/a46d40ac-305d-0e58-b23d-bf8799c54f8d/13UABIM53308.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luke bryan|that s my kind of night",
+   "title": "That's My Kind of Night",
+   "artist": "Luke Bryan",
+   "year": 2013,
+   "rank": 2,
+   "cleanId": 1440861848,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/43/8f/14/438f14f0-6277-aa81-4624-8753b93c1fa9/13UAAIM59985.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luke bryan|drunk on you",
+   "title": "Drunk On You",
+   "artist": "Luke Bryan",
+   "year": 2011,
+   "rank": 3,
+   "cleanId": 1617201889,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a4/6d/40/a46d40ac-305d-0e58-b23d-bf8799c54f8d/13UABIM53308.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luke bryan|i don t want this night to end",
+   "title": "I Don't Want This Night To End",
+   "artist": "Luke Bryan",
+   "year": 2011,
+   "rank": 4,
+   "cleanId": 1617201901,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a4/6d/40/a46d40ac-305d-0e58-b23d-bf8799c54f8d/13UABIM53308.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luke bryan|play it again",
+   "title": "Play It Again",
+   "artist": "Luke Bryan",
+   "year": 2013,
+   "rank": 5,
+   "cleanId": 1440814324,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a2/1c/0c/a21c0c46-8ff7-57d0-6a67-1e923ab36550/14UMGIM32656.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luke bryan|do i",
+   "title": "Do I",
+   "artist": "Luke Bryan",
+   "year": 2009,
+   "rank": 6,
+   "cleanId": 724573160,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dd/37/9d/dd379d80-334f-48a8-44f8-f2e3f7eaabea/13UABIM53627.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luke bryan|strip it down",
+   "title": "Strip It Down",
+   "artist": "Luke Bryan",
+   "year": 2015,
+   "rank": 7,
+   "cleanId": 1440868878,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f5/ed/f1/f5edf148-eed0-c490-fe91-fa0c30d5b9e3/15UMGIM34395.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luke bryan|one margarita",
+   "title": "One Margarita",
+   "artist": "Luke Bryan",
+   "year": 2020,
+   "rank": 8,
+   "cleanId": 1497942479,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c0/c7/b8/c0c7b858-fb4e-4765-31d6-f3bb393bf5cb/20UMGIM08159.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luke bryan|drink a beer",
+   "title": "Drink a Beer",
+   "artist": "Luke Bryan",
+   "year": 2013,
+   "rank": 9,
+   "cleanId": 1440862252,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/43/8f/14/438f14f0-6277-aa81-4624-8753b93c1fa9/13UAAIM59985.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luke bryan|huntin fishin and lovin every day",
+   "title": "Huntin', Fishin' and Lovin' Every Day",
+   "artist": "Luke Bryan",
+   "year": 2015,
+   "rank": 10,
+   "cleanId": 1440869441,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f5/ed/f1/f5edf148-eed0-c490-fe91-fa0c30d5b9e3/15UMGIM34395.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "blake shelton|let him in anyway",
+   "title": "Let Him In Anyway",
+   "artist": "Blake Shelton",
+   "year": 2025,
+   "rank": 1,
+   "cleanId": 1799727554,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/55/4d/45554d7b-e299-f557-7482-9b1ce9a06e8f/4099964159899.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "blake shelton|god s country",
+   "title": "God's Country",
+   "artist": "Blake Shelton",
+   "year": 2019,
+   "rank": 2,
+   "cleanId": 1489235170,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c2/50/ce/c250ce37-4daf-3ce7-e6a4-050e0a16d09d/093624896586.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "blake shelton|god gave me you",
+   "title": "God Gave Me You",
+   "artist": "Blake Shelton",
+   "year": 2011,
+   "rank": 3,
+   "cleanId": 663114228,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fe/17/51/fe17515b-92fc-025d-a666-f67bf2e915f5/093624944409.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "blake shelton|ol red",
+   "title": "Ol' Red",
+   "artist": "Blake Shelton",
+   "year": 2001,
+   "rank": 4,
+   "cleanId": 663118390,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/87/7b/50/877b5043-910e-f11c-ff01-6dbd8edba2f6/075992473125.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "blake shelton|boys round here",
+   "title": "Boys 'Round Here",
+   "artist": "Blake Shelton",
+   "year": 2013,
+   "rank": 5,
+   "cleanId": 606057317,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/e3/f1/07e3f14d-ad04-653d-6732-c4974e5d45f9/093624944294.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "blake shelton|austin",
+   "title": "Austin",
+   "artist": "Blake Shelton",
+   "year": 2001,
+   "rank": 6,
+   "cleanId": 663118389,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/87/7b/50/877b5043-910e-f11c-ff01-6dbd8edba2f6/075992473125.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "blake shelton|honey bee",
+   "title": "Honey Bee",
+   "artist": "Blake Shelton",
+   "year": 2011,
+   "rank": 7,
+   "cleanId": 663114226,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fe/17/51/fe17515b-92fc-025d-a666-f67bf2e915f5/093624944409.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "blake shelton|sangria",
+   "title": "Sangria",
+   "artist": "Blake Shelton",
+   "year": 2014,
+   "rank": 8,
+   "cleanId": 909561637,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f3/ea/53/f3ea530b-9152-6518-69f9-59874872b658/093624934493.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "blake shelton|came here to forget",
+   "title": "Came Here to Forget",
+   "artist": "Blake Shelton",
+   "year": 2016,
+   "rank": 9,
+   "cleanId": 1110960410,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f4/71/20/f4712087-220f-e3fb-9333-8a460bcb60cf/093624920014.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "blake shelton|nobody but you",
+   "title": "Nobody But You",
+   "artist": "Blake Shelton",
+   "year": 2019,
+   "rank": 10,
+   "cleanId": 1489235177,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c2/50/ce/c250ce37-4daf-3ce7-e6a4-050e0a16d09d/093624896586.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "miranda lambert|gunpowder and lead",
+   "title": "Gunpowder & Lead",
+   "artist": "Miranda Lambert",
+   "year": 2007,
+   "rank": 1,
+   "cleanId": 251081801,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/7b/56/d27b5679-9de5-1b8f-cb62-de15e3da3f5f/dj.zcwppvai.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "miranda lambert|mama s broken heart",
+   "title": "Mama's Broken Heart",
+   "artist": "Miranda Lambert",
+   "year": 2011,
+   "rank": 2,
+   "cleanId": 466581404,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ec/23/a2/ec23a27b-c220-60f9-819a-ddf1f5cec07f/mzi.vribnyar.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "miranda lambert|the house that built me",
+   "title": "The House That Built Me",
+   "artist": "Miranda Lambert",
+   "year": 2009,
+   "rank": 3,
+   "cleanId": 330307101,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/79/9f/53/799f530b-29ec-e746-da26-5751fde2ad42/mzi.xdqgcwog.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "miranda lambert|kerosene",
+   "title": "Kerosene",
+   "artist": "Miranda Lambert",
+   "year": 2005,
+   "rank": 4,
+   "cleanId": 153439393,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a9/2b/69/a92b69f5-9efb-ed3a-a738-42ecf2605a67/mzi.rqbmguse.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "miranda lambert and ella langley|snakeskin boots",
+   "title": "Snakeskin Boots",
+   "artist": "Miranda Lambert & Ella Langley",
+   "year": 2026,
+   "rank": 5,
+   "cleanId": 6775919764,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/8b/80/708b803d-370d-2ad3-fdbd-0c0cdfe92526/26UMGIM63533.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "miranda lambert|white liar",
+   "title": "White Liar",
+   "artist": "Miranda Lambert",
+   "year": 2009,
+   "rank": 6,
+   "cleanId": 330307233,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/79/9f/53/799f530b-29ec-e746-da26-5751fde2ad42/mzi.xdqgcwog.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "miranda lambert|vice",
+   "title": "Vice",
+   "artist": "Miranda Lambert",
+   "year": 2016,
+   "rank": 7,
+   "cleanId": 1166241758,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/98/16/e5981609-03e2-e4fa-7862-59fcb129d961/886446177656.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "miranda lambert|tin man",
+   "title": "Tin Man",
+   "artist": "Miranda Lambert",
+   "year": 2016,
+   "rank": 8,
+   "cleanId": 1166241763,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/98/16/e5981609-03e2-e4fa-7862-59fcb129d961/886446177656.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "miranda lambert|only prettier",
+   "title": "Only Prettier",
+   "artist": "Miranda Lambert",
+   "year": 2009,
+   "rank": 9,
+   "cleanId": 330307029,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/79/9f/53/799f530b-29ec-e746-da26-5751fde2ad42/mzi.xdqgcwog.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "miranda lambert|over you",
+   "title": "Over You",
+   "artist": "Miranda Lambert",
+   "year": 2011,
+   "rank": 10,
+   "cleanId": 466581435,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ec/23/a2/ec23a27b-c220-60f9-819a-ddf1f5cec07f/mzi.vribnyar.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "keith urban|blue ain t your color",
+   "title": "Blue Ain't Your Color",
+   "artist": "Keith Urban",
+   "year": 2016,
+   "rank": 1,
+   "cleanId": 1440846183,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/08/94/8f/08948f61-ab2c-3e2b-3aef-e16132125f4a/16UMGIM18157.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "keith urban|somebody like you",
+   "title": "Somebody Like You",
+   "artist": "Keith Urban",
+   "year": 2002,
+   "rank": 2,
+   "cleanId": 1440847380,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e0/4c/3a/e04c3a39-7e9b-ac4f-a23f-3e4726cea620/16UMGIM27162.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "keith urban|you ll think of me",
+   "title": "You'll Think of Me",
+   "artist": "Keith Urban",
+   "year": 2002,
+   "rank": 3,
+   "cleanId": 1440847369,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e0/4c/3a/e04c3a39-7e9b-ac4f-a23f-3e4726cea620/16UMGIM27162.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "keith urban|days go by",
+   "title": "Days Go By",
+   "artist": "Keith Urban",
+   "year": 2004,
+   "rank": 4,
+   "cleanId": 1440834553,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8c/f3/72/8cf372a3-54e0-a458-9848-fbe15b77e98c/16UMGIM23471.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "keith urban|the fighter",
+   "title": "The Fighter",
+   "artist": "Keith Urban",
+   "year": 2016,
+   "rank": 5,
+   "cleanId": 1440846373,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/08/94/8f/08948f61-ab2c-3e2b-3aef-e16132125f4a/16UMGIM18157.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "keith urban|somewhere in my car",
+   "title": "Somewhere In My Car",
+   "artist": "Keith Urban",
+   "year": 2013,
+   "rank": 6,
+   "cleanId": 1440884217,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cd/79/97/cd799701-5bca-d7d8-611a-e58a9da71069/13UAAIM69063.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "keith urban|making memories of us",
+   "title": "Making Memories of Us",
+   "artist": "Keith Urban",
+   "year": 2004,
+   "rank": 7,
+   "cleanId": 1440847069,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e0/4c/3a/e04c3a39-7e9b-ac4f-a23f-3e4726cea620/16UMGIM27162.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "keith urban|cop car",
+   "title": "Cop Car",
+   "artist": "Keith Urban",
+   "year": 2013,
+   "rank": 8,
+   "cleanId": 1440884514,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cd/79/97/cd799701-5bca-d7d8-611a-e58a9da71069/13UAAIM69063.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "keith urban|long hot summer",
+   "title": "Long Hot Summer",
+   "artist": "Keith Urban",
+   "year": 2010,
+   "rank": 9,
+   "cleanId": 1440834873,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/54/ec/43/54ec4346-a9f2-b3ad-d1d1-beb52f9584a3/16UMGIM27157.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "keith urban|tonight i wanna cry",
+   "title": "Tonight I Wanna Cry",
+   "artist": "Keith Urban",
+   "year": 2004,
+   "rank": 10,
+   "cleanId": 1440847084,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e0/4c/3a/e04c3a39-7e9b-ac4f-a23f-3e4726cea620/16UMGIM27162.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jason aldean|you make it easy",
+   "title": "You Make It Easy",
+   "artist": "Jason Aldean",
+   "year": 2018,
+   "rank": 1,
+   "cleanId": 1683777413,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/cf/09/d0cf09f5-4189-d161-07af-53c0d1500230/4050538376074.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jason aldean|dirt road anthem",
+   "title": "Dirt Road Anthem",
+   "artist": "Jason Aldean",
+   "year": 2010,
+   "rank": 2,
+   "cleanId": 1686124262,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/14/2f/66142f8c-4275-4b6b-6522-040330e09e01/0884977769418.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jason aldean|burnin it down",
+   "title": "Burnin' It Down",
+   "artist": "Jason Aldean",
+   "year": 2014,
+   "rank": 3,
+   "cleanId": 1683552434,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/45/4d/d9454d9d-97cd-c616-241d-687c1c668a2b/0859381127734.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jason aldean|too fast",
+   "title": "Too Fast",
+   "artist": "Jason Aldean",
+   "year": 2014,
+   "rank": 4,
+   "cleanId": 1683552649,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/45/4d/d9454d9d-97cd-c616-241d-687c1c668a2b/0859381127734.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jason aldean|got what i got",
+   "title": "Got What I Got",
+   "artist": "Jason Aldean",
+   "year": 2019,
+   "rank": 5,
+   "cleanId": 1478461248,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/88/20/0788202a-9d75-3b8e-121a-e89c44d3df50/4050538532920.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jason aldean|the truth",
+   "title": "The Truth",
+   "artist": "Jason Aldean",
+   "year": 2009,
+   "rank": 6,
+   "cleanId": 1685920228,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/a1/8d/31a18d6b-e5c3-8bf4-b500-381ce1f6fe97/0884977082203.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jason aldean|tonight looks good on you",
+   "title": "Tonight Looks Good on You",
+   "artist": "Jason Aldean",
+   "year": 2014,
+   "rank": 7,
+   "cleanId": 1683552648,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/45/4d/d9454d9d-97cd-c616-241d-687c1c668a2b/0859381127734.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jason aldean|fly over states",
+   "title": "Fly Over States",
+   "artist": "Jason Aldean",
+   "year": 2010,
+   "rank": 8,
+   "cleanId": 1686124266,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/14/2f/66142f8c-4275-4b6b-6522-040330e09e01/0884977769418.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jason aldean|night train",
+   "title": "Night Train",
+   "artist": "Jason Aldean",
+   "year": 2012,
+   "rank": 9,
+   "cleanId": 1685914691,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/35/44/9b354494-0377-3b78-95e0-7ab957e2723d/0859381128281.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jason aldean|any ol barstool",
+   "title": "Any Ol' Barstool",
+   "artist": "Jason Aldean",
+   "year": 2016,
+   "rank": 10,
+   "cleanId": 1685914327,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/dd/bf/20ddbfa9-e24b-d2eb-4a13-b67cf413b1cc/0859381127703.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody johnson|take me back",
+   "title": "Take Me Back (Leave Me There)",
+   "artist": "Cody Johnson",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 1892466278,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/d9/7a/e2d97a87-6ec6-99de-9a1f-31b86ce6e7c4/093624826613.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "cody johnson|til you can t",
+   "title": "'Til You Can't",
+   "artist": "Cody Johnson",
+   "year": 2021,
+   "rank": 2,
+   "cleanId": 1582024384,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8b/4d/54/8b4d545d-feee-c91c-992c-cecd16677f6e/093624879381.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "cody johnson|the fall",
+   "title": "The Fall",
+   "artist": "Cody Johnson",
+   "year": 2024,
+   "rank": 3,
+   "cleanId": 1769025042,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/88/4b/98884ba1-fe25-76b8-211f-ebfb3d000fd5/093624838982.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "cody johnson|dirt cheap",
+   "title": "Dirt Cheap",
+   "artist": "Cody Johnson",
+   "year": 2023,
+   "rank": 4,
+   "cleanId": 1707355143,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/87/c9/5b/87c95bea-9d9a-81a7-b3be-003d59b966cb/093624850243.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "cody johnson|travelin soldier",
+   "title": "Travelin' Soldier",
+   "artist": "Cody Johnson",
+   "year": 2025,
+   "rank": 5,
+   "cleanId": 1844432099,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/47/f7/3d/47f73d9e-76b2-6a94-6d49-f9227d71ca04/054391231505.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "cody johnson and carrie underwood|i m gonna love you",
+   "title": "I'm Gonna Love You",
+   "artist": "Cody Johnson & Carrie Underwood",
+   "year": 2024,
+   "rank": 6,
+   "cleanId": 1769025576,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/88/4b/98884ba1-fe25-76b8-211f-ebfb3d000fd5/093624838982.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "cody johnson|on my way to you",
+   "title": "On My Way to You",
+   "artist": "Cody Johnson",
+   "year": 2018,
+   "rank": 7,
+   "cleanId": 1439113154,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c1/de/f7/c1def77c-ca13-34ca-6a83-cff6697a9e2a/093624903604.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "cody johnson|i want you",
+   "title": "I Want You",
+   "artist": "Cody Johnson",
+   "year": 2026,
+   "rank": 8,
+   "cleanId": 1892466281,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/d9/7a/e2d97a87-6ec6-99de-9a1f-31b86ce6e7c4/093624826613.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "cody johnson|nothin on you",
+   "title": "Nothin' on You",
+   "artist": "Cody Johnson",
+   "year": 2019,
+   "rank": 9,
+   "cleanId": 1439113027,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c1/de/f7/c1def77c-ca13-34ca-6a83-cff6697a9e2a/093624903604.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "cody johnson|the painter",
+   "title": "The Painter",
+   "artist": "Cody Johnson",
+   "year": 2023,
+   "rank": 10,
+   "cleanId": 1700536678,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1c/c3/b5/1cc3b5ad-a6ba-f329-7079-0afc19d244a2/054391412607.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "lainey wilson and john mayer|phone keys wallet",
+   "title": "Phone, Keys, Wallet",
+   "artist": "Lainey Wilson & John Mayer",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 6770622562,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/99/8b/43998b40-7612-a2d7-5a54-da5e7870af99/4099964268270.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "lainey wilson|watermelon moonshine",
+   "title": "Watermelon Moonshine",
+   "artist": "Lainey Wilson",
+   "year": 2022,
+   "rank": 2,
+   "cleanId": 1653428061,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/59/51/6d595157-517a-5875-c2ab-f7e08d1b1cb9/4050538875423.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "lainey wilson|heart like a truck",
+   "title": "Heart Like a Truck",
+   "artist": "Lainey Wilson",
+   "year": 2022,
+   "rank": 3,
+   "cleanId": 1653428066,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/59/51/6d595157-517a-5875-c2ab-f7e08d1b1cb9/4050538875423.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "lainey wilson|somewhere over laredo",
+   "title": "Somewhere Over Laredo",
+   "artist": "Lainey Wilson",
+   "year": 2025,
+   "rank": 4,
+   "cleanId": 1813913081,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/e3/10/d5e31058-a88d-d041-3c62-cdf238fe8027/4099964174717.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "lainey wilson|4x4xu",
+   "title": "4x4xU",
+   "artist": "Lainey Wilson",
+   "year": 2024,
+   "rank": 5,
+   "cleanId": 1813913074,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/e3/10/d5e31058-a88d-d041-3c62-cdf238fe8027/4099964174717.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "lainey wilson|things a man oughta know",
+   "title": "Things a Man Oughta Know",
+   "artist": "Lainey Wilson",
+   "year": 2021,
+   "rank": 6,
+   "cleanId": 1552674689,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/9c/bc/719cbc6d-f1c0-ba9b-fa34-c2d4d03ae164/4050538658095.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "lainey wilson|wildflowers and wild horses",
+   "title": "Wildflowers and Wild Horses",
+   "artist": "Lainey Wilson",
+   "year": 2022,
+   "rank": 7,
+   "cleanId": 1653428071,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/59/51/6d595157-517a-5875-c2ab-f7e08d1b1cb9/4050538875423.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "lainey wilson|can t sit still",
+   "title": "Can't Sit Still",
+   "artist": "Lainey Wilson",
+   "year": 2026,
+   "rank": 8,
+   "cleanId": 1878782917,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/b6/78/f8b6785b-a5bd-2bcd-2323-2f044f897749/4099964238297.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "lainey wilson|kinda love it",
+   "title": "Kinda Love It",
+   "artist": "Lainey Wilson",
+   "year": 2026,
+   "rank": 9,
+   "cleanId": 6817354757,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/f4/d8/02f4d8bd-ccb6-5d5c-2948-8abb1f31ce34/4099964296273.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "lainey wilson|hang tight honey",
+   "title": "Hang Tight Honey",
+   "artist": "Lainey Wilson",
+   "year": 2024,
+   "rank": 10,
+   "cleanId": 1744255561,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/b8/fa/36b8fa72-ad38-9527-bdb0-d9c2f6fb1184/4099964053951.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "kane brown|heaven",
+   "title": "Heaven",
+   "artist": "Kane Brown",
+   "year": 2016,
+   "rank": 1,
+   "cleanId": 1277176588,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/8d/1d/7b8d1d4c-7d39-1418-38d7-92ef77fa14bd/886446714837.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kane brown and katelyn brown|thank god",
+   "title": "Thank God",
+   "artist": "Kane Brown & Katelyn Brown",
+   "year": 2022,
+   "rank": 2,
+   "cleanId": 1634040984,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/66/fe/f7/66fef76a-da22-c202-11d1-1275c7227d93/886449637508.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kane brown|what ifs",
+   "title": "What Ifs",
+   "artist": "Kane Brown",
+   "year": 2016,
+   "rank": 3,
+   "cleanId": 1166242927,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/d6/d6/acd6d607-47d0-dc9d-d061-187282a2ccdd/886446152905.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kane brown|woman",
+   "title": "Woman",
+   "artist": "Kane Brown",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 1882549709,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/70/3f/8a703f6a-1878-6e9f-6cfa-b01a97eac71c/196874109106.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kane brown|backseat driver",
+   "title": "Backseat Driver",
+   "artist": "Kane Brown",
+   "year": 2024,
+   "rank": 5,
+   "cleanId": 1771767810,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/36/1a/ae361a2e-cea6-d47f-166b-1c015726846b/196872381474.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kane brown swae lee khalid|be like that",
+   "title": "Be Like That",
+   "artist": "Kane Brown, Swae Lee, Khalid",
+   "year": 2020,
+   "rank": 6,
+   "cleanId": 1521796588,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ea/69/01/ea6901a0-6c07-0626-b5da-36a314bb4c26/886448606352.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kane brown|found you",
+   "title": "Found You",
+   "artist": "Kane Brown",
+   "year": 2017,
+   "rank": 7,
+   "cleanId": 1277176587,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/8d/1d/7b8d1d4c-7d39-1418-38d7-92ef77fa14bd/886446714837.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kane brown|used to love you sober",
+   "title": "Used to Love You Sober",
+   "artist": "Kane Brown",
+   "year": 2015,
+   "rank": 8,
+   "cleanId": 1089613333,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/80/3c/9a/803c9a15-a646-013c-6e8a-1b8957ff1803/886445779141.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kane brown|there goes my everything",
+   "title": "There Goes My Everything",
+   "artist": "Kane Brown",
+   "year": 2016,
+   "rank": 9,
+   "cleanId": 1089613338,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/80/3c/9a/803c9a15-a646-013c-6e8a-1b8957ff1803/886445779141.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kane brown|worship you",
+   "title": "Worship You",
+   "artist": "Kane Brown",
+   "year": 2020,
+   "rank": 10,
+   "cleanId": 1526750587,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6c/be/65/6cbe65d6-9865-970d-7f7d-9dd2b8475014/886448668718.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "thomas rhett|unforgettable",
+   "title": "Unforgettable",
+   "artist": "Thomas Rhett",
+   "year": 2017,
+   "rank": 1,
+   "cleanId": 1440934570,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/8a/3e/ce8a3e7d-0bcc-e36d-a57d-4880b0b66983/17UM1IM16267.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "thomas rhett|die a happy man",
+   "title": "Die a Happy Man",
+   "artist": "Thomas Rhett",
+   "year": 2015,
+   "rank": 2,
+   "cleanId": 1440934778,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/f9/e4/b7f9e48c-8e9d-8385-6680-26b9f2319204/15UMDIM00481.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "thomas rhett|make me wanna",
+   "title": "Make Me Wanna",
+   "artist": "Thomas Rhett",
+   "year": 2013,
+   "rank": 3,
+   "cleanId": 1440935386,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/51/dc/53/51dc53da-2faf-3cdb-9c42-bca9729a803a/13UMDIM01260.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "thomas rhett|after all the bars are closed",
+   "title": "After All The Bars Are Closed",
+   "artist": "Thomas Rhett",
+   "year": 2024,
+   "rank": 4,
+   "cleanId": 1748830914,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e8/9b/b1/e89bb1f8-3eea-fb77-60a6-3d3b084da2eb/24BMR0005400.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "thomas rhett|somethin bout a woman",
+   "title": "Somethin' 'Bout A Woman",
+   "artist": "Thomas Rhett",
+   "year": 2024,
+   "rank": 5,
+   "cleanId": 1778591358,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/8e/50/4d8e50fc-d22c-eef3-d489-67a40627c6bb/24BMR0006043.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "thomas rhett|marry me",
+   "title": "Marry Me",
+   "artist": "Thomas Rhett",
+   "year": 2017,
+   "rank": 6,
+   "cleanId": 1440934907,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/8a/3e/ce8a3e7d-0bcc-e36d-a57d-4880b0b66983/17UM1IM16267.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "thomas rhett|t shirt",
+   "title": "T-Shirt",
+   "artist": "Thomas Rhett",
+   "year": 2015,
+   "rank": 7,
+   "cleanId": 1440935093,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/f9/e4/b7f9e48c-8e9d-8385-6680-26b9f2319204/15UMDIM00481.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "thomas rhett|life changes",
+   "title": "Life Changes",
+   "artist": "Thomas Rhett",
+   "year": 2017,
+   "rank": 8,
+   "cleanId": 1440934914,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/8a/3e/ce8a3e7d-0bcc-e36d-a57d-4880b0b66983/17UM1IM16267.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "thomas rhett|half of me",
+   "title": "Half Of Me",
+   "artist": "Thomas Rhett",
+   "year": 2022,
+   "rank": 9,
+   "cleanId": 1603477964,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cc/88/85/cc8885be-d0bb-94e3-d0e2-4d314210dee4/21BMR0003090.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "thomas rhett|look what god gave her",
+   "title": "Look What God Gave Her",
+   "artist": "Thomas Rhett",
+   "year": 2019,
+   "rank": 10,
+   "cleanId": 1454614696,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/9f/e8/60/9fe86045-4783-b378-9cde-3cc3f7be817f/19OPBMR00324.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brad paisley|she s everything",
+   "title": "She's Everything",
+   "artist": "Brad Paisley",
+   "year": 2005,
+   "rank": 1,
+   "cleanId": 283634997,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/1b/a1/5f1ba1ee-8bd9-1aa1-80bf-76377435252c/828766964226.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brad paisley|when i get where i m going",
+   "title": "When I Get Where I'm Going",
+   "artist": "Brad Paisley",
+   "year": 2005,
+   "rank": 2,
+   "cleanId": 283635006,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/1b/a1/5f1ba1ee-8bd9-1aa1-80bf-76377435252c/828766964226.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brad paisley|whiskey lullaby",
+   "title": "Whiskey Lullaby",
+   "artist": "Brad Paisley",
+   "year": 2003,
+   "rank": 3,
+   "cleanId": 294551229,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/87/8d/ce/878dce46-6f73-2fbd-6e87-8780e15b047c/828765060523.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brad paisley|we danced",
+   "title": "We Danced",
+   "artist": "Brad Paisley",
+   "year": 1999,
+   "rank": 4,
+   "cleanId": 286726838,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/b7/8b/49b78b63-52d3-ec7a-e85a-18338c1acf50/888880341167.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brad paisley|i m gonna miss her",
+   "title": "I'm Gonna Miss Her",
+   "artist": "Brad Paisley",
+   "year": 2001,
+   "rank": 5,
+   "cleanId": 254340867,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a5/3f/76/a53f76a0-1b82-4a86-575b-de844265adf5/078636700823.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brad paisley|mud on the tires",
+   "title": "Mud On the Tires",
+   "artist": "Brad Paisley",
+   "year": 2003,
+   "rank": 6,
+   "cleanId": 294551171,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/87/8d/ce/878dce46-6f73-2fbd-6e87-8780e15b047c/828765060523.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brad paisley|then",
+   "title": "Then",
+   "artist": "Brad Paisley",
+   "year": 2009,
+   "rank": 7,
+   "cleanId": 320601256,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4b/b2/f6/4bb2f6e8-7ecc-a8b5-dfb6-e74db2dd6640/884977038545.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brad paisley|he didn t have to be",
+   "title": "He Didn't Have to Be",
+   "artist": "Brad Paisley",
+   "year": 1999,
+   "rank": 8,
+   "cleanId": 286726820,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/b7/8b/49b78b63-52d3-ec7a-e85a-18338c1acf50/888880341167.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brad paisley|i m still a guy",
+   "title": "I'm Still a Guy",
+   "artist": "Brad Paisley",
+   "year": 2007,
+   "rank": 9,
+   "cleanId": 279344519,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/16/b3/3016b364-9210-c6ba-46c7-8e0eb1cd22c3/886973049020.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brad paisley|remind me",
+   "title": "Remind Me (Duet with Carrie Underwood)",
+   "artist": "Brad Paisley",
+   "year": 2011,
+   "rank": 10,
+   "cleanId": 456559460,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d5/97/78/d5977849-fff8-200e-1f59-8a6b4d91d7fc/884977849707.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "reba mcentire|fancy",
+   "title": "Fancy",
+   "artist": "Reba McEntire",
+   "year": 1990,
+   "rank": 1,
+   "cleanId": 1845249342,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/00/c8/ca00c801-2e81-69b0-d219-7cdbd227a0ab/25UMGIM64334.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "reba mcentire|i m a survivor",
+   "title": "I'm A Survivor",
+   "artist": "Reba McEntire",
+   "year": 2001,
+   "rank": 2,
+   "cleanId": 6821193603,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/66/05/5c660566-f0d5-3dd8-9a41-c619a826f7c8/26UM1IM32065.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "reba mcentire and linda davis|does he love you",
+   "title": "Does He Love You",
+   "artist": "Reba McEntire & Linda Davis",
+   "year": 1993,
+   "rank": 3,
+   "cleanId": 1440760883,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/aa/b0/d9/aab0d942-092f-c3db-a73e-3bdd60b2b6b0/00008811090623.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "reba mcentire|is there life out there",
+   "title": "Is There Life Out There",
+   "artist": "Reba McEntire",
+   "year": 1991,
+   "rank": 4,
+   "cleanId": 1440762082,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/e7/49/21e749d4-e792-843d-8205-a463f038bb54/00008811040024.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "reba mcentire|the night the lights went out in georgia",
+   "title": "The Night The Lights Went Out In Georgia",
+   "artist": "Reba McEntire",
+   "year": 1991,
+   "rank": 5,
+   "cleanId": 1845249207,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/00/c8/ca00c801-2e81-69b0-d219-7cdbd227a0ab/25UMGIM64334.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "reba mcentire|consider me gone",
+   "title": "Consider Me Gone",
+   "artist": "Reba McEntire",
+   "year": 2009,
+   "rank": 6,
+   "cleanId": 1610584568,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/02/2f/77022faa-0228-bf74-8835-1803d81c57a0/10UMDIM00254.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "reba mcentire|how was i to know",
+   "title": "How Was I to Know",
+   "artist": "Reba McEntire",
+   "year": 1996,
+   "rank": 7,
+   "cleanId": 1444067943,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/76/9d/83769d51-7229-1521-a2fa-47ba70248a7c/00008811150020.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "reba mcentire|if you see him if you see her",
+   "title": "If You See Him, If You See Her",
+   "artist": "Reba McEntire",
+   "year": 1998,
+   "rank": 8,
+   "cleanId": 1454638592,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/d1/30/7cd13021-5cf5-8814-b9db-4f65ad3ef973/06UMGIM16257.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "reba mcentire|the heart won t lie",
+   "title": "The Heart Won't Lie",
+   "artist": "Reba McEntire",
+   "year": 1992,
+   "rank": 9,
+   "cleanId": 1444193072,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d5/47/30/d54730cd-c8a8-b9b8-2bf0-329504a21152/00602517372306.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "reba mcentire|he gets that from me",
+   "title": "He Gets That from Me",
+   "artist": "Reba McEntire",
+   "year": 2003,
+   "rank": 10,
+   "cleanId": 1444002559,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f4/2f/39/f42f3924-dc3a-f9a7-9095-6187cdafa7b0/00008817038520.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "willie nelson|always on my mind",
+   "title": "Always On My Mind",
+   "artist": "Willie Nelson",
+   "year": 1982,
+   "rank": 1,
+   "cleanId": 170923206,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/28/02/082802b9-2d7a-9f29-3413-37eccfb98714/dj.prbhjyep.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "willie nelson|whiskey river",
+   "title": "Whiskey River",
+   "artist": "Willie Nelson",
+   "year": 1973,
+   "rank": 2,
+   "cleanId": 885161085,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/d6/dd/68d6dd01-4bc4-06bf-d39d-0e65b462cfcf/081227986384.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "willie nelson|angel flying too close to the ground",
+   "title": "Angel Flying Too Close to the Ground",
+   "artist": "Willie Nelson",
+   "year": 1980,
+   "rank": 3,
+   "cleanId": 422030218,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/83/7e/92/mzi.updmxtpb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "willie nelson|on the road again",
+   "title": "On the Road Again",
+   "artist": "Willie Nelson",
+   "year": 1980,
+   "rank": 4,
+   "cleanId": 418556999,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/44/b3/c5/44b3c54d-8029-1501-1c57-286e5adab62b/dj.povazpld.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "willie nelson|seven spanish angels",
+   "title": "Seven Spanish Angels",
+   "artist": "Willie Nelson",
+   "year": 1984,
+   "rank": 5,
+   "cleanId": 170916069,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/db/83/b0/db83b0ad-e13d-5885-f004-48852aed9b40/dj.ypaovnse.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "willie nelson|blue eyes crying in the rain",
+   "title": "Blue Eyes Crying In the Rain",
+   "artist": "Willie Nelson",
+   "year": 1975,
+   "rank": 6,
+   "cleanId": 404365979,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/88/d6/67/88d6676e-67ce-f907-d4fe-eae50f805f63/074643348225.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "willie nelson|city of new orleans",
+   "title": "City of New Orleans",
+   "artist": "Willie Nelson",
+   "year": 1984,
+   "rank": 7,
+   "cleanId": 202389072,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/77/85/1d/77851d90-1021-7a47-08e5-c31e8d29229d/dj.rewkpilc.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "willie nelson|just breathe",
+   "title": "Just Breathe",
+   "artist": "Willie Nelson",
+   "year": 2012,
+   "rank": 8,
+   "cleanId": 515411759,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/93/1e/09/931e0913-8f8b-4ff1-9299-4a89cd2475d1/dj.lviydxxp.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "willie nelson|mamas don t let your babies grow up to be cowboys",
+   "title": "Mamas Don't Let Your Babies Grow Up to Be Cowboys",
+   "artist": "Willie Nelson",
+   "year": 1978,
+   "rank": 9,
+   "cleanId": 422030213,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/83/7e/92/mzi.updmxtpb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "willie nelson|georgia on my mind",
+   "title": "Georgia On My Mind",
+   "artist": "Willie Nelson",
+   "year": 1978,
+   "rank": 10,
+   "cleanId": 170922926,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/28/02/082802b9-2d7a-9f29-3413-37eccfb98714/dj.prbhjyep.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dierks bentley|what was i thinkin",
+   "title": "What Was I Thinkin'",
+   "artist": "Dierks Bentley",
+   "year": 2003,
+   "rank": 1,
+   "cleanId": 1440843561,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bf/a1/01/bfa10173-dac2-663a-7a05-be191e294c7e/16UMGIM21568.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dierks bentley|drunk on a plane",
+   "title": "Drunk On a Plane",
+   "artist": "Dierks Bentley",
+   "year": 2014,
+   "rank": 2,
+   "cleanId": 1440859596,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/3d/95/5d3d95bb-e011-2e0c-34f2-5351d5249d43/14UMGIM00156.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dierks bentley|living",
+   "title": "Living",
+   "artist": "Dierks Bentley",
+   "year": 2018,
+   "rank": 3,
+   "cleanId": 1369348557,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/41/90/df/4190df1e-2bf5-c266-2dd9-635ada9c92f3/18UMGIM17014.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dierks bentley|i hold on",
+   "title": "I Hold On",
+   "artist": "Dierks Bentley",
+   "year": 2013,
+   "rank": 4,
+   "cleanId": 1440859590,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/3d/95/5d3d95bb-e011-2e0c-34f2-5351d5249d43/14UMGIM00156.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dierks bentley|5 1 5 0",
+   "title": "5-1-5-0",
+   "artist": "Dierks Bentley",
+   "year": 2012,
+   "rank": 5,
+   "cleanId": 1440832575,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9e/d7/b1/9ed7b186-11e7-f9d8-64f9-87ea16f22703/16UMGIM21561.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dierks bentley|come a little closer",
+   "title": "Come a Little Closer",
+   "artist": "Dierks Bentley",
+   "year": 2005,
+   "rank": 6,
+   "cleanId": 1440847421,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/6b/4f/416b4f0d-919a-478b-7ff1-10382706d37c/16UMGIM21567.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dierks bentley|somewhere on a beach",
+   "title": "Somewhere on a Beach",
+   "artist": "Dierks Bentley",
+   "year": 2016,
+   "rank": 7,
+   "cleanId": 1440848953,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b5/02/fb/b502fb9f-5ca4-e72e-166a-25963b8b40ee/16UMGIM13662.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dierks bentley|free and easy",
+   "title": "Free and Easy (Down the Road I Go)",
+   "artist": "Dierks Bentley",
+   "year": 2006,
+   "rank": 8,
+   "cleanId": 1440839400,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5d/1c/b0/5d1cb007-b6be-7ada-aa6d-9b73d68e614d/16UMGIM21566.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dierks bentley|burning man",
+   "title": "Burning Man",
+   "artist": "Dierks Bentley",
+   "year": 2018,
+   "rank": 9,
+   "cleanId": 1369348544,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/41/90/df/4190df1e-2bf5-c266-2dd9-635ada9c92f3/18UMGIM17014.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dierks bentley|black",
+   "title": "Black",
+   "artist": "Dierks Bentley",
+   "year": 2016,
+   "rank": 10,
+   "cleanId": 1440848783,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b5/02/fb/b502fb9f-5ca4-e72e-166a-25963b8b40ee/16UMGIM13662.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eric church|springsteen",
+   "title": "Springsteen",
+   "artist": "Eric Church",
+   "year": 2011,
+   "rank": 1,
+   "cleanId": 721280659,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/69/76/77/69767702-ea47-d219-a13c-0f51e19e6ccb/13UABIM59426.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eric church|record year",
+   "title": "Record Year",
+   "artist": "Eric Church",
+   "year": 2015,
+   "rank": 2,
+   "cleanId": 1440853970,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fb/87/f0/fb87f074-d64b-0893-aaee-b9a51cf58c2e/15UMGIM66891.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eric church|like a wrecking ball",
+   "title": "Like a Wrecking Ball",
+   "artist": "Eric Church",
+   "year": 2014,
+   "rank": 3,
+   "cleanId": 1440831407,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/06/c4/25/06c425c9-1476-e6ae-1039-b294bfee4016/13UAEIM12643.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eric church|drink in my hand",
+   "title": "Drink In My Hand",
+   "artist": "Eric Church",
+   "year": 2011,
+   "rank": 4,
+   "cleanId": 721280425,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/69/76/77/69767702-ea47-d219-a13c-0f51e19e6ccb/13UABIM59426.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eric church|talladega",
+   "title": "Talladega",
+   "artist": "Eric Church",
+   "year": 2014,
+   "rank": 5,
+   "cleanId": 1440831280,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/06/c4/25/06c425c9-1476-e6ae-1039-b294bfee4016/13UAEIM12643.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eric church|hell of a view",
+   "title": "Hell of a View",
+   "artist": "Eric Church",
+   "year": 2020,
+   "rank": 6,
+   "cleanId": 1547678056,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d1/36/fd/d136fdbe-8028-ae1f-b35c-d437fef4c1c5/20UMGIM88341.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eric church|smoke a little smoke",
+   "title": "Smoke a Little Smoke",
+   "artist": "Eric Church",
+   "year": 2009,
+   "rank": 7,
+   "cleanId": 721253798,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7a/34/73/7a3473ea-162c-7057-b3be-fe5f7de44fd0/13UABIM52028.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eric church|round here buzz",
+   "title": "Round Here Buzz",
+   "artist": "Eric Church",
+   "year": 2015,
+   "rank": 8,
+   "cleanId": 1440853737,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fb/87/f0/fb87f074-d64b-0893-aaee-b9a51cf58c2e/15UMGIM66891.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eric church|like jesus does",
+   "title": "Like Jesus Does",
+   "artist": "Eric Church",
+   "year": 2011,
+   "rank": 9,
+   "cleanId": 721280438,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/69/76/77/69767702-ea47-d219-a13c-0f51e19e6ccb/13UABIM59426.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eric church|give me back my hometown",
+   "title": "Give Me Back My Hometown",
+   "artist": "Eric Church",
+   "year": 2014,
+   "rank": 10,
+   "cleanId": 1440831704,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/06/c4/25/06c425c9-1476-e6ae-1039-b294bfee4016/13UAEIM12643.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "old dominion|written in the sand",
+   "title": "Written in the Sand",
+   "artist": "Old Dominion",
+   "year": 2017,
+   "rank": 1,
+   "cleanId": 1254065850,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2e/db/ce/2edbcecd-fa4c-78ef-48ff-99540af2fbc9/886446598987.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "old dominion|snapback",
+   "title": "Snapback",
+   "artist": "Old Dominion",
+   "year": 2015,
+   "rank": 2,
+   "cleanId": 1042414495,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8f/79/80/8f798079-d078-0fc6-d413-9e4b5ba2a505/mzm.fiylllkb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "old dominion|hotel key",
+   "title": "Hotel Key",
+   "artist": "Old Dominion",
+   "year": 2017,
+   "rank": 3,
+   "cleanId": 1254065785,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2e/db/ce/2edbcecd-fa4c-78ef-48ff-99540af2fbc9/886446598987.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "old dominion|memory lane",
+   "title": "Memory Lane",
+   "artist": "Old Dominion",
+   "year": 2023,
+   "rank": 4,
+   "cleanId": 1659923638,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/65/9a/fe/659afe9d-1d84-e9a6-f2d5-8194c573a1fb/196589742223.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "old dominion|break up with him",
+   "title": "Break Up with Him",
+   "artist": "Old Dominion",
+   "year": 2014,
+   "rank": 5,
+   "cleanId": 1042414835,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8f/79/80/8f798079-d078-0fc6-d413-9e4b5ba2a505/mzm.fiylllkb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "old dominion|i was on a boat that day",
+   "title": "I Was On a Boat That Day",
+   "artist": "Old Dominion",
+   "year": 2021,
+   "rank": 6,
+   "cleanId": 1567411748,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/e0/53/eae053d9-312f-171d-1b55-668caeb3c78a/886449283569.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "old dominion|song for another time",
+   "title": "Song for Another Time",
+   "artist": "Old Dominion",
+   "year": 2015,
+   "rank": 7,
+   "cleanId": 1042414836,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8f/79/80/8f798079-d078-0fc6-d413-9e4b5ba2a505/mzm.fiylllkb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "old dominion|no hard feelings",
+   "title": "No Hard Feelings",
+   "artist": "Old Dominion",
+   "year": 2021,
+   "rank": 8,
+   "cleanId": 1580902711,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ea/a4/db/eaa4dbe1-cb80-3214-7db8-096d419e502c/886449461394.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "old dominion|no such thing as a broken heart",
+   "title": "No Such Thing as a Broken Heart",
+   "artist": "Old Dominion",
+   "year": 2017,
+   "rank": 9,
+   "cleanId": 1254065711,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2e/db/ce/2edbcecd-fa4c-78ef-48ff-99540af2fbc9/886446598987.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "old dominion|making good time",
+   "title": "Making Good Time",
+   "artist": "Old Dominion",
+   "year": 2025,
+   "rank": 10,
+   "cleanId": 1792083694,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/4c/69/ee4c695f-d80d-92e1-7ed4-26288f7a5de7/196872824100.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dan shay|tequila",
+   "title": "Tequila",
+   "artist": "Dan + Shay",
+   "year": 2018,
+   "rank": 1,
+   "cleanId": 1383989661,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/43/35/634335a8-2026-9587-bd78-8e29e3f80416/093624906407.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dan shay|speechless",
+   "title": "Speechless",
+   "artist": "Dan + Shay",
+   "year": 2018,
+   "rank": 2,
+   "cleanId": 1383989668,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/43/35/634335a8-2026-9587-bd78-8e29e3f80416/093624906407.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dan shay and justin bieber|10 000 hours",
+   "title": "10,000 Hours",
+   "artist": "Dan + Shay & Justin Bieber",
+   "year": 2019,
+   "rank": 3,
+   "cleanId": 1481229017,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c4/80/7f/c4807f05-fa68-a123-c077-bf8041ff3319/054391940995.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dan shay|from the ground up",
+   "title": "From the Ground Up",
+   "artist": "Dan + Shay",
+   "year": 2016,
+   "rank": 4,
+   "cleanId": 1107743951,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/07/22/76/0722768d-ac08-7048-100b-3379120cae8a/dj.jpnmnats.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dan shay|all to myself",
+   "title": "All To Myself",
+   "artist": "Dan + Shay",
+   "year": 2018,
+   "rank": 5,
+   "cleanId": 1383989665,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/43/35/634335a8-2026-9587-bd78-8e29e3f80416/093624906407.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dan shay|say so",
+   "title": "Say So",
+   "artist": "Dan + Shay",
+   "year": 2026,
+   "rank": 6,
+   "cleanId": 6767698953,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/25/57/c825573e-48c8-262e-c801-108f848b0771/093624820291.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dan shay|marry you again",
+   "title": "Marry You Again",
+   "artist": "Dan + Shay",
+   "year": 2026,
+   "rank": 7,
+   "cleanId": 6767698956,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/25/57/c825573e-48c8-262e-c801-108f848b0771/093624820291.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dan shay|bigger houses",
+   "title": "Bigger Houses",
+   "artist": "Dan + Shay",
+   "year": 2023,
+   "rank": 8,
+   "cleanId": 1695555159,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a5/8a/a7/a58aa7ac-53a7-e014-2563-36132e2b9ba9/093624852001.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dan shay|nothin like you",
+   "title": "Nothin' Like You",
+   "artist": "Dan + Shay",
+   "year": 2014,
+   "rank": 9,
+   "cleanId": 826910244,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4a/c5/55/4ac555de-b5ad-ccad-24ef-d08269aff553/093624938453.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "dan shay|how not to",
+   "title": "How Not To",
+   "artist": "Dan + Shay",
+   "year": 2016,
+   "rank": 10,
+   "cleanId": 1107743953,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/07/22/76/0722768d-ac08-7048-100b-3379120cae8a/dj.jpnmnats.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kelsea ballerini|peter pan",
+   "title": "Peter Pan",
+   "artist": "Kelsea Ballerini",
+   "year": 2015,
+   "rank": 1,
+   "cleanId": 981555056,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/81/4d/78/814d7828-bbfb-8fa8-b4ec-562326fe255a/dj.tghxzers.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kelsea ballerini|penthouse",
+   "title": "Penthouse",
+   "artist": "Kelsea Ballerini",
+   "year": 2023,
+   "rank": 2,
+   "cleanId": 1668472025,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9b/62/67/9b626725-dc44-d870-2d22-c2e471ee8182/197187960323.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kelsea ballerini|yeah boy",
+   "title": "Yeah Boy",
+   "artist": "Kelsea Ballerini",
+   "year": 2014,
+   "rank": 3,
+   "cleanId": 981555497,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/81/4d/78/814d7828-bbfb-8fa8-b4ec-562326fe255a/dj.tghxzers.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kelsea ballerini|if you go down",
+   "title": "IF YOU GO DOWN (I'M GOIN' DOWN TOO)",
+   "artist": "Kelsea Ballerini",
+   "year": 2022,
+   "rank": 4,
+   "cleanId": 1633771867,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/4f/2c/32/4f2c32bf-5a25-5c23-acf3-c92b7a388b0d/196925407298.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kelsea ballerini|love me like you mean it",
+   "title": "Love Me Like You Mean It",
+   "artist": "Kelsea Ballerini",
+   "year": 2014,
+   "rank": 5,
+   "cleanId": 981555057,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/81/4d/78/814d7828-bbfb-8fa8-b4ec-562326fe255a/dj.tghxzers.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kelsea ballerini|we broke up",
+   "title": "We Broke Up",
+   "artist": "Kelsea Ballerini",
+   "year": 2024,
+   "rank": 6,
+   "cleanId": 1797654673,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/3e/cf/063ecffc-3b86-26bb-3560-64d1e95d4fc2/199066947043.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kelsea ballerini|dibs",
+   "title": "Dibs",
+   "artist": "Kelsea Ballerini",
+   "year": 2014,
+   "rank": 7,
+   "cleanId": 981555495,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/81/4d/78/814d7828-bbfb-8fa8-b4ec-562326fe255a/dj.tghxzers.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kelsea ballerini|half of my hometown",
+   "title": "half of my hometown",
+   "artist": "Kelsea Ballerini",
+   "year": 2020,
+   "rank": 8,
+   "cleanId": 1492761827,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/11/b7/8d11b757-acc0-8dc2-abea-06e461454178/194491778545.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kelsea ballerini|hole in the bottle",
+   "title": "hole in the bottle",
+   "artist": "Kelsea Ballerini",
+   "year": 2020,
+   "rank": 9,
+   "cleanId": 1492761823,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/11/b7/8d11b757-acc0-8dc2-abea-06e461454178/194491778545.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kelsea ballerini|to the men that love women after heartbreak",
+   "title": "To The Men That Love Women After Heartbreak",
+   "artist": "Kelsea Ballerini",
+   "year": 2025,
+   "rank": 10,
+   "cleanId": 1797655124,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/3e/cf/063ecffc-3b86-26bb-3560-64d1e95d4fc2/199066947043.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris young|i m comin over",
+   "title": "I'm Comin' Over",
+   "artist": "Chris Young",
+   "year": 2015,
+   "rank": 1,
+   "cleanId": 1049067273,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/83/7f/4a/837f4a21-2ff9-8016-be59-b2cfe90b5da0/mzm.nwcddsiz.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris young|gettin you home",
+   "title": "Gettin' You Home",
+   "artist": "Chris Young",
+   "year": 2009,
+   "rank": 2,
+   "cleanId": 327388309,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/4a/c7/43/4ac74335-e7b4-3cc2-76da-bab79a6348f4/dj.ftlvrtzm.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris young|tomorrow",
+   "title": "Tomorrow",
+   "artist": "Chris Young",
+   "year": 2011,
+   "rank": 3,
+   "cleanId": 444285001,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/71/40/ae/7140aeae-e7ea-cc46-8e7c-d0bbfc543fb4/mzi.uxdvbvsf.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris young|you",
+   "title": "You",
+   "artist": "Chris Young",
+   "year": 2011,
+   "rank": 4,
+   "cleanId": 444285047,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/71/40/ae/7140aeae-e7ea-cc46-8e7c-d0bbfc543fb4/mzi.uxdvbvsf.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris young|who i am with you",
+   "title": "Who I Am With You",
+   "artist": "Chris Young",
+   "year": 2013,
+   "rank": 5,
+   "cleanId": 672733915,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d7/f3/77/d7f377e4-1e1c-275b-5da6-53d2225214ad/886444092715.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris young|the man i want to be",
+   "title": "The Man I Want to Be",
+   "artist": "Chris Young",
+   "year": 2009,
+   "rank": 6,
+   "cleanId": 327388351,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/4a/c7/43/4ac74335-e7b4-3cc2-76da-bab79a6348f4/dj.ftlvrtzm.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris young|lonely eyes",
+   "title": "Lonely Eyes",
+   "artist": "Chris Young",
+   "year": 2013,
+   "rank": 7,
+   "cleanId": 672733764,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d7/f3/77/d7f377e4-1e1c-275b-5da6-53d2225214ad/886444092715.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris young|voices",
+   "title": "Voices",
+   "artist": "Chris Young",
+   "year": 2008,
+   "rank": 8,
+   "cleanId": 327388307,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/4a/c7/43/4ac74335-e7b4-3cc2-76da-bab79a6348f4/dj.ftlvrtzm.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris young|drowning",
+   "title": "Drowning",
+   "artist": "Chris Young",
+   "year": 2019,
+   "rank": 9,
+   "cleanId": 1466994808,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/a0/bc/d0a0bc53-ce94-43d8-85c2-8ebc8c42b61a/886447789254.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris young|i didn t come here to leave",
+   "title": "I Didn't Come Here To Leave",
+   "artist": "Chris Young",
+   "year": 2025,
+   "rank": 10,
+   "cleanId": 1822009055,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/61/17/10611796-84b5-e840-6b49-f0e0a078d9f2/199350844225.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sam hunt|take your time",
+   "title": "Take Your Time",
+   "artist": "Sam Hunt",
+   "year": 2014,
+   "rank": 1,
+   "cleanId": 1440858328,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/00/a2/1700a23b-2441-5133-7cb8-344168f45cd4/14UMGIM42058.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sam hunt|break up in a small town",
+   "title": "Break Up in a Small Town",
+   "artist": "Sam Hunt",
+   "year": 2014,
+   "rank": 2,
+   "cleanId": 1440858338,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/00/a2/1700a23b-2441-5133-7cb8-344168f45cd4/14UMGIM42058.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sam hunt|body like a back road",
+   "title": "Body Like a Back Road",
+   "artist": "Sam Hunt",
+   "year": 2017,
+   "rank": 3,
+   "cleanId": 1497391092,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/08/19/a00819ba-c2a2-f071-d3e1-c50ed53b4a21/20UMGIM07555.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sam hunt|make you miss me",
+   "title": "Make You Miss Me",
+   "artist": "Sam Hunt",
+   "year": 2014,
+   "rank": 4,
+   "cleanId": 1440858435,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/00/a2/1700a23b-2441-5133-7cb8-344168f45cd4/14UMGIM42058.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sam hunt|house party",
+   "title": "House Party",
+   "artist": "Sam Hunt",
+   "year": 2014,
+   "rank": 5,
+   "cleanId": 1440858336,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/00/a2/1700a23b-2441-5133-7cb8-344168f45cd4/14UMGIM42058.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sam hunt|outskirts",
+   "title": "Outskirts",
+   "artist": "Sam Hunt",
+   "year": 2023,
+   "rank": 6,
+   "cleanId": 1675568329,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e9/5e/c1/e95ec1e8-f137-7976-16ed-4b366275319a/23UMGIM21546.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sam hunt|hard to forget",
+   "title": "Hard to Forget",
+   "artist": "Sam Hunt",
+   "year": 2020,
+   "rank": 7,
+   "cleanId": 1497390725,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/08/19/a00819ba-c2a2-f071-d3e1-c50ed53b4a21/20UMGIM07555.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sam hunt|leave the night on",
+   "title": "Leave the Night On",
+   "artist": "Sam Hunt",
+   "year": 2014,
+   "rank": 8,
+   "cleanId": 1440858333,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/00/a2/1700a23b-2441-5133-7cb8-344168f45cd4/14UMGIM42058.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sam hunt|breaking up was easy in the 90 s",
+   "title": "Breaking Up Was Easy in the 90's",
+   "artist": "Sam Hunt",
+   "year": 2020,
+   "rank": 9,
+   "cleanId": 1497391111,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/08/19/a00819ba-c2a2-f071-d3e1-c50ed53b4a21/20UMGIM07555.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sam hunt|kinfolks",
+   "title": "Kinfolks",
+   "artist": "Sam Hunt",
+   "year": 2019,
+   "rank": 10,
+   "cleanId": 1497391086,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/08/19/a00819ba-c2a2-f071-d3e1-c50ed53b4a21/20UMGIM07555.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "rascal flatts|bless the broken road",
+   "title": "Bless the Broken Road",
+   "artist": "Rascal Flatts",
+   "year": 2004,
+   "rank": 1,
+   "cleanId": 1440873189,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/e0/12/63e0128b-8e87-af19-cfe4-9d1a4864c2b7/06UMGIM24656.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "rascal flatts|what hurts the most",
+   "title": "What Hurts the Most",
+   "artist": "Rascal Flatts",
+   "year": 2006,
+   "rank": 2,
+   "cleanId": 1440895946,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/2a/4b/662a4b5e-bc4f-94bf-bc9b-e10fbfedbabc/06PNDIM00970.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "rascal flatts|my wish",
+   "title": "My Wish",
+   "artist": "Rascal Flatts",
+   "year": 2006,
+   "rank": 3,
+   "cleanId": 1440895958,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/2a/4b/662a4b5e-bc4f-94bf-bc9b-e10fbfedbabc/06PNDIM00970.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "rascal flatts|life is a highway",
+   "title": "Life Is a Highway",
+   "artist": "Rascal Flatts",
+   "year": 2006,
+   "rank": 4,
+   "cleanId": 1440667482,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/eb/f3/00/ebf300a7-22ab-9f61-29ef-9c86acc889b3/16DMGIM07683.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "rascal flatts|i like the sound of that",
+   "title": "I Like the Sound of That",
+   "artist": "Rascal Flatts",
+   "year": 2014,
+   "rank": 5,
+   "cleanId": 1440934317,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/68/48/2168488c-a07d-ee67-32f1-a9538951f455/14UMDIM02438.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "rascal flatts|these days",
+   "title": "These Days",
+   "artist": "Rascal Flatts",
+   "year": 2002,
+   "rank": 6,
+   "cleanId": 1440871219,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5d/5a/e25d5ad5-55f5-196b-eca6-82e9bc2dc93f/06UMGIM16298.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "rascal flatts|i won t let go",
+   "title": "I Won't Let Go",
+   "artist": "Rascal Flatts",
+   "year": 2010,
+   "rank": 7,
+   "cleanId": 1440934928,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/fd/b6/5afdb6f9-e50b-f282-3adf-da868abcf66e/10UMDIM00484.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "rascal flatts|i m movin on",
+   "title": "I'm Movin' On",
+   "artist": "Rascal Flatts",
+   "year": 2000,
+   "rank": 8,
+   "cleanId": 1440914510,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/65/7d/eb/657deb78-a854-69bf-6afc-bf09234d6a91/06UMGIM04323.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "rascal flatts|here comes goodbye",
+   "title": "Here Comes Goodbye",
+   "artist": "Rascal Flatts",
+   "year": 2009,
+   "rank": 9,
+   "cleanId": 1440618091,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/a5/e9/42a5e91f-863c-7c66-ba34-3ec9faa461cc/09BVMIM00203.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "rascal flatts|fast cars and freedom",
+   "title": "Fast Cars and Freedom",
+   "artist": "Rascal Flatts",
+   "year": 2004,
+   "rank": 10,
+   "cleanId": 1440873505,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/e0/12/63e0128b-8e87-af19-cfe4-9d1a4864c2b7/06UMGIM24656.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "trace adkins|honky tonk badonkadonk",
+   "title": "Honky Tonk Badonkadonk",
+   "artist": "Trace Adkins",
+   "year": 2005,
+   "rank": 1,
+   "cleanId": 714879918,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/85/3d/f3853dce-f2f4-3c83-b68a-3e2ce6c4c4e0/13UADIM60737.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "trace adkins|you re gonna miss this",
+   "title": "You're Gonna Miss This",
+   "artist": "Trace Adkins",
+   "year": 2008,
+   "rank": 2,
+   "cleanId": 1497353331,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/32/d1/0a/32d10a72-2a54-276b-7d54-5e85dd6fa894/20UMGIM05907.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "trace adkins|every light in the house",
+   "title": "Every Light In the House",
+   "artist": "Trace Adkins",
+   "year": 1996,
+   "rank": 3,
+   "cleanId": 721280067,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/4e/29/3d/4e293d36-d14f-66ba-fd4d-c918b136a9ec/13UABIM74044.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "trace adkins|ladies love country boys",
+   "title": "Ladies Love Country Boys",
+   "artist": "Trace Adkins",
+   "year": 2006,
+   "rank": 4,
+   "cleanId": 1497353328,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/32/d1/0a/32d10a72-2a54-276b-7d54-5e85dd6fa894/20UMGIM05907.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "trace adkins|just fishin",
+   "title": "Just Fishin'",
+   "artist": "Trace Adkins",
+   "year": 2011,
+   "rank": 5,
+   "cleanId": 1446744196,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c6/24/82/c624823d-af70-b708-019b-b5f9247c409e/11UMGIM14047.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "trace adkins|no thinkin thing",
+   "title": "(This Ain't) No Thinkin' Thing",
+   "artist": "Trace Adkins",
+   "year": 1996,
+   "rank": 6,
+   "cleanId": 724575665,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/70/d2/1a70d237-a1c6-dcbf-2455-ca17f0f8e103/13UABIM51320.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "trace adkins|hot mama",
+   "title": "Hot Mama",
+   "artist": "Trace Adkins",
+   "year": 2003,
+   "rank": 7,
+   "cleanId": 1497353339,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/32/d1/0a/32d10a72-2a54-276b-7d54-5e85dd6fa894/20UMGIM05907.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "trace adkins|songs about me",
+   "title": "Songs About Me",
+   "artist": "Trace Adkins",
+   "year": 2004,
+   "rank": 8,
+   "cleanId": 714879852,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/85/3d/f3853dce-f2f4-3c83-b68a-3e2ce6c4c4e0/13UADIM60737.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "trace adkins|swing",
+   "title": "Swing",
+   "artist": "Trace Adkins",
+   "year": 2006,
+   "rank": 9,
+   "cleanId": 714536693,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/89/e2/7889e25c-f017-9103-904d-4014db7336e6/13UADIM60749.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "trace adkins|chrome",
+   "title": "Chrome",
+   "artist": "Trace Adkins",
+   "year": 2002,
+   "rank": 10,
+   "cleanId": 724549322,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/1b/61/441b6126-a8b9-af9f-24b0-0059d88ffbf8/13UABIM31753.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "faith hill|this kiss",
+   "title": "This Kiss",
+   "artist": "Faith Hill",
+   "year": 1998,
+   "rank": 1,
+   "cleanId": 264603933,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/f3/f3/27f3f31a-84ae-bee3-1f17-6ef76ecf0cdb/mzi.ftpuanax.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "faith hill and tim mcgraw|it s your love",
+   "title": "It's Your Love",
+   "artist": "Faith Hill & Tim McGraw",
+   "year": 1997,
+   "rank": 2,
+   "cleanId": 68872592,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/27/f0/fc27f091-9080-92d4-3e9d-293a7e6c5d09/715187788626.png/100x100bb.jpg"
+  },
+  {
+   "id": "faith hill|breathe",
+   "title": "Breathe",
+   "artist": "Faith Hill",
+   "year": 1999,
+   "rank": 3,
+   "cleanId": 264603410,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/f3/f3/27f3f31a-84ae-bee3-1f17-6ef76ecf0cdb/mzi.ftpuanax.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "faith hill|it matters to me",
+   "title": "It Matters to Me",
+   "artist": "Faith Hill",
+   "year": 1995,
+   "rank": 4,
+   "cleanId": 264603969,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/f3/f3/27f3f31a-84ae-bee3-1f17-6ef76ecf0cdb/mzi.ftpuanax.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "faith hill|there you ll be",
+   "title": "There You'll Be",
+   "artist": "Faith Hill",
+   "year": 2001,
+   "rank": 5,
+   "cleanId": 264603369,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/f3/f3/27f3f31a-84ae-bee3-1f17-6ef76ecf0cdb/mzi.ftpuanax.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "faith hill|the way you love me",
+   "title": "The Way You Love Me",
+   "artist": "Faith Hill",
+   "year": 1999,
+   "rank": 6,
+   "cleanId": 264603387,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/f3/f3/27f3f31a-84ae-bee3-1f17-6ef76ecf0cdb/mzi.ftpuanax.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "faith hill|wild one",
+   "title": "Wild One",
+   "artist": "Faith Hill",
+   "year": 1993,
+   "rank": 7,
+   "cleanId": 264604056,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/f3/f3/27f3f31a-84ae-bee3-1f17-6ef76ecf0cdb/mzi.ftpuanax.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "faith hill and tim mcgraw|like we never loved at all",
+   "title": "Like We Never Loved At All",
+   "artist": "Faith Hill & Tim McGraw",
+   "year": 2005,
+   "rank": 8,
+   "cleanId": 129642153,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/82/33/d38233dc-8802-dc40-65af-c54419ef4b86/715187889125.png/100x100bb.jpg"
+  },
+  {
+   "id": "faith hill|mississippi girl",
+   "title": "Mississippi Girl",
+   "artist": "Faith Hill",
+   "year": 2005,
+   "rank": 9,
+   "cleanId": 264603131,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/f3/f3/27f3f31a-84ae-bee3-1f17-6ef76ecf0cdb/mzi.ftpuanax.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "faith hill|i can t do that anymore",
+   "title": "I Can't Do That Anymore",
+   "artist": "Faith Hill",
+   "year": 1995,
+   "rank": 10,
+   "cleanId": 331986236,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/10/9e/0e/mzi.tbiotgae.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "randy travis|forever and ever amen",
+   "title": "Forever and Ever, Amen",
+   "artist": "Randy Travis",
+   "year": 1987,
+   "rank": 1,
+   "cleanId": 307031224,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/1f/98/mzi.azfllboh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "randy travis|deeper than the holler",
+   "title": "Deeper Than the Holler",
+   "artist": "Randy Travis",
+   "year": 1987,
+   "rank": 2,
+   "cleanId": 307031254,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/1f/98/mzi.azfllboh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "randy travis|three wooden crosses",
+   "title": "Three Wooden Crosses",
+   "artist": "Randy Travis",
+   "year": 2002,
+   "rank": 3,
+   "cleanId": 1165961426,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/04/f1/27/04f12711-548a-0bc8-6cf3-a4680ff9bac5/080688623661.png/100x100bb.jpg"
+  },
+  {
+   "id": "randy travis|diggin up bones",
+   "title": "Diggin' Up Bones",
+   "artist": "Randy Travis",
+   "year": 1986,
+   "rank": 4,
+   "cleanId": 307031223,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/1f/98/mzi.azfllboh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "randy travis|i told you so",
+   "title": "I Told You So",
+   "artist": "Randy Travis",
+   "year": 1987,
+   "rank": 5,
+   "cleanId": 307031225,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/1f/98/mzi.azfllboh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "randy travis|on the other hand",
+   "title": "On the Other Hand",
+   "artist": "Randy Travis",
+   "year": 1986,
+   "rank": 6,
+   "cleanId": 307031255,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/1f/98/mzi.azfllboh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "randy travis|he walked on water",
+   "title": "He Walked On Water",
+   "artist": "Randy Travis",
+   "year": 1989,
+   "rank": 7,
+   "cleanId": 307031237,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/1f/98/mzi.azfllboh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "randy travis|whisper my name",
+   "title": "Whisper My Name",
+   "artist": "Randy Travis",
+   "year": 1994,
+   "rank": 8,
+   "cleanId": 302164556,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/12/55/e8/1255e8d6-88c9-291a-4301-ad1b1f8bb53e/mzi.cbkeuotq.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "randy travis|if i didn t have you",
+   "title": "If I Didn't Have You",
+   "artist": "Randy Travis",
+   "year": 1992,
+   "rank": 9,
+   "cleanId": 982746374,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/b4/f3/b7b4f3ec-8786-9e42-a81e-e77727bfcd44/093624926849.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "randy travis|1982",
+   "title": "1982",
+   "artist": "Randy Travis",
+   "year": 1986,
+   "rank": 10,
+   "cleanId": 307031260,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/1f/98/mzi.azfllboh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "merle haggard|i think i ll just stay here and drink",
+   "title": "I Think I'll Just Stay Here and Drink",
+   "artist": "Merle Haggard",
+   "year": 1980,
+   "rank": 1,
+   "cleanId": 1440728183,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/5d/46/76/5d467625-3d12-caee-7af1-a2abcdcbc4d2/00008811211028.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "merle haggard|are the good times really over",
+   "title": "Are the Good Times Really Over (I Wish a Buck Was Still Silver)",
+   "artist": "Merle Haggard",
+   "year": 1981,
+   "rank": 2,
+   "cleanId": 1005186055,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/86/df/c6/86dfc6a1-14a0-c4a8-9c31-94790f43601b/dj.weexcbfc.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "merle haggard|mama tried",
+   "title": "Mama Tried",
+   "artist": "Merle Haggard",
+   "year": 1968,
+   "rank": 3,
+   "cleanId": 724522536,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/4e/82/0a4e8295-f977-7f86-cef1-425e08fa3ad9/00724353448257.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "merle haggard|misery and gin",
+   "title": "Misery and Gin",
+   "artist": "Merle Haggard",
+   "year": 1980,
+   "rank": 4,
+   "cleanId": 1443800460,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/45/e6/ed/45e6ed18-b5c0-3aa2-4ca3-03e35ba0a9a1/00076743109928.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "merle haggard and willie nelson|pancho and lefty",
+   "title": "Pancho and Lefty",
+   "artist": "Merle Haggard & Willie Nelson",
+   "year": 1983,
+   "rank": 5,
+   "cleanId": 1004070212,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/36/27/3b/36273b5c-8fd0-faf7-da6f-0d06c0c1109d/886445271959.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "merle haggard|my favorite memory",
+   "title": "My Favorite Memory",
+   "artist": "Merle Haggard",
+   "year": 1981,
+   "rank": 6,
+   "cleanId": 1005186050,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/86/df/c6/86dfc6a1-14a0-c4a8-9c31-94790f43601b/dj.weexcbfc.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "merle haggard|that s the way love goes",
+   "title": "That's the Way Love Goes",
+   "artist": "Merle Haggard",
+   "year": 1983,
+   "rank": 7,
+   "cleanId": 1013735075,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/ca/56/79/ca56798c-cdfb-e912-eaa8-76c1a965dd18/886445340402.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "merle haggard|workin man blues",
+   "title": "Workin' Man Blues",
+   "artist": "Merle Haggard",
+   "year": 1994,
+   "rank": 8,
+   "cleanId": 724522544,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/4e/82/0a4e8295-f977-7f86-cef1-425e08fa3ad9/00724353448257.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "merle haggard|the fightin side of me",
+   "title": "The Fightin' Side of Me",
+   "artist": "Merle Haggard",
+   "year": 1972,
+   "rank": 9,
+   "cleanId": 1890338485,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d5/9c/fb/d59cfbf9-4c7a-1123-a0c8-a763b8e92f6d/00015047905584_Cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "merle haggard|big city",
+   "title": "Big City",
+   "artist": "Merle Haggard",
+   "year": 1981,
+   "rank": 10,
+   "cleanId": 1005186049,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/86/df/c6/86dfc6a1-14a0-c4a8-9c31-94790f43601b/dj.weexcbfc.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis tritt|anymore",
+   "title": "Anymore",
+   "artist": "Travis Tritt",
+   "year": 1991,
+   "rank": 1,
+   "cleanId": 213514048,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bc/f2/76/bcf2762a-71a5-822b-0f1d-d9a7a269ca64/mzi.sqsheooe.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis tritt|it s a great day to be alive",
+   "title": "It's a Great Day to Be Alive",
+   "artist": "Travis Tritt",
+   "year": 2000,
+   "rank": 2,
+   "cleanId": 170336147,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/ea/5f/7d/mzi.dexizjpa.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis tritt|i m gonna be somebody",
+   "title": "I'm Gonna Be Somebody",
+   "artist": "Travis Tritt",
+   "year": 1990,
+   "rank": 3,
+   "cleanId": 213514296,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bc/f2/76/bcf2762a-71a5-822b-0f1d-d9a7a269ca64/mzi.sqsheooe.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis tritt|best of intentions",
+   "title": "Best of Intentions",
+   "artist": "Travis Tritt",
+   "year": 2000,
+   "rank": 4,
+   "cleanId": 170335897,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/ea/5f/7d/mzi.dexizjpa.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis tritt|help me hold on",
+   "title": "Help Me Hold On",
+   "artist": "Travis Tritt",
+   "year": 1990,
+   "rank": 5,
+   "cleanId": 213514098,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bc/f2/76/bcf2762a-71a5-822b-0f1d-d9a7a269ca64/mzi.sqsheooe.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis tritt|tell me i was dreaming",
+   "title": "Tell Me I Was Dreaming",
+   "artist": "Travis Tritt",
+   "year": 1994,
+   "rank": 6,
+   "cleanId": 213514476,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bc/f2/76/bcf2762a-71a5-822b-0f1d-d9a7a269ca64/mzi.sqsheooe.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis tritt|here s a quarter",
+   "title": "Here's a Quarter (Call Someone Who Cares)",
+   "artist": "Travis Tritt",
+   "year": 1991,
+   "rank": 7,
+   "cleanId": 213514045,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bc/f2/76/bcf2762a-71a5-822b-0f1d-d9a7a269ca64/mzi.sqsheooe.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis tritt|t r o u b l e",
+   "title": "T-R-O-U-B-L-E",
+   "artist": "Travis Tritt",
+   "year": 1975,
+   "rank": 8,
+   "cleanId": 213514549,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bc/f2/76/bcf2762a-71a5-822b-0f1d-d9a7a269ca64/mzi.sqsheooe.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis tritt|love of a woman",
+   "title": "Love of a Woman",
+   "artist": "Travis Tritt",
+   "year": 2000,
+   "rank": 9,
+   "cleanId": 170336430,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/ea/5f/7d/mzi.dexizjpa.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis tritt|where corn don t grow",
+   "title": "Where Corn Don't Grow",
+   "artist": "Travis Tritt",
+   "year": 1996,
+   "rank": 10,
+   "cleanId": 213514159,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bc/f2/76/bcf2762a-71a5-822b-0f1d-d9a7a269ca64/mzi.sqsheooe.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lee brice|rumor",
+   "title": "Rumor",
+   "artist": "Lee Brice",
+   "year": 2017,
+   "rank": 1,
+   "cleanId": 1278567741,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/51/83/8f/51838f82-c7a2-8f70-ca73-9f7a9c534ffc/79452_-_Lee_Brice.png/100x100bb.jpg"
+  },
+  {
+   "id": "lee brice|hard to love",
+   "title": "Hard to Love",
+   "artist": "Lee Brice",
+   "year": 2012,
+   "rank": 2,
+   "cleanId": 513670725,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/a3/3e/89a33e77-4e57-742b-e1ae-b1abf1d4d338/79316_-_Lee_Brice.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lee brice|i don t dance",
+   "title": "I Don't Dance",
+   "artist": "Lee Brice",
+   "year": 2014,
+   "rank": 3,
+   "cleanId": 893013343,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d8/d0/6c/d8d06c30-dcca-ba73-d8db-c3400a717404/79400_Lee_Brice_deluxe.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lee brice|love like crazy",
+   "title": "Love Like Crazy",
+   "artist": "Lee Brice",
+   "year": 2010,
+   "rank": 4,
+   "cleanId": 371186852,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/02/e4/1b02e412-c379-dea2-c618-ebebf776c749/715187897724.png/100x100bb.jpg"
+  },
+  {
+   "id": "lee brice|a woman like you",
+   "title": "A Woman Like You",
+   "artist": "Lee Brice",
+   "year": 2011,
+   "rank": 5,
+   "cleanId": 513670726,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/a3/3e/89a33e77-4e57-742b-e1ae-b1abf1d4d338/79316_-_Lee_Brice.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lee brice|memory i don t mess with",
+   "title": "Memory I Don't Mess With",
+   "artist": "Lee Brice",
+   "year": 2020,
+   "rank": 6,
+   "cleanId": 1529349203,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/59/49/0d/59490db8-ac1f-f4a3-2aed-83b01b576ca6/715187954762.png/100x100bb.jpg"
+  },
+  {
+   "id": "lee brice|boy",
+   "title": "Boy",
+   "artist": "Lee Brice",
+   "year": 2017,
+   "rank": 7,
+   "cleanId": 1278567737,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/51/83/8f/51838f82-c7a2-8f70-ca73-9f7a9c534ffc/79452_-_Lee_Brice.png/100x100bb.jpg"
+  },
+  {
+   "id": "lee brice|i drive your truck",
+   "title": "I Drive Your Truck",
+   "artist": "Lee Brice",
+   "year": 2012,
+   "rank": 8,
+   "cleanId": 513670870,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/a3/3e/89a33e77-4e57-742b-e1ae-b1abf1d4d338/79316_-_Lee_Brice.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lee brice|drinking class",
+   "title": "Drinking Class",
+   "artist": "Lee Brice",
+   "year": 2014,
+   "rank": 9,
+   "cleanId": 893013348,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d8/d0/6c/d8d06c30-dcca-ba73-d8db-c3400a717404/79400_Lee_Brice_deluxe.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lee brice|that don t sound like you",
+   "title": "That Don't Sound Like You",
+   "artist": "Lee Brice",
+   "year": 2014,
+   "rank": 10,
+   "cleanId": 893013349,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d8/d0/6c/d8d06c30-dcca-ba73-d8db-c3400a717404/79400_Lee_Brice_deluxe.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "riley green|worst way",
+   "title": "Worst Way",
+   "artist": "Riley Green",
+   "year": 2024,
+   "rank": 1,
+   "cleanId": 1736951792,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/79/dc/a979dc04-be66-92a4-60d5-5ce4dd7414b7/24BMR0005137.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "riley green|don t mind if i do",
+   "title": "Don't Mind If I Do",
+   "artist": "Riley Green",
+   "year": 2024,
+   "rank": 2,
+   "cleanId": 1763685182,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/fb/18/25fb1804-5862-1936-9d98-d8e7b5513413/24BMR0005677.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "riley green|my way",
+   "title": "My Way",
+   "artist": "Riley Green",
+   "year": 2026,
+   "rank": 3,
+   "cleanId": 1892083308,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/60/09/74600943-c67a-5335-4f8c-bad8b3e5d2a8/26BMR0007851.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "riley green|change my mind",
+   "title": "Change My Mind",
+   "artist": "Riley Green",
+   "year": 2024,
+   "rank": 4,
+   "cleanId": 1763685026,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/fb/18/25fb1804-5862-1936-9d98-d8e7b5513413/24BMR0005677.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "riley green|think as you drunk",
+   "title": "Think As You Drunk",
+   "artist": "Riley Green",
+   "year": 2026,
+   "rank": 5,
+   "cleanId": 6770725979,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/cf/71/16cf71b7-bda7-9916-3d11-3b60539ace2c/26BMR0008042.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "riley green|i wish grandpas never died",
+   "title": "I Wish Grandpas Never Died",
+   "artist": "Riley Green",
+   "year": 2019,
+   "rank": 6,
+   "cleanId": 1479127851,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/7e/be/1c7ebe9a-93a6-1048-fb91-a1221c0d7031/19OPBMR00755.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "riley green and hannah mcfarland|go again",
+   "title": "Go Again",
+   "artist": "Riley Green & Hannah McFarland",
+   "year": 2026,
+   "rank": 7,
+   "cleanId": 6770725965,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/cf/71/16cf71b7-bda7-9916-3d11-3b60539ace2c/26BMR0008042.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "riley green|jesus saves",
+   "title": "Jesus Saves",
+   "artist": "Riley Green",
+   "year": 2024,
+   "rank": 8,
+   "cleanId": 1736951265,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/79/dc/a979dc04-be66-92a4-60d5-5ce4dd7414b7/24BMR0005137.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "riley green|there was this girl",
+   "title": "There Was This Girl",
+   "artist": "Riley Green",
+   "year": 2018,
+   "rank": 9,
+   "cleanId": 1479127842,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/7e/be/1c7ebe9a-93a6-1048-fb91-a1221c0d7031/19OPBMR00755.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "riley green|georgia time",
+   "title": "Georgia Time",
+   "artist": "Riley Green",
+   "year": 2017,
+   "rank": 10,
+   "cleanId": 1391487050,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/13/77/5413779b-0c8e-d2e3-a9d7-5fea6d7a76e4/00843930036271.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "bailey zimmerman|rock and a hard place",
+   "title": "Rock and a Hard Place",
+   "artist": "Bailey Zimmerman",
+   "year": 2022,
+   "rank": 1,
+   "cleanId": 1644401715,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/30/17/1b/30171b77-7d87-bf60-49f1-fa0d6376f193/093624864899.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "bailey zimmerman|religiously",
+   "title": "Religiously",
+   "artist": "Bailey Zimmerman",
+   "year": 2023,
+   "rank": 2,
+   "cleanId": 1676694379,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/a3/55/1da35509-ea85-d568-d29d-83e464f53ff9/093624856498.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "bailey zimmerman|fall in love",
+   "title": "Fall In Love",
+   "artist": "Bailey Zimmerman",
+   "year": 2022,
+   "rank": 3,
+   "cleanId": 1644401713,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/30/17/1b/30171b77-7d87-bf60-49f1-fa0d6376f193/093624864899.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "bailey zimmerman|where it ends",
+   "title": "Where It Ends",
+   "artist": "Bailey Zimmerman",
+   "year": 2022,
+   "rank": 4,
+   "cleanId": 1644402106,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/30/17/1b/30171b77-7d87-bf60-49f1-fa0d6376f193/093624864899.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "bailey zimmerman|chevy silverado",
+   "title": "Chevy Silverado",
+   "artist": "Bailey Zimmerman",
+   "year": 2025,
+   "rank": 5,
+   "cleanId": 1818193666,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/72/3b/69723b10-4255-f36b-6045-fa18f46ea485/093624842132.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "bailey zimmerman and luke combs|backup plan",
+   "title": "Backup Plan",
+   "artist": "Bailey Zimmerman & Luke Combs",
+   "year": 2025,
+   "rank": 6,
+   "cleanId": 1809267295,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/13/90/fc139071-e8e1-6621-9729-b5219fe99007/054391233479.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "bailey zimmerman|holy smokes",
+   "title": "Holy Smokes",
+   "artist": "Bailey Zimmerman",
+   "year": 2024,
+   "rank": 7,
+   "cleanId": 1727627962,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1a/b5/f5/1ab5f5df-6dd6-3124-6a24-92a86de91cb1/054391320278.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "bailey zimmerman|fix n to break",
+   "title": "Fix'n To Break",
+   "artist": "Bailey Zimmerman",
+   "year": 2023,
+   "rank": 8,
+   "cleanId": 1676694392,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/a3/55/1da35509-ea85-d568-d29d-83e464f53ff9/093624856498.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "bailey zimmerman|chase her",
+   "title": "Chase Her",
+   "artist": "Bailey Zimmerman",
+   "year": 2023,
+   "rank": 9,
+   "cleanId": 1676694402,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/a3/55/1da35509-ea85-d568-d29d-83e464f53ff9/093624856498.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "bailey zimmerman|you don t want that smoke",
+   "title": "You Don’t Want That Smoke",
+   "artist": "Bailey Zimmerman",
+   "year": 2023,
+   "rank": 10,
+   "cleanId": 1676694594,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/a3/55/1da35509-ea85-d568-d29d-83e464f53ff9/093624856498.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hardy and blake shelton|hell",
+   "title": "Hell",
+   "artist": "HARDY & Blake Shelton",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 6823404818,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/60/86/9a/60869a69-187f-3e96-e8cb-eb5b1273b575/26UM1IM31427.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hardy|tommy made the news",
+   "title": "Tommy Made The News",
+   "artist": "HARDY",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6823404828,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/60/86/9a/60869a69-187f-3e96-e8cb-eb5b1273b575/26UM1IM31427.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hardy|give heaven some hell",
+   "title": "GIVE HEAVEN SOME HELL",
+   "artist": "HARDY",
+   "year": 2020,
+   "rank": 3,
+   "cleanId": 1752598507,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4b/39/0a/4b390a56-b115-0ac8-8d0c-b0721c41b922/193436223362_Cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hardy|by god",
+   "title": "By God",
+   "artist": "HARDY",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 6825496671,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/36/83/743683fd-0ed7-86f2-3888-1de13eef17ea/26UM1IM31427.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hardy and lainey wilson|wait in the truck",
+   "title": "wait in the truck",
+   "artist": "HARDY & Lainey Wilson",
+   "year": 2022,
+   "rank": 5,
+   "cleanId": 1752584209,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/0e/e9/e40ee9df-e6f7-fe69-94f1-8f505d6cc83f/193436304931_Cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hardy|bottomland",
+   "title": "Bottomland",
+   "artist": "HARDY",
+   "year": 2025,
+   "rank": 6,
+   "cleanId": 1828503911,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/24/f0/e624f091-812b-8430-4c24-3bdb3b39cd2f/25UMGIM99507.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hardy|rednecker",
+   "title": "REDNECKER",
+   "artist": "HARDY",
+   "year": 2018,
+   "rank": 7,
+   "cleanId": 1752583559,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/16/a1/d316a1e8-766d-0b31-27d2-71f096dadbce/193436045971_Cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hardy|king of the hill",
+   "title": "King Of The Hill",
+   "artist": "HARDY",
+   "year": 2026,
+   "rank": 8,
+   "cleanId": 6825496880,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/36/83/743683fd-0ed7-86f2-3888-1de13eef17ea/26UM1IM31427.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hardy|favorite country song",
+   "title": "Favorite Country Song",
+   "artist": "HARDY",
+   "year": 2025,
+   "rank": 9,
+   "cleanId": 1805187218,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/50/7d/95507da5-1179-348a-4edf-d0215675c950/25UMGIM50769.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hardy eric church morgan wallen and tim mcgraw|mcarthur",
+   "title": "McArthur",
+   "artist": "HARDY, Eric Church, Morgan Wallen & Tim McGraw",
+   "year": 2026,
+   "rank": 10,
+   "cleanId": 1871231844,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/cd/9b/1acd9bad-40e2-c906-5614-03edf8e929a1/26UMGIM07556.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jordan davis|mess",
+   "title": "Mess",
+   "artist": "Jordan Davis",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 6798006064,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/bf/3e/b9bf3eb8-a3d2-8213-06a8-e8c0689a3481/26UMGIM99173.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jordan davis|buy dirt",
+   "title": "Buy Dirt",
+   "artist": "Jordan Davis",
+   "year": 2021,
+   "rank": 2,
+   "cleanId": 1563946213,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/12/19/5b/12195b9a-1ac0-4ded-03da-e034ce80ac8c/21UMGIM22433.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jordan davis|what my world spins around",
+   "title": "What My World Spins Around",
+   "artist": "Jordan Davis",
+   "year": 2022,
+   "rank": 3,
+   "cleanId": 1624847590,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9b/f7/f3/9bf7f3a2-be32-be0f-33af-76b52bd51890/22UMGIM50709.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jordan davis|i ain t sayin",
+   "title": "I Ain't Sayin'",
+   "artist": "Jordan Davis",
+   "year": 2024,
+   "rank": 4,
+   "cleanId": 1757441854,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/9e/85/029e85b3-2d8c-ccf1-86de-a527fbeb4f15/24UMGIM76778.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jordan davis|turn this truck around",
+   "title": "Turn This Truck Around",
+   "artist": "Jordan Davis",
+   "year": 2025,
+   "rank": 5,
+   "cleanId": 1808972690,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/d4/0e/68d40e71-b94d-f49e-2cea-82b0406ad841/25UMGIM46944.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jordan davis|bar none",
+   "title": "Bar None",
+   "artist": "Jordan Davis",
+   "year": 2025,
+   "rank": 6,
+   "cleanId": 1802045966,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/5c/27/015c27c8-4405-5532-f167-d7981c1876c0/25UMGIM38608.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jordan davis|slow dance in a parking lot",
+   "title": "Slow Dance in a Parking Lot",
+   "artist": "Jordan Davis",
+   "year": 2017,
+   "rank": 7,
+   "cleanId": 1440914751,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/84/b2/34/84b23483-5eec-9474-d2c9-6c3f5c96c49f/18UMGIM02665.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jordan davis|next thing you know",
+   "title": "Next Thing You Know",
+   "artist": "Jordan Davis",
+   "year": 2022,
+   "rank": 8,
+   "cleanId": 1638197202,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/26/47/23/26472342-2f00-5494-d395-fc5c08095011/22UMGIM79298.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jordan davis|tucson too late",
+   "title": "Tucson Too Late",
+   "artist": "Jordan Davis",
+   "year": 2023,
+   "rank": 9,
+   "cleanId": 1663956813,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/6e/fa/99/6efa990d-ef2e-10cd-a88d-5646450ce99d/22UM1IM40058.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jordan davis|singles you up",
+   "title": "Singles You Up",
+   "artist": "Jordan Davis",
+   "year": 2017,
+   "rank": 10,
+   "cleanId": 1440914758,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/84/b2/34/84b23483-5eec-9474-d2c9-6c3f5c96c49f/18UMGIM02665.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "parker mccollum|burn it down",
+   "title": "Burn It Down",
+   "artist": "Parker McCollum",
+   "year": 2023,
+   "rank": 1,
+   "cleanId": 1677828678,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0e/60/5d/0e605dc7-e67d-432d-d2dc-46d3d64f35a3/23UMGIM07998.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "parker mccollum|hell of a year",
+   "title": "Hell of a Year",
+   "artist": "Parker McCollum",
+   "year": 2017,
+   "rank": 2,
+   "cleanId": 1826201176,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/05/9b/1b059b40-50f4-3c73-7076-0633996780f7/859768274778_Cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "parker mccollum|killin me",
+   "title": "Killin’ Me",
+   "artist": "Parker McCollum",
+   "year": 2025,
+   "rank": 3,
+   "cleanId": 1802060614,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/a3/0a/54a30ac2-259a-a41a-1283-0cfcf4835e12/25UMGIM34874.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "parker mccollum|what kinda man",
+   "title": "What Kinda Man",
+   "artist": "Parker McCollum",
+   "year": 2024,
+   "rank": 4,
+   "cleanId": 1862624684,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/73/ae/ca73ae6e-88b7-0afd-62db-7517266d30c9/25UM2IM03114.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "parker mccollum|pretty heart",
+   "title": "Pretty Heart",
+   "artist": "Parker McCollum",
+   "year": 2019,
+   "rank": 5,
+   "cleanId": 1477494308,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/18/8f/7f188f88-2a90-af5d-3876-b214e7bc81e7/19UMGIM69719.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "parker mccollum|i can t breathe",
+   "title": "I Can't Breathe",
+   "artist": "Parker McCollum",
+   "year": 2017,
+   "rank": 6,
+   "cleanId": 1826201165,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/05/9b/1b059b40-50f4-3c73-7076-0633996780f7/859768274778_Cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "parker mccollum|handle on you",
+   "title": "Handle On You",
+   "artist": "Parker McCollum",
+   "year": 2022,
+   "rank": 7,
+   "cleanId": 1636765667,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4b/2e/8a/4b2e8aea-5c9d-a9ef-bb55-51fac0375ccc/22UMGIM63758.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "parker mccollum|to be loved by you",
+   "title": "To Be Loved By You",
+   "artist": "Parker McCollum",
+   "year": 2021,
+   "rank": 8,
+   "cleanId": 1545612569,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/50/77/a9/5077a997-705e-7cf3-aed4-da78bb4f9fda/20UM1IM13372.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "parker mccollum|solid country gold",
+   "title": "Solid Country Gold",
+   "artist": "Parker McCollum",
+   "year": 2025,
+   "rank": 9,
+   "cleanId": 1802060604,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/a3/0a/54a30ac2-259a-a41a-1283-0cfcf4835e12/25UMGIM34874.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "parker mccollum|meet you in the middle",
+   "title": "Meet You in the Middle",
+   "artist": "Parker McCollum",
+   "year": 2015,
+   "rank": 10,
+   "cleanId": 1826200978,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/0b/17/dd0b17ff-f3b7-830c-652c-869c8e7be1bc/859768245655_Cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan moroney|am i okay",
+   "title": "Am I Okay?",
+   "artist": "Megan Moroney",
+   "year": 2024,
+   "rank": 1,
+   "cleanId": 1743233227,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/2a/43/de2a438b-bb7c-16db-64db-954057aca5aa/196872040302.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan moroney|tennessee orange",
+   "title": "Tennessee Orange",
+   "artist": "Megan Moroney",
+   "year": 2022,
+   "rank": 2,
+   "cleanId": 1706571117,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/82/fb/47/82fb472c-b56a-1660-d516-365fb4c67393/196871220439.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan moroney|6 months later",
+   "title": "6 Months Later",
+   "artist": "Megan Moroney",
+   "year": 2025,
+   "rank": 3,
+   "cleanId": 1820288141,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/f5/36/d4f53632-e32d-af51-1e17-49feb22b6e18/196873254449.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan moroney|i m not pretty",
+   "title": "I'm Not Pretty",
+   "artist": "Megan Moroney",
+   "year": 2023,
+   "rank": 4,
+   "cleanId": 1675580538,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/82/41/65/824165d2-1b36-d1a1-9aa9-195b0f66a2c9/196589952318.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan moroney|traitor",
+   "title": "Traitor (Roles Reversed)",
+   "artist": "Megan Moroney",
+   "year": 2026,
+   "rank": 5,
+   "cleanId": 6767665959,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/20/dd/2e20dd60-829d-64bf-94fc-a22d3f2b5140/196874388792.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan moroney|beautiful things",
+   "title": "Beautiful Things",
+   "artist": "Megan Moroney",
+   "year": 2025,
+   "rank": 6,
+   "cleanId": 6767665817,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/20/dd/2e20dd60-829d-64bf-94fc-a22d3f2b5140/196874388792.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan moroney|wedding dress",
+   "title": "Wedding Dress",
+   "artist": "Megan Moroney",
+   "year": 2026,
+   "rank": 7,
+   "cleanId": 1880181818,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6b/d8/9d/6bd89d56-4e31-f431-fb4c-5a81a6441f82/196874133101.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan moroney|medicine",
+   "title": "Medicine",
+   "artist": "Megan Moroney",
+   "year": 2026,
+   "rank": 8,
+   "cleanId": 1880181810,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6b/d8/9d/6bd89d56-4e31-f431-fb4c-5a81a6441f82/196874133101.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan moroney|bless your heart",
+   "title": "Bless Your Heart",
+   "artist": "Megan Moroney",
+   "year": 2024,
+   "rank": 9,
+   "cleanId": 1769716388,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/99/0c/34990c32-9419-a532-8f8e-2d95c40e80ea/196872331578.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan moroney|break it right back",
+   "title": "Break It Right Back",
+   "artist": "Megan Moroney",
+   "year": 2024,
+   "rank": 10,
+   "cleanId": 1769716387,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/99/0c/34990c32-9419-a532-8f8e-2d95c40e80ea/196872331578.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ella langley|choosin texas",
+   "title": "Choosin' Texas",
+   "artist": "Ella Langley",
+   "year": 2025,
+   "rank": 1,
+   "cleanId": 1844932150,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "ella langley and riley green|you look like you love me",
+   "title": "you look like you love me",
+   "artist": "Ella Langley & Riley Green",
+   "year": 2024,
+   "rank": 2,
+   "cleanId": 1749121123,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/33/40/62334080-6129-4d0c-086b-921cc956cb7a/196872090895.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "ella langley|be her",
+   "title": "Be Her",
+   "artist": "Ella Langley",
+   "year": 2026,
+   "rank": 3,
+   "cleanId": 6763094072,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "ella langley|weren t for the wind",
+   "title": "weren't for the wind",
+   "artist": "Ella Langley",
+   "year": 2024,
+   "rank": 4,
+   "cleanId": 1770160814,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/f1/65/eff16551-2b83-202a-f923-a655a57c61b8/196872452563.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "ella langley|loving life again",
+   "title": "Loving Life Again",
+   "artist": "Ella Langley",
+   "year": 2026,
+   "rank": 5,
+   "cleanId": 1869436847,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "ella langley|dandelion",
+   "title": "Dandelion",
+   "artist": "Ella Langley",
+   "year": 2026,
+   "rank": 6,
+   "cleanId": 1869436838,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "ella langley and morgan wallen|i can t love you anymore",
+   "title": "I Can't Love You Anymore",
+   "artist": "Ella Langley & Morgan Wallen",
+   "year": 2026,
+   "rank": 7,
+   "cleanId": 6763094377,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "ella langley|bottom of your boots",
+   "title": "Bottom Of Your Boots",
+   "artist": "Ella Langley",
+   "year": 2026,
+   "rank": 8,
+   "cleanId": 1869436848,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "ella langley|girl you re taking home",
+   "title": "girl you're taking home",
+   "artist": "Ella Langley",
+   "year": 2024,
+   "rank": 9,
+   "cleanId": 1770160806,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/f1/65/eff16551-2b83-202a-f923-a655a57c61b8/196872452563.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "ella langley|could ve been her",
+   "title": "Could've Been Her",
+   "artist": "Ella Langley",
+   "year": 2023,
+   "rank": 10,
+   "cleanId": 1682113595,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a0/d1/d5/a0d1d54b-1928-5a49-9690-ba7b1727cc66/196871028486.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "keith whitley|somebody s doin me right",
+   "title": "Somebody's Doin' Me Right",
+   "artist": "Keith Whitley",
+   "year": 1992,
+   "rank": 1,
+   "cleanId": 251128753,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/15/b0/62/15b06272-10fe-a37c-26d7-a87f5729d8a3/dj.bpwfywgf.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "keith whitley|don t close your eyes",
+   "title": "Don't Close Your Eyes",
+   "artist": "Keith Whitley",
+   "year": 1988,
+   "rank": 2,
+   "cleanId": 251128564,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/15/b0/62/15b06272-10fe-a37c-26d7-a87f5729d8a3/dj.bpwfywgf.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "keith whitley|when you say nothing at all",
+   "title": "When You Say Nothing At All",
+   "artist": "Keith Whitley",
+   "year": 1988,
+   "rank": 3,
+   "cleanId": 298325367,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features/82/c4/fe/dj.ghcvdojz.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "keith whitley|i m over you",
+   "title": "I'm Over You",
+   "artist": "Keith Whitley",
+   "year": 1989,
+   "rank": 4,
+   "cleanId": 251128745,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/15/b0/62/15b06272-10fe-a37c-26d7-a87f5729d8a3/dj.bpwfywgf.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "keith whitley|i m no stranger to the rain",
+   "title": "I'm No Stranger to the Rain",
+   "artist": "Keith Whitley",
+   "year": 1988,
+   "rank": 5,
+   "cleanId": 251128568,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/15/b0/62/15b06272-10fe-a37c-26d7-a87f5729d8a3/dj.bpwfywgf.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "keith whitley|miami my amy",
+   "title": "Miami, My Amy",
+   "artist": "Keith Whitley",
+   "year": 1985,
+   "rank": 6,
+   "cleanId": 251128575,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/15/b0/62/15b06272-10fe-a37c-26d7-a87f5729d8a3/dj.bpwfywgf.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "keith whitley|kentucky bluebird",
+   "title": "Kentucky Bluebird",
+   "artist": "Keith Whitley",
+   "year": 1991,
+   "rank": 7,
+   "cleanId": 1415208716,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/68/ce/0a/68ce0a77-a127-6784-93a2-1c94a9674790/886447116319.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "keith whitley|nobody in his right mind would ve left her",
+   "title": "Nobody In His Right Mind Would've Left Her",
+   "artist": "Keith Whitley",
+   "year": 1985,
+   "rank": 8,
+   "cleanId": 1043427960,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/14/43/a6/1443a6cc-885d-790d-d72e-7a98983d412e/886444740029.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "keith whitley|i m gonna hurt her on the radio",
+   "title": "I'm Gonna Hurt Her On the Radio",
+   "artist": "Keith Whitley",
+   "year": 1994,
+   "rank": 9,
+   "cleanId": 303079658,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/57/2f/8c572fab-c73c-8ef1-2b5d-bca5ee47b726/mzi.ptkxmscc.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "keith whitley|between an old memory and me",
+   "title": "Between an Old Memory and Me",
+   "artist": "Keith Whitley",
+   "year": 1989,
+   "rank": 10,
+   "cleanId": 1043428557,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/14/43/a6/1443a6cc-885d-790d-d72e-7a98983d412e/886444740029.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stella lefty|boston",
+   "title": "Boston",
+   "artist": "STELLA LEFTY",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 1884403093,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stella lefty and vincent mason|something to lose",
+   "title": "Something To Lose",
+   "artist": "STELLA LEFTY & Vincent Mason",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6766964605,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/9d/ba/cb9dba19-0847-164f-3cec-32f337918dda/075679578518.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stella lefty and bailey zimmerman|my kinda love",
+   "title": "My Kinda Love",
+   "artist": "STELLA LEFTY & Bailey Zimmerman",
+   "year": 2026,
+   "rank": 3,
+   "cleanId": 6825133727,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/db/43/94db4394-368c-e7b7-b520-72b847908968/075679550705.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stella lefty|i know i know",
+   "title": "I Know I Know",
+   "artist": "STELLA LEFTY",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 1894354139,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0c/85/49/0c8549ef-ae37-d883-459e-5d6048286a34/075679580054.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stella lefty|lean in kiss me",
+   "title": "Lean In, Kiss Me",
+   "artist": "STELLA LEFTY",
+   "year": 2026,
+   "rank": 5,
+   "cleanId": 6796823423,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/4b/9b/ed4b9bb0-8670-db21-e48c-9e874a6dc3e1/075679562654.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stella lefty|summer you were mine",
+   "title": "Summer You Were Mine",
+   "artist": "STELLA LEFTY",
+   "year": 2026,
+   "rank": 6,
+   "cleanId": 6796823839,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/4b/9b/ed4b9bb0-8670-db21-e48c-9e874a6dc3e1/075679562654.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stella lefty|thinking bout you",
+   "title": "Thinking 'bout You",
+   "artist": "STELLA LEFTY",
+   "year": 2026,
+   "rank": 7,
+   "cleanId": 1867022686,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/d1/07/c0d107fc-e118-7bb5-237b-ff5704b9ba9a/4062851236478.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stella lefty|whiskey",
+   "title": "Whiskey",
+   "artist": "STELLA LEFTY",
+   "year": 2026,
+   "rank": 8,
+   "cleanId": 6796823426,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/4b/9b/ed4b9bb0-8670-db21-e48c-9e874a6dc3e1/075679562654.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stella lefty|slow dancin",
+   "title": "Slow Dancin'",
+   "artist": "STELLA LEFTY",
+   "year": 2026,
+   "rank": 9,
+   "cleanId": 1871537173,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/98/d8/2198d830-5299-26af-c264-738360c4d6ba/810129963953.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stella lefty|why wouldn t we",
+   "title": "Why Wouldn't We",
+   "artist": "STELLA LEFTY",
+   "year": 2026,
+   "rank": 10,
+   "cleanId": 6766964607,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/9d/ba/cb9dba19-0847-164f-3cec-32f337918dda/075679578518.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "john anderson|seminole wind",
+   "title": "Seminole Wind",
+   "artist": "John Anderson",
+   "year": 1992,
+   "rank": 1,
+   "cleanId": 298562625,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features/19/ca/3e/dj.efdqofep.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "john anderson|swingin",
+   "title": "Swingin'",
+   "artist": "John Anderson",
+   "year": 1982,
+   "rank": 2,
+   "cleanId": 335831588,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/a7/6d/caa76d8b-67e7-a4be-4fb1-f1bc3e447168/mzi.fhgrpnqy.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "john anderson|straight tequila night",
+   "title": "Straight Tequila Night",
+   "artist": "John Anderson",
+   "year": 1991,
+   "rank": 3,
+   "cleanId": 298562626,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features/19/ca/3e/dj.efdqofep.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "john anderson|i wish i could have been there",
+   "title": "I Wish I Could Have Been There",
+   "artist": "John Anderson",
+   "year": 1993,
+   "rank": 4,
+   "cleanId": 298562627,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features/19/ca/3e/dj.efdqofep.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "john anderson|black sheep",
+   "title": "Black Sheep",
+   "artist": "John Anderson",
+   "year": 1983,
+   "rank": 5,
+   "cleanId": 335831675,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/a7/6d/caa76d8b-67e7-a4be-4fb1-f1bc3e447168/mzi.fhgrpnqy.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "john anderson|money in the bank",
+   "title": "Money In the Bank",
+   "artist": "John Anderson",
+   "year": 1993,
+   "rank": 6,
+   "cleanId": 298562624,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features/19/ca/3e/dj.efdqofep.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "john anderson|wild and blue",
+   "title": "Wild and Blue",
+   "artist": "John Anderson",
+   "year": 1982,
+   "rank": 7,
+   "cleanId": 1048475268,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/8b/e9/5a/8be95a05-7f74-6b1e-04dc-ef2243bc61ed/mzm.qgvybyva.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "john anderson|would you catch a falling star",
+   "title": "Would You Catch a Falling Star",
+   "artist": "John Anderson",
+   "year": 1981,
+   "rank": 8,
+   "cleanId": 335831606,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/a7/6d/caa76d8b-67e7-a4be-4fb1-f1bc3e447168/mzi.fhgrpnqy.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "john anderson|1959",
+   "title": "1959",
+   "artist": "John Anderson",
+   "year": 1980,
+   "rank": 9,
+   "cleanId": 335831260,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/cf/02/bc/mzi.mdkuoxdv.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "john anderson|down in tennessee",
+   "title": "Down In Tennessee",
+   "artist": "John Anderson",
+   "year": 1985,
+   "rank": 10,
+   "cleanId": 335831590,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/38/55/af/mzi.texfvslr.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "the red clay strays|wondering why",
+   "title": "Wondering Why",
+   "artist": "The Red Clay Strays",
+   "year": 2022,
+   "rank": 1,
+   "cleanId": 1725170119,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9d/1b/c0/9d1bc061-4161-87bc-3cec-49e5951df334/197190214994.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "the red clay strays|wanna be loved",
+   "title": "Wanna Be Loved",
+   "artist": "The Red Clay Strays",
+   "year": 2024,
+   "rank": 2,
+   "cleanId": 1746991958,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/17/78/021778f3-9c1f-e211-30b6-854109b992ae/196871996808.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "the red clay strays|i m still fine",
+   "title": "I'm Still Fine",
+   "artist": "The Red Clay Strays",
+   "year": 2024,
+   "rank": 3,
+   "cleanId": 1746992363,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/17/78/021778f3-9c1f-e211-30b6-854109b992ae/196871996808.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "the red clay strays|demons in your choir",
+   "title": "Demons In Your Choir",
+   "artist": "The Red Clay Strays",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 1893402543,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/e4/7a7ae4aa-c96a-bc93-5d04-7c03aa5f35f5/196874013465.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "the red clay strays|drowning",
+   "title": "Drowning",
+   "artist": "The Red Clay Strays",
+   "year": 2024,
+   "rank": 5,
+   "cleanId": 1746991966,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/17/78/021778f3-9c1f-e211-30b6-854109b992ae/196871996808.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "the red clay strays|no one else like me",
+   "title": "No One Else Like Me",
+   "artist": "The Red Clay Strays",
+   "year": 2024,
+   "rank": 6,
+   "cleanId": 1746991961,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/17/78/021778f3-9c1f-e211-30b6-854109b992ae/196871996808.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "the red clay strays|if i didn t know you",
+   "title": "If I Didn't Know You",
+   "artist": "The Red Clay Strays",
+   "year": 2026,
+   "rank": 7,
+   "cleanId": 1875965776,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/df/ee/c6dfee5b-d151-f00b-2b28-06fd17ba3af8/196874013625.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "the red clay strays|people hatin",
+   "title": "People Hatin'",
+   "artist": "The Red Clay Strays",
+   "year": 2025,
+   "rank": 8,
+   "cleanId": 1842946198,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/0b/24/8f0b2408-8d26-c45d-650b-afa45f3bf6aa/196873613055.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "the red clay strays|god does",
+   "title": "God Does",
+   "artist": "The Red Clay Strays",
+   "year": 2024,
+   "rank": 9,
+   "cleanId": 1746992370,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/17/78/021778f3-9c1f-e211-30b6-854109b992ae/196871996808.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "the red clay strays|on my knees",
+   "title": "On My Knees",
+   "artist": "The Red Clay Strays",
+   "year": 2024,
+   "rank": 10,
+   "cleanId": 1746992365,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/17/78/021778f3-9c1f-e211-30b6-854109b992ae/196871996808.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "mack geiger|string by",
+   "title": "String By",
+   "artist": "Mack Geiger",
+   "year": 2025,
+   "rank": 1,
+   "cleanId": 1886475465,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/32/a2/9d/32a29dbc-49e3-b6dc-1c3c-89a8c0eda415/196874233788.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "mack geiger|pouring",
+   "title": "Pouring",
+   "artist": "Mack Geiger",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6796838547,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/c6/ec/0dc6ec69-7cad-9868-1e77-a196d834e919/196874590768.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "mack geiger|how it ends",
+   "title": "How It Ends",
+   "artist": "Mack Geiger",
+   "year": 2026,
+   "rank": 3,
+   "cleanId": 6824995469,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/b1/56/4bb156d0-ddf7-2c54-9adf-c01a2ea6fb77/196874869246.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "mack geiger|mess of blues",
+   "title": "Mess of Blues",
+   "artist": "Mack Geiger",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 6769457502,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/d9/6e/1cd96e2b-60aa-d54e-1d04-c8f491563610/196874341216.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "mack geiger|walk a straight line",
+   "title": "Walk a Straight Line",
+   "artist": "Mack Geiger",
+   "year": 2026,
+   "rank": 5,
+   "cleanId": 6769457484,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/d9/6e/1cd96e2b-60aa-d54e-1d04-c8f491563610/196874341216.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "mack geiger|about time",
+   "title": "About Time",
+   "artist": "Mack Geiger",
+   "year": 2025,
+   "rank": 6,
+   "cleanId": 1886474716,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/88/00/bf8800cf-5c34-773d-9342-608d9c92fe02/196874233795.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "mack geiger|hole in the wall",
+   "title": "Hole in the Wall",
+   "artist": "Mack Geiger",
+   "year": 2026,
+   "rank": 7,
+   "cleanId": 6769457487,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/d9/6e/1cd96e2b-60aa-d54e-1d04-c8f491563610/196874341216.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "mack geiger|campdraft queen",
+   "title": "Campdraft Queen",
+   "artist": "Mack Geiger",
+   "year": 2026,
+   "rank": 8,
+   "cleanId": 1893473888,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/91/8d/8a918db3-2650-4a55-6025-903e1c3e4914/196874286241.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "everen hale|mama can you hear me",
+   "title": "Mama, Can You Hear Me",
+   "artist": "Everen Hale",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 6804471044,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/8a/9d/038a9d44-d0b5-acc2-2479-b87d2c89c7ec/artwork.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "everen hale|i m sorry dad",
+   "title": "I’m Sorry, Dad",
+   "artist": "Everen Hale",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6804471045,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/8a/9d/038a9d44-d0b5-acc2-2479-b87d2c89c7ec/artwork.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "everen hale|what is heaven like",
+   "title": "What Is Heaven Like",
+   "artist": "Everen Hale",
+   "year": 2026,
+   "rank": 3,
+   "cleanId": 6804471043,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/8a/9d/038a9d44-d0b5-acc2-2479-b87d2c89c7ec/artwork.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "everen hale|the tears inside",
+   "title": "The Tears Inside",
+   "artist": "Everen Hale",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 6804471046,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/8a/9d/038a9d44-d0b5-acc2-2479-b87d2c89c7ec/artwork.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "everen hale|the last one here",
+   "title": "The Last One Here",
+   "artist": "Everen Hale",
+   "year": 2026,
+   "rank": 5,
+   "cleanId": 6804471047,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/8a/9d/038a9d44-d0b5-acc2-2479-b87d2c89c7ec/artwork.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stephen wilson jr|gary",
+   "title": "Gary",
+   "artist": "Stephen Wilson Jr.",
+   "year": 2025,
+   "rank": 1,
+   "cleanId": 1849508300,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/45/63/14/456314e0-bafd-5272-b6b2-c5ab3f29a1c9/25UM1IM73398.rgb.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stephen wilson jr|father s s n",
+   "title": "Father's Søn",
+   "artist": "Stephen Wilson Jr.",
+   "year": 2023,
+   "rank": 2,
+   "cleanId": 1752584911,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/1b/e6/701be6ec-bee7-3224-e1dc-bff335c76391/193436340465_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stephen wilson jr|year to be young 1994",
+   "title": "Year to Be Young 1994",
+   "artist": "Stephen Wilson Jr.",
+   "year": 2020,
+   "rank": 3,
+   "cleanId": 1752584744,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/1b/e6/701be6ec-bee7-3224-e1dc-bff335c76391/193436340465_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stephen wilson jr|cuckoo",
+   "title": "Cuckoo",
+   "artist": "Stephen Wilson Jr.",
+   "year": 2023,
+   "rank": 4,
+   "cleanId": 1752584284,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/1b/e6/701be6ec-bee7-3224-e1dc-bff335c76391/193436340465_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stephen wilson jr|grief is only love",
+   "title": "Grief is Only Love",
+   "artist": "Stephen Wilson Jr.",
+   "year": 2023,
+   "rank": 5,
+   "cleanId": 1752584918,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/1b/e6/701be6ec-bee7-3224-e1dc-bff335c76391/193436340465_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stephen wilson jr|hometown",
+   "title": "Hometown",
+   "artist": "Stephen Wilson Jr.",
+   "year": 2023,
+   "rank": 6,
+   "cleanId": 1752584924,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/1b/e6/701be6ec-bee7-3224-e1dc-bff335c76391/193436340465_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stephen wilson jr|american gothic",
+   "title": "American Gothic",
+   "artist": "Stephen Wilson Jr.",
+   "year": 2023,
+   "rank": 7,
+   "cleanId": 1752584727,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/1b/e6/701be6ec-bee7-3224-e1dc-bff335c76391/193436340465_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stephen wilson jr|billy",
+   "title": "billy",
+   "artist": "Stephen Wilson Jr.",
+   "year": 2022,
+   "rank": 8,
+   "cleanId": 1752584298,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/1b/e6/701be6ec-bee7-3224-e1dc-bff335c76391/193436340465_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stephen wilson jr|the devil",
+   "title": "the devil",
+   "artist": "Stephen Wilson Jr.",
+   "year": 2019,
+   "rank": 9,
+   "cleanId": 1752584281,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/1b/e6/701be6ec-bee7-3224-e1dc-bff335c76391/193436340465_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  },
+  {
+   "id": "stephen wilson jr|for what it s worth",
+   "title": "For What It's Worth",
+   "artist": "Stephen Wilson Jr.",
+   "year": 2023,
+   "rank": 10,
+   "cleanId": 1752585243,
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/1b/e6/701be6ec-bee7-3224-e1dc-bff335c76391/193436340465_Cover.jpg/100x100bb.jpg",
+   "charted": true
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+<title>DJPJ Song Crate</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* Layout: one column of artist crates under a sticky control bar, DJPJ's dark booth palette. */
+  :root {
+    --bg: #0b0716; --panel: #150e26; --line: #2c2245; --fg: #f1ecff; --muted: #a59bc4;
+    --accent: #ff3fa4; --on: #3ee6c0; --off: #ff6b6b;
+    --display: 'Bungee', 'Impact', system-ui, sans-serif;
+    --body: 'Barlow', 'Segoe UI', system-ui, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--fg); font: 16px/1.5 var(--body); margin: 0;
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 0 48px;
+  }
+  body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header { padding-block: 24px 8px; }
+  h1 { font: 400 clamp(28px, 7vw, 40px)/1.05 var(--display); margin: 0; letter-spacing: .02em; }
+  h1 span { color: var(--accent); }
+  .lede { color: var(--muted); margin: 8px 0 0; max-width: 60ch; }
+  .bar {
+    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+    display: flex; flex-direction: column; gap: 10px; padding-block: 12px; border-bottom: 1px solid var(--line);
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .chip, .btn {
+    font: 600 14px var(--body); color: var(--fg); background: var(--panel); border: 1px solid var(--line);
+    border-radius: 99px; padding: 6px 14px; cursor: pointer;
+  }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #1a0410; }
+  .btn:hover, .chip:hover { border-color: var(--muted); }
+  :focus-visible { outline: 2px solid var(--on); outline-offset: 2px; }
+  input[type=search] {
+    flex: 1 1 200px; min-width: 0; font: 15px var(--body); color: var(--fg); background: var(--panel);
+    border: 1px solid var(--line); border-radius: 99px; padding: 8px 14px;
+  }
+  .stats { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+  .stats b { color: var(--fg); font-weight: 600; }
+  .stats .x { color: var(--off); }
+  .note { font-size: 14px; color: var(--muted); padding: 10px 0 0; }
+  .note.err { color: var(--off); }
+  details { border-bottom: 1px solid var(--line); }
+  summary {
+    list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px; padding: 14px 0;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary .name { font-weight: 600; font-size: 17px; flex: 1; min-width: 0; }
+  summary .count { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+  summary .tag { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--on); border: 1px solid var(--on); border-radius: 4px; padding: 1px 6px; }
+  summary::before { content: '▸'; color: var(--muted); transition: transform .15s; }
+  details[open] summary::before { transform: rotate(90deg); }
+  .songs { list-style: none; margin: 0; padding: 0 0 12px; display: flex; flex-direction: column; gap: 2px; }
+  .song { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 8px 10px; border-radius: 10px; }
+  .song:hover { background: var(--panel); }
+  .song .t { min-width: 0; }
+  .song .title { font-weight: 500; overflow-wrap: anywhere; }
+  .song .meta { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+  .song.out .title { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--off); }
+  .song a { color: var(--muted); font-size: 13px; text-decoration: none; white-space: nowrap; }
+  .song a:hover { color: var(--fg); }
+  .switch { position: relative; width: 44px; height: 26px; flex: none; }
+  .switch input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+  .switch span { position: absolute; inset: 0; border-radius: 99px; background: var(--off); opacity: .55; transition: background .15s, opacity .15s; pointer-events: none; }
+  .switch span::after { content: ''; position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; border-radius: 50%; background: var(--fg); transition: transform .15s; }
+  .switch input:checked + span { background: var(--on); opacity: 1; }
+  .switch input:checked + span::after { transform: translateX(18px); }
+  .switch input:focus-visible + span { outline: 2px solid var(--on); outline-offset: 2px; }
+  .switch input:disabled { cursor: not-allowed; }
+  .artist-actions { display: flex; gap: 8px; padding: 0 0 12px 10px; }
+  .artist-actions .btn { font-size: 13px; padding: 4px 12px; }
+  .empty { color: var(--muted); padding: 32px 0; text-align: center; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>DJPJ <span>Song Crate</span></h1>
+    <p class="lede">Every song DJPJ can play, by genre. Switch a song off to keep it out of every set. Changes save as you go.</p>
+  </header>
+
+  <div class="bar">
+    <div class="row" id="genres" role="group" aria-label="Genre"></div>
+    <div class="row">
+      <input type="search" id="q" placeholder="Search artists or songs" aria-label="Search artists or songs">
+      <button type="button" class="chip" id="only-out" aria-pressed="false">Excluded only</button>
+    </div>
+    <div class="stats" id="stats">Loading the crate…</div>
+  </div>
+  <p class="note" id="note" hidden></p>
+
+  <main id="list"></main>
+</div>
+
+<script>
+const GENRES = [{ key: 'country', label: 'Country' }];
+const $ = s => document.querySelector(s);
+const state = { genre: GENRES[0].key, catalogs: {}, excluded: new Map(), q: '', onlyOut: false, open: new Set(), canWrite: true };
+let db = null;
+
+const docId = (genre, id) => genre + '~' + id.replace(/\|/g, '~').replace(/ /g, '-');
+const note = (msg, err) => { const n = $('#note'); n.hidden = !msg; n.textContent = msg || ''; n.classList.toggle('err', !!err); };
+
+function renderGenres() {
+  $('#genres').innerHTML = GENRES.map(g =>
+    `<button type="button" class="chip" data-genre="${g.key}" aria-pressed="${g.key === state.genre}">${g.label}</button>`).join('');
+}
+
+async function loadCatalog(key) {
+  if (!state.catalogs[key]) {
+    const res = await fetch(`catalog/${key}.json`);
+    if (!res.ok) throw new Error(`Couldn't load the ${key} list`);
+    state.catalogs[key] = await res.json();
+  }
+  return state.catalogs[key];
+}
+
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+
+function render() {
+  const cat = state.catalogs[state.genre];
+  if (!cat) return;
+  const q = state.q.trim().toLowerCase();
+  const isOut = s => state.excluded.has(docId(state.genre, s.id));
+  const byArtist = new Map();
+  for (const s of cat.songs) {
+    if (!byArtist.has(s.artist)) byArtist.set(s.artist, []);
+    byArtist.get(s.artist).push(s);
+  }
+  const total = cat.songs.length, out = cat.songs.filter(isOut).length;
+  $('#stats').innerHTML = `<b>${total - out}</b> playing · <b class="x">${out}</b> excluded · ${byArtist.size} artists · built ${esc(cat.built)}`;
+
+  let html = '';
+  for (const [artist, songs] of byArtist) {
+    const shown = songs.filter(s => (!q || artist.toLowerCase().includes(q) || s.title.toLowerCase().includes(q)) && (!state.onlyOut || isOut(s)));
+    if (!shown.length) continue;
+    const outN = songs.filter(isOut).length;
+    const open = q || state.onlyOut || state.open.has(artist);
+    html += `<details data-artist="${esc(artist)}"${open ? ' open' : ''}>
+      <summary><span class="name">${esc(artist)}</span>${songs.some(s => s.charted) ? '<span class="tag">On the chart</span>' : ''}
+        <span class="count">${songs.length - outN}/${songs.length}</span></summary>
+      <div class="artist-actions">
+        <button type="button" class="btn" data-all="on">Play all</button>
+        <button type="button" class="btn" data-all="off">Exclude all</button>
+      </div>
+      <ul class="songs">${shown.map(s => {
+        const off = isOut(s), tid = s.cleanId || s.explicitId;
+        return `<li class="song${off ? ' out' : ''}">
+          <label class="switch" title="${off ? 'Excluded' : 'Playing'}"><input type="checkbox" id="sw-${esc(docId(state.genre, s.id))}" data-song="${esc(s.id)}" ${off ? '' : 'checked'} ${state.canWrite ? '' : 'disabled'} aria-label="Play ${esc(s.title)}"><span></span></label>
+          <div class="t"><div class="title">${esc(s.title)}</div>
+            <div class="meta">${s.year || '—'} · #${s.rank} for ${esc(artist)}${s.cleanId ? '' : ' · explicit only'}</div></div>
+          <a href="https://music.apple.com/us/song/${tid}" target="_blank" rel="noopener">Listen ↗</a>
+        </li>`;
+      }).join('')}</ul>
+    </details>`;
+  }
+  $('#list').innerHTML = html || `<p class="empty">${state.onlyOut ? 'Nothing excluded yet. Switch a song off to keep it out of sets.' : 'No songs match that search.'}</p>`;
+}
+
+async function setSong(songId, play) {
+  const cat = state.catalogs[state.genre];
+  const s = cat.songs.find(x => x.id === songId);
+  const id = docId(state.genre, songId);
+  if (!db) return note('Saving needs you signed in to Claude. Nothing was changed.', true);
+  const ref = db.collection('excluded').doc(id);
+  if (play) { state.excluded.delete(id); render(); await ref.delete(); }
+  else {
+    const body = { genre: state.genre, song: s.id, title: s.title, artist: s.artist };
+    state.excluded.set(id, body); render(); await ref.set(body);
+  }
+}
+
+async function setArtist(artist, play) {
+  const songs = state.catalogs[state.genre].songs.filter(s => s.artist === artist);
+  for (const s of songs) {
+    const out = state.excluded.has(docId(state.genre, s.id));
+    if (out === play) await setSong(s.id, play);
+  }
+}
+
+$('#genres').addEventListener('click', async e => {
+  const b = e.target.closest('[data-genre]');
+  if (!b) return;
+  state.genre = b.dataset.genre; state.open.clear(); renderGenres();
+  try { await loadCatalog(state.genre); render(); } catch (err) { note(err.message, true); }
+});
+$('#q').addEventListener('input', e => { state.q = e.target.value; render(); });
+$('#only-out').addEventListener('click', e => {
+  state.onlyOut = !state.onlyOut; e.currentTarget.setAttribute('aria-pressed', state.onlyOut); render();
+});
+$('#list').addEventListener('change', e => {
+  const sw = e.target.closest('[data-song]');
+  if (sw) setSong(sw.dataset.song, sw.checked).catch(err => note(`Couldn't save that change (${err.message}). Try again.`, true));
+});
+$('#list').addEventListener('click', e => {
+  const b = e.target.closest('[data-all]');
+  if (!b) return;
+  const artist = b.closest('details').dataset.artist;
+  state.open.add(artist);
+  setArtist(artist, b.dataset.all === 'on').catch(err => note(`Couldn't save that change (${err.message}). Try again.`, true));
+});
+$('#list').addEventListener('toggle', e => {
+  const d = e.target;
+  if (d.tagName === 'DETAILS') d.open ? state.open.add(d.dataset.artist) : state.open.delete(d.dataset.artist);
+}, true);
+
+renderGenres();
+loadCatalog(state.genre).then(render).catch(err => note(err.message, true));
+
+(async () => {
+  db = await window.claude?.use?.('db') ?? null;
+  if (!db) { note('Sign in to Claude to save exclusions. You can still browse the list.'); return; }
+  const timer = setTimeout(() => note('Saved exclusions can\'t be reached yet. Changes may not show until they load.'), 10000);
+  db.collection('excluded').onSnapshot(snap => {
+    if (!snap.metadata.fromCache) { clearTimeout(timer); note(''); }
+    state.excluded = new Map(snap.docs.map(d => [d.id, d.data()]));
+    render();
+  }, err => {
+    clearTimeout(timer);
+    if (err.code === 'invalid_argument' || err.code === 'revoked') { state.canWrite = false; render(); }
+    note('Saved exclusions are unavailable right now. You can still browse the list.', true);
+  });
+})();
+</script>

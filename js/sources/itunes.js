@@ -53,6 +53,16 @@ export async function search(term, { limit = 10, clean = false } = {}) {
   return dedupe(res.filter(r => usable(r) && (!clean || cleanOk(r))).map(toTrack)).slice(0, limit);
 }
 
+// Fresh preview links for catalog songs, by iTunes track id (one request for the batch).
+export async function lookup(ids) {
+  const url = new URL('https://itunes.apple.com/lookup');
+  url.searchParams.set('id', ids.join(','));
+  url.searchParams.set('country', 'US');
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`iTunes ${res.status}`);
+  return ((await res.json()).results || []).filter(r => r.kind === 'song' && r.previewUrl).map(toTrack);
+}
+
 export async function byArtist(artist, { clean = false } = {}) {
   const res = await query({ term: artist, attribute: 'artistTerm', limit: 40, ...(clean ? { explicit: 'No' } : {}) });
   const want = norm(artist);

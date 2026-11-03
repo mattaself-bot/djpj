@@ -35,6 +35,13 @@ export const GENRES = [
         'Kenny Chesney', 'Zach Bryan', 'Dolly Parton', 'Johnny Cash', 'Shania Twain', 'Alan Jackson', 'Brooks & Dunn',
         'Tim McGraw', 'Toby Keith', 'Luke Bryan', 'Blake Shelton', 'Miranda Lambert', 'Keith Urban', 'Jason Aldean'],
     },
+    catalog: {
+      chart: 6, // Apple's Country chart
+      more: ['Cody Johnson', 'Lainey Wilson', 'Kane Brown', 'Thomas Rhett', 'Brad Paisley', 'Reba McEntire', 'Willie Nelson',
+        'Dierks Bentley', 'Eric Church', 'Old Dominion', 'Dan + Shay', 'Kelsea Ballerini', 'Chris Young', 'Sam Hunt',
+        'Rascal Flatts', 'Trace Adkins', 'Faith Hill', 'Randy Travis', 'Merle Haggard', 'Travis Tritt', 'Lee Brice',
+        'Riley Green', 'Bailey Zimmerman', 'HARDY', 'Jordan Davis', 'Parker McCollum', 'Megan Moroney', 'Ella Langley'],
+    },
     archive: 'subject:country OR subject:hillbilly OR subject:fiddle OR subject:"old time"',
   },
   {
