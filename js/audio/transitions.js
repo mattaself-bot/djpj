@@ -34,6 +34,9 @@ export const TRANSITIONS = {
       ramp(inc.high.gain, 0, mid);
       at(out.low.gain, 0, mid - 0.03);
       ramp(out.low.gain, -26, mid + 0.03);
+      // once the bass has swapped, pull the old record's mids back so two vocals don't fight
+      at(out.mid.gain, 0, mid);
+      ramp(out.mid.gain, -7, mid + (end - mid) * 0.5);
       at(out.fader.gain, 1, mid);
       ramp(out.fader.gain, 0, end);
       out.stop(end + 0.05);

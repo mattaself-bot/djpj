@@ -19,7 +19,7 @@ block ES modules on `file://`.
 
 | Source | What you get | Used for |
 |---|---|---|
-| [iTunes Search API](https://performance-partners.apple.com/search-api) | The real commercial catalog, clean versions by default, but only 30-second previews | Every genre and song search |
+| [iTunes Search API](https://performance-partners.apple.com/search-api) | The real commercial catalog, clean versions by default, but only 30-second previews | Every genre (through saved catalogs) and song search |
 | [Internet Archive · Great 78 Project](https://archive.org/details/georgeblood) | Full-length 78rpm records old enough to be US public domain | "Roaring '20s" genre and the "public-domain classics" option |
 
 Notes:
@@ -33,10 +33,20 @@ Notes:
 
 ## Song catalogs
 
-A genre with `catalog` settings in `js/genres.js` plays from a reviewed song list instead of searching its
-artists live. Build or refresh one with `node tools/build-catalog.mjs <genre>` (about 3 minutes; it writes
-`data/catalog/<genre>.json`). Songs taken out live in `data/catalog/exclude.json`, so a rebuild never brings
-them back. `tools/review/` is the private review page used to pick them.
+Every genre except Roaring '20s plays from a saved song list in `data/catalog/<genre>.json`: the top songs of
+the genre's artists, each with its preview link. Starting a set therefore makes **no calls to Apple's search**.
+That matters because Apple cuts a visitor off (HTTP 403) after a few dozen searches in a short time, which used
+to stop every genre at once. Only the search box still calls Apple live; if it gets cut off it says so and
+rests for a minute, and the genres keep playing.
+
+- `node tools/build-catalog.mjs <genre>` builds or rebuilds one (about a minute per 20 artists).
+  `node tools/build-catalog.mjs all` does every genre.
+- `node tools/build-catalog.mjs <genre> --refresh` keeps the song list and only renews the preview links.
+  Run it every few months: if a saved link goes stale the site looks up a fresh one on its own, but that
+  costs a call to Apple each time.
+- Country's list was hand-reviewed with `tools/review/` (the private review page), so refresh it rather than
+  rebuild it. Songs taken out live in `data/catalog/exclude.json`, so a rebuild never brings them back.
+- If a catalog file is missing, the genre falls back to searching its artists live.
 
 ## How the mixing works
 
@@ -50,7 +60,12 @@ either way, and every record varies around it the way it does in a real set.
   30-second previews get a **DJ edit**: whole bars re-arranged (hook repeat, double hook, intro vamp, reprise,
   outro loop) so a clip plays about as long as that genre's records do live, with a different shape each time.
 - `js/crate.js`: gathers candidates per genre and picks the next record. It favors matching tempos,
-  harmonically compatible keys (`keys.js`, Camelot wheel) and a different artist from the last one.
+  harmonically compatible keys (`keys.js`, Camelot wheel), never plays an artist twice in a row and spaces
+  them a few records apart. Apple doesn't publish tempo or key, so DJPJ measures both the first time a record
+  plays (`analyze.js`) and remembers them in the browser (`memory.js`) for later sets.
+- Cueing: when the next pick's tempo is more than 6% from what's playing (too far to beat-match without the
+  pitch change being heard), DJPJ auditions up to two more records and keeps the closest, like a DJ checking
+  records in the headphones. The others go back in the crate.
 - `js/dj.js`: runs two decks, preloads the next record, and schedules each transition on the audio clock.
   Between transitions he works the phrase lines: a flourish into the next section, and on some records a
   trick, rotated so no two sets come out the same:

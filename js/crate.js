@@ -3,9 +3,12 @@ import * as itunes from './sources/itunes.js';
 import * as archive from './sources/archive.js';
 import { genreByKey } from './genres.js';
 import { keysCompatible } from './keys.js';
+import { recall } from './memory.js';
 
 const { norm } = itunes;
 const pickN = (list, n) => [...(list || [])].sort(() => Math.random() - 0.5).slice(0, n);
+// "Drake & Future" and "Drake" are the same act when spacing out artists
+const lead = name => norm((name || '').split(/,| & | x | feat/i)[0]);
 const inYears = (t, [lo, hi]) => !t.year || (t.year >= lo && t.year <= hi);
 
 // A genre's reviewed song list (built by tools/build-catalog.mjs), minus the songs taken out of it.
@@ -41,6 +44,7 @@ export class Crate {
     this.artistsUsed = new Set();
     this.refills = 0;
     this.sincePD = 0;
+    this.lastArtists = [];
     if (seedTrack) this.markSeen(seedTrack);
   }
 
@@ -48,7 +52,32 @@ export class Crate {
   markSeen(t) { this.seen.add(t.id); this.seen.add(this.sig(t)); if (t.songKey) this.seen.add(t.songKey); }
   isSeen(t) { return this.seen.has(t.id) || this.seen.has(this.sig(t)); }
   add(list, into) {
-    for (const t of list) if (!this.isSeen(t) && !into.some(x => x.id === t.id || this.sig(x) === this.sig(t))) into.push(t);
+    for (const t of list) {
+      if (this.isSeen(t) || into.some(x => x.id === t.id || this.sig(x) === this.sig(t))) continue;
+      // tempo and key DJPJ measured the last time this record played, so it can be picked to fit
+      const known = recall(t.id);
+      if (known) { t.bpm ??= known.bpm; t.key ??= known.key; }
+      into.push(t);
+    }
+  }
+
+  // Settings changed mid-set: clean mode drops explicit cuts that are waiting in the crate.
+  setClean(clean) {
+    this.clean = clean;
+    if (clean) this.pool = this.pool.filter(t => !t.explicit);
+  }
+  setArchive(on) {
+    this.useArchive = (on || this.archiveOnly) && !!this.genre.archive;
+    if (this.archiveOnly) return;
+    if (!this.useArchive) this.pdPool = [];
+    else if (!this.pdPool.length) archive.discover(this.genre.archive).then(l => this.add(l, this.pdPool)).catch(() => {});
+  }
+
+  // A record that was auditioned but didn't suit what's playing goes back for later.
+  putBack(t) {
+    delete t.prep; // frees the decoded audio; its tempo and key stay on the track
+    for (const k of [t.id, this.sig(t), t.songKey]) this.seen.delete(k);
+    (t.source === 'archive' && !this.archiveOnly ? this.pdPool : this.pool).push(t);
   }
 
   async refill() {
@@ -66,11 +95,11 @@ export class Crate {
         if ((perArtist[s.artist] = (perArtist[s.artist] || 0) + 1) <= 2) batch.push(s);
       }
       if (!batch.length) this.seen.clear(); // the whole catalog has played: start it over
-      else {
-        jobs.push(itunes.lookup(batch.map(cut)).then(l => {
-          // keep the catalog's song key so exclusions and repeats match however Apple titles the track
-          const keyOf = new Map(batch.map(s => [String(cut(s)), s.id]));
-          this.add(l.map(t => ({ ...t, songKey: keyOf.get(t.id.slice(3)) })), this.pool);
+      else this.add(batch.map(s => itunes.fromCatalog(s, this.clean)), this.pool);
+      // a set started from a searched song opens with a few more by that artist (one search, optional)
+      if (first && this.seed?.source === 'itunes' && !itunes.throttled()) {
+        jobs.push(itunes.byArtist(this.seed.artist, { clean: this.clean }).then(l => {
+          this.add(pickN(l.filter(t => inYears(t, g.itunes.years)).slice(0, 20), 3), this.pool);
         }));
       }
     } else if (!this.archiveOnly) {
@@ -119,16 +148,23 @@ export class Crate {
     return t;
   }
 
+  // Called when a record actually goes on: remembers the last few artists.
+  played(t) {
+    this.lastArtists = [lead(t.artist), ...this.lastArtists].slice(0, 4);
+  }
+
   score(t, prev) {
     let s = Math.random() * 2;
-    const prevBpm = prev?.prep?.bpm;
+    const prevBpm = prev?.prep?.bpm || prev?.bpm;
     if (prevBpm && t.bpm) {
+      // close enough to beat-match is what matters; a known clash waits for a better moment
       const d = tempoDistance(prevBpm, t.bpm);
-      s += d < 0.03 ? 3 : d < 0.06 ? 2 : d < 0.1 ? 0.5 : -1;
+      s += d < 0.03 ? 2.5 : d < 0.06 ? 1.8 : d < 0.085 ? -0.5 : -3;
     }
-    if (prev?.key && t.key && keysCompatible(prev.key, t.key)) s += 1.5;
-    if (prev && norm(prev.artist) === norm(t.artist)) s -= 2.5;
-    if (t.popularity) s += Math.min(1, Math.log10(t.popularity + 1) / 6);
+    if (prev?.key && t.key && keysCompatible(prev.key, t.key)) s += 1;
+    // no artist twice in a row, and not again within a few records
+    const who = lead(t.artist);
+    this.lastArtists.forEach((a, i) => { if (a === who) s -= i === 0 ? 8 : 2; });
     return s;
   }
 }

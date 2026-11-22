@@ -414,7 +414,8 @@ button { font: inherit; color: inherit; }
 .now-bar { display: flex; align-items: center; gap: 10px; min-width: 0; max-width: 720px; width: 100%; justify-self: center; }
 .np-art { width: 44px; height: 44px; border-radius: 8px; object-fit: cover; background: #2a1f4a; flex: none; }
 .np-art:not([src]) { visibility: hidden; }
-.np-text { flex: 1; min-width: 0; }
+.np-text { flex: 1; min-width: 0; cursor: pointer; }
+.np-art { cursor: pointer; }
 .np-time { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .ticker { overflow: hidden; white-space: nowrap; font-weight: 700; font-size: 14px; }
 .ticker span { display: inline-block; }

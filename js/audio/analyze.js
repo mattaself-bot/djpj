@@ -167,3 +167,59 @@ export function loudest(s, spb, from, to, len = 4) {
   }
   return at;
 }
+
+// Musical key, from which notes carry the most energy (a chromagram matched against the
+// Krumhansl-Kessler major and minor profiles). Returns a name like "F# minor", or null when
+// nothing stands out (drums only, or a record that's out of tune with A440).
+const NOTES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+const MAJOR = [6.35, 2.23, 3.48, 2.33, 4.38, 4.09, 2.52, 5.19, 2.39, 3.66, 2.29, 2.88];
+const MINOR = [6.33, 2.68, 3.52, 5.38, 2.6, 3.53, 2.54, 4.75, 3.98, 2.69, 3.34, 3.17];
+
+export function detectKey(buffer, from = 0, to = buffer.duration) {
+  const L = buffer.getChannelData(0);
+  const R = buffer.numberOfChannels > 1 ? buffer.getChannelData(1) : L;
+  // mono at about 11 kHz is plenty for the notes used here, C3 to B5
+  const dec = Math.max(1, Math.round(buffer.sampleRate / 11025)), sr = buffer.sampleRate / dec;
+  const N = 4096, maxFrames = 32;
+  const i0 = Math.floor(from * buffer.sampleRate), total = Math.floor(((to - from) * buffer.sampleRate) / dec);
+  const frames = Math.min(maxFrames, Math.floor(total / N));
+  if (frames < 4) return null;
+  const stride = Math.floor(total / frames); // frames spread across the whole stretch
+  const win = new Float32Array(N), x = new Float32Array(N);
+  for (let i = 0; i < N; i++) win[i] = 0.5 - 0.5 * Math.cos((2 * Math.PI * i) / (N - 1));
+  const coeffs = [];
+  for (let midi = 48; midi < 84; midi++) coeffs.push(2 * Math.cos((2 * Math.PI * 440 * Math.pow(2, (midi - 69) / 12)) / sr));
+  const chroma = new Float64Array(12);
+  for (let f = 0; f < frames; f++) {
+    const base = i0 + f * stride * dec;
+    for (let i = 0; i < N; i++) {
+      let s = 0;
+      for (let d = 0; d < dec; d++) s += (L[base + i * dec + d] + R[base + i * dec + d]) || 0;
+      x[i] = s * win[i];
+    }
+    coeffs.forEach((c, k) => { // Goertzel: the energy at one note's frequency
+      let s1 = 0, s2 = 0;
+      for (let i = 0; i < N; i++) { const s0 = x[i] + c * s1 - s2; s2 = s1; s1 = s0; }
+      chroma[k % 12] += Math.sqrt(Math.max(0, s1 * s1 + s2 * s2 - c * s1 * s2));
+    });
+  }
+  const corr = (profile, shift) => {
+    let mp = 0, mc = 0;
+    for (let i = 0; i < 12; i++) { mp += profile[i]; mc += chroma[i]; }
+    mp /= 12; mc /= 12;
+    let num = 0, dp = 0, dc = 0;
+    for (let i = 0; i < 12; i++) {
+      const p = profile[i] - mp, c = chroma[(i + shift) % 12] - mc;
+      num += p * c; dp += p * p; dc += c * c;
+    }
+    return num / Math.sqrt(dp * dc || 1);
+  };
+  let best = -1, name = null;
+  for (let tonic = 0; tonic < 12; tonic++) {
+    for (const [profile, mode] of [[MAJOR, 'major'], [MINOR, 'minor']]) {
+      const r = corr(profile, tonic);
+      if (r > best) { best = r; name = `${NOTES[tonic]} ${mode}`; }
+    }
+  }
+  return best > 0.55 ? name : null;
+}

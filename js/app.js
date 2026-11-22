@@ -17,6 +17,7 @@ const engine = new Engine();
 const dj = new AutoDJ(engine);
 window.djpj = { dj, engine }; // handy for poking at the set from the browser console
 
+const PAGE_TITLE = document.title;
 const SOURCE = { itunes: '30-sec preview · iTunes', archive: 'Public domain · Archive' };
 const SHORT = { itunes: 'Hit · 30s', archive: '1920s' };
 const LINK = { itunes: 'Get the full song on Apple Music', archive: 'View on the Internet Archive' };
@@ -24,7 +25,7 @@ const LINK = { itunes: 'Get the full song on Apple Music', archive: 'View on the
 // ---------- settings (remembered per browser) ----------
 const settings = (() => {
   // clean lyrics unless the listener opts in; the old `clean` and `mode` (Audius full tracks) flags are dropped
-  const defaults = { archive: false, explicit: false, style: 'club', smoke: false, strobe: false };
+  const defaults = { archive: false, explicit: false, style: 'club', smoke: false, strobe: false, volume: 0.9 };
   try {
     const { clean, mode, ...saved } = JSON.parse(localStorage.getItem('djpj:settings') || '{}');
     return { ...defaults, ...saved };
@@ -112,15 +113,25 @@ function bindControls() {
     });
   });
   document.querySelectorAll('input[type=checkbox][data-bind]').forEach(cb => {
-    cb.addEventListener('change', () => { settings[cb.dataset.bind] = cb.checked; save(); });
+    cb.addEventListener('change', () => {
+      settings[cb.dataset.bind] = cb.checked;
+      save();
+      dj.setOptions({ clean: !settings.explicit, archive: settings.archive }); // takes effect on the set that's playing
+    });
   });
+  $('#volume').value = settings.volume;
   syncControls();
 }
 
 // ---------- starting sets ----------
 function startSet({ genreKey, seedTrack = null }) {
+  const fresh = !engine.ctx;
   engine.init(); // inside the tap, so mobile browsers allow sound
-  document.querySelectorAll('.genre').forEach(b => b.classList.toggle('active', b.dataset.genre === genreKey));
+  if (fresh) engine.volume.gain.value = settings.volume;
+  document.querySelectorAll('.genre').forEach(b => {
+    b.classList.toggle('active', b.dataset.genre === genreKey);
+    b.setAttribute('aria-pressed', String(b.dataset.genre === genreKey));
+  });
   const details = $('#np-details');
   if (details.hidden) {
     details.hidden = false;
@@ -140,7 +151,7 @@ function startSet({ genreKey, seedTrack = null }) {
 function renderGenres() {
   const grid = $('#genres');
   grid.innerHTML = GENRES.map(g => `
-    <button class="genre" type="button" data-genre="${g.key}" style="--hue:${g.hue}">
+    <button class="genre" type="button" data-genre="${g.key}" aria-pressed="false" style="--hue:${g.hue}">
       <span class="icon" aria-hidden="true">${g.icon}</span>
       <span class="name">${esc(g.label)}</span>
       <span class="sub">${esc(g.sub)}</span>
@@ -179,7 +190,10 @@ async function doSearch(q) {
       </button>`;
     }).join('');
   }).join('');
-  box.innerHTML = html || '<div class="muted small">No matches. Try an artist name, or pick a genre below.</div>';
+  // Apple limits how often search can be asked; genres play from saved catalogs and don't need it
+  const resting = hits.status === 'rejected';
+  box.innerHTML = (resting ? '<div class="muted small">Song search is resting for a minute (Apple limits how often it can be asked). Every genre below still plays.</div>' : '')
+    + (html || (resting ? '' : '<div class="muted small">No matches. Try an artist name, or pick a genre below.</div>'));
 }
 
 function bindSearch() {
@@ -238,6 +252,7 @@ function showTrack(t) {
   src.className = `badge ${t.source}`;
   $('#np-bpm').textContent = t.prep ? `${Math.round(t.prep.bpm)} BPM` : '';
   $('#np-key').textContent = camelotLabel(t.key) ? `Key ${camelotLabel(t.key)}` : '';
+  document.title = `${t.title} · ${t.artist} | DJPJ`;
   const link = $('#np-link');
   link.hidden = !t.link;
   link.href = t.link || '#';
@@ -349,8 +364,18 @@ function bindPlayer() {
     setPauseButton(await dj.togglePause());
   });
   $('#btn-skip').addEventListener('click', () => dj.skip());
-  $('#btn-stop').addEventListener('click', () => {
+  // what's playing in the dock opens the crate, where the details and the queue are
+  for (const sel of ['#np-art', '.np-text']) $(sel).addEventListener('click', () => { if (dj.current) openSheet('crate', true); });
+  // a set that couldn't start: back to the crate with the reason, ready for another pick
+  dj.addEventListener('error', e => {
+    endSet();
+    say(e.detail.message);
+    openSheet('crate', true);
+  });
+  $('#btn-stop').addEventListener('click', endSet);
+  function endSet() {
     dj.stop();
+    document.title = PAGE_TITLE;
     setMove(null);
     setFace(null);
     dance(null);
@@ -365,7 +390,7 @@ function bindPlayer() {
     $('#crate-sub').textContent = 'Pick a genre';
     ['#btn-pause', '#btn-skip'].forEach(s => { $(s).disabled = true; });
     $('#home-title').textContent = 'What are we spinning?';
-    document.querySelectorAll('.genre.active').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.genre').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
     document.querySelectorAll('.fx[aria-pressed]').forEach(b => b.setAttribute('aria-pressed', 'false'));
     if (engine.ctx) {
       engine.flanger.set(false);
@@ -373,9 +398,11 @@ function bindPlayer() {
     }
     wakeLock?.release().catch(() => {});
     wakeLock = null;
-  });
+  }
   $('#volume').addEventListener('input', e => {
-    if (engine.ctx) engine.volume.gain.setTargetAtTime(+e.target.value, engine.now, 0.03);
+    settings.volume = +e.target.value;
+    save();
+    if (engine.ctx) engine.volume.gain.setTargetAtTime(settings.volume, engine.now, 0.03);
   });
 
   const pad = $('#fx-pad');

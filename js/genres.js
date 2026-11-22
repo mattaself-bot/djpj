@@ -1,5 +1,7 @@
 // How each genre maps onto the music sources.
 //   itunes.artists   seed artists whose hits fill the crate; itunes.years limits release years
+//   catalog          the genre plays from data/catalog/<key>.json (tools/build-catalog.mjs builds it);
+//                    chart = Apple chart id whose regulars join the roster, more = extra artists
 //   archive          Internet Archive subject clause for public-domain 78s (null = nothing fits)
 
 // US sound recordings become public domain 100 years after the end of their release year
@@ -15,6 +17,7 @@ export const GENRES = [
         '50 Cent', 'Future', 'Megan Thee Stallion', 'Doja Cat', 'JAY-Z', 'Nicki Minaj', 'Outkast', 'Ludacris', 'T.I.',
         'Lil Baby', '21 Savage', 'Missy Elliott'],
     },
+    catalog: {},
     archive: null,
   },
   {
@@ -25,6 +28,7 @@ export const GENRES = [
         'The Notorious B.I.G.', '2Pac', 'Salt-N-Pepa', 'Beastie Boys', 'De La Soul', 'Wu-Tang Clan', 'The Sugarhill Gang',
         'Naughty By Nature', 'Eric B. & Rakim', 'Ice Cube', 'Nas', 'Coolio', 'House of Pain'],
     },
+    catalog: {},
     archive: null,
   },
   {
@@ -52,6 +56,7 @@ export const GENRES = [
         'Martin Garrix', 'Marshmello', 'The Chemical Brothers', 'Fatboy Slim', 'The Prodigy', 'Tiësto', 'ILLENIUM', 'ODESZA',
         'Flume', 'Fred again..', 'Kaskade', 'Porter Robinson'],
     },
+    catalog: {},
     archive: null,
   },
   {
@@ -62,6 +67,7 @@ export const GENRES = [
         'David Guetta', 'Robin S', 'Chris Lake', 'MK', 'Peggy Gou', 'Meduza', 'Joel Corry', 'Armand Van Helden', 'Stardust',
         'Robin Schulz', 'Black Coffee', 'Diplo', 'Martin Solveig'],
     },
+    catalog: {},
     archive: null,
   },
   {
@@ -73,6 +79,7 @@ export const GENRES = [
         'REO Speedwagon', 'The Who', 'Aerosmith', 'Bruce Springsteen', 'Creedence Clearwater Revival', 'Pat Benatar', 'Heart',
         'ZZ Top', 'KISS'],
     },
+    catalog: {},
     archive: null,
   },
   {
@@ -83,6 +90,7 @@ export const GENRES = [
         'Justin Timberlake', 'Sabrina Carpenter', 'Olivia Rodrigo', 'Michael Jackson', 'Madonna', 'Britney Spears', 'Ed Sheeran',
         'Rihanna', 'Billie Eilish', 'Miley Cyrus', 'Whitney Houston', 'Mariah Carey'],
     },
+    catalog: {},
     archive: 'subject:"fox trot" OR subject:popular',
   },
   {
@@ -93,6 +101,7 @@ export const GENRES = [
         'Frank Ocean', 'Anderson .Paak', 'Earth, Wind & Fire', 'Prince', 'Janet Jackson', 'Mary J. Blige', 'Luther Vandross',
         'TLC', "Destiny's Child", 'Al Green', 'Chris Brown', 'H.E.R.'],
     },
+    catalog: {},
     archive: 'subject:blues OR subject:jazz',
   },
   {
@@ -103,6 +112,7 @@ export const GENRES = [
         'Marc Anthony', 'Ozuna', 'Pitbull', 'Ricky Martin', 'Enrique Iglesias', 'Luis Fonsi', 'Peso Pluma', 'Rauw Alejandro',
         'UB40', 'Toots & The Maytals', 'Damian Marley', 'Becky G'],
     },
+    catalog: {},
     archive: 'subject:tango OR subject:rumba OR subject:mexican OR subject:habanera OR subject:latin',
   },
   {
@@ -113,6 +123,7 @@ export const GENRES = [
         'Zach Williams', 'Elevation Worship', 'Phil Wickham', 'Crowder', 'Matthew West', 'Brandon Lake', 'Maverick City Music',
         'Jeremy Camp', 'Third Day', 'Newsboys', 'Kari Jobe', 'Danny Gokey', 'Cody Carnes'],
     },
+    catalog: {},
     archive: 'subject:sacred OR subject:hymn OR subject:spiritual OR subject:gospel',
   },
   {

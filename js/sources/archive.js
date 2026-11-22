@@ -26,6 +26,9 @@ function tidy(s) {
   return s === s.toUpperCase() ? s.toLowerCase().replace(/(^|[\s('"-])\w/g, c => c.toUpperCase()) : s;
 }
 
+// the Archive lists a file's length in seconds ("187.4") or as minutes and seconds ("3:07")
+const secs = v => String(v ?? '').split(':').reduce((t, part) => t * 60 + (parseFloat(part) || 0), 0);
+
 function toTrack(d) {
   const id = d.identifier;
   return {
@@ -47,11 +50,11 @@ function toTrack(d) {
       if (this.url) return;
       const res = await fetch(`https://archive.org/metadata/${id}`, { signal });
       const meta = await res.json();
-      const mp3s = (meta.files || []).filter(f => /\.mp3$/i.test(f.name) && (!f.length || (+f.length > 60 && +f.length < 600)));
+      const mp3s = (meta.files || []).filter(f => /\.mp3$/i.test(f.name) && (!f.length || (secs(f.length) > 60 && secs(f.length) < 600)));
       if (!mp3s.length) throw new Error('No MP3 in archive item');
       const file = mp3s.find(f => !/restored|_78_/i.test(f.name)) || mp3s[0];
       this.url = `https://archive.org/download/${id}/${encodeURIComponent(file.name)}`;
-      this.duration = +file.length || null;
+      this.duration = secs(file.length) || null;
     },
   };
 }

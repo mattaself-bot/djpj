@@ -2,8 +2,9 @@
 // Full tracks get phrase-aligned in/out points. 30-second previews get a DJ edit: whole bars
 // re-arranged (hook repeats, intro vamps, outro loops) so a clip plays about as long as a real
 // DJ would let that genre's records run.
-import { analyze, structure, loudest } from './analyze.js';
+import { analyze, structure, loudest, detectKey } from './analyze.js';
 import { mixFor } from '../genres.js';
+import { remember } from '../memory.js';
 
 const TARGET_RMS = 0.13;                       // loudness every track is matched to
 const VIBE = { smooth: 1.25, club: 1, hype: 0.75 };
@@ -79,15 +80,46 @@ function pickEdit(n, h0, h1, wantBars) {
   return options[0];
 }
 
+// A catalog's saved preview link can go stale; when it does, ask for a fresh one and try again.
+async function download(track, signal) {
+  const get = async () => {
+    // give up on a stalled download so the set moves on to another record
+    const ctl = new AbortController(), stop = () => ctl.abort();
+    signal?.addEventListener('abort', stop);
+    const timer = setTimeout(stop, 20000);
+    try {
+      const res = await fetch(track.url, { signal: ctl.signal });
+      if (!res.ok) throw new Error(`Download failed (${res.status})`);
+      return await res.arrayBuffer();
+    } catch (e) {
+      if (e.name === 'AbortError' && !signal?.aborted) throw new Error('Download timed out');
+      throw e;
+    } finally {
+      clearTimeout(timer);
+      signal?.removeEventListener('abort', stop);
+    }
+  };
+  if (track.url) {
+    try { return await get(); } catch (e) {
+      if (e.name === 'AbortError' || !track.refresh) throw e;
+    }
+  }
+  if (!track.refresh) throw new Error('Nothing to download');
+  await track.refresh();
+  return get();
+}
+
 export async function prepareTrack(track, ctx, { signal, style = 'club', genre }) {
   if (track.prep) return track;
   if (track.resolve) await track.resolve(signal);
-  const res = await fetch(track.url, { signal });
-  if (!res.ok) throw new Error(`Download failed (${res.status})`);
-  const full = await decode(ctx, await res.arrayBuffer());
+  const full = await decode(ctx, await download(track, signal));
   if (signal?.aborted) throw new DOMException('Aborted', 'AbortError');
 
   const a = analyze(full, track.bpm);
+  track.bpm = a.bpm;
+  // the middle of the record, where the full arrangement is playing
+  track.key ??= detectKey(full, a.start + (a.end - a.start) * 0.15, a.start + (a.end - a.start) * 0.85);
+  if (a.confidence > 1.25) remember(track.id, a.bpm, track.key);
   const s = structure(full, a);
   const spb = 60 / a.bpm, bar = 4 * spb, phrase = 8 * bar;
   const mix = mixFor(genre);

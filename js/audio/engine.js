@@ -301,6 +301,15 @@ export class Deck {
     ramp(pr, rate, when + dur);
   }
 
+  // Stop a tempo ramp where it stands at `when` (a skip can start a mix before the ramp is done).
+  holdRate(when) {
+    const pr = this.main?.playbackRate, { t0, dur } = this.tl;
+    if (!pr?.cancelAndHoldAtTime || dur <= 0 || when <= t0 || when >= t0 + dur) return;
+    const p = this.posAt(when), r = this.rateAt(when);
+    pr.cancelAndHoldAtTime(when);
+    this.tl = { t0: when, p0: p, r0: r, r1: r, dur: 0 };
+  }
+
   // Beat-grid helpers (track time). Bars count from the downbeat, 8-bar phrases from the phrase start.
   beatAfter(pos, div = 1) {
     const step = this.spb / div, fb = this.prep.firstBeat;

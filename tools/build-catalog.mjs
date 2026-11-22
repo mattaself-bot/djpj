@@ -1,28 +1,35 @@
 // Builds a genre's song catalog: the top songs of its top artists, from the iTunes Search API.
-//   node tools/build-catalog.mjs country
+//   node tools/build-catalog.mjs country             build (or rebuild) one genre
+//   node tools/build-catalog.mjs all                 build every genre that has catalog settings
+//   node tools/build-catalog.mjs country --refresh   keep the song list, just renew its preview links
 // Artists are the hand-picked roster in js/genres.js, then any regulars on Apple's current chart
-// for the genre, up to ARTISTS. Writes data/catalog/<genre>.json. Exclusions live in
-// data/catalog/exclude.json, so rebuilding never brings back a song that was taken out.
-import { writeFile, mkdir } from 'node:fs/promises';
+// for the genre (when it names one), up to ARTISTS. Writes data/catalog/<genre>.json. Each song
+// carries its preview link, so the site can play a genre without calling Apple's search at all
+// (visitors get throttled after a few dozen searches). Exclusions live in data/catalog/exclude.json,
+// so rebuilding never brings back a song that was taken out.
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { GENRES } from '../js/genres.js';
 import { norm } from '../js/sources/itunes.js';
 
 const ARTISTS = 60;      // artists per genre
 const SONGS = 10;        // top songs per artist
 const PAUSE = 3200;      // iTunes allows about 20 searches a minute
-const SKIP = /\b(live|karaoke|instrumental|remix|acoustic|demo|interview|commentary|edit|version|mix)\b/i;
+const SKIP = /\b(live|karaoke|instrumental|remix|acoustic|demo|interview|commentary|edit|version|mix|skit|interlude|intro|outro)\b/i;
+const SKIP_GENRE = /soundtrack|score|comedy|spoken|karaoke|holiday|children/i;
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-const key = process.argv[2];
-const genre = GENRES.find(g => g.key === key);
-if (!genre?.catalog) throw new Error(`No catalog settings for "${key}" in js/genres.js`);
+const [which, ...flags] = process.argv.slice(2);
+const refreshOnly = flags.includes('--refresh');
+const genres = which === 'all' ? GENRES.filter(g => g.catalog) : GENRES.filter(g => g.key === which);
+if (!genres.length || genres.some(g => !g.catalog)) throw new Error(`No catalog settings for "${which}" in js/genres.js`);
+const fileFor = key => new URL(`../data/catalog/${key}.json`, import.meta.url);
 
 async function get(url) {
   for (let tries = 0; ; tries++) {
     const res = await fetch(url);
     if (res.ok) return res.json();
-    if (tries === 3) throw new Error(`${res.status} for ${url}`);
-    await sleep(PAUSE * 5); // throttled: back off and retry
+    if (tries === 5) throw new Error(`${res.status} for ${url}`);
+    await sleep(PAUSE * 5 * (tries + 1)); // throttled: back off and retry
   }
 }
 
@@ -39,9 +46,11 @@ async function topSongs(artist, [lo, hi]) {
   for (const [k, v] of Object.entries({ term: artist, attribute: 'artistTerm', media: 'music', entity: 'song', country: 'US', limit: 100 })) {
     url.searchParams.set(k, v);
   }
+  // the artist alone or as the lead name ("Drake & Future"), not a longer name ("Drake Bell")
   const want = norm(artist);
+  const mine = name => norm(name) === want || norm(name.split(/,| & | x | and /i)[0]) === want;
   const rows = (await get(url)).results.filter(r =>
-    r.kind === 'song' && r.previewUrl && norm(r.artistName).startsWith(want) && !SKIP.test(r.trackName));
+    r.kind === 'song' && r.previewUrl && mine(r.artistName) && !SKIP.test(r.trackName) && !SKIP_GENRE.test(r.primaryGenreName || ''));
   // iTunes returns an artist's best-known songs first; keep one entry per song, with its clean and explicit cuts
   const songs = new Map();
   for (const r of rows) {
@@ -49,8 +58,8 @@ async function topSongs(artist, [lo, hi]) {
     if (year && (year < lo || year > hi)) continue;
     const k = norm(r.trackName);
     const s = songs.get(k) || { title: r.trackName.replace(/\s*\((feat|with)\.? .*?\)/i, ''), artist: r.artistName, year, rank: songs.size + 1 };
-    const cut = r.trackExplicitness === 'explicit' ? 'explicitId' : 'cleanId';
-    if (!s[cut]) s[cut] = r.trackId;
+    const cut = r.trackExplicitness === 'explicit' ? 'explicit' : 'clean';
+    if (!s[cut + 'Id']) { s[cut + 'Id'] = r.trackId; s[cut + 'Url'] = r.previewUrl; }
     if (!s.art) s.art = r.artworkUrl100;
     if (r.releaseDate && year < (s.year || 9999)) s.year = year;
     songs.set(k, s);
@@ -58,26 +67,53 @@ async function topSongs(artist, [lo, hi]) {
   return [...songs.values()].slice(0, SONGS);
 }
 
-const charted = genre.catalog.chart ? await chartArtists(genre.catalog.chart) : [];
-const names = [];
-for (const a of [...genre.itunes.artists, ...(genre.catalog.more || []), ...charted]) {
-  if (names.length < ARTISTS && !names.some(n => norm(n) === norm(a))) names.push(a);
-}
-
-const songs = [];
-for (const [i, artist] of names.entries()) {
-  try {
-    const list = await topSongs(artist, genre.itunes.years);
-    songs.push(...list.map(s => ({ id: norm(s.artist) + '|' + norm(s.title), ...s, rank: s.rank, charted: charted.includes(artist) || undefined })));
-    console.log(`${i + 1}/${names.length} ${artist}: ${list.length}`);
-  } catch (e) {
-    console.warn(`${artist}: ${e.message}`);
+async function build(genre) {
+  const charted = genre.catalog.chart ? await chartArtists(genre.catalog.chart) : [];
+  const names = [];
+  for (const a of [...genre.itunes.artists, ...(genre.catalog.more || []), ...charted]) {
+    if (names.length < ARTISTS && !names.some(n => norm(n) === norm(a))) names.push(a);
   }
-  await sleep(PAUSE);
+  const songs = [];
+  for (const [i, artist] of names.entries()) {
+    try {
+      const list = await topSongs(artist, genre.itunes.years);
+      songs.push(...list.map(s => ({ id: norm(s.artist) + '|' + norm(s.title), ...s, charted: charted.includes(artist) || undefined })));
+      console.log(`${genre.key} ${i + 1}/${names.length} ${artist}: ${list.length}`);
+    } catch (e) {
+      console.warn(`${artist}: ${e.message}`);
+    }
+    await sleep(PAUSE);
+  }
+  return { genre: genre.key, built: new Date().toISOString().slice(0, 10), artists: names, songs: [...new Map(songs.map(s => [s.id, s])).values()] };
 }
 
-const unique = [...new Map(songs.map(s => [s.id, s])).values()];
+// Renew the preview links of an existing catalog by track id; songs Apple no longer has drop out.
+async function refresh(genre) {
+  const cat = JSON.parse(await readFile(fileFor(genre.key), 'utf8'));
+  const ids = cat.songs.flatMap(s => [s.cleanId, s.explicitId]).filter(Boolean);
+  const urls = new Map();
+  for (let i = 0; i < ids.length; i += 150) {
+    const res = await get(`https://itunes.apple.com/lookup?country=US&id=${ids.slice(i, i + 150).join(',')}`);
+    for (const r of res.results || []) if (r.previewUrl) urls.set(r.trackId, r.previewUrl);
+    console.log(`${genre.key} links ${Math.min(i + 150, ids.length)}/${ids.length}`);
+    await sleep(PAUSE);
+  }
+  for (const s of cat.songs) {
+    for (const cut of ['clean', 'explicit']) {
+      const url = urls.get(s[cut + 'Id']);
+      if (url) s[cut + 'Url'] = url;
+      else { delete s[cut + 'Id']; delete s[cut + 'Url']; }
+    }
+  }
+  cat.songs = cat.songs.filter(s => s.cleanId || s.explicitId);
+  cat.refreshed = new Date().toISOString().slice(0, 10);
+  return cat;
+}
+
 await mkdir(new URL('../data/catalog/', import.meta.url), { recursive: true });
-await writeFile(new URL(`../data/catalog/${key}.json`, import.meta.url),
-  JSON.stringify({ genre: key, built: new Date().toISOString().slice(0, 10), artists: names, songs: unique }, null, 1) + '\n');
-console.log(`Wrote ${unique.length} songs from ${names.length} artists`);
+for (const genre of genres) {
+  const cat = await (refreshOnly ? refresh(genre) : build(genre));
+  if (cat.songs.length < 40) { console.warn(`${genre.key}: only ${cat.songs.length} songs, not written`); continue; }
+  await writeFile(fileFor(genre.key), JSON.stringify(cat, null, 1) + '\n');
+  console.log(`${genre.key}: wrote ${cat.songs.length} songs from ${cat.artists.length} artists`);
+}

@@ -7,9 +7,12 @@ import { prepareTrack } from './audio/prep.js';
 import { TRANSITIONS, QUICK, pickTransition, matchRate } from './audio/transitions.js';
 import { SFX } from './audio/sfx.js';
 import { randomFlair, runFlair, FLAIR_ODDS } from './audio/fx.js';
-import { Crate } from './crate.js';
+import { Crate, tempoDistance } from './crate.js';
 
 const LEAD = 2.5; // seconds before a transition that it gets locked in on the audio clock
+const AUDITIONS = 2;   // extra records DJPJ will try when the first pick's tempo can't be matched
+const MATCH = 0.06;    // furthest a record's speed is nudged to beat-match: 6%, about a semitone of pitch
+const HOLD = 0.025;    // a nudge this small is left on; bigger ones ease back to the record's own speed
 const pick = list => list[Math.floor(Math.random() * list.length)];
 // chance a transition is one of the set's big moments (sound effects allowed), and the
 // minimum number of transitions between two of them
@@ -91,21 +94,64 @@ export class AutoDJ extends EventTarget {
     this.prefetch();
   }
 
+  // How far the candidate's tempo is from what's playing (0 when it doesn't matter: nothing is
+  // playing, either record has no steady beat, or the listener asked for this exact song).
+  tempoGap(cand, crate) {
+    const cur = this.current;
+    if (!cur || cand === crate.seed || !cur.track.prep.beatSync || !cand.prep.beatSync) return 0;
+    return tempoDistance(cur.track.prep.bpm * cur.deck.rateAt(this.engine.now), cand.prep.bpm);
+  }
+
+  // Is there time to try another record before the live one has to be mixed out?
+  canAudition() {
+    const cur = this.current;
+    if (!cur || this.waiting || this.skipWith) return false;
+    const now = this.engine.now, left = cur.track.prep.outPoint - cur.deck.posAt(now);
+    return left / cur.deck.rateAt(now) > 20;
+  }
+
+  // The listener changed a crate setting while a set plays.
+  setOptions({ clean, archive }) {
+    const crate = this.crate;
+    if (!crate) return;
+    if (archive != null) crate.setArchive(archive);
+    if (clean == null || clean === crate.clean) return;
+    crate.setClean(clean);
+    // an explicit cut that's cued but not yet mixing gets swapped for another record
+    if (clean && (this.pending?.track || this.next)?.explicit) {
+      this.pending = null;
+      this.prefetch();
+    }
+  }
+
+  // Get the next record ready. Like a DJ cueing in the headphones: if the first pick's tempo is
+  // too far off to beat-match, try another one or two and keep the closest.
   async loadNext(signal, session) {
-    for (let tries = 0; tries < 8; tries++) {
+    let best = null;
+    for (let tries = 0, auditions = 0; tries < 8; tries++) {
       const crate = this.crate;
       const cand = await crate.next(this.current?.track);
       if (this.session !== session || crate !== this.crate) throw new DOMException('Superseded', 'AbortError');
       if (!cand) break;
       this.emit('queue', { loading: cand });
       try {
-        return await prepareTrack(cand, this.engine.ctx, { signal, style: this.style, genre: crate.genre.key });
+        await prepareTrack(cand, this.engine.ctx, { signal, style: this.style, genre: crate.genre.key });
       } catch (e) {
         if (e.name === 'AbortError') throw e;
         console.warn('[djpj] skipping', cand.title, e);
+        continue;
       }
+      if (this.session !== session || crate !== this.crate) throw new DOMException('Superseded', 'AbortError');
+      const gap = this.tempoGap(cand, crate);
+      if (best && best.gap <= gap) crate.putBack(cand);
+      else {
+        if (best) crate.putBack(best.track);
+        best = { track: cand, gap };
+      }
+      if (best.gap <= MATCH || auditions++ >= AUDITIONS || !this.canAudition()) break;
     }
-    throw new Error("Couldn't find playable tracks for that pick. Try another genre or song.");
+    if (best) return best.track;
+    throw new Error("Couldn't load any records for that pick. Check your connection, or try another genre or song.");
   }
 
   async prefetch() {
@@ -142,6 +188,7 @@ export class AutoDJ extends EventTarget {
   setCurrent(deck, track) {
     const prev = this.current?.track;
     this.current = { deck, track };
+    this.crate?.played(track);
     this.history.unshift(track);
     this.bassKill = false;
     if (prev?.prep?.hook) {
@@ -225,12 +272,15 @@ export class AutoDJ extends EventTarget {
     const preview = !!(cur.track.isPreview || nxt.isPreview);
     const rateNow = deck.rateAt(now);
     const pos = deck.posAt(now);
-    const canSync = cp.beatSync && np.beatSync && matchRate(cp.bpm * rateNow, np.bpm) != null;
+    const canSync = cp.beatSync && np.beatSync && matchRate(cp.bpm * rateNow, np.bpm, MATCH) != null;
     let type, mixStart;
 
     if (this.skipWith) {
       type = this.skipWith === 'quick' ? pick(QUICK[this.style] || QUICK.club) : this.skipWith;
-      mixStart = deck.beatAfter(pos + 0.3 * rateNow);
+      // land the next record on the one: at most a bar's wait, and it sounds meant
+      const lead = ({ slam: 1, cut: 2, echo: 0 }[type] ?? null);
+      const soonest = pos + 0.3 * rateNow;
+      mixStart = lead == null || !cp.beatSync ? deck.beatAfter(soonest) : deck.barAfter(soonest + lead * deck.spb) - lead * deck.spb;
       this.skipWith = null;
     } else {
       // a drop needs the next record's hook to land on, with a couple of lines to play after it
@@ -256,8 +306,10 @@ export class AutoDJ extends EventTarget {
     this.pending = null;
     const out = this.current.deck, inc = this.other(out), nxt = p.track;
     const oldTrack = this.current.track;
+    // a record still easing back to its own speed holds where it is, so the two grids stay locked
+    out.holdRate(t0);
     const spb = out.spb / out.rateAt(t0);
-    const rate = TRANSITIONS[p.type].sync ? matchRate(oldTrack.prep.bpm * out.rateAt(t0), nxt.prep.bpm) ?? 1 : 1;
+    const rate = TRANSITIONS[p.type].sync ? matchRate(oldTrack.prep.bpm * out.rateAt(t0), nxt.prep.bpm, MATCH) ?? 1 : 1;
 
     inc.load(nxt);
     const inPos = p.type === 'drop' && nxt.prep.hookAt != null ? nxt.prep.hookAt : nxt.prep.inPoint;
@@ -272,10 +324,11 @@ export class AutoDJ extends EventTarget {
     this.cue(p.big ? 'big' : p.type, t0);
     this.cue('land', res.tLive);
 
-    // a tempo-matched record eases back to its own speed once the blend is done
-    if (rate !== 1) {
+    // a tempo-matched record eases back to its own speed once the blend is done, slowly enough
+    // that the pitch doesn't audibly slide; a small nudge just stays on
+    if (Math.abs(rate - 1) > HOLD) {
       const back = res.tIn + p.beats * spb + 0.05;
-      const dur = Math.min(24 * spb, (nxt.prep.outPoint - nxt.prep.inPoint) * 0.3);
+      const dur = Math.min(32 * spb, (nxt.prep.outPoint - nxt.prep.inPoint) * 0.4);
       inc.setRate(1, back, dur);
     }
     this.at(res.tLive, () => this.setCurrent(inc, nxt));
