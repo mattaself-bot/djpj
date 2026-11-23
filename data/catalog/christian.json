@@ -1,0 +1,1968 @@
+{
+ "genre": "christian",
+ "built": "2026-11-23",
+ "artists": [
+  "Lauren Daigle",
+  "for KING & COUNTRY",
+  "Casting Crowns",
+  "MercyMe",
+  "Hillsong UNITED",
+  "Chris Tomlin",
+  "TobyMac",
+  "Zach Williams",
+  "Elevation Worship",
+  "Phil Wickham",
+  "Crowder",
+  "Matthew West",
+  "Brandon Lake",
+  "Maverick City Music",
+  "Jeremy Camp",
+  "Third Day",
+  "Newsboys",
+  "Kari Jobe",
+  "Danny Gokey",
+  "Cody Carnes"
+ ],
+ "songs": [
+  {
+   "id": "lauren daigle|you say",
+   "title": "You Say",
+   "artist": "Lauren Daigle",
+   "year": 2018,
+   "rank": 1,
+   "cleanId": 1447184844,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/d9/38/9dd938fd-481c-a979-5933-0809bf0708d3/mzaf_15551743598176915350.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/aa/2b/b9/aa2bb92a-4ace-da16-5118-21b78935e185/829619167054.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lauren daigle|rescue",
+   "title": "Rescue",
+   "artist": "Lauren Daigle",
+   "year": 2018,
+   "rank": 2,
+   "cleanId": 1447184838,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/86/d8/5d86d8b8-d3e5-becb-b283-cc01d0eefb7a/mzaf_6355750243331012386.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/aa/2b/b9/aa2bb92a-4ace-da16-5118-21b78935e185/829619167054.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lauren daigle|let it be a hallelujah",
+   "title": "Let It Be A Hallelujah",
+   "artist": "Lauren Daigle",
+   "year": 2025,
+   "rank": 3,
+   "cleanId": 1827130545,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/62/e9/8762e9d0-9588-cdf3-5ac7-c424cae81f1d/mzaf_7634756834572136983.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/2d/36/192d3630-08c7-fd42-ff53-953c0ad30d65/829619304350.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lauren daigle|look up child",
+   "title": "Look Up Child",
+   "artist": "Lauren Daigle",
+   "year": 2018,
+   "rank": 4,
+   "cleanId": 1447184847,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/a7/8f/87a78ff1-a7e3-dd88-448a-f78f563a82ff/mzaf_13668299828909376487.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/aa/2b/b9/aa2bb92a-4ace-da16-5118-21b78935e185/829619167054.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lauren daigle|thank god i do",
+   "title": "Thank God I Do",
+   "artist": "Lauren Daigle",
+   "year": 2023,
+   "rank": 5,
+   "cleanId": 1694346754,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/54/71/1b547197-ddb8-3ea4-bda3-cb4f706e55e7/mzaf_2154870140017438804.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6d/69/35/6d69358b-cfdd-c54b-957a-d98bde87e92b/075679687760.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lauren daigle|trust in you",
+   "title": "Trust in You",
+   "artist": "Lauren Daigle",
+   "year": 2015,
+   "rank": 6,
+   "cleanId": 1560656297,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/ca/96/d5ca96f0-2a45-37ef-2022-58cb4859de6b/mzaf_4630174676068151167.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/f0/6c/b1f06cb2-1746-e7a3-5315-b7587d300e65/829619128055.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lauren daigle|how can it be",
+   "title": "How Can It Be",
+   "artist": "Lauren Daigle",
+   "year": 2014,
+   "rank": 7,
+   "cleanId": 1560661434,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/3a/2b/103a2be1-46aa-c691-7845-c8efd38ab199/mzaf_3810992585809310779.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/10/6a/e6/106ae622-6ef1-a7ad-10aa-0ceb6f3f22cb/829619134759.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lauren daigle|love like this",
+   "title": "Love Like This",
+   "artist": "Lauren Daigle",
+   "year": 2018,
+   "rank": 8,
+   "cleanId": 1447184846,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1f/c5/75/1fc575fb-fdda-ceab-28e5-3f5fc5609054/mzaf_16696460562987914871.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/aa/2b/b9/aa2bb92a-4ace-da16-5118-21b78935e185/829619167054.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lauren daigle|remember",
+   "title": "Remember",
+   "artist": "Lauren Daigle",
+   "year": 2018,
+   "rank": 9,
+   "cleanId": 1447184851,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/ae/84/89ae84b4-faf0-ca01-9456-cb90f506308e/mzaf_11345281411712527723.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/aa/2b/b9/aa2bb92a-4ace-da16-5118-21b78935e185/829619167054.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lauren daigle|still rolling stones",
+   "title": "Still Rolling Stones",
+   "artist": "Lauren Daigle",
+   "year": 2018,
+   "rank": 10,
+   "cleanId": 1447184831,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/19/b7/4719b732-d12d-6fad-e1cb-04f937248064/mzaf_7846815429222651713.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/aa/2b/b9/aa2bb92a-4ace-da16-5118-21b78935e185/829619167054.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "for king and country|god only knows",
+   "title": "God Only Knows",
+   "artist": "for KING & COUNTRY",
+   "year": 2018,
+   "rank": 1,
+   "cleanId": 1398353598,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3e/3f/60/3e3f6005-b725-b0d0-1608-81b3d4c2b47e/mzaf_2322925277184174666.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/2e/1a/9d2e1abd-f7e5-0f23-47d5-e7f86cf64085/080688962463.png/100x100bb.jpg"
+  },
+  {
+   "id": "for king and country|miracle",
+   "title": "miracle",
+   "artist": "for KING & COUNTRY",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6766330704,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b5/56/d9/b556d965-69a4-cc98-5566-a117811bbab2/mzaf_5481945086477842176.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/65/82/1d658233-b08f-e05f-93ef-01372d4aac95/194646565969.png/100x100bb.jpg"
+  },
+  {
+   "id": "for king and country|fix my eyes",
+   "title": "Fix My Eyes",
+   "artist": "for KING & COUNTRY",
+   "year": 2014,
+   "rank": 3,
+   "cleanId": 1219039818,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/38/a4/5538a4a2-9bf6-346d-3ea2-2b234e85f94a/mzaf_18213551713140531077.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e8/7d/8f/e87d8fe1-1291-8f46-02af-be095de1afb3/080688991760.png/100x100bb.jpg"
+  },
+  {
+   "id": "for king and country|what if i told you",
+   "title": "what if i told you?",
+   "artist": "for KING & COUNTRY",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 6766330705,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/1f/b9/341fb96c-0918-ba98-9363-1d19669abbb7/mzaf_3881108595937803298.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/65/82/1d658233-b08f-e05f-93ef-01372d4aac95/194646565969.png/100x100bb.jpg"
+  },
+  {
+   "id": "for king and country|the proof of your love",
+   "title": "The Proof of Your Love",
+   "artist": "for KING & COUNTRY",
+   "year": 2012,
+   "rank": 5,
+   "cleanId": 1163435938,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/11/88/49118892-635e-8747-0dbb-8b659f2209bf/mzaf_4983742102400506741.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/8b/e4/748be480-c570-57cf-e94e-b804a1a13222/080688799762.png/100x100bb.jpg"
+  },
+  {
+   "id": "for king and country|joy",
+   "title": "joy.",
+   "artist": "for KING & COUNTRY",
+   "year": 2018,
+   "rank": 6,
+   "cleanId": 1398353596,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8a/c7/43/8ac7435d-c9b4-573b-42d4-af91a4a4a9c0/mzaf_1418067607038610285.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/2e/1a/9d2e1abd-f7e5-0f23-47d5-e7f86cf64085/080688962463.png/100x100bb.jpg"
+  },
+  {
+   "id": "for king and country|burn the ships",
+   "title": "Burn The Ships",
+   "artist": "for KING & COUNTRY",
+   "year": 2018,
+   "rank": 7,
+   "cleanId": 1398353605,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/7a/2e/927a2e3c-9afb-112a-4edf-6d5b7b177fd8/mzaf_6906107837349649329.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/2e/1a/9d2e1abd-f7e5-0f23-47d5-e7f86cf64085/080688962463.png/100x100bb.jpg"
+  },
+  {
+   "id": "for king and country|fight on fighter",
+   "title": "Fight On, Fighter",
+   "artist": "for KING & COUNTRY",
+   "year": 2018,
+   "rank": 8,
+   "cleanId": 1398353606,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/a7/8b/91a78b69-7ad9-0ef9-6738-fadc43b1cbbb/mzaf_17232658837768275561.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/2e/1a/9d2e1abd-f7e5-0f23-47d5-e7f86cf64085/080688962463.png/100x100bb.jpg"
+  },
+  {
+   "id": "for king and country|priceless",
+   "title": "Priceless",
+   "artist": "for KING & COUNTRY",
+   "year": 2014,
+   "rank": 9,
+   "cleanId": 1219039821,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/ab/a8/54aba88d-147e-9b75-fdc3-c862a6760c28/mzaf_13912949113686995150.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e8/7d/8f/e87d8fe1-1291-8f46-02af-be095de1afb3/080688991760.png/100x100bb.jpg"
+  },
+  {
+   "id": "for king and country|shoulders",
+   "title": "Shoulders",
+   "artist": "for KING & COUNTRY",
+   "year": 2014,
+   "rank": 10,
+   "cleanId": 1219039820,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/df/c5/42dfc50a-5134-b43a-db04-fa0c1fde3326/mzaf_5977244112792776468.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e8/7d/8f/e87d8fe1-1291-8f46-02af-be095de1afb3/080688991760.png/100x100bb.jpg"
+  },
+  {
+   "id": "casting crowns|praise you in this storm",
+   "title": "Praise You In This Storm",
+   "artist": "Casting Crowns",
+   "year": 2005,
+   "rank": 1,
+   "cleanId": 269441147,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/09/1a/35091aef-1d88-6959-e07e-d8b1f0305615/mzaf_9884026776348849802.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/cb/e9/38/mzi.nsquzkwg.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "casting crowns|who am i",
+   "title": "Who Am I",
+   "artist": "Casting Crowns",
+   "year": 2003,
+   "rank": 2,
+   "cleanId": 269441279,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/07/92/1c0792f5-ccb2-e1ba-40f8-72ae2c2b07f9/mzaf_8456632271264038172.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ad/72/f8/ad72f819-96d1-3bf3-71d3-3fba60952936/mzi.ueglvrtw.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "casting crowns|voice of truth",
+   "title": "Voice of Truth",
+   "artist": "Casting Crowns",
+   "year": 2003,
+   "rank": 3,
+   "cleanId": 269441200,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/08/4f/16084f62-fd55-88ed-ea4c-b145863d802a/mzaf_1252433339018835604.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ad/72/f8/ad72f819-96d1-3bf3-71d3-3fba60952936/mzi.ueglvrtw.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "casting crowns|nobody",
+   "title": "Nobody",
+   "artist": "Casting Crowns",
+   "year": 2018,
+   "rank": 4,
+   "cleanId": 1438166390,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/33/18/4b3318f4-d599-a2d5-3757-4f19e3d075d0/mzaf_10599158027743586378.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/45/46/63454680-75e6-4005-31db-5a369148781e/886447106761.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "casting crowns|east to west",
+   "title": "East to West",
+   "artist": "Casting Crowns",
+   "year": 1993,
+   "rank": 5,
+   "cleanId": 262038785,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/89/fa/5889fa3e-8cc7-fa59-0c4c-3d518ce517e6/mzaf_11389806158580729120.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c6/59/a8/c659a87f-d697-0715-6d4a-9014428064cf/mzi.kecbvclk.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "casting crowns|oh my soul",
+   "title": "Oh My Soul",
+   "artist": "Casting Crowns",
+   "year": 2016,
+   "rank": 6,
+   "cleanId": 1127984157,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/6d/ca/c06dca23-2743-70c2-5f2c-c0c93f0a540d/mzaf_4306010077555475447.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2c/45/47/2c454722-4f4c-3932-6a98-d1625cae25b3/886445984064.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "casting crowns|scars in heaven",
+   "title": "Scars in Heaven",
+   "artist": "Casting Crowns",
+   "year": 2022,
+   "rank": 7,
+   "cleanId": 1568358903,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/d2/ad/abd2ad4a-e1e8-c06d-20f1-1524dd682aae/mzaf_5879965435477187327.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/37/5d/3f375dd8-0521-fcfc-9bd7-eb0a60cbe055/886449261963.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "casting crowns|just be held",
+   "title": "Just Be Held",
+   "artist": "Casting Crowns",
+   "year": 2014,
+   "rank": 8,
+   "cleanId": 742907896,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/fd/c9/36fdc98d-4ac7-63f8-87f6-428655060fac/mzaf_9795975817404263035.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/32/66/77/326677e3-f510-b4ce-e1a0-6fd5ee745f4c/886444236607.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "casting crowns|glorious day",
+   "title": "Glorious Day (Living He Loved Me)",
+   "artist": "Casting Crowns",
+   "year": 2009,
+   "rank": 9,
+   "cleanId": 336680752,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/e1/28/4be128f6-6594-1b4d-c238-163e75c04b12/mzaf_714466629266097999.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ad/90/9b/ad909b89-5930-8b26-a3e0-8e9868bb0975/884977332506.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "casting crowns|does anybody hear her",
+   "title": "Does Anybody Hear Her",
+   "artist": "Casting Crowns",
+   "year": 2005,
+   "rank": 10,
+   "cleanId": 269441198,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/6d/19/b56d1964-a26e-9862-9aff-14bb63ec2e66/mzaf_6781399483927224786.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/cb/e9/38/mzi.nsquzkwg.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mercyme|even if",
+   "title": "Even If",
+   "artist": "MercyMe",
+   "year": 2017,
+   "rank": 1,
+   "cleanId": 1545538398,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/df/b1/d8dfb1f3-45a8-2817-8166-b7423463119a/mzaf_12999202869832918826.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e0/7c/47/e07c4763-a066-5941-d3f1-0cc946c77255/886446319445.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mercyme|i can only imagine",
+   "title": "I Can Only Imagine",
+   "artist": "MercyMe",
+   "year": 1999,
+   "rank": 2,
+   "cleanId": 1555203630,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/44/8d/d1448d3d-f76c-e3a8-446d-4c685e1e6a2d/mzaf_2803103159888000808.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/b0/d3/c0b0d3d3-7baf-1930-0b9b-bc780a001f83/888880547293.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mercyme|make it well",
+   "title": "Make It Well",
+   "artist": "MercyMe",
+   "year": 2025,
+   "rank": 3,
+   "cleanId": 1852598148,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3f/4d/aa/3f4daabe-4bba-f551-a8f2-09bc04b01d8b/mzaf_10476964601536511148.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/d9/9b/f4d99ba8-22d1-1424-b707-764b6db889b4/196873768236.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mercyme|word of god speak",
+   "title": "Word of God Speak",
+   "artist": "MercyMe",
+   "year": 2002,
+   "rank": 4,
+   "cleanId": 1545532089,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/b2/d3/a2b2d331-eeff-ebd7-98dd-c7a0b58d9363/mzaf_6650081480203969291.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ed/ec/7b/edec7b47-34bc-e91c-1743-d3bd29817347/111119210928.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mercyme|oh death",
+   "title": "Oh Death",
+   "artist": "MercyMe",
+   "year": 2025,
+   "rank": 5,
+   "cleanId": 1789823483,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/b3/64/80b36438-4ba4-e490-fe31-46f09387f95f/mzaf_16057856824385136198.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/87/71/7187710a-4787-cc0e-558d-ad66daa8c28b/196872746761.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mercyme|flawless",
+   "title": "Flawless",
+   "artist": "MercyMe",
+   "year": 2014,
+   "rank": 6,
+   "cleanId": 1556720355,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/6b/cd/2b6bcdad-f4c1-fe44-bfb8-9db5879f9e04/mzaf_11956065144943182788.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/c0/0d/b0c00d4e-7270-d934-c511-a4678e00871a/886444433273.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mercyme|greater",
+   "title": "Greater",
+   "artist": "MercyMe",
+   "year": 2014,
+   "rank": 7,
+   "cleanId": 1556720129,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/b4/0a/66b40a39-f8e7-f6f0-6e8d-62f2a9d339aa/mzaf_14418610180770363121.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/c0/0d/b0c00d4e-7270-d934-c511-a4678e00871a/886444433273.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mercyme|say i won t",
+   "title": "Say I Won't",
+   "artist": "MercyMe",
+   "year": 2021,
+   "rank": 8,
+   "cleanId": 1541075066,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/36/6c/19366cb5-5357-189b-bba8-6588af7ff77c/mzaf_4735425741319734871.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/7c/21/af7c2165-f80c-0461-816e-d79292d1c4e8/886448882541.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mercyme|dear younger me",
+   "title": "Dear Younger Me",
+   "artist": "MercyMe",
+   "year": 2014,
+   "rank": 9,
+   "cleanId": 1556720361,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/9f/07/2a9f0717-3470-dca4-2261-cec92c21d7c4/mzaf_2621013519453303107.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/c0/0d/b0c00d4e-7270-d934-c511-a4678e00871a/886444433273.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mercyme|almost home",
+   "title": "Almost Home",
+   "artist": "MercyMe",
+   "year": 2021,
+   "rank": 10,
+   "cleanId": 1558167474,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/7a/dd/897addbf-ab85-b20a-203c-b22b5f9cd779/mzaf_2383764582178189862.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ee/ca/ea/eecaea36-14a6-d774-350b-af7de28f70b0/886448333999.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hillsong united and benjamin william hastings|so will i",
+   "title": "So Will I (100 Billion X)",
+   "artist": "Hillsong UNITED & Benjamin William Hastings",
+   "year": 2017,
+   "rank": 1,
+   "cleanId": 1827104048,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/26/46/012646b6-0eca-c981-33df-645434947f31/mzaf_2653094735891026994.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/4b/ef/204bef43-3729-dc96-f3db-e10d5459aa93/9320428328489.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hillsong united and brooke ligertwood|lead me to the cross",
+   "title": "Lead Me to the Cross",
+   "artist": "Hillsong UNITED & Brooke Ligertwood",
+   "year": 2007,
+   "rank": 2,
+   "cleanId": 1827110254,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/bc/b4/25bcb417-56c1-6d46-8bcd-fd1482f4d948/mzaf_3989453057179992837.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/40/62/63406276-c835-1043-7967-8be177853ace/9320428142696.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hillsong united and brooke ligertwood|hosanna",
+   "title": "Hosanna",
+   "artist": "Hillsong UNITED & Brooke Ligertwood",
+   "year": 2007,
+   "rank": 3,
+   "cleanId": 1827110275,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/37/60/c13760e0-ed11-1d20-e722-ac3b4bf7edf0/mzaf_16300230547567193118.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/40/62/63406276-c835-1043-7967-8be177853ace/9320428142696.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hillsong united and taya|oceans",
+   "title": "Oceans (Where Feet May Fail) [Reloaded]",
+   "artist": "Hillsong UNITED & TAYA",
+   "year": 2013,
+   "rank": 4,
+   "cleanId": 1827101349,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/9a/e9/0a9ae9be-4feb-dadb-300b-dada4f2f4ded/mzaf_9752254341750459010.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/9b/c6/179bc683-9aaf-6cb3-3cb9-684cee8e7362/9320428362100.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hillsong united and taya|touch the sky",
+   "title": "Touch the Sky",
+   "artist": "Hillsong UNITED & TAYA",
+   "year": 2015,
+   "rank": 5,
+   "cleanId": 1827111195,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8f/33/ff/8f33ffbc-d51f-b5a8-161d-d877352bd9c8/mzaf_10954420576027185184.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/d1/76/f5d17681-a7db-99a1-219d-b59cc8d6021c/9320428303592.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hillsong united taya and matt crocker|wonder",
+   "title": "Wonder",
+   "artist": "Hillsong UNITED, TAYA & Matt Crocker",
+   "year": 2017,
+   "rank": 6,
+   "cleanId": 1827104034,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/ee/dd/21eedd5f-0223-70c0-3638-6541ca5d896d/mzaf_15305379698978274786.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/4b/ef/204bef43-3729-dc96-f3db-e10d5459aa93/9320428328489.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hillsong united and taya|even when it hurts",
+   "title": "Even When It Hurts (Praise Song)",
+   "artist": "Hillsong UNITED & TAYA",
+   "year": 2015,
+   "rank": 7,
+   "cleanId": 1827111297,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/a8/43/bca8432d-9a7e-d861-8b58-e7887a59a0e1/mzaf_13239750768107964219.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/d1/76/f5d17681-a7db-99a1-219d-b59cc8d6021c/9320428303592.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hillsong united and matt crocker|relentless",
+   "title": "Relentless",
+   "artist": "Hillsong UNITED & Matt Crocker",
+   "year": 2013,
+   "rank": 8,
+   "cleanId": 1827100781,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/c6/7f/bec67f80-d69d-2a52-3304-0171f339ad89/mzaf_12573636240600370758.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/9b/c6/179bc683-9aaf-6cb3-3cb9-684cee8e7362/9320428362100.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hillsong united and benjamin william hastings|know you will",
+   "title": "Know You Will",
+   "artist": "Hillsong UNITED & Benjamin William Hastings",
+   "year": 2021,
+   "rank": 9,
+   "cleanId": 1835990311,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/c0/36/13c03685-335c-708b-628a-f9d8c25468cb/mzaf_6542576859555653030.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/29/e0/0329e005-66f1-7e13-4a3d-b8616efbe9be/9320428353191.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "hillsong united and matt crocker|scandal of grace",
+   "title": "Scandal of Grace",
+   "artist": "Hillsong UNITED & Matt Crocker",
+   "year": 2012,
+   "rank": 10,
+   "cleanId": 1827100786,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/d4/b8/5fd4b817-3ceb-6374-7e7b-541d6fa281cf/mzaf_6169672686041467854.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/9b/c6/179bc683-9aaf-6cb3-3cb9-684cee8e7362/9320428362100.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris tomlin|holy forever",
+   "title": "Holy Forever",
+   "artist": "Chris Tomlin",
+   "year": 2022,
+   "rank": 1,
+   "cleanId": 1633492521,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/e3/ca/f6e3caab-c963-40f8-38c5-bd3bb7c2350f/mzaf_5632608668941624352.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9a/fb/a9/9afba90e-e219-c1b1-f99c-e6b152026aef/22UMGIM71001.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris tomlin|how great is our god",
+   "title": "How Great Is Our God",
+   "artist": "Chris Tomlin",
+   "year": 2004,
+   "rank": 2,
+   "cleanId": 1440842289,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/66/82/9b668240-1ab9-b6a6-7267-514293d83326/mzaf_9000471229607416782.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/97/d3/dc/97d3dc45-d44d-814d-331b-c9953d88cb01/13UABIM17021.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris tomlin|our god",
+   "title": "Our God",
+   "artist": "Chris Tomlin",
+   "year": 2010,
+   "rank": 3,
+   "cleanId": 1440842159,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/66/3e/02663e17-7039-eeab-ab73-8c9977807831/mzaf_4056426959676100351.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/97/d3/dc/97d3dc45-d44d-814d-331b-c9953d88cb01/13UABIM17021.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris tomlin|good good father",
+   "title": "Good Good Father",
+   "artist": "Chris Tomlin",
+   "year": 2015,
+   "rank": 4,
+   "cleanId": 1440870354,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/e0/17/dee01749-5b85-253c-96a9-a30648a943fa/mzaf_16685404247257819417.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5d/53/20/5d532078-5537-2023-256a-0a80e281a7ef/16UMGIM60919.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris tomlin|amazing grace",
+   "title": "Amazing Grace (My Chains Are Gone)",
+   "artist": "Chris Tomlin",
+   "year": 2006,
+   "rank": 5,
+   "cleanId": 1440842278,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/64/f9/d564f953-ffa4-9c1b-1f16-85718584fb33/mzaf_5533368461685477907.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/97/d3/dc/97d3dc45-d44d-814d-331b-c9953d88cb01/13UABIM17021.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris tomlin|how good it is",
+   "title": "How Good It Is",
+   "artist": "Chris Tomlin",
+   "year": 2025,
+   "rank": 6,
+   "cleanId": 1822580563,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/6c/c2/f26cc2e9-cab4-1e46-c597-268dcc1d74e7/mzaf_14004941310795487215.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/0a/8d/a50a8df2-c4a1-a798-6479-6b8685c0a683/25UMGIM86583.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris tomlin|holy is the lord",
+   "title": "Holy Is the Lord",
+   "artist": "Chris Tomlin",
+   "year": 2004,
+   "rank": 7,
+   "cleanId": 1440844448,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/4e/c3/fb4ec378-7b7c-acfe-99dc-c82d5425dd4d/mzaf_17235676501247968138.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/05/46/f8/0546f839-a23d-c5fa-f3b9-25a063b0022a/13UABIM29803.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris tomlin|whom shall i fear",
+   "title": "Whom Shall I Fear (God of Angel Armies)",
+   "artist": "Chris Tomlin",
+   "year": 2012,
+   "rank": 8,
+   "cleanId": 1445308144,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/af/7d/1eaf7d7e-5a36-4d0f-308f-31586b81e800/mzaf_10329294500918926722.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/1f/9c/281f9c3a-2fa3-75ff-bcef-3babdfdf606c/13UMGIM60021.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris tomlin|is he worthy",
+   "title": "Is He Worthy?",
+   "artist": "Chris Tomlin",
+   "year": 2018,
+   "rank": 9,
+   "cleanId": 1434899458,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/38/12/97381275-b299-3d4b-cbba-c3ec885a1306/mzaf_11113637411919359453.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c2/10/99/c2109919-b485-2c2c-120f-71bdc6341104/18UMGIM54293.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris tomlin|at the cross",
+   "title": "At the Cross (Love Ran Red)",
+   "artist": "Chris Tomlin",
+   "year": 2014,
+   "rank": 10,
+   "cleanId": 1440815400,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/09/0b/57090b50-7343-ae47-bb83-8764a0da5e63/mzaf_8647593797415427987.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ee/e4/bf/eee4bff5-9148-70bc-be17-59838197c781/14UMGIM36638.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tobymac and forrest frank|heaven on my mind",
+   "title": "Heaven On My Mind",
+   "artist": "TobyMac & Forrest Frank",
+   "year": 2025,
+   "rank": 1,
+   "cleanId": 1804448193,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/4a/44/584a44bc-44f3-cecd-7209-57798f20072b/mzaf_7190739062343646163.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/86/57/49865758-c749-2636-27b8-1a67c65cc67d/25UMGIM43187.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tobymac|the hard times",
+   "title": "The Hard Times",
+   "artist": "TobyMac",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6822809449,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/ac/39/46ac3900-cd50-b585-aade-737de23e90cd/mzaf_17299115640899533160.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/28/5e/e2285e33-0713-8ab1-91e6-86673983843d/26UM1IM28539.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tobymac|i just need u",
+   "title": "I just need U.",
+   "artist": "TobyMac",
+   "year": 2018,
+   "rank": 3,
+   "cleanId": 1444889254,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/e7/5c/b1e75c75-fbe0-68ef-4bde-adf1ba49a182/mzaf_5825373319754177048.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/87/ff/6b87ff85-fdd4-4027-8d93-ad07f7aef36d/17UM1IM61649.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tobymac|speak life",
+   "title": "Speak Life",
+   "artist": "TobyMac",
+   "year": 2012,
+   "rank": 4,
+   "cleanId": 720105409,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/3d/9b/503d9b19-6f1a-0961-cbe9-065857bd1265/mzaf_1526946664637514621.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6f/83/e9/6f83e91a-a9a3-ee45-da12-fd935c13cdbf/05099963576252.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tobymac|help is on the way",
+   "title": "Help Is On The Way (Maybe Midnight)",
+   "artist": "TobyMac",
+   "year": 2021,
+   "rank": 5,
+   "cleanId": 1553371780,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/c5/fd/fdc5fd56-78a0-56ad-8105-0ff2e8288409/mzaf_10171823942415112804.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/35/cd/1135cdc0-0261-1c21-ee5c-1746a0558d7d/21UMGIM09451.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tobymac|love broke thru",
+   "title": "Love Broke Thru",
+   "artist": "TobyMac",
+   "year": 2015,
+   "rank": 6,
+   "cleanId": 1440845078,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/63/83/37/638337a3-0256-1abf-0b09-8e8e1ae1f03b/mzaf_11644697418271350547.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fd/63/72/fd63723f-63f2-6923-c6ae-807f22e0d119/15UMGIM23675.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tobymac|cornerstone",
+   "title": "Cornerstone",
+   "artist": "TobyMac",
+   "year": 2022,
+   "rank": 7,
+   "cleanId": 1652918459,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/50/55/745055d2-c497-3019-b80c-b62568015d4b/mzaf_4727647982084060016.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/d9/7b/e5d97b00-b8cf-46e8-9c31-4548228b5cfe/22UMGIM57228.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tobymac and blessing offor|the goodness",
+   "title": "The Goodness",
+   "artist": "TobyMac & Blessing Offor",
+   "year": 2022,
+   "rank": 8,
+   "cleanId": 1652916316,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6d/7d/5e/6d7d5e0f-95fa-954a-7e1a-3fee5ce2cd1e/mzaf_10266991173343904612.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/d9/7b/e5d97b00-b8cf-46e8-9c31-4548228b5cfe/22UMGIM57228.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tobymac|faithfully",
+   "title": "Faithfully",
+   "artist": "TobyMac",
+   "year": 2022,
+   "rank": 9,
+   "cleanId": 1705999000,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/1e/3b/441e3b69-fb19-3753-00f4-28a60b599422/mzaf_18316345195733476410.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/8c/ae/d58caed2-3046-a331-87d0-ecce76b4fd3d/23UM1IM01526.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tobymac|til the day i die",
+   "title": "Til the Day I Die",
+   "artist": "TobyMac",
+   "year": 2015,
+   "rank": 10,
+   "cleanId": 1440844969,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/4c/09/534c0938-890b-1384-a7cc-29cd7cc63663/mzaf_5001012798446891391.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fd/63/72/fd63723f-63f2-6923-c6ae-807f22e0d119/15UMGIM23675.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach williams and dolly parton|there was jesus",
+   "title": "There Was Jesus",
+   "artist": "Zach Williams & Dolly Parton",
+   "year": 2019,
+   "rank": 1,
+   "cleanId": 1474695389,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/84/33/9f/84339f27-a1ef-df51-131a-4a41d57c12ac/mzaf_14051848554052962516.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/5a/74/525a74dc-8286-a759-fe0c-6d2c6ee5caed/886447491034.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach williams|chain breaker",
+   "title": "Chain Breaker",
+   "artist": "Zach Williams",
+   "year": 2016,
+   "rank": 2,
+   "cleanId": 1282112386,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/ae/47/3bae47c7-0675-f1b9-9906-6b7284fab12d/mzaf_7945411756439985225.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/22/7c/b9/227cb972-050e-993a-f23e-61ed8de40ea6/886446701318.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach williams|fear is a liar",
+   "title": "Fear Is a Liar",
+   "artist": "Zach Williams",
+   "year": 2016,
+   "rank": 3,
+   "cleanId": 1282112393,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/52/50/5e525041-88d8-6fdd-395d-9d76e2789fad/mzaf_16037400782764491179.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/22/7c/b9/227cb972-050e-993a-f23e-61ed8de40ea6/886446701318.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach williams|rescue story",
+   "title": "Rescue Story",
+   "artist": "Zach Williams",
+   "year": 2019,
+   "rank": 4,
+   "cleanId": 1474695189,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/a7/76/f8a77675-4baf-b638-716e-6b22e4c9a96f/mzaf_8879933969532854651.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/5a/74/525a74dc-8286-a759-fe0c-6d2c6ee5caed/886447491034.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach williams and ben fuller|wait for me",
+   "title": "Wait For Me",
+   "artist": "Zach Williams & Ben Fuller",
+   "year": 2025,
+   "rank": 5,
+   "cleanId": 1875346344,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/71/6e/db716e7e-bea7-db45-5a99-2b45e5388b7d/mzaf_18192748742179056837.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/a3/43/82a3434c-6304-5d70-70cc-fa630882cec2/196874043165.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach williams|old church choir",
+   "title": "Old Church Choir",
+   "artist": "Zach Williams",
+   "year": 2016,
+   "rank": 6,
+   "cleanId": 1282112387,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/a1/ea/4ca1ea7e-470f-4bf0-8f7a-fb13fc29ef8a/mzaf_449962596348952040.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/22/7c/b9/227cb972-050e-993a-f23e-61ed8de40ea6/886446701318.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach williams|less like me",
+   "title": "Less Like Me",
+   "artist": "Zach Williams",
+   "year": 2019,
+   "rank": 7,
+   "cleanId": 1474695188,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/c6/d6/4ec6d68a-16f9-7cf3-e3b4-bba09177ab51/mzaf_13838608025346996614.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/5a/74/525a74dc-8286-a759-fe0c-6d2c6ee5caed/886447491034.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach williams|jesus loves",
+   "title": "Jesus Loves",
+   "artist": "Zach Williams",
+   "year": 2025,
+   "rank": 8,
+   "cleanId": 1786446485,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/26/e1/5226e19a-a810-a35c-a716-f4305a7f4883/mzaf_12327659330685996773.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/a9/2d/14a92d8a-b8b6-f238-ade5-ca65c50e37c8/196872759969.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach williams|heart of god",
+   "title": "Heart of God",
+   "artist": "Zach Williams",
+   "year": 2022,
+   "rank": 9,
+   "cleanId": 1637163516,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/45/d8/9845d85d-0bf5-a622-8249-305e4fff7b47/mzaf_10101318683528826995.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/b9/6a/7eb96ae8-1a06-ed6e-785a-342d468b1fd1/196589363855.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "zach williams|lookin for you",
+   "title": "Lookin' for You",
+   "artist": "Zach Williams",
+   "year": 2022,
+   "rank": 10,
+   "cleanId": 1719653650,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/b8/40/19b840ea-cf0a-b8c9-7013-5f69933d842c/mzaf_7563311707114667796.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1e/e2/7a/1ee27aa3-bb5c-dfba-ff15-ee8b126ddb7e/196871560115.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "elevation worship and chandler moore|god i m just grateful",
+   "title": "God I'm Just Grateful",
+   "artist": "Elevation Worship & Chandler Moore",
+   "year": 2025,
+   "rank": 1,
+   "cleanId": 1848400240,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/07/4c/92074ca4-7f88-7ed7-ae79-9950c7000969/mzaf_6849252024047969715.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/42/01/51420110-806a-86c5-7025-5016e5a2bd57/196873750729.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "elevation worship|trust in god",
+   "title": "Trust In God",
+   "artist": "Elevation Worship",
+   "year": 2023,
+   "rank": 2,
+   "cleanId": 1680569028,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/eb/a7/b3eba7ca-3723-ca5e-8f3e-62e518753eee/mzaf_10837090462405548270.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/87/4e/a8874e28-75b5-9ba1-b3a5-ccf5adf35e4f/196871015363.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "elevation worship|praise",
+   "title": "Praise",
+   "artist": "Elevation Worship",
+   "year": 2023,
+   "rank": 3,
+   "cleanId": 1680569035,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/4d/c8/a14dc8ba-59ed-a587-2ac6-c65e2f2c5483/mzaf_2260199512470538661.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/87/4e/a8874e28-75b5-9ba1-b3a5-ccf5adf35e4f/196871015363.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "elevation worship chris brown and brandon lake|i know a name",
+   "title": "I Know A Name",
+   "artist": "Elevation Worship, Chris Brown & Brandon Lake",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 1793587169,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/f0/e8/51f0e8cc-626a-9165-5de3-8804e5d7c8c8/mzaf_14968480991174995371.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/47/0a/01470ac8-202c-66fc-b95d-1c06ba564b55/196872840520.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "elevation worship|jesus be the name",
+   "title": "Jesus Be The Name",
+   "artist": "Elevation Worship",
+   "year": 2026,
+   "rank": 5,
+   "cleanId": 1844672816,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/d8/9f/b3d89f6f-b13a-1f05-2f4f-1fa7853f92da/mzaf_11798352148531273038.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/d3/c7/74d3c712-6cc2-07e3-c32b-d3b92bcc6e3c/196873678207.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "elevation worship and maverick city music|jireh",
+   "title": "Jireh",
+   "artist": "Elevation Worship & Maverick City Music",
+   "year": 2021,
+   "rank": 6,
+   "cleanId": 1557087898,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/59/26/a15926e5-8fc0-8e24-a0d4-d8c03cb08881/mzaf_8716776369045991795.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/fb/2e/acfb2e1b-5a2a-6ad2-401f-aeb16df85673/886449130207.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "elevation worship|do it again",
+   "title": "Do It Again",
+   "artist": "Elevation Worship",
+   "year": 2016,
+   "rank": 7,
+   "cleanId": 1150732526,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/d0/43/d1d043e1-b119-cda3-a7be-61972635dbac/mzaf_9976750000691222792.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4b/b1/4d/4bb14db0-dd84-d218-89b5-f6bdf21df7f4/886446083001.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "elevation worship|worthy",
+   "title": "Worthy",
+   "artist": "Elevation Worship",
+   "year": 2018,
+   "rank": 8,
+   "cleanId": 1418718807,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/70/d8/0970d88c-ce14-13c2-018f-4d726777b47a/mzaf_1303711440300407439.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/cd/94/28cd949e-68a9-fd3f-4342-5ba42bdb7834/886447214763.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "elevation worship|lion",
+   "title": "LION",
+   "artist": "Elevation Worship",
+   "year": 2022,
+   "rank": 9,
+   "cleanId": 1605201136,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/8c/3d/918c3d67-cd01-3673-b7c6-07d286d96445/mzaf_12701654775325913549.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/be/e6/8d/bee68d7f-e72c-8673-d47a-7f65aa0ad5c3/886449816774.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "elevation worship|same god",
+   "title": "Same God",
+   "artist": "Elevation Worship",
+   "year": 2022,
+   "rank": 10,
+   "cleanId": 1605201133,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/70/38/5a70385a-4153-1762-b716-dbb3231cff00/mzaf_18018591070694511075.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/be/e6/8d/bee68d7f-e72c-8673-d47a-7f65aa0ad5c3/886449816774.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "phil wickham|god rest ye merry gentlemen",
+   "title": "God Rest Ye Merry Gentlemen",
+   "artist": "Phil Wickham",
+   "year": 2024,
+   "rank": 1,
+   "cleanId": 6835557875,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/4e/c1/bf4ec1a5-7ac6-3857-ff42-fb108bcab261/mzaf_9349019878411360077.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/d1/24/d2d1248a-d0ca-b7d7-b0ae-74b557d89bf7/196875002307.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "phil wickham|angels",
+   "title": "Angels (Glory To God)",
+   "artist": "Phil Wickham",
+   "year": 2024,
+   "rank": 2,
+   "cleanId": 6835557874,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/d5/02/92d50249-a45b-15f7-8a4a-efa9bacf8837/mzaf_18091832058396902119.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/d1/24/d2d1248a-d0ca-b7d7-b0ae-74b557d89bf7/196875002307.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "phil wickham|o holy night",
+   "title": "O Holy Night (Adoration)",
+   "artist": "Phil Wickham",
+   "year": 2026,
+   "rank": 3,
+   "cleanId": 6835557879,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/c6/9a/96c69aa8-f42d-47b8-ac4e-5d80324e939b/mzaf_2786825389395594982.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/d1/24/d2d1248a-d0ca-b7d7-b0ae-74b557d89bf7/196875002307.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "phil wickham|silent night holy night",
+   "title": "Silent Night, Holy Night",
+   "artist": "Phil Wickham",
+   "year": 2024,
+   "rank": 4,
+   "cleanId": 6835557880,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/0a/1f/fb0a1f92-7923-e0e5-d6cd-cf8a0967cb82/mzaf_10779916354710705787.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/d1/24/d2d1248a-d0ca-b7d7-b0ae-74b557d89bf7/196875002307.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "phil wickham|holy forever",
+   "title": "Holy Forever",
+   "artist": "Phil Wickham",
+   "year": 2024,
+   "rank": 5,
+   "cleanId": 6835557889,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/99/58/c8995802-7f62-6c1a-1e4f-3a51020ec424/mzaf_11007901854359614036.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/d1/24/d2d1248a-d0ca-b7d7-b0ae-74b557d89bf7/196875002307.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "phil wickham|o little town",
+   "title": "O Little Town",
+   "artist": "Phil Wickham",
+   "year": 2026,
+   "rank": 6,
+   "cleanId": 6835557887,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/a4/00/9fa4009f-d986-17f6-eeec-4da989154fd1/mzaf_3723723189231625795.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/d1/24/d2d1248a-d0ca-b7d7-b0ae-74b557d89bf7/196875002307.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "phil wickham and cece winans|peace on earth",
+   "title": "Peace On Earth",
+   "artist": "Phil Wickham & CeCe Winans",
+   "year": 2026,
+   "rank": 7,
+   "cleanId": 6835557877,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/3d/7e/f23d7e58-bec5-9c3b-d0fb-265f1f261ef2/mzaf_17162418402304224113.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/d1/24/d2d1248a-d0ca-b7d7-b0ae-74b557d89bf7/196875002307.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "phil wickham|o christmas tree",
+   "title": "O Christmas Tree (Greatest Story)",
+   "artist": "Phil Wickham",
+   "year": 2024,
+   "rank": 8,
+   "cleanId": 6835557983,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/68/4f/2c684f49-df1e-ad10-beb8-530f44a01540/mzaf_12594764601557373850.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/d1/24/d2d1248a-d0ca-b7d7-b0ae-74b557d89bf7/196875002307.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "phil wickham|shepherd boy",
+   "title": "Shepherd Boy",
+   "artist": "Phil Wickham",
+   "year": 2024,
+   "rank": 9,
+   "cleanId": 6835557878,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/e9/51/e6e9512a-174f-9578-aaa6-d7ddec3a64e7/mzaf_10566689056238760895.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/d1/24/d2d1248a-d0ca-b7d7-b0ae-74b557d89bf7/196875002307.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "phil wickham|behold",
+   "title": "Behold",
+   "artist": "Phil Wickham",
+   "year": 2022,
+   "rank": 10,
+   "cleanId": 6835557881,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/bd/f2/9cbdf2f1-d833-f732-7a21-cd7c3af6ec1a/mzaf_11570755531712761810.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/d1/24/d2d1248a-d0ca-b7d7-b0ae-74b557d89bf7/196875002307.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "crowder|good god almighty",
+   "title": "Good God Almighty",
+   "artist": "Crowder",
+   "year": 2021,
+   "rank": 1,
+   "cleanId": 1545857789,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/93/46/2a934664-08ef-9a2a-e88c-3d7c6f4cf52c/mzaf_13633844438306926813.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/36/8e/b6/368eb6e9-1523-9662-5b14-708cb47a6ccb/20UM1IM16540.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "crowder|red letters",
+   "title": "Red Letters",
+   "artist": "Crowder",
+   "year": 2018,
+   "rank": 2,
+   "cleanId": 1437027609,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/ed/95/79ed953c-b08f-342a-2a77-3947267ed304/mzaf_14329247568285534281.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/30/3a/89/303a8932-098b-01fd-1ec1-abc65e4dbd5c/18UMGIM57560.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "crowder|grave robber",
+   "title": "Grave Robber",
+   "artist": "Crowder",
+   "year": 2024,
+   "rank": 3,
+   "cleanId": 1713821854,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/5e/27/025e27b0-ee65-5b93-89d9-5b39f5418d59/mzaf_16967573579625191563.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d8/26/4f/d8264fd3-9fde-2720-d222-e7cc9345f90e/23UM1IM32493.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "crowder|somebody prayed",
+   "title": "Somebody Prayed",
+   "artist": "Crowder",
+   "year": 2024,
+   "rank": 4,
+   "cleanId": 1736610501,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/72/fd/8072fd9d-3ecf-a028-8958-ccb2a4b429d3/mzaf_6187159209510482678.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/32/1d/80/321d80e1-bb64-195c-ba48-a8fe36dcf90b/24UMGIM30515.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "crowder|run devil run",
+   "title": "Run Devil Run",
+   "artist": "Crowder",
+   "year": 2016,
+   "rank": 5,
+   "cleanId": 1440846625,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/a9/2e/33a92ef1-2e5c-c617-7227-f40630587cb6/mzaf_16833065327008754079.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/08/de/a108de2f-7ee7-0e7d-f917-613ff982e166/16UMGIM55946.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "crowder|come as you are",
+   "title": "Come As You Are",
+   "artist": "Crowder",
+   "year": 2014,
+   "rank": 6,
+   "cleanId": 1440863245,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/64/63/81646359-18a5-5606-3898-13eafca05b7e/mzaf_17834766056122532146.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/7b/63/177b635b-62e8-b3f9-f00c-ad14b005d9ca/13UAEIM08342.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "crowder|all my hope",
+   "title": "All My Hope",
+   "artist": "Crowder",
+   "year": 2016,
+   "rank": 7,
+   "cleanId": 1444332685,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/53/c9/c453c979-2db9-ce4a-fabc-ffa41e725d02/mzaf_6498099272140920359.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/12/83/79/128379f2-b4f3-f957-a0de-c87c2d3f5468/17UM1IM20669.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "crowder|lift your head weary sinner",
+   "title": "Lift Your Head Weary Sinner (Chains)",
+   "artist": "Crowder",
+   "year": 2014,
+   "rank": 8,
+   "cleanId": 1440863232,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/bf/08/8ebf08eb-bca0-7ca1-9eb8-0f240f705d27/mzaf_16540558608524684830.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/7b/63/177b635b-62e8-b3f9-f00c-ad14b005d9ca/13UAEIM08342.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "crowder|forgiven",
+   "title": "Forgiven",
+   "artist": "Crowder",
+   "year": 2016,
+   "rank": 9,
+   "cleanId": 1440846633,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/25/72/b7257261-ecf3-6696-2c82-d1d3f6582dc4/mzaf_1618388942031315368.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/08/de/a108de2f-7ee7-0e7d-f917-613ff982e166/16UMGIM55946.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "crowder|my victory",
+   "title": "My Victory",
+   "artist": "Crowder",
+   "year": 2016,
+   "rank": 10,
+   "cleanId": 1440846626,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/9b/a0/c29ba085-d211-2c20-b5d1-ca4fc804cd41/mzaf_14424563953155443389.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/08/de/a108de2f-7ee7-0e7d-f917-613ff982e166/16UMGIM55946.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "matthew west|back to jesus",
+   "title": "Back To Jesus",
+   "artist": "Matthew West",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 6787940298,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/59/d8/0b59d811-5e15-f3ea-3419-a0e8161b7c80/mzaf_4201117835341595610.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/54/d1/8a54d166-2e0f-26b3-6429-7bc7c3d5e8be/196874497968.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "matthew west|good",
+   "title": "Good",
+   "artist": "Matthew West",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 1858336846,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/6f/d7/d96fd742-1726-9b79-3640-0bf254a35977/mzaf_11501847591836028976.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/b1/2a/6cb12abc-14b1-893f-57c0-3802b776d100/196873853154.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "matthew west|don t stop praying",
+   "title": "Don't Stop Praying",
+   "artist": "Matthew West",
+   "year": 2024,
+   "rank": 3,
+   "cleanId": 1716949676,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/eb/d6/f5ebd674-d728-c52f-443c-672a80ee6415/mzaf_15687333474755680710.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/62/a3/5c62a3bb-ad00-6c18-f4d5-e874c0e67974/196871623278.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "matthew west|hello my name is",
+   "title": "Hello, My Name Is",
+   "artist": "Matthew West",
+   "year": 2012,
+   "rank": 4,
+   "cleanId": 724607112,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/7b/5b/457b5b5e-bc37-e262-05ae-694f1d8c6408/mzaf_7145991517754029400.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a8/8b/77/a88b77c1-5aa6-3eb8-9456-c212a6153d2a/05099997804956.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "matthew west|truth be told",
+   "title": "Truth Be Told",
+   "artist": "Matthew West",
+   "year": 2019,
+   "rank": 5,
+   "cleanId": 1481277622,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/e2/32/89e2323a-8f42-3208-ab74-7b8d4271f03a/mzaf_17682385720543345161.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/44/bf/74/44bf747b-0134-174d-0bc8-3329ee2f20c1/886447945612.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "matthew west|unashamed",
+   "title": "Unashamed",
+   "artist": "Matthew West",
+   "year": 2024,
+   "rank": 6,
+   "cleanId": 1756560363,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4f/d6/ef/4fd6ef60-f13f-05d0-7360-120bf02730f7/mzaf_11369882119360373161.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/29/66/782966c4-3fa6-78ab-2be7-fa33f58b9521/196872186499.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "matthew west|the god who stays",
+   "title": "The God Who Stays",
+   "artist": "Matthew West",
+   "year": 2019,
+   "rank": 7,
+   "cleanId": 1469439638,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/50/44/a35044a7-4c86-5c65-ddb2-524aad9f352e/mzaf_6301387411721542965.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/22/c6/f5/22c6f558-e546-4972-8f03-8e14d8c9720f/886447818992.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "matthew west|grace wins",
+   "title": "Grace Wins",
+   "artist": "Matthew West",
+   "year": 2014,
+   "rank": 8,
+   "cleanId": 1440838075,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/f0/ee/cff0eef0-8435-a4be-47d0-95f494dc25ff/mzaf_4300993781745796375.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/23/1d/e5231d3b-ddbe-1ed5-9a47-4f05771029d4/00602547284822.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "matthew west|broken things",
+   "title": "Broken Things",
+   "artist": "Matthew West",
+   "year": 2017,
+   "rank": 9,
+   "cleanId": 1399315986,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/a4/67/77a4678f-7a9d-d19d-0ef9-bbe43eec5f1c/mzaf_4496763815130357883.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/52/fa/86/52fa8650-bea3-147e-1c07-45b8dbf97e14/00602567696520.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "matthew west|what if",
+   "title": "What If",
+   "artist": "Matthew West",
+   "year": 2019,
+   "rank": 10,
+   "cleanId": 1485592890,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b9/02/cb/b902cb5b-2ee5-b70c-c20f-61cba94d7792/mzaf_7840728781254740504.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/41/2f/c4/412fc4bd-7e24-a374-41fc-ef5d7a2598e0/886447603338.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brandon lake|gratitude",
+   "title": "Gratitude",
+   "artist": "Brandon Lake",
+   "year": 2020,
+   "rank": 1,
+   "cleanId": 1748026587,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/64/3e/77643e36-d9a3-9e1b-21a5-50ef3ea9eabb/mzaf_1088661968422583343.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/4e/e8/0e4ee8cf-f624-42f6-4529-ea32b7b67809/671072650082_TImage.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brandon lake and jelly roll|hard fought hallelujah",
+   "title": "Hard Fought Hallelujah",
+   "artist": "Brandon Lake & Jelly Roll",
+   "year": 2024,
+   "rank": 2,
+   "cleanId": 1792964304,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/24/de/6f24de7a-6068-657e-61ab-edc73e199ddf/mzaf_17262146523182517152.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/83/c4/40/83c440d3-094f-14cd-37a7-f5ae45ca9a57/196872845884.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brandon lake|that s who i praise",
+   "title": "That's Who I Praise",
+   "artist": "Brandon Lake",
+   "year": 2024,
+   "rank": 3,
+   "cleanId": 1757500327,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/1b/a7/601ba7f0-19ba-4dc8-447a-5272d0088413/mzaf_15823559795675896919.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/74/02/197402da-841a-15d9-9699-4682a6b407bc/196872268003.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brandon lake|how good god is",
+   "title": "How Good God Is",
+   "artist": "Brandon Lake",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 6798404527,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/da/20/a2da2086-03e8-7648-18eb-8fc616933112/mzaf_9839735523133651328.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/de/5c/1bde5c6a-05ba-c591-ff95-a34194541a7d/196874664483.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brandon lake and lainey wilson|the jesus i know now",
+   "title": "The Jesus I Know Now",
+   "artist": "Brandon Lake & Lainey Wilson",
+   "year": 2026,
+   "rank": 5,
+   "cleanId": 1887978274,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/f8/fc/f9f8fc76-efd6-a84c-58a6-199dca9430af/mzaf_1794227461374329739.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/82/90/3f8290ba-b6cd-2028-0fc1-844e25bf0389/196874252284.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brandon lake and cody johnson|when a cowboy prays",
+   "title": "When A Cowboy Prays",
+   "artist": "Brandon Lake & Cody Johnson",
+   "year": 2025,
+   "rank": 6,
+   "cleanId": 1860392557,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/bd/3c/2ebd3c38-92c7-edde-2af1-7c125188bf0f/mzaf_15872558098046214644.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/3e/f1/103ef10a-ab2c-a6bb-f956-79d21a7f2edd/196873937533.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brandon lake|don t you give up on me",
+   "title": "Don't You Give Up On Me",
+   "artist": "Brandon Lake",
+   "year": 2022,
+   "rank": 7,
+   "cleanId": 1619825494,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4f/0b/41/4f0b4102-371d-270c-7633-3ec3f985cdfc/mzaf_1622947260921755592.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/26/78/47/267847a4-8e0b-f038-4346-6d47d5df33bb/196626825513.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brandon lake|count em",
+   "title": "COUNT 'EM",
+   "artist": "Brandon Lake",
+   "year": 2023,
+   "rank": 8,
+   "cleanId": 1704025401,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/b3/d9/61b3d938-8589-6336-d010-86bfb0a55fae/mzaf_1623772769833633840.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f5/53/9d/f5539dc7-3dc8-9753-265f-77cf66303f44/196871280310.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brandon lake|praise you anywhere",
+   "title": "PRAISE YOU ANYWHERE",
+   "artist": "Brandon Lake",
+   "year": 2023,
+   "rank": 9,
+   "cleanId": 1704025414,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/63/25/e66325a9-4f05-7e7c-04f5-c04abf8dad0e/mzaf_11816138084767914415.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f5/53/9d/f5539dc7-3dc8-9753-265f-77cf66303f44/196871280310.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "brandon lake and nick jonas|the author",
+   "title": "The Author",
+   "artist": "Brandon Lake & Nick Jonas",
+   "year": 2026,
+   "rank": 10,
+   "cleanId": 6763327641,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/52/de/8d52de52-e27c-c565-d785-009111594995/mzaf_2512498324065491650.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4a/fc/b7/4afcb799-55ad-8c99-9a7f-583769604e47/196874326381.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "maverick city music and naomi raine|promises",
+   "title": "Promises",
+   "artist": "Maverick City Music & Naomi Raine",
+   "year": 2020,
+   "rank": 1,
+   "cleanId": 1571840194,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/d9/ee/05d9ee79-34a7-266e-bd75-8dca37f4c15d/mzaf_6217431269184575558.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0c/2b/c1/0c2bc1e0-a671-4b6c-c184-3dfef7b51b91/859738402026.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "maverick city music chandler moore and cody carnes|firm foundation",
+   "title": "Firm Foundation (He Won't)",
+   "artist": "Maverick City Music, Chandler Moore & Cody Carnes",
+   "year": 2022,
+   "rank": 2,
+   "cleanId": 1600590564,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/e5/b5/0ee5b504-dbec-a74c-3151-61077a5eb2a8/mzaf_9698600698880296524.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/36/0f/76/360f76c4-69bf-b987-1a22-281ecf4ee9cc/196626154507.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "maverick city music jordin sparks and anthony gargiula|constant",
+   "title": "Constant",
+   "artist": "Maverick City Music, Jordin Sparks & Anthony Gargiula",
+   "year": 2024,
+   "rank": 3,
+   "cleanId": 1777253121,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/a9/04/68a904a8-8a28-88f5-11a7-8ac859e4f720/mzaf_12751259869311449187.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/80/9f/ce809f7e-5056-7a8a-47ea-0c20e7716a7e/198846791296.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "maverick city music and upperroom|i thank god",
+   "title": "I Thank God",
+   "artist": "Maverick City Music & UPPERROOM",
+   "year": 2021,
+   "rank": 4,
+   "cleanId": 1572006358,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/f9/c5/15f9c539-c9a6-5544-bba5-046841ab8282/mzaf_13686995803454676137.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/61/e7/7761e73a-706b-91b6-743e-d42721f4ee18/859744966031.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "maverick city music and upperroom|rest on us",
+   "title": "Rest on Us",
+   "artist": "Maverick City Music & UPPERROOM",
+   "year": 2021,
+   "rank": 5,
+   "cleanId": 1572006348,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/cf/30/cacf3057-2db1-6eca-94db-500d403ab98c/mzaf_15674024469882456286.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/61/e7/7761e73a-706b-91b6-743e-d42721f4ee18/859744966031.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "maverick city music chandler moore and naomi raine|god problems",
+   "title": "God Problems",
+   "artist": "Maverick City Music, Chandler Moore & Naomi Raine",
+   "year": 2023,
+   "rank": 6,
+   "cleanId": 1702079047,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/e3/95/a2e395d5-9f39-fbb1-6f0d-35a1414d89f0/mzaf_3612885527965304938.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/08/49/f7/0849f7d6-947a-ba9f-0a49-dd23adca3eea/197189524370.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "maverick city music naomi raine and chandler moore|in the room",
+   "title": "In The Room",
+   "artist": "Maverick City Music, Naomi Raine & Chandler Moore",
+   "year": 2023,
+   "rank": 7,
+   "cleanId": 1709435615,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/1b/b8/171bb8ac-04e2-3ea0-efa0-ec3cefa4a4d2/mzaf_11752035904229030364.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/77/3a/16/773a16a0-e761-eac8-2d80-66b86d3fadb3/197189971600.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "maverick city music and chandler moore|refiner",
+   "title": "Refiner",
+   "artist": "Maverick City Music & Chandler Moore",
+   "year": 2019,
+   "rank": 8,
+   "cleanId": 1571799152,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/40/04/d3400499-c464-9c53-9e83-b1c3615fc8cd/mzaf_2719417593544924386.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f1/70/13/f17013d3-cdc9-81bc-519f-3b9256d978a6/859735383274.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "maverick city music and naomi raine|the story i ll tell",
+   "title": "The Story I'll Tell",
+   "artist": "Maverick City Music & Naomi Raine",
+   "year": 2020,
+   "rank": 9,
+   "cleanId": 1571987071,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/4a/27/3e4a27f8-7c3d-51d3-8fcb-a9ae1bf49b73/mzaf_14140395697685811977.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/36/fc/2f/36fc2fe2-1cdc-cdaf-6400-17dc6499a9c2/859741854027.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "maverick city music and kirk franklin|kingdom",
+   "title": "Kingdom",
+   "artist": "Maverick City Music & Kirk Franklin",
+   "year": 2022,
+   "rank": 10,
+   "cleanId": 1693798650,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/a7/22/1ca7227b-d2d2-1a0c-40f0-62040a486f0e/mzaf_7018684053238758893.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ca/9c/64/ca9c6462-8a86-9e56-8807-8eb7e87e348b/197189002298.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jeremy camp|i still believe",
+   "title": "I Still Believe",
+   "artist": "Jeremy Camp",
+   "year": 1996,
+   "rank": 1,
+   "cleanId": 724565401,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/84/ec/e784ecb7-e238-e883-0110-c70e3975c4f3/mzaf_17520294726742489262.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/35/45/21354542-808f-2c7c-b830-f6f25299c28b/00724354045653.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jeremy camp|revival",
+   "title": "Revival",
+   "artist": "Jeremy Camp",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6776866385,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/4b/9f/214b9f4c-f1d4-0b9d-68c7-70a448142274/mzaf_4086196680992948817.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/47/e6/0347e669-9b58-856f-d2e1-07b8a2281372/26UMGIM65590.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jeremy camp|no survivors",
+   "title": "No Survivors",
+   "artist": "Jeremy Camp",
+   "year": 2024,
+   "rank": 3,
+   "cleanId": 1731209977,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/f8/5d/c1f85d6e-8d38-c9a8-0f07-23b1c354f91e/mzaf_2613130725670857661.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0d/f1/1d/0df11d74-0b4e-828d-8cce-9677d26ec0af/24UMGIM14066.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jeremy camp|dead man walking",
+   "title": "Dead Man Walking",
+   "artist": "Jeremy Camp",
+   "year": 2019,
+   "rank": 4,
+   "cleanId": 1473863989,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/28/4b/c6284bb5-7bf9-b93b-889c-efdbbacfe436/mzaf_14971228757968081915.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/90/1e/11/901e11f9-fdd3-1703-2b8e-66eb301990bb/19UMGIM62721.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jeremy camp|there will be a day",
+   "title": "There Will Be a Day",
+   "artist": "Jeremy Camp",
+   "year": 2008,
+   "rank": 5,
+   "cleanId": 714886627,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/ba/51/f5ba511b-d70a-eb43-cac2-bde50606e1ca/mzaf_2474430497092917908.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/44/79/cd/4479cd93-2e1e-4835-3978-c72e518c52c2/13UABIM01902.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jeremy camp|shaky ground",
+   "title": "Shaky Ground",
+   "artist": "Jeremy Camp",
+   "year": null,
+   "rank": 6,
+   "cleanId": 6815869978,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/39/33/87393331-e1be-a13d-88dd-68dccd9105ea/mzaf_3535291206219560275.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/d8/8c/d9d88c8f-5f5c-fd00-09fb-38d87461fd18/26UM1IM20527.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jeremy camp|keep me in the moment",
+   "title": "Keep Me in the Moment",
+   "artist": "Jeremy Camp",
+   "year": 2019,
+   "rank": 7,
+   "cleanId": 1473864061,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/98/c1/8198c119-bf87-ed77-1953-d7685697e037/mzaf_1990615442559081918.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/90/1e/11/901e11f9-fdd3-1703-2b8e-66eb301990bb/19UMGIM62721.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jeremy camp|christ in me",
+   "title": "Christ In Me",
+   "artist": "Jeremy Camp",
+   "year": 2015,
+   "rank": 8,
+   "cleanId": 1440855410,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/90/32/e490325b-df63-e067-c74b-ac230c7adb0f/mzaf_17123608720796564718.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f2/1c/6f/f21c6fe3-60b0-93a0-40cb-f0698c02fc7f/14UMGIM53216.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jeremy camp|walk by faith",
+   "title": "Walk By Faith",
+   "artist": "Jeremy Camp",
+   "year": 2002,
+   "rank": 9,
+   "cleanId": 723794308,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/db/d4/f4dbd4c5-233d-6101-6bbc-f6fb2ee04dae/mzaf_2336970857746816113.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b5/b7/2e/b5b72e81-90e7-f989-e258-abb4aad7458a/00724353961350.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jeremy camp|same power",
+   "title": "Same Power",
+   "artist": "Jeremy Camp",
+   "year": 2015,
+   "rank": 10,
+   "cleanId": 1440855418,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/55/26/62552691-db8a-38f4-eac0-1e96ca46afaa/mzaf_12376691947886666206.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f2/1c/6f/f21c6fe3-60b0-93a0-40cb-f0698c02fc7f/14UMGIM53216.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "third day|god of wonders",
+   "title": "God of Wonders",
+   "artist": "Third Day",
+   "year": 2003,
+   "rank": 1,
+   "cleanId": 258091405,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/6a/78/9f6a78bc-76cb-6f94-59d7-ed37991a7886/mzaf_2125558614488208876.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d7/42/87/d7428730-d9b4-0728-3613-f004676fd0aa/mzi.zohuawyq.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "third day|soul on fire",
+   "title": "Soul On Fire",
+   "artist": "Third Day",
+   "year": 2014,
+   "rank": 2,
+   "cleanId": 957560327,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/70/f7/cc70f7a9-adf5-26ab-5277-6c4c9b69fb65/mzaf_17249917339110930410.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e0/d9/ba/e0d9badc-2d23-8c56-5525-166b5c906154/886445045697.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "third day|cry out to jesus",
+   "title": "Cry Out to Jesus",
+   "artist": "Third Day",
+   "year": 2005,
+   "rank": 3,
+   "cleanId": 269441653,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/42/2b/41422b65-c7f5-d16b-ec02-82c9c2190036/mzaf_8893884655174579252.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f9/c0/2a/f9c02ae9-ee32-a47c-7a04-ad9137c7f8b3/mzi.ykuqlmma.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "third day|call my name",
+   "title": "Call My Name",
+   "artist": "Third Day",
+   "year": 2008,
+   "rank": 4,
+   "cleanId": 352725131,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/9a/fc/c89afc1d-adc4-ce30-082f-f333580999c6/mzaf_544753721331116069.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b2/b4/7a/b2b47a87-fcf6-f215-45dc-98c074d7374d/mzi.ugpczrgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "third day|show me your glory",
+   "title": "Show Me Your Glory",
+   "artist": "Third Day",
+   "year": 2001,
+   "rank": 5,
+   "cleanId": 284998399,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/b7/81/e3b781e3-f9ed-df8c-99ec-ced16988f5e8/mzaf_9844103059666181912.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/d4/14/b6d414fb-2bbc-67ce-b4d8-efe68f3e8aaf/mzi.ekfczlzf.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "third day|your love oh lord",
+   "title": "Your Love Oh Lord (Psalm 36)",
+   "artist": "Third Day",
+   "year": 1999,
+   "rank": 6,
+   "cleanId": 284997971,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/17/9a/22179a8f-8a8d-5429-3994-4effada6c7a9/mzaf_15137905270189914876.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/26/cb/e7/mzi.pdoccksq.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "third day|born again",
+   "title": "Born Again",
+   "artist": "Third Day",
+   "year": 2008,
+   "rank": 7,
+   "cleanId": 352725150,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/92/cf/2792cfbf-8ec6-5c12-d926-61c63a504423/mzaf_5546867036305900814.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b2/b4/7a/b2b47a87-fcf6-f215-45dc-98c074d7374d/mzi.ugpczrgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "third day|trust in jesus",
+   "title": "Trust In Jesus",
+   "artist": "Third Day",
+   "year": 2010,
+   "rank": 8,
+   "cleanId": 396238884,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/f4/75/9cf475fa-2b2b-e092-3767-3ca7c52ee259/mzaf_2711023395082483518.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/da/2a/12/da2a12a1-54f4-7839-d9c0-63d3e0196ca5/mzi.uiebisom.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "third day|you are so good to me",
+   "title": "You Are So Good to Me",
+   "artist": "Third Day",
+   "year": 2003,
+   "rank": 9,
+   "cleanId": 258091376,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/62/57/e2/6257e293-39a6-564c-c07b-c6e41bf98b35/mzaf_14660510909426391857.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d7/42/87/d7428730-d9b4-0728-3613-f004676fd0aa/mzi.zohuawyq.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "third day|revelation",
+   "title": "Revelation",
+   "artist": "Third Day",
+   "year": 2008,
+   "rank": 10,
+   "cleanId": 352725145,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/2a/9d/b52a9da8-23ee-e5ce-10d8-a89c5ccd605c/mzaf_2655842213329185317.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b2/b4/7a/b2b47a87-fcf6-f215-45dc-98c074d7374d/mzi.ugpczrgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "newsboys|god s not dead",
+   "title": "God's Not Dead (Like a Lion)",
+   "artist": "Newsboys",
+   "year": 2011,
+   "rank": 1,
+   "cleanId": 1887990617,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/5c/71/d55c7156-8d6c-af2d-158a-46fb802a09bb/mzaf_16434016374666153026.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/61/5e/d2615e52-8d7e-cf50-3a33-b9d91766dabe/804147159252.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "newsboys|we believe",
+   "title": "We Believe",
+   "artist": "Newsboys",
+   "year": 2013,
+   "rank": 2,
+   "cleanId": 1440862376,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/de/27/fcde27b9-7f7d-2a8b-7e32-958897789fb1/mzaf_9934331704920834334.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e7/c7/90/e7c7900b-d877-2ded-3d54-160bf41b7b55/00602537849468.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "newsboys|he reigns",
+   "title": "He Reigns",
+   "artist": "Newsboys",
+   "year": 2003,
+   "rank": 3,
+   "cleanId": 724933352,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/02/9f/51029fe2-7a41-05ea-6ea4-9efc458a9bb7/mzaf_14001708018327564090.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2d/50/16/2d5016da-d97e-1a5e-f519-17fd76d318e4/13UABIM30596.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "newsboys|blessed be your name",
+   "title": "Blessed Be Your Name",
+   "artist": "Newsboys",
+   "year": 2004,
+   "rank": 4,
+   "cleanId": 715905235,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/72/90/5e729086-42d1-7744-4cf7-ad1e45b5437a/mzaf_15888228864521227787.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9e/e3/49/9ee349f5-6d46-704e-0838-872b62717241/13UMGIM90292.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "newsboys|shine",
+   "title": "Shine",
+   "artist": "Newsboys",
+   "year": 1994,
+   "rank": 5,
+   "cleanId": 724391857,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/ad/8c/81ad8c09-bb8c-8775-50c3-a434a9671b40/mzaf_9915440114127847100.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/97/30/3d/97303d9b-868b-a994-a18f-ede276867845/00724382000556.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "newsboys|your love never fails",
+   "title": "Your Love Never Fails",
+   "artist": "Newsboys",
+   "year": 2011,
+   "rank": 6,
+   "cleanId": 1887990618,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/92/ca/5392ca99-ca39-8fc5-ea1e-73481c5da67a/mzaf_6003205273933897812.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/61/5e/d2615e52-8d7e-cf50-3a33-b9d91766dabe/804147159252.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "newsboys|the king is coming",
+   "title": "The King Is Coming",
+   "artist": "Newsboys",
+   "year": 2011,
+   "rank": 7,
+   "cleanId": 1887990616,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/29/bf/5f29bf31-342d-b6f8-8d62-55f709961c98/mzaf_14233000953562859847.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/61/5e/d2615e52-8d7e-cf50-3a33-b9d91766dabe/804147159252.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "newsboys|you are my king",
+   "title": "You Are My King (Amazing Love)",
+   "artist": "Newsboys",
+   "year": 2003,
+   "rank": 8,
+   "cleanId": 724933364,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/5e/d0/ce5ed03a-0368-70bc-0978-320efc2a4ef3/mzaf_14992036830934704049.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2d/50/16/2d5016da-d97e-1a5e-f519-17fd76d318e4/13UABIM30596.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "newsboys|mighty to save",
+   "title": "Mighty to Save",
+   "artist": "Newsboys",
+   "year": 2010,
+   "rank": 9,
+   "cleanId": 1887990626,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/a2/65/2ca2654e-263b-5cba-3a40-25eaa6d62c7e/mzaf_9424115217528210871.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/61/5e/d2615e52-8d7e-cf50-3a33-b9d91766dabe/804147159252.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "newsboys|guilty",
+   "title": "Guilty",
+   "artist": "Newsboys",
+   "year": 2016,
+   "rank": 10,
+   "cleanId": 1545530130,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/82/63/44826309-4366-7e73-ce0c-674e046a66aa/mzaf_13222999104380975064.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a0/45/c5/a045c5d8-42c5-890b-d3e9-66131faf06a7/886445661415.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kari jobe|revelation song",
+   "title": "Revelation Song",
+   "artist": "Kari Jobe",
+   "year": 2009,
+   "rank": 1,
+   "cleanId": 1796465244,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/3e/53/e13e539a-4bec-262c-1058-5cd08d4942e6/mzaf_4672620743947759461.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/9d/b8/cf9db856-f1f0-6387-81f2-16a64f8e532b/0000768613856.png/100x100bb.jpg"
+  },
+  {
+   "id": "kari jobe|healer",
+   "title": "Healer",
+   "artist": "Kari Jobe",
+   "year": 2010,
+   "rank": 2,
+   "cleanId": 1796471217,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/42/08/494208d6-be60-e130-8ff6-02f1960a9f52/mzaf_7475246453325076418.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/b9/17/dab91703-4c41-6239-e3d3-810c3f27cf68/000768475355.png/100x100bb.jpg"
+  },
+  {
+   "id": "kari jobe and klaus|wonderful merciful savior",
+   "title": "Wonderful Merciful Savior",
+   "artist": "Kari Jobe & Klaus",
+   "year": 2006,
+   "rank": 3,
+   "cleanId": 270501866,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/06/09/ff060989-0eec-62ae-1f6c-29f95ec5795d/mzaf_8283452171709091904.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/09/be/d6/09bed635-5a09-3d7f-511e-8b46efa5331f/894677001022_cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kari jobe|the cross is my confession",
+   "title": "The Cross Is My Confession",
+   "artist": "Kari Jobe",
+   "year": 2013,
+   "rank": 4,
+   "cleanId": 1443135196,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8f/0c/a5/8f0ca555-1e27-57cc-6870-585b1028c28c/mzaf_8435746889312838357.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/cf/4f/13/cf4f13db-a5c9-5a12-0a51-e7747bf24806/05099943346752.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "danny gokey|haven t seen it yet",
+   "title": "Haven't Seen It Yet",
+   "artist": "Danny Gokey",
+   "year": 2019,
+   "rank": 1,
+   "cleanId": 1454830630,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/1e/c4/a71ec424-bdfa-373c-efaf-42f90df18af4/mzaf_1736976567066584780.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/03/98/7f/03987f01-94e1-2aa4-4393-e2774235ec66/19UMGIM14474.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "danny gokey|tell your heart to beat again",
+   "title": "Tell Your Heart To Beat Again",
+   "artist": "Danny Gokey",
+   "year": 2014,
+   "rank": 2,
+   "cleanId": 1451849213,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/7f/28/f57f286e-741f-8bfe-21ca-291373aad337/mzaf_7075850187719047285.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/6d/42/db6d420d-e349-f6ff-f936-c1a5ee3ae876/0859381011033.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "danny gokey|love god love people",
+   "title": "Love God Love People",
+   "artist": "Danny Gokey",
+   "year": 2019,
+   "rank": 3,
+   "cleanId": 1454830629,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/1f/8f/891f8ff9-6e4a-b5b9-d352-25c4db42190e/mzaf_8492128876239599170.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/03/98/7f/03987f01-94e1-2aa4-4393-e2774235ec66/19UMGIM14474.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "danny gokey|hope in front of me",
+   "title": "Hope in Front of Me",
+   "artist": "Danny Gokey",
+   "year": 2014,
+   "rank": 4,
+   "cleanId": 1451849192,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/5b/73/8c5b73b8-bbe6-3e94-6789-cf4f236ad57d/mzaf_17234909675611444180.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/6d/42/db6d420d-e349-f6ff-f936-c1a5ee3ae876/0859381011033.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "danny gokey|stay strong",
+   "title": "Stay Strong",
+   "artist": "Danny Gokey",
+   "year": 2021,
+   "rank": 5,
+   "cleanId": 1572916854,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/ef/d7/23efd7b3-81e9-f387-e3b8-0d4f9d18d32a/mzaf_11200450959705604388.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/e9/8a/b9e98afd-3810-bc91-afdb-727ea8dcb27a/21UMGIM55750.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "danny gokey and koryn hawthorne|we all need jesus",
+   "title": "We All Need Jesus",
+   "artist": "Danny Gokey & Koryn Hawthorne",
+   "year": 2021,
+   "rank": 6,
+   "cleanId": 1566477848,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/c9/92/03c99279-5b41-5372-ad5f-b60950e97aa1/mzaf_4645947174610209735.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/72/a9/a0/72a9a068-a273-029f-6340-e92f54db3773/21UMGIM38692.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "danny gokey|rise",
+   "title": "Rise",
+   "artist": "Danny Gokey",
+   "year": 2016,
+   "rank": 7,
+   "cleanId": 1626498181,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/b2/f7/ebb2f7df-c1b9-c0a7-8b4c-b1ea5132363a/mzaf_18276547097551343558.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/24/cc/f3/24ccf3d9-bdec-4ade-6710-4e0348ea47b8/4050538256956.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "danny gokey|stand in faith",
+   "title": "Stand In Faith",
+   "artist": "Danny Gokey",
+   "year": 2021,
+   "rank": 8,
+   "cleanId": 1572916844,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/ad/11/fead11c5-43e3-f8f7-a879-8cfc5d8987d8/mzaf_6719789579044454547.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/e9/8a/b9e98afd-3810-bc91-afdb-727ea8dcb27a/21UMGIM55750.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "danny gokey|i got you",
+   "title": "I Got You",
+   "artist": "Danny Gokey",
+   "year": 2024,
+   "rank": 9,
+   "cleanId": 1722555641,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/9c/c8/fb9cc88d-0bfd-769a-4a8b-bbf2f4cdcc2d/mzaf_2481403054700877220.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/05/d0/08/05d00877-9f22-22a1-40f6-fd0969052655/23UM1IM66265.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "danny gokey|more than you think i am",
+   "title": "More Than You Think I Am",
+   "artist": "Danny Gokey",
+   "year": 2014,
+   "rank": 10,
+   "cleanId": 1451849212,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/28/1e/24281e42-431b-d793-875a-5db893ce3955/mzaf_363941732814753024.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/6d/42/db6d420d-e349-f6ff-f936-c1a5ee3ae876/0859381011033.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody carnes|nothing else",
+   "title": "Nothing Else",
+   "artist": "Cody Carnes",
+   "year": 2019,
+   "rank": 1,
+   "cleanId": 1457383060,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/d6/a2/cbd6a20c-4002-d73e-4155-300083f85029/mzaf_7318554775221933331.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3b/ad/65/3bad6503-b6f4-d34b-dd2f-d7d827e61f8b/18UMGIM84426.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody carnes|run to the father",
+   "title": "Run to the Father",
+   "artist": "Cody Carnes",
+   "year": 2019,
+   "rank": 2,
+   "cleanId": 1472658421,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/03/8a/1b038aa0-4cc3-38b9-5bcf-d1ba0eaa8505/mzaf_10983213786809745398.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/98/8c/45/988c455d-2bc5-e2df-c787-999c9c9751bf/19UMGIM61783.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody carnes|christ be magnified",
+   "title": "Christ Be Magnified",
+   "artist": "Cody Carnes",
+   "year": 2020,
+   "rank": 3,
+   "cleanId": 1491253195,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/60/9b/6e609bc9-b0e9-3aba-e002-c0dbf3c0f171/mzaf_5189657330410590255.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a7/e4/98/a7e498bf-cb4b-684c-a296-d91cbd83e468/19UM1IM09448.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody carnes|the cross has the final word",
+   "title": "The Cross Has the Final Word",
+   "artist": "Cody Carnes",
+   "year": 2017,
+   "rank": 4,
+   "cleanId": 1440885525,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/18/19/d0181982-8d30-f4cd-a0f6-4a57bdabccd4/mzaf_665095484857414261.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1a/75/b2/1a75b28c-7607-6ec1-8363-397349ea9df5/00602557437508.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody carnes|take you at your word",
+   "title": "Take You At Your Word",
+   "artist": "Cody Carnes",
+   "year": 2024,
+   "rank": 5,
+   "cleanId": 1743081169,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/dd/56/9edd5612-838e-a4ea-ba53-008831744294/mzaf_10178985886557877283.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/36/6e/f8366e0d-b027-3b8e-5418-65fb67b10aa2/24UMGIM45960.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody carnes and brandon lake|too good to not believe",
+   "title": "Too Good To Not Believe",
+   "artist": "Cody Carnes & Brandon Lake",
+   "year": 2021,
+   "rank": 6,
+   "cleanId": 1568527587,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/92/07/389207df-8a36-b9b6-7be4-ef4d086e5511/mzaf_1133497901015507452.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b2/c0/6f/b2c06fac-1c37-ee75-67a6-37d281a73b2d/21UMGIM45632.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody carnes|firm foundation",
+   "title": "Firm Foundation (He Won’t)",
+   "artist": "Cody Carnes",
+   "year": 2021,
+   "rank": 7,
+   "cleanId": 1597386257,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/27/03/bc2703e7-1bae-4f37-45fd-16079e08a5c3/mzaf_14748659089817688768.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c9/a4/3b/c9a43bc7-4b9c-63c8-7a29-7cd6e12a96d3/21UM1IM46056.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody carnes|be glad",
+   "title": "Be Glad",
+   "artist": "Cody Carnes",
+   "year": 2022,
+   "rank": 8,
+   "cleanId": 1632530028,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/50/50/3c505030-93c2-b101-e744-e52ecd67767b/mzaf_15216953408104245027.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3e/73/30/3e7330c6-c9ce-272a-d06b-c2930b029ade/22UMGIM70985.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody carnes|let the light in",
+   "title": "Let The Light In",
+   "artist": "Cody Carnes",
+   "year": 2020,
+   "rank": 9,
+   "cleanId": 1499162722,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/47/6a/d8476a75-8ae9-8828-ede8-f06351ce4802/mzaf_9249678510890150645.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a8/6e/8d/a86e8d15-6f7c-814c-37a9-50469d9277a7/20UMGIM10515.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "cody carnes|what freedom feels like",
+   "title": "What Freedom Feels Like",
+   "artist": "Cody Carnes",
+   "year": 2017,
+   "rank": 10,
+   "cleanId": 1440885331,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/65/fe/f165fefb-0f97-5e1b-f450-03b315460bb5/mzaf_6021791594159097716.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1a/75/b2/1a75b28c-7607-6ec1-8363-397349ea9df5/00602557437508.rgb.jpg/100x100bb.jpg"
+  }
+ ]
+}

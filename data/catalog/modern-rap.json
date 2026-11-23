@@ -1,0 +1,2008 @@
+{
+ "genre": "modern-rap",
+ "built": "2026-11-22",
+ "artists": [
+  "Kendrick Lamar",
+  "Drake",
+  "J. Cole",
+  "Travis Scott",
+  "Eminem",
+  "Kanye West",
+  "Lil Wayne",
+  "Post Malone",
+  "50 Cent",
+  "Future",
+  "Megan Thee Stallion",
+  "Doja Cat",
+  "JAY-Z",
+  "Nicki Minaj",
+  "Outkast",
+  "Ludacris",
+  "T.I.",
+  "Lil Baby",
+  "21 Savage",
+  "Missy Elliott"
+ ],
+ "songs": [
+  {
+   "id": "kendrick lamar|luther",
+   "title": "luther",
+   "artist": "Kendrick Lamar",
+   "year": 2024,
+   "rank": 1,
+   "cleanId": 1781270323,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/1d/98/e01d9881-0953-f0ed-b03d-3a4bd6f3c769/mzaf_8283505998481315852.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/c2/cc/50c2cc95-3658-9417-0d4b-831abde44ba1/24UM1IM28978.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kendrick lamar|love",
+   "title": "LOVE.",
+   "artist": "Kendrick Lamar",
+   "year": 2017,
+   "rank": 2,
+   "cleanId": 1440881708,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/71/89/72718957-3475-8f6f-3685-aedd470ddc20/mzaf_4044691450436775386.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/86/c9/bb/86c9bb30-fe3d-442e-33c1-c106c4d23705/17UMGIM88776.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kendrick lamar|not like us",
+   "title": "Not Like Us",
+   "artist": "Kendrick Lamar",
+   "year": 2024,
+   "rank": 3,
+   "cleanId": 1781353929,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/e0/e8/2de0e874-cd0b-e9a9-e876-76be13a86662/mzaf_12385336780649591409.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/31/3a/3f/313a3fbc-bb8f-80c7-b5a2-e226869a38cd/24UMGIM51924.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kendrick lamar sza|all the stars",
+   "title": "All The Stars",
+   "artist": "Kendrick Lamar, SZA",
+   "year": 2018,
+   "rank": 4,
+   "cleanId": 1440903307,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/8b/2c/ea8b2cf4-95f2-b0b3-ffc5-10f4611bf98f/mzaf_6758805407695014001.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4d/16/55/4d165549-3d11-86dc-fcbf-be7fe0bcadfb/18UMGIM00002.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kendrick lamar|squabble up",
+   "title": "squabble up",
+   "artist": "Kendrick Lamar",
+   "year": 2024,
+   "rank": 5,
+   "cleanId": 1781316884,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/e5/aa/91e5aa0f-5d8b-532f-8a72-23d4f721d847/mzaf_14650418192241940161.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/28/14/54281424-eece-0935-299d-fdd2ab403f92/24UM1IM28978.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kendrick lamar|tv off",
+   "title": "tv off",
+   "artist": "Kendrick Lamar",
+   "year": 2024,
+   "rank": 6,
+   "cleanId": 1781316952,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/20/31/fb203190-148f-f2be-6ad6-47c5a165f7b9/mzaf_5391716550911069545.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/28/14/54281424-eece-0935-299d-fdd2ab403f92/24UM1IM28978.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kendrick lamar|humble",
+   "title": "HUMBLE.",
+   "artist": "Kendrick Lamar",
+   "year": 2017,
+   "rank": 7,
+   "cleanId": 1440882165,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/2e/37/1f2e37be-bdd0-d770-6ea4-091011a6aade/mzaf_2360827885900940865.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ab/16/ef/ab16efe9-e7f1-66ec-021c-5592a23f0f9e/17UMGIM88793.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kendrick lamar|alright",
+   "title": "Alright",
+   "artist": "Kendrick Lamar",
+   "year": 2015,
+   "rank": 8,
+   "cleanId": 1440871886,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/27/4e/3b274eab-c2de-84c5-a68d-4f78f3269bac/mzaf_16117050990489545534.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b5/a6/91/b5a69171-5232-3d5b-9c15-8963802f83dd/15UMGIM15814.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kendrick lamar|peekaboo",
+   "title": "peekaboo",
+   "artist": "Kendrick Lamar",
+   "year": 2024,
+   "rank": 9,
+   "cleanId": 1781316956,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/9d/e5/439de547-4d51-bf5f-6763-8dc3e0b12d8f/mzaf_13125897401178674573.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/28/14/54281424-eece-0935-299d-fdd2ab403f92/24UM1IM28978.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kendrick lamar|now or never",
+   "title": "Now Or Never [Bonus Track]",
+   "artist": "Kendrick Lamar",
+   "year": 2012,
+   "rank": 10,
+   "cleanId": 1440819196,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/81/06/42810694-20ec-b75d-51bd-738e5d233b4e/mzaf_10116909866184224758.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/5b/c0/ca5bc0b3-d81d-cc6c-0d19-54b9eedb6dbd/12UMGIM52990.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "drake|in my feelings",
+   "title": "In My Feelings",
+   "artist": "Drake",
+   "year": 2018,
+   "rank": 1,
+   "cleanId": 1406109901,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/e8/e2/dfe8e281-f90d-a00e-141e-aab9f5b0b0b1/mzaf_8379698669799841165.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/6d/8f/bb6d8f67-6d04-10b5-dd62-eb5809ac54fc/00602567879152.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "drake|hotline bling",
+   "title": "Hotline Bling",
+   "artist": "Drake",
+   "year": 2015,
+   "rank": 2,
+   "cleanId": 1440843974,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d2/5f/ae/d25fae64-d2de-c08c-0871-aa0e8058488e/mzaf_5642600211656366929.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/f5/87/95f587f7-21c3-d5f9-d81a-4350f9caa020/16UMGIM27643.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "drake|finesse",
+   "title": "Finesse",
+   "artist": "Drake",
+   "year": 2018,
+   "rank": 3,
+   "cleanId": 1418213392,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/53/68/4453680c-94f1-5f97-bcb9-8147f2cb56b0/mzaf_4259939450411566361.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "drake|one dance",
+   "title": "One Dance",
+   "artist": "Drake",
+   "year": 2016,
+   "rank": 4,
+   "cleanId": 1440841384,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/c9/02/99c90261-eee2-f9a5-f143-7496dca1583b/mzaf_3576977620384404770.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/0d/8b/f20d8bff-a927-ae98-6784-20a1f51cb23e/16UMGIM27642.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "drake|hold on we re going home",
+   "title": "Hold On, We're Going Home",
+   "artist": "Drake",
+   "year": 2013,
+   "rank": 5,
+   "cleanId": 1440829630,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/29/77/6a29774b-1cde-2a24-c9a7-7b69c5dff602/mzaf_13454693018547391187.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/61/f3/5161f3c4-2292-f035-eb68-6f95bbc9edd6/00602537542338.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "drake|god s plan",
+   "title": "God's Plan",
+   "artist": "Drake",
+   "year": 2018,
+   "rank": 6,
+   "cleanId": 1406109863,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/4a/be/c64abe74-adb4-cff5-005d-0fab3d72a806/mzaf_10276154697254415719.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/6d/8f/bb6d8f67-6d04-10b5-dd62-eb5809ac54fc/00602567879152.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "drake and michael jackson|don t matter to me",
+   "title": "Don’t Matter To Me",
+   "artist": "Drake & Michael Jackson",
+   "year": 2018,
+   "rank": 7,
+   "cleanId": 1418213403,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a9/d4/5e/a9d45ec8-ac03-abdf-82c5-427a61cee095/mzaf_17544503711171979786.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "drake|blem",
+   "title": "Blem",
+   "artist": "Drake",
+   "year": 2017,
+   "rank": 8,
+   "cleanId": 1440892397,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/07/f2/f4/07f2f40b-0cd4-923f-9ea0-efd2eeab72c2/mzaf_8468195595382783808.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/9d/b8/189db80b-bfa8-89d1-1514-5fcb7e5cf8f4/00602557611526.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "drake|signs",
+   "title": "Signs",
+   "artist": "Drake",
+   "year": 2017,
+   "rank": 9,
+   "cleanId": 1444620510,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/16/98/821698bf-45cb-407e-24d4-9d5961a5d17d/mzaf_5800112763913448302.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/be/b5/16/beb51692-6125-f465-e1a9-d414be6c7c33/00602557821048.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "drake|summer games",
+   "title": "Summer Games",
+   "artist": "Drake",
+   "year": 2018,
+   "rank": 10,
+   "cleanId": 1418213381,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/2d/22/e12d2212-f65b-e0b6-0b44-491bf2537039/mzaf_9150373690436140268.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "j cole|work out",
+   "title": "Work Out",
+   "artist": "J. Cole",
+   "year": 2011,
+   "rank": 1,
+   "cleanId": 1440545960,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/b6/58/59b658dc-bf53-d179-8bef-66a70e269d56/mzaf_15637929840161306626.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4f/be/d2/4fbed251-5117-c028-bec6-86a29e2fc269/18UMGIM74053.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "j cole|deja vu",
+   "title": "Deja Vu",
+   "artist": "J. Cole",
+   "year": 2016,
+   "rank": 2,
+   "cleanId": 1440924454,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/de/2b/52de2b19-432b-0fb5-0b00-d53067c66438/mzaf_974976311009281054.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9f/93/b1/9f93b168-f7f4-5520-449c-0a4140c29052/00850498007537.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "j cole|kod",
+   "title": "KOD",
+   "artist": "J. Cole",
+   "year": 2018,
+   "rank": 3,
+   "cleanId": 1373861481,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/fb/c6/57fbc6bf-46ec-0afe-c7c5-f14ea3548505/mzaf_10881315508129255045.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7a/8e/9d/7a8e9dcb-128c-aeaa-540d-eea733637695/18UMGIM22943.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "j cole|wet dreamz",
+   "title": "Wet Dreamz",
+   "artist": "J. Cole",
+   "year": 2014,
+   "rank": 4,
+   "cleanId": 1600772523,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/6e/bf/876ebf50-629e-76a8-80aa-7dd4dea7ec67/mzaf_9009434805734581212.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ee/28/67/ee286794-6c33-a8c2-5c37-c04f1cb5e8a6/21UM1IM54415.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "j cole|middle child",
+   "title": "MIDDLE CHILD",
+   "artist": "J. Cole",
+   "year": 2019,
+   "rank": 5,
+   "cleanId": 1450406398,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/30/55/ee30552f-d9fa-d0bd-5b61-f11a05ba5dd7/mzaf_12627686768925686919.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/00/fd/ce/00fdceb3-c202-ae9a-052a-cce5c8622d5c/00810760037716.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "j cole|power trip",
+   "title": "Power Trip",
+   "artist": "J. Cole",
+   "year": 2013,
+   "rank": 6,
+   "cleanId": 1529504220,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/df/b3/08dfb3fe-7661-d0df-a039-bebac477acf5/mzaf_7054863511762371556.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/da/52/41/da52415b-d0ac-d61f-422c-e84bf5ef8162/20UMGIM66000.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "j cole|in the morning",
+   "title": "In the Morning",
+   "artist": "J. Cole",
+   "year": 2010,
+   "rank": 7,
+   "cleanId": 1440545953,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/a7/6b/0ca76b66-d6d5-01f2-985a-955bf8d9b9d9/mzaf_4604285232658252958.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4f/be/d2/4fbed251-5117-c028-bec6-86a29e2fc269/18UMGIM74053.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "j cole|no role modelz",
+   "title": "No Role Modelz",
+   "artist": "J. Cole",
+   "year": 2014,
+   "rank": 8,
+   "cleanId": 1600773036,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/a5/d6/61a5d60b-e393-10cc-2dea-93084c9c8aca/mzaf_13393257960128944647.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ee/28/67/ee286794-6c33-a8c2-5c37-c04f1cb5e8a6/21UM1IM54415.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "j cole|kevin s heart",
+   "title": "Kevin's Heart",
+   "artist": "J. Cole",
+   "year": 2018,
+   "rank": 9,
+   "cleanId": 1373861498,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/0d/59/8e0d598d-517f-77d7-47c0-eb8f420b518d/mzaf_12362875315101589395.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7a/8e/9d/7a8e9dcb-128c-aeaa-540d-eea733637695/18UMGIM22943.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "j cole 21 savage and morray|m y l i f e",
+   "title": "m y . l i f e",
+   "artist": "J. Cole, 21 Savage & Morray",
+   "year": 2021,
+   "rank": 10,
+   "cleanId": 1567422567,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/4e/25/d94e25d5-1dca-3986-c304-5dd9d7fb79eb/mzaf_13166666837707829085.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/66/a5/25/66a52540-c0d2-f336-cbfb-8413e6f23beb/21UMGIM41233.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis scott|butterfly effect",
+   "title": "BUTTERFLY EFFECT",
+   "artist": "Travis Scott",
+   "year": 2017,
+   "rank": 1,
+   "cleanId": 1421658665,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/ae/3e/29ae3e6e-f8e2-2790-97c8-9adb576967dd/mzaf_14764666470308178075.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis scott|yosemite",
+   "title": "YOSEMITE",
+   "artist": "Travis Scott",
+   "year": 2018,
+   "rank": 2,
+   "cleanId": 1421243212,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/01/e4/9c01e4d1-08eb-2988-717b-89216a6491f9/mzaf_1401007185924005358.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/30/66/90/306690d4-2a29-402e-e406-6b319ce7731a/886447227169.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis scott|sicko mode",
+   "title": "SICKO MODE",
+   "artist": "Travis Scott",
+   "year": 2018,
+   "rank": 3,
+   "cleanId": 1421658123,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/91/a1/d391a141-256f-726f-9da1-8aa4e42b3236/mzaf_17761183103753218003.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis scott|fe n",
+   "title": "FE!N",
+   "artist": "Travis Scott",
+   "year": 2023,
+   "rank": 4,
+   "cleanId": 1708274783,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/61/9a/ce619acc-40f8-5bf0-c6d8-5649dacc5d3c/mzaf_9048266760750013994.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/4f/94/7d4f9468-56e1-3a2d-7186-c8088170ef58/196871341899.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis scott|goosebumps",
+   "title": "goosebumps",
+   "artist": "Travis Scott",
+   "year": 2016,
+   "rank": 5,
+   "cleanId": 1151481750,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/60/39/f060399b-690f-2e55-7013-5530cd616d95/mzaf_6001308391779304655.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/e5/27/b8e527c8-aaf4-c7b7-5562-c479458ed7d9/886446092645.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis scott|highest in the room",
+   "title": "HIGHEST IN THE ROOM",
+   "artist": "Travis Scott",
+   "year": 2019,
+   "rank": 6,
+   "cleanId": 1482217453,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/e0/66/f5e066f4-3b33-e5a0-6328-ca1ae6742f83/mzaf_5397637265841153345.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d2/2d/6b/d22d6b0f-68dd-0eeb-92b4-9b6f4a43e85f/886448047452.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis scott|franchise",
+   "title": "FRANCHISE",
+   "artist": "Travis Scott",
+   "year": 2020,
+   "rank": 7,
+   "cleanId": 1533186580,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/1b/15/a91b155f-ac1b-d2d5-522d-3a8d234af332/mzaf_3795451418658868839.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d9/c2/ac/d9c2ac88-d16b-e968-c3b0-d518c9d18e83/886448660330.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis scott|delresto",
+   "title": "DELRESTO (ECHOES) [feat. Beyoncé]",
+   "artist": "Travis Scott",
+   "year": 2023,
+   "rank": 8,
+   "cleanId": 1699712652,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/fe/07/56fe07f5-a2c0-3817-281e-b14dcf07f8c2/mzaf_9083020398882972913.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/09/7d/b0/097db06f-8403-3cf7-7510-139e570ca66b/196871341882.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis scott|parasail",
+   "title": "PARASAIL",
+   "artist": "Travis Scott",
+   "year": 2023,
+   "rank": 9,
+   "cleanId": 1699712657,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/9b/9f/d89b9f25-185d-ea1a-0211-53fc2a840845/mzaf_8375359761369391938.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/09/7d/b0/097db06f-8403-3cf7-7510-139e570ca66b/196871341882.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "travis scott|stargazing",
+   "title": "STARGAZING",
+   "artist": "Travis Scott",
+   "year": 2018,
+   "rank": 10,
+   "cleanId": 1421658117,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/17/72/2817720a-aa3a-56d4-e4ad-0c6d380bfe77/mzaf_5929447614154956053.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eminem|it s o k",
+   "title": "It's O.K.",
+   "artist": "Eminem",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 6831186316,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/74/42/8e/74428e1b-b24e-9e97-0d8a-9c66cb2518c9/mzaf_13710953705990890320.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/b2/b4/dcb2b4e7-43f9-53bf-d68e-5656926c6ef3/70114.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eminem|infinite",
+   "title": "Infinite",
+   "artist": "Eminem",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6831186309,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/d6/31/48d631a7-0522-e6fb-c6dd-4c2ed111e1d3/mzaf_10567995719729212831.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/b2/b4/dcb2b4e7-43f9-53bf-d68e-5656926c6ef3/70114.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eminem|313",
+   "title": "313",
+   "artist": "Eminem",
+   "year": 2026,
+   "rank": 3,
+   "cleanId": 6831186543,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/34/ab/7934ab07-039d-b96d-6e78-d7c2a9a4df89/mzaf_14013971242758939410.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/b2/b4/dcb2b4e7-43f9-53bf-d68e-5656926c6ef3/70114.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eminem|tonite",
+   "title": "Tonite",
+   "artist": "Eminem",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 6831186321,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/8e/f7/b28ef73b-8734-1009-9497-c5bd22f85571/mzaf_1678604761452492752.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/b2/b4/dcb2b4e7-43f9-53bf-d68e-5656926c6ef3/70114.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eminem|without me",
+   "title": "Without Me",
+   "artist": "Eminem",
+   "year": 2002,
+   "rank": 5,
+   "cleanId": 1440821643,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/7d/60/607d6038-10dd-1d8d-83c7-c7029e709da3/mzaf_13336706630570276296.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/dd/5c/e6/dd5ce621-f7d2-f767-7a08-e7a7eaa7870b/00602537526994.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eminem|till i collapse",
+   "title": "'Till I Collapse",
+   "artist": "Eminem",
+   "year": 2002,
+   "rank": 6,
+   "cleanId": 1440821843,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/8f/f1/cf8ff198-b736-395b-6b3f-877048ea5384/mzaf_11538452963444220646.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/dd/5c/e6/dd5ce621-f7d2-f767-7a08-e7a7eaa7870b/00602537526994.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eminem|mockingbird",
+   "title": "Mockingbird",
+   "artist": "Eminem",
+   "year": 2004,
+   "rank": 7,
+   "cleanId": 1425131554,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/02/04/010204d9-0ec4-9f71-586c-4776a579b1cb/mzaf_6978124395926668013.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/49/2c/16/492c1618-544d-2587-094c-009b059ba96f/00602567850359.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eminem|the real slim shady",
+   "title": "The Real Slim Shady",
+   "artist": "Eminem",
+   "year": 2000,
+   "rank": 8,
+   "cleanId": 1440906589,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/46/4b/24464b23-3549-34d6-d6a0-8ccd366ec46d/mzaf_7734851299967221725.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ea/ac/03/eaac03e5-8e9d-847e-d5b9-af7dee6a970b/00606949063221.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eminem|godzilla",
+   "title": "Godzilla",
+   "artist": "Eminem",
+   "year": 2020,
+   "rank": 9,
+   "cleanId": 1495269629,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/e5/8e/48e58e62-4af2-82fb-52ef-6c17a7093863/mzaf_5312631234046930983.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c6/3f/7a/c63f7a28-4e53-1ae2-cfae-5d211e0c256c/20UMGIM02955.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "eminem|rap god",
+   "title": "Rap God",
+   "artist": "Eminem",
+   "year": 2013,
+   "rank": 10,
+   "cleanId": 1440864098,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/6d/05/0f6d0556-6fb9-c0ee-ea5b-c08f5b0e5880/mzaf_11226521513197111611.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/50/a2/d5/50a2d5a8-8ba5-c8a0-421c-70635bf9e80d/00602537542710.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kanye west|heartless",
+   "title": "Heartless",
+   "artist": "Kanye West",
+   "year": 2008,
+   "rank": 1,
+   "cleanId": 1441410309,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/2e/bb/c32ebbd5-9ed4-659e-161f-41e79ce1a0ad/mzaf_17099620641848520890.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4d/75/2d/4d752db1-022d-f65d-40a1-a2390f01427a/13UAEIM26465.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kanye west|god is",
+   "title": "God Is",
+   "artist": "Kanye West",
+   "year": 2019,
+   "rank": 2,
+   "cleanId": 1484937120,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/65/ff/4365ffa2-ea9a-71a4-01c7-813a4c5fab5d/mzaf_17674119153591853744.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/21/fd/d3/21fdd3d4-0c00-53ef-3903-d0569c49a812/19UMGIM89397.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kanye west|love lockdown",
+   "title": "Love Lockdown",
+   "artist": "Kanye West",
+   "year": 2008,
+   "rank": 3,
+   "cleanId": 1441410404,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/41/a0/cd41a029-144c-ef10-b945-5c29b0966552/mzaf_16533792012921979472.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4d/75/2d/4d752db1-022d-f65d-40a1-a2390f01427a/13UAEIM26465.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kanye west|amazing",
+   "title": "Amazing",
+   "artist": "Kanye West",
+   "year": 2008,
+   "rank": 4,
+   "cleanId": 1441410403,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c1/1f/e1/c11fe1af-f03a-dd90-4523-ace980fffa21/mzaf_18170387114656129915.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4d/75/2d/4d752db1-022d-f65d-40a1-a2390f01427a/13UAEIM26465.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kanye west|homecoming",
+   "title": "Homecoming",
+   "artist": "Kanye West",
+   "year": 2007,
+   "rank": 5,
+   "cleanId": 1442846735,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/29/d2/b229d2e4-b151-a843-3582-edeb5172a197/mzaf_11876620842438510483.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kanye west|praise god",
+   "title": "Praise God",
+   "artist": "Kanye West",
+   "year": 2021,
+   "rank": 6,
+   "cleanId": 1587795285,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/9d/0b/139d0b59-6832-f460-565b-41e1b1bab7d6/mzaf_14275243268091394926.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/62/13/7b/62137b3f-7722-59f5-2ee1-b5aff9426869/21UMGIM64738.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kanye west|follow god",
+   "title": "Follow God",
+   "artist": "Kanye West",
+   "year": 2019,
+   "rank": 7,
+   "cleanId": 1484937103,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/3e/56/243e561b-2d5d-71e8-90a7-184f0da6a77e/mzaf_11750952697665215376.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/21/fd/d3/21fdd3d4-0c00-53ef-3903-d0569c49a812/19UMGIM89397.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kanye west|stronger",
+   "title": "Stronger",
+   "artist": "Kanye West",
+   "year": 2007,
+   "rank": 8,
+   "cleanId": 1442846328,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/cc/69/9ecc6918-a8dc-354f-909f-ccc20a0a7a33/mzaf_7863921970418240507.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kanye west and xxxtentacion|true love",
+   "title": "True Love",
+   "artist": "Kanye West & XXXTENTACION",
+   "year": 2022,
+   "rank": 9,
+   "cleanId": 1624803399,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/63/ec/bb63ec99-f97f-95f6-dc3b-d3b59968de3b/mzaf_14998948399451142152.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3a/c4/be/3ac4be92-f255-b735-605f-3d531bf7a487/dj.kvenstal.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "kanye west|on god",
+   "title": "On God",
+   "artist": "Kanye West",
+   "year": 2019,
+   "rank": 10,
+   "cleanId": 1484937114,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/5c/05/355c0564-5666-b15e-88d3-a91fe1a80b36/mzaf_14252649110834335245.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/21/fd/d3/21fdd3d4-0c00-53ef-3903-d0569c49a812/19UMGIM89397.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil wayne|how to love",
+   "title": "How To Love",
+   "artist": "Lil Wayne",
+   "year": 2011,
+   "rank": 1,
+   "cleanId": 1580652358,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/e6/d4/abe6d4de-fad4-ad82-859e-8a01ca30fb4b/mzaf_13759134444301498349.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/74/e5/6a74e5c4-398e-90e9-0b2e-ec96d780316e/21UMGIM75384.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil wayne|dark side of the moon",
+   "title": "Dark Side of the Moon",
+   "artist": "Lil Wayne",
+   "year": 2018,
+   "rank": 2,
+   "cleanId": 1437592177,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/60/b6/2c60b636-2f26-31a2-24e5-1ab82ac3aaad/mzaf_7371901549338521811.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/21/69/f7/2169f7b5-ae60-4bb8-2329-49c8f1f5f24b/18UMGIM63096.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil wayne|a milli",
+   "title": "A Milli",
+   "artist": "Lil Wayne",
+   "year": 2008,
+   "rank": 3,
+   "cleanId": 1440738491,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/e7/83/f7e78318-65d9-7b8e-cbeb-f2e5ab80076c/mzaf_2797028050074940036.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/6c/dc/f96cdc5c-09fe-06b6-4629-be4afeb71cca/08UMGIM15512.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil wayne|i love you dwayne",
+   "title": "I Love You Dwayne",
+   "artist": "Lil Wayne",
+   "year": 2018,
+   "rank": 4,
+   "cleanId": 1437592155,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/45/07/004507ce-e7c1-4bdb-ab93-232e4a9f9299/mzaf_659620324707389643.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/21/69/f7/2169f7b5-ae60-4bb8-2329-49c8f1f5f24b/18UMGIM63096.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil wayne|right above it",
+   "title": "Right Above It",
+   "artist": "Lil Wayne",
+   "year": 2010,
+   "rank": 5,
+   "cleanId": 1443166804,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/c0/f6/c3c0f6c0-d4cb-879e-d730-2187a8853f19/mzaf_1078388071696822919.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d7/49/09/d7490964-6020-ce79-74b5-02ad0f1a57de/10UMGIM24994.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil wayne|what about me",
+   "title": "What About Me",
+   "artist": "Lil Wayne",
+   "year": 2018,
+   "rank": 6,
+   "cleanId": 1441847571,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4f/1f/6b/4f1f6bab-d258-f931-7a87-99e0d6d2d5bb/mzaf_16176382215590504847.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/9b/ca/41/9bca41c5-fdcf-fa40-85b7-a4c59c73b916/18UMGIM63095.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil wayne wiz khalifa and imagine dragons|sucker for pain",
+   "title": "Sucker For Pain",
+   "artist": "Lil Wayne, Wiz Khalifa & Imagine Dragons",
+   "year": 2016,
+   "rank": 7,
+   "cleanId": 1125270047,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/5b/3b/f75b3b87-dffa-7401-7cf2-7e599d232ae7/mzaf_3446054766661894606.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/7b/3a/ea7b3a69-b589-603a-037c-b161f328afb1/075679910462.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil wayne|lollipop",
+   "title": "Lollipop",
+   "artist": "Lil Wayne",
+   "year": 2008,
+   "rank": 8,
+   "cleanId": 1440738657,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/c2/f1/c0c2f146-9884-0621-580c-a731dd9eea30/mzaf_4094925966192690879.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/6c/dc/f96cdc5c-09fe-06b6-4629-be4afeb71cca/08UMGIM15512.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil wayne|uproar",
+   "title": "Uproar",
+   "artist": "Lil Wayne",
+   "year": 2018,
+   "rank": 9,
+   "cleanId": 1437722534,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/e9/f1/16e9f184-707f-bdeb-9e38-71ef7e5a7541/mzaf_2530172966217614301.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/94/d0/a5/94d0a505-d7f7-f454-72ae-5f8c80a9a1a5/18UMGIM63095.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil wayne|mrs officer",
+   "title": "Mrs. Officer",
+   "artist": "Lil Wayne",
+   "year": 2008,
+   "rank": 10,
+   "cleanId": 1440738643,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/64/87/546487f7-32bf-1794-6876-fe65238c6b9c/mzaf_12873465545226744184.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/6c/dc/f96cdc5c-09fe-06b6-4629-be4afeb71cca/08UMGIM15512.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "post malone and swae lee|sunflower",
+   "title": "Sunflower (Spider-Man: Into the Spider-Verse)",
+   "artist": "Post Malone & Swae Lee",
+   "year": 2018,
+   "rank": 1,
+   "cleanId": 1445949267,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/f0/d6/98f0d67e-f8bf-762d-cac7-1c6b3b6b35dd/mzaf_4543283896248560946.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4b/30/2c/4b302cb6-7a14-5464-4e97-0577e9d0be49/18UMGIM82277.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "post malone|circles",
+   "title": "Circles",
+   "artist": "Post Malone",
+   "year": 2019,
+   "rank": 2,
+   "cleanId": 1477880561,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/b1/aa/f9b1aaed-3e24-227f-153d-99969f8b8464/mzaf_6272498007975402144.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/1b/1b/7b1b1b0b-7ce2-b223-f9e0-8e36abe51877/19UMGIM78325.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "post malone|pour me a drink",
+   "title": "Pour Me A Drink",
+   "artist": "Post Malone",
+   "year": 2024,
+   "rank": 3,
+   "cleanId": 1752531909,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/36/5b/75365b00-85bb-f2bd-9eb8-7fef861efb06/mzaf_10285050304793701921.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/ad/c8/95adc8ca-e583-1800-9b56-4665f186e899/24UMGIM60824.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "post malone|take what you want",
+   "title": "Take What You Want",
+   "artist": "Post Malone",
+   "year": 2019,
+   "rank": 4,
+   "cleanId": 1477880568,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/bc/f4/f0bcf490-3c10-a4a7-f47d-77ff43cb5f7f/mzaf_593599495913580444.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/1b/1b/7b1b1b0b-7ce2-b223-f9e0-8e36abe51877/19UMGIM78325.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "post malone|losers",
+   "title": "Losers",
+   "artist": "Post Malone",
+   "year": 2024,
+   "rank": 5,
+   "cleanId": 1752531960,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/84/40/1b844098-2604-7dda-52ca-6b14872c25e1/mzaf_13424950661859885419.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/ad/c8/95adc8ca-e583-1800-9b56-4665f186e899/24UMGIM60824.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "post malone|guy for that",
+   "title": "Guy For That",
+   "artist": "Post Malone",
+   "year": 2024,
+   "rank": 6,
+   "cleanId": 1752531955,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/e6/50/9fe6509b-ca52-b577-df1c-ba53e496d734/mzaf_10627975360527523888.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/ad/c8/95adc8ca-e583-1800-9b56-4665f186e899/24UMGIM60824.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "post malone|paranoid",
+   "title": "Paranoid",
+   "artist": "Post Malone",
+   "year": 2018,
+   "rank": 7,
+   "cleanId": 1373516907,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/48/26/3b482600-b697-46b5-aa98-10f62fd0107a/mzaf_17499596885051014561.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7e/3c/4e/7e3c4ef6-daa7-cc10-57d0-45f5a562eaf5/18UMGIM22101.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "post malone|hollywood s bleeding",
+   "title": "Hollywood's Bleeding",
+   "artist": "Post Malone",
+   "year": 2019,
+   "rank": 8,
+   "cleanId": 1477880487,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/cb/eb/39cbeb3a-b2de-ec65-64de-362391da9774/mzaf_14039724316393614108.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/1b/1b/7b1b1b0b-7ce2-b223-f9e0-8e36abe51877/19UMGIM78325.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "post malone|psycho",
+   "title": "Psycho",
+   "artist": "Post Malone",
+   "year": 2018,
+   "rank": 9,
+   "cleanId": 1373506178,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/34/99/fa34994a-a127-2510-45ba-443ffa9c6dcb/mzaf_7285123442054013415.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/9f/fb/559ffb75-3c00-abd6-7b1f-8b6b1518b173/18UMGIM22101.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "post malone|what don t belong to me",
+   "title": "What Don't Belong To Me",
+   "artist": "Post Malone",
+   "year": 2024,
+   "rank": 10,
+   "cleanId": 1762472267,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/25/89/af2589db-88da-49d4-d0da-955389231b23/mzaf_15924324073248783784.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/2a/00/672a00c1-4ef3-afc0-fff0-66bc1359c458/24UMGIM86335.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "50 cent|if i can t",
+   "title": "If I Can't",
+   "artist": "50 Cent",
+   "year": 2003,
+   "rank": 1,
+   "cleanId": 1440907557,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/85/80/94858092-10e8-9618-18d7-a7350e05ceb7/mzaf_6566952765500497837.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6e/56/af/6e56af83-bdff-56c2-7c6a-b30cd0d356ce/06UMGIM08757.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "50 cent|21 questions",
+   "title": "21 Questions",
+   "artist": "50 Cent",
+   "year": 2003,
+   "rank": 2,
+   "cleanId": 1440907566,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/83/62/21836260-a34d-e67f-b5fd-0c5ec9523aef/mzaf_5931653268085317865.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6e/56/af/6e56af83-bdff-56c2-7c6a-b30cd0d356ce/06UMGIM08757.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "50 cent|disco inferno",
+   "title": "Disco Inferno",
+   "artist": "50 Cent",
+   "year": 2004,
+   "rank": 3,
+   "cleanId": 1444007314,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/7c/3d/2a7c3d4c-a9b1-9b7d-dd23-6238039b532c/mzaf_5239161683588050888.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b6/50/07/b650079b-15db-74fb-5395-ff7ef7c5a45e/17UMGIM93593.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "50 cent|candy shop",
+   "title": "Candy Shop",
+   "artist": "50 Cent",
+   "year": 2005,
+   "rank": 4,
+   "cleanId": 1444007299,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/c6/62/6ec6622b-cd59-d3e4-3f48-ff11e4aee789/mzaf_2854815072779968788.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b6/50/07/b650079b-15db-74fb-5395-ff7ef7c5a45e/17UMGIM93593.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "50 cent|just a lil bit",
+   "title": "Just a Lil Bit",
+   "artist": "50 Cent",
+   "year": 2005,
+   "rank": 5,
+   "cleanId": 1444007317,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/e1/cd/66e1cdf4-14ab-f2d7-378b-f1c7ffbffc4b/mzaf_16579149010707798685.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b6/50/07/b650079b-15db-74fb-5395-ff7ef7c5a45e/17UMGIM93593.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "50 cent|in da club",
+   "title": "In da Club",
+   "artist": "50 Cent",
+   "year": 2003,
+   "rank": 6,
+   "cleanId": 1440907550,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/6a/04/6e6a0436-3bd4-1f71-02df-6bcffe76e636/mzaf_3291234595362168142.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6e/56/af/6e56af83-bdff-56c2-7c6a-b30cd0d356ce/06UMGIM08757.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "50 cent|p i m p",
+   "title": "P.I.M.P.",
+   "artist": "50 Cent",
+   "year": 2003,
+   "rank": 7,
+   "cleanId": 1440907563,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/2d/de/8e2ddef4-89ae-d9d4-f535-2d03ede7b55f/mzaf_9575032113985645551.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6e/56/af/6e56af83-bdff-56c2-7c6a-b30cd0d356ce/06UMGIM08757.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "50 cent|many men",
+   "title": "Many Men (Wish Death)",
+   "artist": "50 Cent",
+   "year": 2003,
+   "rank": 8,
+   "cleanId": 1440907548,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/d0/b7/20d0b795-73be-80f7-e90b-353df4663a3b/mzaf_18053076224242331588.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6e/56/af/6e56af83-bdff-56c2-7c6a-b30cd0d356ce/06UMGIM08757.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "50 cent|what up gangsta",
+   "title": "What Up Gangsta",
+   "artist": "50 Cent",
+   "year": 2003,
+   "rank": 9,
+   "cleanId": 1440907545,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/58/71/34587170-04bb-0e43-484a-72d2edca5df4/mzaf_3420804658120549876.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6e/56/af/6e56af83-bdff-56c2-7c6a-b30cd0d356ce/06UMGIM08757.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "50 cent|patiently waiting",
+   "title": "Patiently Waiting",
+   "artist": "50 Cent",
+   "year": 2003,
+   "rank": 10,
+   "cleanId": 1440907546,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/74/94/a8749482-341b-7242-012a-0dfa5f0fb591/mzaf_10956467609816536462.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6e/56/af/6e56af83-bdff-56c2-7c6a-b30cd0d356ce/06UMGIM08757.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "future|i m dat n a",
+   "title": "I'M DAT N***A",
+   "artist": "Future",
+   "year": 2022,
+   "rank": 1,
+   "cleanId": 1622286556,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/ed/45/93ed45d1-a6cc-0f96-ee73-965e4b164ebb/mzaf_16265190470817442671.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f1/22/fa/f122fa93-684a-8762-6fe9-27014da7b979/196589131812.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "future|wait for u",
+   "title": "WAIT FOR U",
+   "artist": "Future",
+   "year": 2022,
+   "rank": 2,
+   "cleanId": 1621611495,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/c7/b7/45c7b762-45b3-c597-aa82-7f028c5efe00/mzaf_12117055212901229792.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c8/4c/fa/c84cfa03-1916-89f1-5362-03425fbe2ff9/196589073709.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "future and lil uzi vert|drankin n smokin",
+   "title": "Drankin N Smokin",
+   "artist": "Future & Lil Uzi Vert",
+   "year": 2020,
+   "rank": 3,
+   "cleanId": 1540158577,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/0d/db/180ddbf2-fff2-c408-457c-8d1c1a2e8eb5/mzaf_16764342985485972557.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/fd/c0/34fdc05a-44cd-f3bb-36d0-0e9594002b31/075679797087.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "future|life is good",
+   "title": "Life Is Good",
+   "artist": "Future",
+   "year": 2020,
+   "rank": 4,
+   "cleanId": 1494388436,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/86/b3/0c86b3b1-b71d-6f67-15c9-31037f737a2b/mzaf_7149161367178471800.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/25/41/4e/25414e8c-0201-866a-2e0c-1315ff649f6a/886448218852.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "future|stick talk",
+   "title": "Stick Talk",
+   "artist": "Future",
+   "year": 2015,
+   "rank": 5,
+   "cleanId": 1017125760,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/3f/11/5b3f117f-d9cb-0627-16d6-d16df5f3ea9c/mzaf_8883890289383858089.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/01/d0/2101d0ef-079a-974e-317a-780275f8c269/886445328547.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "future|love thy enemies",
+   "title": "Love Thy Enemies",
+   "artist": "Future",
+   "year": 2019,
+   "rank": 6,
+   "cleanId": 1466706183,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/e3/70/8ee37067-1fd9-d819-5465-a1950cf312e3/mzaf_8522900762320918614.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/60/47/b66047f2-ba6d-c298-0ac7-55d8535b648e/886447779187.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "future metro boomin and kendrick lamar|like that",
+   "title": "Like That",
+   "artist": "Future, Metro Boomin & Kendrick Lamar",
+   "year": 2024,
+   "rank": 7,
+   "cleanId": 1737320971,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/a1/62/f3a16204-9799-d6a6-1aa4-96ee3502471c/mzaf_13967808582282742708.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b6/46/feb64670-4fe7-bbc0-1101-c5f11bfb6905/196871937399.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "future|march madness",
+   "title": "March Madness",
+   "artist": "Future",
+   "year": 2015,
+   "rank": 8,
+   "cleanId": 1034561335,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/1f/14/5c1f1470-473d-fe73-672b-bcfa98fe08e0/mzaf_11991804174129562316.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b0/ca/34/b0ca349f-d3ce-3734-a97f-31578f0b214e/886445475784.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan thee stallion|realer",
+   "title": "Realer",
+   "artist": "Megan Thee Stallion",
+   "year": 2019,
+   "rank": 1,
+   "cleanId": 1463430393,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/d9/c6/6cd9c63c-b0e4-954a-4df5-684256c13f72/mzaf_12173108500062999889.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d7/7b/eb/d77bebf1-0971-4e3f-f3ae-c9a36d268d9d/814908028154.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan thee stallion|hood rat shit",
+   "title": "Hood Rat Shit",
+   "artist": "Megan Thee Stallion",
+   "year": 2019,
+   "rank": 2,
+   "cleanId": 1463430394,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/0f/de/750fded9-ab28-3601-8f3e-029b78d8dc13/mzaf_11723395948822672303.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d7/7b/eb/d77bebf1-0971-4e3f-f3ae-c9a36d268d9d/814908028154.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan thee stallion|thot shit",
+   "title": "Thot Shit",
+   "artist": "Megan Thee Stallion",
+   "year": 2021,
+   "rank": 3,
+   "cleanId": 1571139611,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/bc/5f/55bc5f5f-2390-e45a-70b7-b4e4382bef7d/mzaf_13601724543893595213.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e6/16/55e616ea-d025-49b4-d6cb-39e2a45cff06/810043685993.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan thee stallion|running up freestyle",
+   "title": "Running Up Freestyle",
+   "artist": "Megan Thee Stallion",
+   "year": 2019,
+   "rank": 4,
+   "cleanId": 1463430415,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/1c/92/871c925d-c140-a5f2-738e-088671d191e2/mzaf_4395527522574211707.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d7/7b/eb/d77bebf1-0971-4e3f-f3ae-c9a36d268d9d/814908028154.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan thee stallion|simon says",
+   "title": "Simon Says",
+   "artist": "Megan Thee Stallion",
+   "year": 2019,
+   "rank": 5,
+   "cleanId": 1463430401,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/17/81/4f1781e5-15c8-73ef-065c-eb9ed70f77d5/mzaf_10461854080195207957.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d7/7b/eb/d77bebf1-0971-4e3f-f3ae-c9a36d268d9d/814908028154.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan thee stallion|mamushi",
+   "title": "Mamushi",
+   "artist": "Megan Thee Stallion",
+   "year": 2024,
+   "rank": 6,
+   "cleanId": 1752025863,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/b1/15/6ab115ea-ae3c-9209-5a22-f04417015101/mzaf_17362011851264128923.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/98/bc/7498bce2-125d-a550-401e-71a2a4c354a6/075679642578.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan thee stallion|captain hook",
+   "title": "Captain Hook",
+   "artist": "Megan Thee Stallion",
+   "year": 2020,
+   "rank": 7,
+   "cleanId": 1501739783,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/99/be/1b99be81-c524-d190-038b-c80b6e377b2c/mzaf_4693336847863043078.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/3b/4b/993b4b79-ebce-8763-9e87-0a6eb539ae83/810043680479.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan thee stallion|money good",
+   "title": "Money Good",
+   "artist": "Megan Thee Stallion",
+   "year": 2019,
+   "rank": 8,
+   "cleanId": 1463430405,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/67/a1/da67a1ee-4f15-5a74-8d18-c8bb4501ab8e/mzaf_1963982812042639754.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d7/7b/eb/d77bebf1-0971-4e3f-f3ae-c9a36d268d9d/814908028154.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan thee stallion|best you ever had",
+   "title": "Best You Ever Had",
+   "artist": "Megan Thee Stallion",
+   "year": 2019,
+   "rank": 9,
+   "cleanId": 1463430400,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/4b/c0/e74bc044-8e61-842f-18dd-1bbef68da098/mzaf_3216639730304048811.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d7/7b/eb/d77bebf1-0971-4e3f-f3ae-c9a36d268d9d/814908028154.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "megan thee stallion|pimpin",
+   "title": "Pimpin",
+   "artist": "Megan Thee Stallion",
+   "year": 2019,
+   "rank": 10,
+   "cleanId": 1463430395,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/20/a7/e420a7c2-bfab-93bc-72d6-c5c3a7622fc5/mzaf_3276932089516386537.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d7/7b/eb/d77bebf1-0971-4e3f-f3ae-c9a36d268d9d/814908028154.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "doja cat|streets",
+   "title": "Streets",
+   "artist": "Doja Cat",
+   "year": 2019,
+   "rank": 1,
+   "cleanId": 1486465107,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/2e/9f/192e9f88-8cac-e010-714e-5c1d43b9c957/mzaf_17943970501948063061.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f3/03/40/f30340af-55d6-11bb-f59c-b03705360715/886447991831.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "doja cat|kiss me more",
+   "title": "Kiss Me More",
+   "artist": "Doja Cat",
+   "year": 2021,
+   "rank": 2,
+   "cleanId": 1577637152,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/db/9e/c3db9eb5-fed3-eae6-4bcd-baa949cb623d/mzaf_17138382012543023880.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/f3/28/14f32832-b9d9-1ba1-e20a-18c2ff8b6a80/886449410873.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "doja cat|say so",
+   "title": "Say So",
+   "artist": "Doja Cat",
+   "year": 2019,
+   "rank": 3,
+   "cleanId": 1486465101,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/47/3c/ff473c7d-528e-0086-de52-6028bcb62973/mzaf_9830857886973437464.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f3/03/40/f30340af-55d6-11bb-f59c-b03705360715/886447991831.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "doja cat|like that",
+   "title": "Like That",
+   "artist": "Doja Cat",
+   "year": 2019,
+   "rank": 4,
+   "cleanId": 1486465102,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/12/bb/0812bbaa-e1c8-aa91-6048-0b42818ae222/mzaf_13128166462183971106.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f3/03/40/f30340af-55d6-11bb-f59c-b03705360715/886447991831.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "doja cat|agora hills",
+   "title": "Agora Hills",
+   "artist": "Doja Cat",
+   "year": 2023,
+   "rank": 5,
+   "cleanId": 1707937781,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/2c/00/342c00ee-def4-4272-1f03-70646072e94d/mzaf_2642631825892371353.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/21/61/09/216109c7-74f9-a99a-f2e9-0405d7ed2fea/196871470148.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "doja cat|paint the town red",
+   "title": "Paint The Town Red",
+   "artist": "Doja Cat",
+   "year": 2023,
+   "rank": 6,
+   "cleanId": 1699832214,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/3e/52/d53e52e6-8b99-ed81-59f4-7496f18e80cb/mzaf_16754470647437213840.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/05/a1/62/05a162ca-d0f8-462a-a033-474a019e506f/196871274111.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "doja cat|need to know",
+   "title": "Need To Know",
+   "artist": "Doja Cat",
+   "year": 2021,
+   "rank": 7,
+   "cleanId": 1577636702,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/6c/3a/db6c3a23-540c-7fec-c097-bc9287729124/mzaf_5146110042136752935.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/f3/28/14f32832-b9d9-1ba1-e20a-18c2ff8b6a80/886449410873.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "doja cat|woman",
+   "title": "Woman",
+   "artist": "Doja Cat",
+   "year": 2021,
+   "rank": 8,
+   "cleanId": 1573475829,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/5b/d5/965bd595-a8e8-5f00-e288-67e7d0a222a9/mzaf_6009876644068934692.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4f/4b/ee/4f4bee71-d197-67ab-2a42-913dc416df0d/886449138869.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "doja cat|juicy",
+   "title": "Juicy",
+   "artist": "Doja Cat",
+   "year": 2019,
+   "rank": 9,
+   "cleanId": 1453888944,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/aa/da/c6aada66-6007-1537-2b69-a359d642d37b/mzaf_7987412476343875483.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/58/a9/cf58a9f1-bd84-ef7d-a903-12beeab71983/886447511671.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "doja cat|freak",
+   "title": "Freak",
+   "artist": "Doja Cat",
+   "year": 2020,
+   "rank": 10,
+   "cleanId": 1525911584,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/ac/3c/4aac3c1b-e7f4-a329-bcea-4ae878b77485/mzaf_7066471862042970161.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/8f/7e/03/8f7e0329-198e-a1ff-ef07-8e95c1f0607c/886448674047.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jay z|empire state of mind",
+   "title": "Empire State Of Mind",
+   "artist": "JAŸ-Z",
+   "year": 2009,
+   "rank": 1,
+   "cleanId": 1440777015,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/bc/cb/aebccb04-d478-ec54-db5c-584cb98d837d/mzaf_9745470800380850630.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/4a/a7/174aa7ea-0116-6240-1187-1efb51552833/00602527586502.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jay z and kanye west|run this town",
+   "title": "Run This Town",
+   "artist": "JAŸ-Z & Kanye West",
+   "year": 2009,
+   "rank": 2,
+   "cleanId": 1440776346,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/e0/a7/6ce0a78c-50fa-6a37-2f8a-896e5dfec476/mzaf_14092848530528726163.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/4a/a7/174aa7ea-0116-6240-1187-1efb51552833/00602527586502.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jay z|part ii",
+   "title": "Part II (On the Run) [feat. Beyoncé]",
+   "artist": "JAŸ-Z",
+   "year": 2013,
+   "rank": 3,
+   "cleanId": 1443063314,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/b2/c3/beb2c357-4942-dec8-e093-5fd7d38507c5/mzaf_11395571376966541203.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/86/69/05/8669059c-ed98-2bd1-e6e8-9e6332556b28/00857018004113.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jay z|big pimpin",
+   "title": "Big Pimpin' [Edited]",
+   "artist": "JAŸ-Z",
+   "year": 2010,
+   "rank": 4,
+   "cleanId": 1440777314,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/88/c8/e388c88b-bf66-a383-66cf-b262dd652d97/mzaf_15604876658983990069.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/4a/a7/174aa7ea-0116-6240-1187-1efb51552833/00602527586502.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jay z and linkin park|numb encore",
+   "title": "Numb / Encore",
+   "artist": "JAŸ-Z & LINKIN PARK",
+   "year": 2004,
+   "rank": 5,
+   "cleanId": 186088629,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/92/55/f2925583-2d12-3202-123d-d66ba5ca24c2/mzaf_10778982501460191196.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/b2/85/8cb28589-a74d-1961-894c-6d7662ee90da/mzi.eaqqjnzg.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jay z|bam",
+   "title": "Bam",
+   "artist": "JAŸ-Z",
+   "year": 2017,
+   "rank": 6,
+   "cleanId": 1440935738,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/0a/8c/cf0a8c62-d381-a9f9-5be3-1a7c889f2f16/mzaf_8271685073630319510.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ee/d1/da/eed1da86-9e2f-a19b-498a-f03622b183b2/00854242007569.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jay z|holy grail",
+   "title": "Holy Grail",
+   "artist": "JAŸ-Z",
+   "year": 2013,
+   "rank": 7,
+   "cleanId": 1443063132,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/38/84/5f3884e8-7d1c-624f-769a-6f88155b1832/mzaf_6134241458588083305.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/86/69/05/8669059c-ed98-2bd1-e6e8-9e6332556b28/00857018004113.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jay z|dead presidents",
+   "title": "DEAD PRESIDENTS",
+   "artist": "JAŸ-Z",
+   "year": 2026,
+   "rank": 8,
+   "cleanId": 1878441473,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/45/60/64456095-981d-9232-0ed0-df9bd0d49e23/mzaf_7111233687327741794.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/77/2b/15/772b15de-66f3-de23-ff29-0502e557365f/8721465976762.png/100x100bb.jpg"
+  },
+  {
+   "id": "jay z|99 problems",
+   "title": "99 Problems",
+   "artist": "JAŸ-Z",
+   "year": 2003,
+   "rank": 9,
+   "cleanId": 1440632660,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/1b/8f/511b8fec-a046-935f-203c-ad1432069fac/mzaf_4532894864537422430.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/37/52/4a/37524afd-9ebf-2ff7-086c-845bd199aaa6/00602498611197.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "jay z|on to the next one",
+   "title": "On To The Next One",
+   "artist": "JAŸ-Z",
+   "year": 2009,
+   "rank": 10,
+   "cleanId": 1440932262,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/36/8d/52368d04-acfa-1e18-adec-da110da6ff29/mzaf_11258355468674870804.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/e6/20/cf/e620cfeb-eb74-4ef1-00c1-fd38aac6c3d7/00858786005470.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "nicki minaj|super bass",
+   "title": "Super Bass",
+   "artist": "Nicki Minaj",
+   "year": 2010,
+   "rank": 1,
+   "cleanId": 1440910489,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/31/80/b03180ac-be20-9366-b4b5-e078bf791737/mzaf_3970609514950194332.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/6a/dc/3f6adcfb-4d27-303e-b964-3710c56800e3/11UMGIM13385.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "nicki minaj and ice spice|barbie world",
+   "title": "Barbie World",
+   "artist": "Nicki Minaj & Ice Spice",
+   "year": 2023,
+   "rank": 2,
+   "cleanId": 1689239206,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/5d/13/195d1394-c91a-27cd-63a2-c783361eb975/mzaf_11304170247462285205.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c0/54/97/c05497aa-c19f-bf4f-de29-71edf30fbefb/075679688767.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "nicki minaj|last time i saw you",
+   "title": "Last Time I Saw You",
+   "artist": "Nicki Minaj",
+   "year": 2023,
+   "rank": 3,
+   "cleanId": 1704777944,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/9b/d6/5c9bd6d7-8632-88da-052a-6cb8f71ac3af/mzaf_8963234641326098236.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/53/b4/9d/53b49db9-871b-0b26-df8e-60a5b221a772/23UM1IM00336.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "nicki minaj|super freaky girl",
+   "title": "Super Freaky Girl",
+   "artist": "Nicki Minaj",
+   "year": 2022,
+   "rank": 4,
+   "cleanId": 1638814933,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/37/30/f93730f7-04a7-2480-5e59-d523a0a8040d/mzaf_12714217041452557245.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/eb/14/00eb14fa-647c-2f3d-e0df-f48617ada7b9/22UMGIM87050.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "nicki minaj|are you gone already",
+   "title": "Are You Gone Already",
+   "artist": "Nicki Minaj",
+   "year": 2023,
+   "rank": 5,
+   "cleanId": 1720307264,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/fe/0e/23fe0e76-3984-af5f-6742-0d2cda628a5b/mzaf_10538100435554767457.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4f/e3/71/4fe3710a-465c-605f-99c7-cb1e48a5b0d3/23UM1IM08927.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "nicki minaj|starships",
+   "title": "Starships",
+   "artist": "Nicki Minaj",
+   "year": 2012,
+   "rank": 6,
+   "cleanId": 1442868833,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/ee/76/2dee7621-6063-0550-d935-67e23f91fd77/mzaf_8674609450839125969.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a5/c4/90/a5c490a1-d914-9943-7e02-32f8320e5840/12UMGIM12516.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "nicki minaj|blessings",
+   "title": "Blessings",
+   "artist": "Nicki Minaj",
+   "year": 2023,
+   "rank": 7,
+   "cleanId": 1720307967,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/ea/f1/d1eaf18e-60b5-130e-a23b-0e1aa437d2c9/mzaf_16145919995517269949.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4f/e3/71/4fe3710a-465c-605f-99c7-cb1e48a5b0d3/23UM1IM08927.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "nicki minaj|barbie tingz",
+   "title": "Barbie Tingz",
+   "artist": "Nicki Minaj",
+   "year": 2018,
+   "rank": 8,
+   "cleanId": 1370204600,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/2a/d8/2d2ad814-2f4f-7fe1-deb9-bf4735ea4eef/mzaf_17579478811782999028.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/f5/7f/7df57fc8-e493-ca6d-69f2-c34c30a686cb/18UMGIM19416.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "nicki minaj|moment 4 life",
+   "title": "Moment 4 Life [Edited]",
+   "artist": "Nicki Minaj",
+   "year": 2010,
+   "rank": 9,
+   "cleanId": 1541893871,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/c1/bd/85c1bd28-1990-21b7-b969-dec01ade973f/mzaf_11861110181216743114.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/80/7a/ce807a0c-aa3e-5650-206c-34cfd88b672f/10UMGIM30438.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "nicki minaj|yikes",
+   "title": "Yikes",
+   "artist": "Nicki Minaj",
+   "year": 2020,
+   "rank": 10,
+   "cleanId": 1498163171,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/59/31/b3593188-8bad-6c12-b6aa-4cb786d7960e/mzaf_13654532340000507613.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/a4/67/7ca467c7-b182-ca6c-a149-476dad08f92e/20UMGIM09592.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "outkast|she s alive",
+   "title": "She's Alive",
+   "artist": "Outkast",
+   "year": 2003,
+   "rank": 1,
+   "cleanId": 1774797017,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/22/44/b02244cf-e206-f832-8856-a8a9dea45c2b/mzaf_10119874280406116591.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/e6/fc/39e6fca2-9d12-cc95-81d0-f8f9d11d51c7/196872578973.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "outkast|prototype",
+   "title": "Prototype",
+   "artist": "Outkast",
+   "year": 2003,
+   "rank": 2,
+   "cleanId": 1774799815,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/46/ca/9646cafb-e797-de63-d39c-9496bbb4f3eb/mzaf_16955305769793692963.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/ae/6a/71ae6a46-99a6-e9d8-d7f3-41c0f2df45c4/196872579123.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "outkast|hey ya",
+   "title": "Hey Ya!",
+   "artist": "Outkast",
+   "year": 2003,
+   "rank": 3,
+   "cleanId": 1774799818,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/90/59/7b9059ba-a8f2-2540-5bbb-d63a178bd8ce/mzaf_1797078659976130902.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/ae/6a/71ae6a46-99a6-e9d8-d7f3-41c0f2df45c4/196872579123.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "outkast|dracula s wedding",
+   "title": "Dracula's Wedding",
+   "artist": "Outkast",
+   "year": 2003,
+   "rank": 4,
+   "cleanId": 1774799971,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/61/58/71615876-7ae7-d4f6-be1a-64d7b9f87939/mzaf_2493683712168450509.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/ae/6a/71ae6a46-99a6-e9d8-d7f3-41c0f2df45c4/196872579123.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "outkast|she lives in my lap",
+   "title": "She Lives in My Lap",
+   "artist": "Outkast",
+   "year": 2003,
+   "rank": 5,
+   "cleanId": 1774799816,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/f3/af/b6f3af42-6551-5cf3-6e5b-be24841c3869/mzaf_2951672181034962799.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/ae/6a/71ae6a46-99a6-e9d8-d7f3-41c0f2df45c4/196872579123.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "outkast|the whole world",
+   "title": "The Whole World",
+   "artist": "Outkast",
+   "year": 2001,
+   "rank": 6,
+   "cleanId": 1536682705,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/fb/36/23fb3662-0806-c617-88c1-51e3b99c2874/mzaf_9191246024415124880.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/22/97/39/2297397b-2a78-8b46-79ac-c2f5db43109a/886448839583.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "outkast|stankonia",
+   "title": "Stankonia (Stanklove) [feat. Big Rube & Sleepy Brown]",
+   "artist": "Outkast",
+   "year": 2000,
+   "rank": 7,
+   "cleanId": 255839246,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/97/8e/83978ec9-f9bc-f37e-ca5a-7a22178ea82f/mzaf_1010380031455226477.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/e0/4c/f4/e04cf460-46a5-992a-87c7-2c1aef7e3a46/730082607223.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "outkast|roses",
+   "title": "Roses",
+   "artist": "Outkast",
+   "year": 2003,
+   "rank": 8,
+   "cleanId": 1774799821,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/9e/40/b99e40f8-110f-94e4-a0e9-524a312b44b8/mzaf_16132124276471891847.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/ae/6a/71ae6a46-99a6-e9d8-d7f3-41c0f2df45c4/196872579123.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "outkast|toilet tisha",
+   "title": "Toilet Tisha",
+   "artist": "Outkast",
+   "year": 2000,
+   "rank": 9,
+   "cleanId": 255838367,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/52/2e/87522e7d-3780-7dee-0581-b6c218780e6f/mzaf_11125089842998199304.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/e0/4c/f4/e04cf460-46a5-992a-87c7-2c1aef7e3a46/730082607223.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "outkast|church",
+   "title": "Church",
+   "artist": "Outkast",
+   "year": 2003,
+   "rank": 10,
+   "cleanId": 1774796731,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/37/c5/0137c589-63dc-6613-e7ad-854492559935/mzaf_803861669340136732.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/e6/fc/39e6fca2-9d12-cc95-81d0-f8f9d11d51c7/196872578973.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ludacris|rollout",
+   "title": "Rollout (My Business)",
+   "artist": "Ludacris",
+   "year": 2001,
+   "rank": 1,
+   "cleanId": 1456413820,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/cb/de/eccbdeee-7402-824e-021d-b85801afc7b9/mzaf_13078841075559881180.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/26/12/48/261248ca-fc7d-9aad-5bf2-fabfa7d9ceec/00602577634031.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ludacris|what s your fantasy",
+   "title": "What's Your Fantasy",
+   "artist": "Ludacris",
+   "year": 2000,
+   "rank": 2,
+   "cleanId": 1444167796,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/00/81/0000816b-f2a8-76a4-20d5-cba34f7c5604/mzaf_14514633125994348344.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0f/f4/9a/0ff49a5d-6879-73b6-a8f3-59ab76d7355e/00602527496092.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ludacris|area codes",
+   "title": "Area Codes",
+   "artist": "Ludacris",
+   "year": 2001,
+   "rank": 3,
+   "cleanId": 1456413826,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/9c/b6/6b9cb681-7059-57e9-b2e8-7e02762dc894/mzaf_14957791345645958010.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/26/12/48/261248ca-fc7d-9aad-5bf2-fabfa7d9ceec/00602577634031.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ludacris|rest of my life",
+   "title": "Rest of My Life",
+   "artist": "Ludacris",
+   "year": 2012,
+   "rank": 4,
+   "cleanId": 1445301340,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/07/eb/db07eb71-7709-0af4-2480-d33e18e77853/mzaf_13843689164885711110.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/be/ec/3fbeec65-4c5d-a4a2-ca4d-9da7d46b6df2/00602537223954.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ludacris|how low",
+   "title": "How Low",
+   "artist": "Ludacris",
+   "year": 2009,
+   "rank": 5,
+   "cleanId": 1446010785,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1c/f5/0c/1cf50cf3-1595-1ed4-46a3-6009dafe5246/mzaf_16726727485224946500.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/fa/b8/a3/fab8a3af-5a8b-d401-6f12-735f007eb701/10UMGIM04918.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ludacris|my chick bad",
+   "title": "My Chick Bad",
+   "artist": "Ludacris",
+   "year": 2010,
+   "rank": 6,
+   "cleanId": 1446010786,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/43/7f/1e437fa9-9284-1d8f-31b4-f3f4df9feac0/mzaf_17639047725054172893.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/fa/b8/a3/fab8a3af-5a8b-d401-6f12-735f007eb701/10UMGIM04918.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ludacris|get back",
+   "title": "Get Back",
+   "artist": "Ludacris",
+   "year": 2004,
+   "rank": 7,
+   "cleanId": 1443070402,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/df/5d/b3df5d48-6a69-a354-cb27-c27239a8f433/mzaf_2444070756137286586.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/9d/57/2d9d5764-283f-4958-dc24-6be192e5dcf9/06UMGIM23924.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ludacris|stand up",
+   "title": "Stand Up",
+   "artist": "Ludacris",
+   "year": 2003,
+   "rank": 8,
+   "cleanId": 1442839681,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/50/29/92502908-0532-a918-59bd-1875c19b421a/mzaf_4636632916146364602.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/09/fa/14/09fa14ae-8acf-b554-ce7a-1edfe9c485a7/00602498605387.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ludacris|money maker",
+   "title": "Money Maker",
+   "artist": "Ludacris",
+   "year": 2006,
+   "rank": 9,
+   "cleanId": 1444005911,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/ac/63/53ac636a-1988-c972-7061-6be8772d65f9/mzaf_10867827265310185918.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/91/e1/95/91e195e9-b965-cefa-beed-6746852b0908/00602517029170.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "ludacris and chance the rapper|found you",
+   "title": "Found You",
+   "artist": "Ludacris & Chance the Rapper",
+   "year": 2020,
+   "rank": 10,
+   "cleanId": 1531365271,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/73/e5/63/73e56310-4a33-9dea-e3d2-9fbaba9b0735/mzaf_15275133994731941485.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d3/5b/de/d35bdeec-e8b5-bd23-0994-a6023e738086/194690322846_cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "t i|bring em out",
+   "title": "Bring Em Out",
+   "artist": "T.I.",
+   "year": 2004,
+   "rank": 1,
+   "cleanId": 1258952986,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/04/ba/1204ba5d-3442-c4be-eec1-36777c7e2cff/mzaf_1355228131672241099.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/97/7c/85/977c855c-1f60-6212-5c89-66a76b9f90aa/075678379567_cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "t i|big things poppin",
+   "title": "Big Things Poppin' (Do It)",
+   "artist": "T.I.",
+   "year": 2007,
+   "rank": 2,
+   "cleanId": 1258979692,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/fb/1e/1bfb1e02-f93c-3f67-ec36-88567db40175/mzaf_13280235843631921602.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1d/89/fe/1d89fe16-26b3-5896-b72b-cc01dc6a037a/075679997555_cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "t i|whatever you like",
+   "title": "Whatever You Like",
+   "artist": "T.I.",
+   "year": 2008,
+   "rank": 3,
+   "cleanId": 1258981728,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/21/a2/9d21a26f-11a2-3157-df17-4cf6b599038d/mzaf_14809218155064196162.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/18/c1/dc18c1e1-49a3-a53c-3064-db77a5f1e36d/075679990617_art.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "t i|let em know",
+   "title": "LET 'EM KNOW",
+   "artist": "T.I.",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 1870680329,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/0c/f8/220cf8f7-5431-368c-3392-94e3780d8bbe/mzaf_14736400616102830232.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/47/69/ea476979-97b0-a3d4-f840-a92fbce909c6/199316450255_cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "t i|about the money",
+   "title": "About the Money",
+   "artist": "T.I.",
+   "year": 2014,
+   "rank": 5,
+   "cleanId": 6769170345,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/13/97/fa1397ae-661c-4b7b-b34b-3de0591d44d3/mzaf_9660590330340165293.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/87/cb/1787cb9c-2122-3de0-90ab-c2590e940eb7/886444791922.png/100x100bb.jpg"
+  },
+  {
+   "id": "t i|asap",
+   "title": "Asap",
+   "artist": "T.I.",
+   "year": 2004,
+   "rank": 6,
+   "cleanId": 1260865982,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/b5/9c/81b59cbc-8e2a-d6b9-75c4-fc307e52a40e/mzaf_11601488905530689570.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/e6/35/5ee6353c-dcc5-6c26-cfb4-8c56511fa82f/050742335458_art.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "t i|u don t know me",
+   "title": "U Don't Know Me",
+   "artist": "T.I.",
+   "year": 2004,
+   "rank": 7,
+   "cleanId": 1260865981,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/03/04/420304bd-9553-cb62-626e-006c536c4c1c/mzaf_3378687390087754662.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/e6/35/5ee6353c-dcc5-6c26-cfb4-8c56511fa82f/050742335458_art.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "t i|24 s",
+   "title": "24'S",
+   "artist": "T.I.",
+   "year": 2003,
+   "rank": 8,
+   "cleanId": 1260772256,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/49/33/0a49332b-a68b-8481-2f84-244b6d95c1d9/mzaf_7911260711654578341.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/35/c2/4e/35c24ec6-9b14-1435-98ac-9dd059e9a2d0/050742335489_art.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "t i|dead and gone",
+   "title": "Dead and Gone",
+   "artist": "T.I.",
+   "year": 2008,
+   "rank": 9,
+   "cleanId": 1258981738,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/21/21/b22121ca-3182-6f50-0a69-5a0d36a882a6/mzaf_9205428198370993870.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/18/c1/dc18c1e1-49a3-a53c-3064-db77a5f1e36d/075679990617_art.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "t i|what you know",
+   "title": "What You Know",
+   "artist": "T.I.",
+   "year": 2006,
+   "rank": 10,
+   "cleanId": 1260893967,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/f9/84/7df98481-6f1d-b9cb-0e6c-16ef8fce31f9/mzaf_6174110771642834208.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ee/b3/51/eeb35177-7cef-62a7-77e7-35dedb42a6b5/050742335441_art.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil baby|top uh it",
+   "title": "Top Uh It",
+   "artist": "Lil Baby",
+   "year": 2026,
+   "rank": 1,
+   "cleanId": 6836040883,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/56/3a/12563a11-c004-afb7-1634-e43d6798e478/mzaf_9115140795803106734.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/48/2e/b1482e9e-c823-1954-2580-e671be92442c/26UM1IM31431.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil baby|like a brat",
+   "title": "Like A Brat",
+   "artist": "Lil Baby",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6836042004,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/8a/20/e98a206a-0ffd-d0e5-72ad-b08c80d303f3/mzaf_10192024627927517262.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/48/2e/b1482e9e-c823-1954-2580-e671be92442c/26UM1IM31431.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil baby|dead fresh",
+   "title": "Dead Fresh",
+   "artist": "Lil Baby",
+   "year": 2026,
+   "rank": 3,
+   "cleanId": 6836041414,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/7b/78/247b7861-44ac-2946-3793-eaa3031c2c0f/mzaf_6272364162715580095.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/48/2e/b1482e9e-c823-1954-2580-e671be92442c/26UM1IM31431.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil baby|your fault",
+   "title": "Your Fault",
+   "artist": "Lil Baby",
+   "year": 2026,
+   "rank": 4,
+   "cleanId": 6836041823,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/78/0c/43780c67-635d-ddd8-11be-bd38643c9918/mzaf_3021049373882682558.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/48/2e/b1482e9e-c823-1954-2580-e671be92442c/26UM1IM31431.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil baby|mr do something",
+   "title": "Mr. Do Something",
+   "artist": "Lil Baby",
+   "year": 2026,
+   "rank": 5,
+   "cleanId": 6836040909,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/29/02/22290239-e872-9b49-7540-1e2e5f01b307/mzaf_12684982855080059807.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/48/2e/b1482e9e-c823-1954-2580-e671be92442c/26UM1IM31431.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil baby and rylo rodriguez|in your head",
+   "title": "In Your Head",
+   "artist": "Lil Baby & Rylo Rodriguez",
+   "year": 2026,
+   "rank": 6,
+   "cleanId": 6836041995,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/d2/b9/26d2b9c7-42c8-fb2c-2a82-4ef381c5d3e5/mzaf_16395398348167906696.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/48/2e/b1482e9e-c823-1954-2580-e671be92442c/26UM1IM31431.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil baby|from the back",
+   "title": "From The Back",
+   "artist": "Lil Baby",
+   "year": 2026,
+   "rank": 7,
+   "cleanId": 6836041337,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/5a/0c/4c5a0ce2-5ff5-9581-1977-1e6c0b74e367/mzaf_234092862823902895.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/48/2e/b1482e9e-c823-1954-2580-e671be92442c/26UM1IM31431.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil baby|ain t goin",
+   "title": "Ain’t Goin",
+   "artist": "Lil Baby",
+   "year": 2026,
+   "rank": 8,
+   "cleanId": 6836041086,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/46/93/06469388-3b87-f713-db74-53e0c2fccd71/mzaf_7880647239195269607.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/48/2e/b1482e9e-c823-1954-2580-e671be92442c/26UM1IM31431.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil baby young thug and rylo rodriguez|all my partnas",
+   "title": "All My Partnas",
+   "artist": "Lil Baby, Young Thug & Rylo Rodriguez",
+   "year": 2026,
+   "rank": 9,
+   "cleanId": 6836041346,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/73/fe/e073fec1-5d48-1bac-e91d-150daa372c0a/mzaf_17809074867465815228.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/48/2e/b1482e9e-c823-1954-2580-e671be92442c/26UM1IM31431.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "lil baby|be the one",
+   "title": "Be The One",
+   "artist": "Lil Baby",
+   "year": 2026,
+   "rank": 10,
+   "cleanId": 6836041075,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/39/2e/ae392e37-2b98-e20a-4ea1-bde639c33dcc/mzaf_16181066787784120501.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/48/2e/b1482e9e-c823-1954-2580-e671be92442c/26UM1IM31431.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "21 savage|aandt",
+   "title": "a&t",
+   "artist": "21 Savage",
+   "year": 2018,
+   "rank": 1,
+   "cleanId": 1447452171,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/d0/4d/59d04d89-9bf2-21a2-ee60-28a0e66b18f9/mzaf_1983589512088354967.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/94/f7/0794f7c3-0042-6aa8-022e-ae008868eb75/886447365144.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "21 savage|bank account",
+   "title": "Bank Account",
+   "artist": "21 Savage",
+   "year": 2017,
+   "rank": 2,
+   "cleanId": 1256644817,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/cb/71/9acb714b-bd6a-e951-d9e2-f84f2e41dee2/mzaf_8709168227273292122.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music127/v4/5e/f5/9d/5ef59d0c-4a01-56c5-81c2-c2a2942f55f7/886446601298.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "21 savage and metro boomin|runnin",
+   "title": "Runnin",
+   "artist": "21 Savage & Metro Boomin",
+   "year": 2020,
+   "rank": 3,
+   "cleanId": 1534264266,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/b6/dc/97b6dc1e-af09-a2e3-3592-fce74d30cec3/mzaf_8213761409472722913.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/53/ed/40/53ed4078-7d2a-076e-f9b9-ffb29e776c42/886448747703.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "21 savage|redrum",
+   "title": "redrum",
+   "artist": "21 Savage",
+   "year": 2024,
+   "rank": 4,
+   "cleanId": 1725240530,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/5f/31/e15f315d-4c85-a6c1-f8d9-04be541a6ec1/mzaf_17513610178592896446.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/77/84/5e/77845ee7-573c-efcc-4ce4-c9625fdce8c7/196871714556.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "21 savage|ball w o you",
+   "title": "ball w/o You",
+   "artist": "21 Savage",
+   "year": 2018,
+   "rank": 5,
+   "cleanId": 1447452180,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/3d/fe/f03dfe21-3952-9389-890e-1ea33ddc4ef2/mzaf_5218798471090523196.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/94/f7/0794f7c3-0042-6aa8-022e-ae008868eb75/886447365144.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "21 savage|a lot",
+   "title": "a lot",
+   "artist": "21 Savage",
+   "year": 2018,
+   "rank": 6,
+   "cleanId": 1447452168,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/6d/f5/c46df5e4-0dce-9891-a904-eaabf53de168/mzaf_8577526829310587620.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/94/f7/0794f7c3-0042-6aa8-022e-ae008868eb75/886447365144.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "21 savage|can t leave without it",
+   "title": "can't leave without it",
+   "artist": "21 Savage",
+   "year": 2018,
+   "rank": 7,
+   "cleanId": 1447452177,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/69/da/39/69da39ce-2695-038c-88f6-0d72de5ec0e4/mzaf_481430542684026249.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/94/f7/0794f7c3-0042-6aa8-022e-ae008868eb75/886447365144.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "21 savage and metro boomin|mr right now",
+   "title": "Mr. Right Now",
+   "artist": "21 Savage & Metro Boomin",
+   "year": 2020,
+   "rank": 8,
+   "cleanId": 1534264268,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/b1/b4/9bb1b4a4-cf65-dde2-9aa0-558b583e58f1/mzaf_1590137840028632553.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/53/ed/40/53ed4078-7d2a-076e-f9b9-ffb29e776c42/886448747703.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "21 savage|out for the night",
+   "title": "out for the night",
+   "artist": "21 Savage",
+   "year": 2018,
+   "rank": 9,
+   "cleanId": 1447452172,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/34/d0/3e34d007-e361-0974-fc1e-17557a2db1c3/mzaf_13888945090005828015.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/94/f7/0794f7c3-0042-6aa8-022e-ae008868eb75/886447365144.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "21 savage|monster",
+   "title": "monster",
+   "artist": "21 Savage",
+   "year": 2018,
+   "rank": 10,
+   "cleanId": 1447452183,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/46/3c/5a463c9a-4429-d07c-0b3c-00bd4814a48d/mzaf_12323841750814350949.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/94/f7/0794f7c3-0042-6aa8-022e-ae008868eb75/886447365144.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "missy elliott|work it",
+   "title": "Work It",
+   "artist": "Missy Elliott",
+   "year": 2002,
+   "rank": 1,
+   "cleanId": 1264527,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/95/bb/c895bbbb-048c-4339-644c-f058a4a06a1a/mzaf_16441461226119826930.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/67/63/8e/67638ee7-4bf1-5bcd-75af-0c7868c23478/dj.mzvpzeqc.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "missy elliott|gossip folks",
+   "title": "Gossip Folks",
+   "artist": "Missy Elliott",
+   "year": 2002,
+   "rank": 2,
+   "cleanId": 1264511,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/47/b9/5847b9a7-a11d-2d23-8625-e04efe1ebc24/mzaf_7954847263865475885.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/67/63/8e/67638ee7-4bf1-5bcd-75af-0c7868c23478/dj.mzvpzeqc.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "missy elliott|lose control",
+   "title": "Lose Control",
+   "artist": "Missy Elliott",
+   "year": 2005,
+   "rank": 3,
+   "cleanId": 73240545,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/cc/1c/4ccc1c1c-5fbe-fe25-507a-48ad202b266e/mzaf_14791677598220823009.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/74/34/58/7434589c-4c48-5334-56b2-aa1388935851/dj.xilerauv.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "missy elliott|wtf",
+   "title": "WTF (Where They From) [feat. Pharrell Williams]",
+   "artist": "Missy Elliott",
+   "year": 2015,
+   "rank": 4,
+   "cleanId": 1056834423,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/05/ab/f405ab44-2168-eef7-587e-517f2db8736d/mzaf_6956176232138192370.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/fe/01/a3/fe01a3bc-e9bc-ca42-a516-323a18d55a4a/mzm.khymbrks.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "missy elliott|pep rally",
+   "title": "Pep Rally",
+   "artist": "Missy Elliott",
+   "year": 2016,
+   "rank": 5,
+   "cleanId": 1080436045,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/c2/85/d0c2856c-ebde-a1f5-739c-1d9e5463c31d/mzaf_11592002328571535568.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a2/c8/1d/a2c81d7f-d8f8-c477-94d5-54401bed1529/075679913159.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "missy elliott|i m better",
+   "title": "I'm Better",
+   "artist": "Missy Elliott",
+   "year": 2017,
+   "rank": 6,
+   "cleanId": 1197534875,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/86/b9/e9/86b9e9fa-9cf2-6d1b-6e83-961f6c75c767/mzaf_17470659555032873840.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/b1/89/df/b189df18-87f7-ab4b-a08a-85e940c8e2a1/075679900692.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "missy elliott|we run this",
+   "title": "We Run This",
+   "artist": "Missy Elliott",
+   "year": 2005,
+   "rank": 7,
+   "cleanId": 73240634,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/4e/b4/cb4eb4e2-7211-00ca-a124-008b5e6d3c97/mzaf_13857451758247104342.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/74/34/58/7434589c-4c48-5334-56b2-aa1388935851/dj.xilerauv.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "missy elliott|pussycat",
+   "title": "Pussycat",
+   "artist": "Missy Elliott",
+   "year": 2002,
+   "rank": 8,
+   "cleanId": 1264534,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/42/b8/3b42b815-2bf4-ecab-e344-540207f42b46/mzaf_14037988110737763959.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/67/63/8e/67638ee7-4bf1-5bcd-75af-0c7868c23478/dj.mzvpzeqc.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "missy elliott|nothing out there for me",
+   "title": "Nothing out There for Me",
+   "artist": "Missy Elliott",
+   "year": 2002,
+   "rank": 9,
+   "cleanId": 1264536,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/ad/b3/54adb327-d33c-03ec-1100-9afccb63dc10/mzaf_5489810998457938761.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/67/63/8e/67638ee7-4bf1-5bcd-75af-0c7868c23478/dj.mzvpzeqc.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "missy elliott|funky fresh dressed",
+   "title": "Funky Fresh Dressed",
+   "artist": "Missy Elliott",
+   "year": 2002,
+   "rank": 10,
+   "cleanId": 1264532,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/10/db/b610db9e-97d6-7ac7-3cc3-3d11ff3e3a84/mzaf_15260515284905255421.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/67/63/8e/67638ee7-4bf1-5bcd-75af-0c7868c23478/dj.mzvpzeqc.jpg/100x100bb.jpg"
+  }
+ ]
+}

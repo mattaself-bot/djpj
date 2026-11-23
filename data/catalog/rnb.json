@@ -1,0 +1,1728 @@
+{
+ "genre": "rnb",
+ "built": "2026-11-23",
+ "artists": [
+  "Usher",
+  "Beyoncé",
+  "Alicia Keys",
+  "SZA",
+  "Marvin Gaye",
+  "Stevie Wonder",
+  "Aretha Franklin",
+  "Boyz II Men",
+  "Frank Ocean",
+  "Anderson .Paak",
+  "Earth, Wind & Fire",
+  "Prince",
+  "Janet Jackson",
+  "Mary J. Blige",
+  "Luther Vandross",
+  "TLC",
+  "Destiny's Child",
+  "Al Green",
+  "Chris Brown",
+  "H.E.R."
+ ],
+ "songs": [
+  {
+   "id": "usher|u got it bad",
+   "title": "U Got It Bad",
+   "artist": "USHER",
+   "year": 2001,
+   "rank": 1,
+   "cleanId": 268532564,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/b9/15/49b915dd-bbb4-eaa4-bd29-7cc9a9d00666/mzaf_17285419442186901219.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/1f/06/e71f062b-71c8-3b06-49d3-a0842a759684/078221471527.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "usher|love in this club",
+   "title": "Love In This Club",
+   "artist": "USHER",
+   "year": 2008,
+   "rank": 2,
+   "cleanId": 281698335,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/bd/47/b5bd47bd-b6a7-220b-4588-e08b7172ea4a/mzaf_9680239665109470255.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/11/2a/4e/112a4ebd-2cae-d2b9-9146-66eb8ed095d1/mzi.rlfesxkp.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "usher|nice and slow",
+   "title": "Nice & Slow",
+   "artist": "USHER",
+   "year": 1997,
+   "rank": 3,
+   "cleanId": 278845479,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/3b/e1/333be1d2-40c4-f5bf-8479-a5840caea07d/mzaf_6373493292385768191.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/ff/a3/3fffa34f-4699-a646-c175-c936446fc540/dj.rxuxuefh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "usher|yeah",
+   "title": "Yeah!",
+   "artist": "USHER",
+   "year": 2004,
+   "rank": 4,
+   "cleanId": 386153478,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/52/3c/94523c88-f5f9-16f4-dbd7-f284ca168048/mzaf_7184891920196479048.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/02/c6/e1/02c6e1cd-8d57-97b4-6ef1-77d2be004509/mzi.sjrqsmrq.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "usher|climax",
+   "title": "Climax",
+   "artist": "USHER",
+   "year": 2012,
+   "rank": 5,
+   "cleanId": 1448420465,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/64/96/a264964b-d96d-7ba9-a4fd-86dca630385e/mzaf_9239697937416322754.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1f/86/24/1f86245a-25f3-8f0b-9bda-3d41f2b99f2a/886447506189.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "usher|u remind me",
+   "title": "U Remind Me",
+   "artist": "USHER",
+   "year": 2001,
+   "rank": 6,
+   "cleanId": 268532453,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/ed/3f/d5ed3f3d-8f0a-349b-d647-d875ec2c7774/mzaf_10913422415317413089.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/1f/06/e71f062b-71c8-3b06-49d3-a0842a759684/078221471527.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "usher|there goes my baby",
+   "title": "There Goes My Baby",
+   "artist": "USHER",
+   "year": 2010,
+   "rank": 7,
+   "cleanId": 923691588,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/73/cd/6473cd3a-43c8-d9cd-9539-d5344dabe4c5/mzaf_8048108618577043574.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/20/74/2d/20742d10-aae0-7a0c-0509-e8f611be5787/884977705362.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "usher|trading places",
+   "title": "Trading Places",
+   "artist": "USHER",
+   "year": 2008,
+   "rank": 8,
+   "cleanId": 281698339,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/bc/15/5fbc153f-cdd5-4e21-eb30-2f28a46af695/mzaf_15049758109709960745.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/11/2a/4e/112a4ebd-2cae-d2b9-9146-66eb8ed095d1/mzi.rlfesxkp.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "usher|hey daddy",
+   "title": "Hey Daddy (Daddy's Home) [feat. Plies]",
+   "artist": "USHER",
+   "year": 2009,
+   "rank": 9,
+   "cleanId": 344673600,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/b3/9e/99b39e53-dd15-2d03-092f-62fd0d73c60b/mzaf_2038042513869954615.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/54/a6/1854a647-bf8f-ae81-d5bd-302f893970cf/mzi.jsrvapjm.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "usher|you make me wanna",
+   "title": "You Make Me Wanna...",
+   "artist": "USHER",
+   "year": 1997,
+   "rank": 10,
+   "cleanId": 278845473,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ae/38/0a/ae380adf-2895-2ed7-a2de-1ab87e26ea4f/mzaf_160454965837256090.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/ff/a3/3fffa34f-4699-a646-c175-c936446fc540/dj.rxuxuefh.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "beyonce|dance for you",
+   "title": "Dance For You",
+   "artist": "Beyoncé",
+   "year": 2011,
+   "rank": 1,
+   "cleanId": 626205222,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ad/db/b7/addbb7a7-198d-8b72-dfe3-3570c13d665f/mzaf_6660447499617120187.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c9/6b/3f/c96b3ff3-9cf6-4ce6-05aa-9f11474bd569/886443938373.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "beyonce|morning dew",
+   "title": "MORNING DEW (DONK)",
+   "artist": "Beyoncé",
+   "year": 2026,
+   "rank": 2,
+   "cleanId": 6787303156,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/cd/1e/bacd1e41-e6d1-b6d0-6b55-744ec7967674/mzaf_2867499713745151161.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/65/3d/3f653d87-197c-084c-dca2-0c6e0ca742c9/196874580721.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "beyonce|best thing i never had",
+   "title": "Best Thing I Never Had",
+   "artist": "Beyoncé",
+   "year": 2011,
+   "rank": 3,
+   "cleanId": 626205875,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/8f/a7/b88fa7a6-9f9f-146a-2ac2-769bccbb88f6/mzaf_15169228536259231032.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c9/6b/3f/c96b3ff3-9cf6-4ce6-05aa-9f11474bd569/886443938373.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "beyonce|1 1",
+   "title": "1+1",
+   "artist": "Beyoncé",
+   "year": 2011,
+   "rank": 4,
+   "cleanId": 626205872,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/6c/b8/ed6cb822-e7eb-adf5-2454-87a5c2c7b4a3/mzaf_8125705985865655518.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c9/6b/3f/c96b3ff3-9cf6-4ce6-05aa-9f11474bd569/886443938373.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "beyonce|love on top",
+   "title": "Love On Top",
+   "artist": "Beyoncé",
+   "year": 2011,
+   "rank": 5,
+   "cleanId": 626205216,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/0d/43/fe0d4311-3027-745d-759b-aec3354a54e7/mzaf_10947966188805060685.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c9/6b/3f/c96b3ff3-9cf6-4ce6-05aa-9f11474bd569/886443938373.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "beyonce|irreplaceable",
+   "title": "Irreplaceable",
+   "artist": "Beyoncé",
+   "year": 2006,
+   "rank": 6,
+   "cleanId": 296790943,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/56/df/8256df83-a325-9e57-4517-bcc7fb2ce771/mzaf_12235201194677083861.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c6/72/0a/c6720ae2-e9a9-8d60-981b-20857419b50f/mzi.dohxwfay.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "beyonce|halo",
+   "title": "Halo",
+   "artist": "Beyoncé",
+   "year": 2008,
+   "rank": 7,
+   "cleanId": 295784003,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/4a/62/fb4a622f-727e-21f2-5d0b-078205d3b16a/mzaf_13032644911525500388.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/52/f9/76/52f976b0-016e-a3bf-1897-f69fb5d002d7/mzi.csyboqno.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "beyonce|if i were a boy",
+   "title": "If I Were a Boy",
+   "artist": "Beyoncé",
+   "year": 2008,
+   "rank": 8,
+   "cleanId": 296016892,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/2c/8b/f02c8b6b-01c0-7b1d-5419-b7c1d26e172b/mzaf_7900579053871403006.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/35/0f/55/350f55da-2104-162a-5872-cb35fef30410/mzi.morbeoaw.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "beyonce|party",
+   "title": "Party",
+   "artist": "Beyoncé",
+   "year": 2011,
+   "rank": 9,
+   "cleanId": 626205217,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/66/39/6c663934-1824-296e-51b2-d317a0bd5dbd/mzaf_6473073976004648293.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c9/6b/3f/c96b3ff3-9cf6-4ce6-05aa-9f11474bd569/886443938373.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "beyonce|sweet dreams",
+   "title": "Sweet Dreams",
+   "artist": "Beyoncé",
+   "year": 2008,
+   "rank": 10,
+   "cleanId": 296016902,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/98/bf/9398bf42-928a-7640-0691-a9809706b34f/mzaf_11892309281173665808.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/35/0f/55/350f55da-2104-162a-5872-cb35fef30410/mzi.morbeoaw.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alicia keys|no one",
+   "title": "No One",
+   "artist": "Alicia Keys",
+   "year": 2007,
+   "rank": 1,
+   "cleanId": 294461792,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/30/f2/ef30f2cf-b3bf-752f-5809-cadaf1a15fe3/mzaf_18259142165614061591.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c7/88/df/c788dffe-d06f-8923-ad61-a6194daf6616/888880809919.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alicia keys|if i ain t got you",
+   "title": "If I Ain't Got You",
+   "artist": "Alicia Keys",
+   "year": 2003,
+   "rank": 2,
+   "cleanId": 1714012402,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/54/1f/50541f15-4687-b5a1-09fd-dced46fb8dec/mzaf_7708258408013670251.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/a3/2d/7da32df5-bec0-99fa-1431-5df4d6fd930a/196871575188.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alicia keys|un thinkable",
+   "title": "Un-thinkable (I'm Ready)",
+   "artist": "Alicia Keys",
+   "year": 2009,
+   "rank": 3,
+   "cleanId": 341321660,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/4f/db/414fdb88-9d0b-3115-1b43-2e1fd89f6323/mzaf_8123139385188743977.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b7/77/66/b77766d8-c73f-8a5d-376d-926db33475f7/884977002508.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alicia keys|like you ll never see me again",
+   "title": "Like You'll Never See Me Again",
+   "artist": "Alicia Keys",
+   "year": 2007,
+   "rank": 4,
+   "cleanId": 294461793,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/77/3c/43773c09-5c82-9e41-0a8e-331382c13be2/mzaf_14993532077541506662.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c7/88/df/c788dffe-d06f-8923-ad61-a6194daf6616/888880809919.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alicia keys|you don t know my name",
+   "title": "You Don't Know My Name",
+   "artist": "Alicia Keys",
+   "year": 2003,
+   "rank": 5,
+   "cleanId": 255343000,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/53/c8/9853c8b1-74e0-d381-bdf3-4559d7709ab4/mzaf_9014429202288867301.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/07/c6/c207c6ee-e3f1-cad2-1259-69a3ebd08b5c/828765571227.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alicia keys|girl on fire",
+   "title": "Girl On Fire",
+   "artist": "Alicia Keys",
+   "year": 2012,
+   "rank": 6,
+   "cleanId": 562189342,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/0b/dd/600bdd5f-031d-d404-f776-c981fcdf3f41/mzaf_10924302464946730977.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a7/66/bd/a766bd53-e015-62e7-fbbc-ab7dd628a989/886443653634.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alicia keys|fallin",
+   "title": "Fallin'",
+   "artist": "Alicia Keys",
+   "year": 2001,
+   "rank": 7,
+   "cleanId": 6773483556,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/a4/7f/2ca47f3a-09d8-32ce-1232-52aafae5102a/mzaf_16711798106990399462.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/fb/6c/1ffb6c53-b00f-6c73-8403-149ebdff9059/196874427750.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alicia keys|try sleeping with a broken heart",
+   "title": "Try Sleeping With a Broken Heart",
+   "artist": "Alicia Keys",
+   "year": 2009,
+   "rank": 8,
+   "cleanId": 341321615,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/04/6e/c3046ed1-b3f3-d802-f2b2-4166770041c6/mzaf_15088737431175077104.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b7/77/66/b77766d8-c73f-8a5d-376d-926db33475f7/884977002508.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alicia keys and usher|my boo",
+   "title": "My Boo",
+   "artist": "Alicia Keys & USHER",
+   "year": 2004,
+   "rank": 9,
+   "cleanId": 386153729,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/63/b9/c663b9f6-5433-79ea-edf6-97575fa72e66/mzaf_15786922263961902017.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/02/c6/e1/02c6e1cd-8d57-97b4-6ef1-77d2be004509/mzi.sjrqsmrq.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "alicia keys|diary",
+   "title": "Diary",
+   "artist": "Alicia Keys",
+   "year": 2003,
+   "rank": 10,
+   "cleanId": 255343208,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/69/8a/29/698a29c6-9e81-f102-e447-31e19674abef/mzaf_13677714499274921824.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/07/c6/c207c6ee-e3f1-cad2-1259-69a3ebd08b5c/828765571227.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sza|saturn",
+   "title": "Saturn",
+   "artist": "SZA",
+   "year": 2024,
+   "rank": 1,
+   "cleanId": 1732348414,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/28/b3/7c28b3ed-9aa9-6454-92c6-e46d20849bed/mzaf_518591709818271733.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0f/90/a8/0f90a856-0447-d846-fa7b-b9c937e72310/196871881180.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sza|kill bill",
+   "title": "Kill Bill",
+   "artist": "SZA",
+   "year": 2022,
+   "rank": 2,
+   "cleanId": 1657869393,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/2b/ea/452bead6-c7f5-82d4-f5f7-ec876014b4cc/mzaf_2905911853279084717.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sza|open arms",
+   "title": "Open Arms",
+   "artist": "SZA",
+   "year": 2022,
+   "rank": 3,
+   "cleanId": 1657869546,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/e1/5c/bee15c13-45e4-a4de-a48d-407cc06a0cb6/mzaf_12967475487789835787.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sza|snooze",
+   "title": "Snooze",
+   "artist": "SZA",
+   "year": 2022,
+   "rank": 4,
+   "cleanId": 1658650499,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/9b/ca/b39bca57-2627-1aec-77af-cbf551205394/mzaf_4430383240210492712.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/62/93/13/6293132e-20ff-67ab-3d1f-96bb6797a6ba/196589564955.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sza|used",
+   "title": "Used",
+   "artist": "SZA",
+   "year": 2022,
+   "rank": 5,
+   "cleanId": 1657869488,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/d6/6f/62d66f3b-cdbb-35d1-b74a-67c3afc1d872/mzaf_15816589370137508590.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sza|childs play",
+   "title": "Childs Play",
+   "artist": "SZA",
+   "year": 2014,
+   "rank": 6,
+   "cleanId": 852343743,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/6d/17/9f6d176c-22d0-b241-1a41-7f3878b363bf/mzaf_196998682856691942.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/86/70/d8867099-c280-065b-8617-53096e63fd55/859712300362_cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sza|too late",
+   "title": "Too Late",
+   "artist": "SZA",
+   "year": 2022,
+   "rank": 7,
+   "cleanId": 1657869535,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/c3/97/94c3976c-16f0-b48a-e3b2-a3f45ee77882/mzaf_16343337711365764081.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sza|nobody gets me",
+   "title": "Nobody Gets Me",
+   "artist": "SZA",
+   "year": 2022,
+   "rank": 8,
+   "cleanId": 1658650791,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/6a/42/976a424b-72c9-cc0c-200f-8604c996b25b/mzaf_13218782517530680491.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/62/93/13/6293132e-20ff-67ab-3d1f-96bb6797a6ba/196589564955.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sza|30 for 30",
+   "title": "30 For 30",
+   "artist": "SZA",
+   "year": 2025,
+   "rank": 9,
+   "cleanId": 1796270267,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/c4/93/3dc4933b-0606-71f7-77c4-cffb45133d93/mzaf_10877822582411390422.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/fa/17/50fa1760-8a36-5cef-93bf-aab5b5257b18/196871766913.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "sza|good days",
+   "title": "Good Days",
+   "artist": "SZA",
+   "year": 2020,
+   "rank": 10,
+   "cleanId": 1546390013,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8f/04/a0/8f04a043-2291-6ff3-bad8-21e11452d64b/mzaf_2746590017873968561.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/5c/6e/0e5c6e76-928a-bb8c-ec7d-b323f6079f67/886449007394.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "stevie wonder|superstition",
+   "title": "Superstition",
+   "artist": "Stevie Wonder",
+   "year": 1972,
+   "rank": 1,
+   "cleanId": 1440808985,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/4b/88/594b880c-4744-0510-775c-73d8b06567e8/mzaf_14855748840810986812.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/62/61/61/626161c0-f4d7-e6ff-8586-768340ef278f/00602537002382.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "stevie wonder|isn t she lovely",
+   "title": "Isn't She Lovely",
+   "artist": "Stevie Wonder",
+   "year": 1976,
+   "rank": 2,
+   "cleanId": 6829016315,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/ae/51/eaae51ea-109e-d5eb-4b90-97d79eb8cf74/mzaf_13476697823449911538.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/f4/bb/d1f4bbe5-bac3-2cdb-eebb-bb30b0fbde4e/19UMGIM40715.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "stevie wonder|as",
+   "title": "As",
+   "artist": "Stevie Wonder",
+   "year": 1976,
+   "rank": 3,
+   "cleanId": 6829016474,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/c4/a7/efc4a7f3-b5ef-28ea-3f95-f3b173184f2b/mzaf_5259750974150418882.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/f4/bb/d1f4bbe5-bac3-2cdb-eebb-bb30b0fbde4e/19UMGIM40715.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "stevie wonder|all i do",
+   "title": "All I Do",
+   "artist": "Stevie Wonder",
+   "year": 1980,
+   "rank": 4,
+   "cleanId": 1440821233,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/24/c4/df24c426-2721-c87b-654f-81fade69e33d/mzaf_18047032370149304288.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/10/71/7e/10717e68-72d1-e3ce-6173-a920506bf797/00602537779482.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "stevie wonder|signed sealed delivered",
+   "title": "Signed, Sealed, Delivered (I'm Yours)",
+   "artist": "Stevie Wonder",
+   "year": 1970,
+   "rank": 5,
+   "cleanId": 1469582277,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/14/ab/7d14abfe-9517-b3ca-e74b-3c756c7a7fba/mzaf_6269386496697229374.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/53/a1/24/53a12417-7bdf-aea3-9a2c-414345f5f772/14UMGIM51705.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "stevie wonder|my cherie amour",
+   "title": "My Cherie Amour",
+   "artist": "Stevie Wonder",
+   "year": 1969,
+   "rank": 6,
+   "cleanId": 1442985617,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/53/c3/6653c36c-f8a6-edbf-9c24-769de86c3fd9/mzaf_5200513436420920056.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/06/1d/6e061d4b-1dad-c332-ca28-680be5e1ef39/14UMGIM51156.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "stevie wonder|knocks me off my feet",
+   "title": "Knocks Me Off My Feet",
+   "artist": "Stevie Wonder",
+   "year": 1976,
+   "rank": 7,
+   "cleanId": 1440788546,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/ea/69/1dea69c5-7228-9eb0-d641-3a1fde0aec13/mzaf_13182324209806381245.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/eb/1f/12/eb1f12ec-474c-63aa-43af-09282f423b9d/00602537004737.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "stevie wonder|higher ground",
+   "title": "Higher Ground",
+   "artist": "Stevie Wonder",
+   "year": 1973,
+   "rank": 8,
+   "cleanId": 1440807404,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/93/bb/0793bb74-cc88-b08e-e0a6-68a2e3bf1796/mzaf_13497263188247802924.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c2/5f/ffc25f04-cb3b-b56e-dd28-8b77ae63e613/00602537070824.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "stevie wonder|don t you worry bout a thing",
+   "title": "Don't You Worry 'Bout a Thing",
+   "artist": "Stevie Wonder",
+   "year": 1973,
+   "rank": 9,
+   "cleanId": 1440807415,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/21/43/1e2143c3-df8b-0612-70af-f1957f6d75cc/mzaf_10487360586205121425.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c2/5f/ffc25f04-cb3b-b56e-dd28-8b77ae63e613/00602537070824.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "stevie wonder|overjoyed",
+   "title": "Overjoyed",
+   "artist": "Stevie Wonder",
+   "year": 1985,
+   "rank": 10,
+   "cleanId": 1443168934,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7e/30/d7/7e30d779-edf1-b920-8c55-10c68a09f203/mzaf_6969330248268634406.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/6e/1e/dd6e1e4d-b430-7bda-ca31-41b9d7601227/00602537840823.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "aretha franklin|respect",
+   "title": "Respect",
+   "artist": "Aretha Franklin",
+   "year": 1967,
+   "rank": 1,
+   "cleanId": 878000348,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/e2/93/dbe2937a-f85b-ee1d-9a29-db95be5498f3/mzaf_13347005897562275360.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/0d/c0/470dc076-70e9-be30-07e5-ecee641a7604/603497902460.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "aretha franklin|a natural woman",
+   "title": "(You Make Me Feel Like) A Natural Woman",
+   "artist": "Aretha Franklin",
+   "year": 1967,
+   "rank": 2,
+   "cleanId": 933585554,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/3c/35/183c35dc-eea2-eed4-98d7-e65ed1328f6b/mzaf_17977095094999115810.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/a7/ac/e3a7aca0-48e1-0882-8e25-3d68f7ba3a72/603497896646.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "aretha franklin|ain t no way",
+   "title": "Ain't No Way",
+   "artist": "Aretha Franklin",
+   "year": 1968,
+   "rank": 3,
+   "cleanId": 933582129,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/d5/01/a4d501d4-ee74-a35e-50cb-1cc585e99a44/mzaf_12242899842830824697.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/60/02/7b6002d3-9b40-9852-4186-02cbe3cdb32d/603497895960.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "aretha franklin|i say a little prayer",
+   "title": "I Say a Little Prayer",
+   "artist": "Aretha Franklin",
+   "year": 1967,
+   "rank": 4,
+   "cleanId": 266603954,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/da/7f/54da7f8c-2aa5-0333-a39c-41877259935b/mzaf_8906233326486724034.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/68/3e/ca/683eca66-cff0-9f78-d63c-1e4ed7912801/603497987856.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "aretha franklin|rock steady",
+   "title": "Rock Steady",
+   "artist": "Aretha Franklin",
+   "year": 1971,
+   "rank": 5,
+   "cleanId": 934216885,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/78/71/d9787199-629d-2aaf-886f-a5359adc7283/mzaf_1222769625166223309.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6c/f0/0e/6cf00ef2-2eaa-5f77-20b6-57c21016e987/603497896363.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "aretha franklin|chain of fools",
+   "title": "Chain of Fools",
+   "artist": "Aretha Franklin",
+   "year": 1967,
+   "rank": 6,
+   "cleanId": 933582127,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/2f/ca/822fca0c-e2d0-972c-837f-1d019fe096ff/mzaf_12641458323059367174.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/60/02/7b6002d3-9b40-9852-4186-02cbe3cdb32d/603497895960.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "aretha franklin|until you come back to me",
+   "title": "Until You Come Back to Me (That's What I'm Gonna Do)",
+   "artist": "Aretha Franklin",
+   "year": 1973,
+   "rank": 7,
+   "cleanId": 933581329,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/eb/c0/6eebc046-7486-d8a2-f3ca-dad410b1ae9c/mzaf_13691458347573651830.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/8f/5c/a08f5c09-969a-c84a-32bc-3340d2bbc21d/603497896738.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "aretha franklin|i never loved a man",
+   "title": "I Never Loved a Man (The Way I Love You)",
+   "artist": "Aretha Franklin",
+   "year": 1967,
+   "rank": 8,
+   "cleanId": 878000350,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/0f/b7/920fb7f6-3dff-ac0b-cae7-315ab50aec71/mzaf_17889926618036836629.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/0d/c0/470dc076-70e9-be30-07e5-ecee641a7604/603497902460.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "aretha franklin|something he can feel",
+   "title": "Something He Can Feel",
+   "artist": "Aretha Franklin",
+   "year": 1976,
+   "rank": 9,
+   "cleanId": 933581186,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/c8/95/4bc895f6-6fe8-c9ab-b7e0-d72ce1bfd792/mzaf_2240746132528923984.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/21/4a/2c/214a2ca2-ad79-66d5-318e-ee0de6736e13/603497896691.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "aretha franklin|a rose is still a rose",
+   "title": "A Rose Is Still a Rose",
+   "artist": "Aretha Franklin",
+   "year": 1998,
+   "rank": 10,
+   "cleanId": 258594393,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/49/b4/db49b4ac-2065-91b5-6e78-a4eaac4f05a9/mzaf_12488215348497400189.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/87/27/d3/8727d358-d510-0ae2-c234-05e72e30991a/078221898720.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "frank ocean|thinkin bout you",
+   "title": "Thinkin Bout You",
+   "artist": "Frank Ocean",
+   "year": 2012,
+   "rank": 1,
+   "cleanId": 1440766128,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7e/a3/11/7ea311f5-790a-84ec-3cae-940f89599e62/mzaf_14067239133136508975.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/04/f8/63/04f863fc-2852-604f-c910-a97ac069506b/12UMGIM40339.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "frank ocean|white ferrari",
+   "title": "White Ferrari",
+   "artist": "Frank Ocean",
+   "year": 2016,
+   "rank": 2,
+   "cleanId": 1146195725,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/94/4d/b6944d5f-b66c-ef53-6fd5-8f0aaa92846c/mzaf_16355860049074950110.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/45/68/bb4568f3-68cd-619d-fbcb-4e179916545d/BlondCover-Final.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "frank ocean|pink white",
+   "title": "Pink + White",
+   "artist": "Frank Ocean",
+   "year": 2016,
+   "rank": 3,
+   "cleanId": 1146195714,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/11/dc/ba11dccd-16d2-9cd8-13f0-85b73acc0a09/mzaf_1304250511099243436.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/45/68/bb4568f3-68cd-619d-fbcb-4e179916545d/BlondCover-Final.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "frank ocean|self control",
+   "title": "Self Control",
+   "artist": "Frank Ocean",
+   "year": 2016,
+   "rank": 4,
+   "cleanId": 1146195718,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/d5/18/67d5185e-37e4-3e36-d345-0e8075de0407/mzaf_12338821043527808523.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/45/68/bb4568f3-68cd-619d-fbcb-4e179916545d/BlondCover-Final.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "frank ocean|godspeed",
+   "title": "Godspeed",
+   "artist": "Frank Ocean",
+   "year": 2016,
+   "rank": 5,
+   "cleanId": 1146195727,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/39/65/1239657a-e24a-7445-1182-08e794600062/mzaf_7593396232276030207.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/45/68/bb4568f3-68cd-619d-fbcb-4e179916545d/BlondCover-Final.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "frank ocean|moon river",
+   "title": "Moon River",
+   "artist": "Frank Ocean",
+   "year": 2018,
+   "rank": 6,
+   "cleanId": 1349524898,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/8d/f7/5e8df7d6-b37d-4f60-5c8f-1bed12d02f57/mzaf_1175748968697392479.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/62/50/426250f9-7e39-f907-687c-442caa436636/dj.nhptxziz.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "frank ocean|bad religion",
+   "title": "Bad Religion",
+   "artist": "Frank Ocean",
+   "year": 2012,
+   "rank": 7,
+   "cleanId": 1440766937,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/76/83/757683ff-4341-1ce3-687d-9c065ec647ae/mzaf_3805531800717468151.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/04/f8/63/04f863fc-2852-604f-c910-a97ac069506b/12UMGIM40339.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "frank ocean|seigfried",
+   "title": "Seigfried",
+   "artist": "Frank Ocean",
+   "year": 2016,
+   "rank": 8,
+   "cleanId": 1146195726,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/b8/f1/0fb8f187-840c-658e-5941-0adb0b372200/mzaf_14720449909523055987.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/45/68/bb4568f3-68cd-619d-fbcb-4e179916545d/BlondCover-Final.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "frank ocean|swim good",
+   "title": "Swim Good",
+   "artist": "Frank Ocean",
+   "year": 2011,
+   "rank": 9,
+   "cleanId": 1444860886,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/48/43/504843ec-8251-4e99-623b-330fdb1981d1/mzaf_2588455655510974852.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a2/5b/fb/a25bfb51-6377-a2c4-debf-9f1bcfee1151/00602527815084.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "frank ocean|forrest gump",
+   "title": "Forrest Gump",
+   "artist": "Frank Ocean",
+   "year": 2012,
+   "rank": 10,
+   "cleanId": 1440766959,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/2c/5e/a72c5ec5-b31c-7e6a-97a6-eef86ea1646c/mzaf_3229188494237456952.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/04/f8/63/04f863fc-2852-604f-c910-a97ac069506b/12UMGIM40339.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "anderson paak|make it better",
+   "title": "Make It Better",
+   "artist": "Anderson .Paak",
+   "year": 2019,
+   "rank": 1,
+   "cleanId": 1456218296,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/90/0b/ab900b90-22f7-0008-6162-623855803eeb/mzaf_2989118279946514513.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/36/5d/e3365de3-f047-71c7-bbc6-b1793e01402d/190296904134.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "anderson paak|til it s over",
+   "title": "'Til It's Over",
+   "artist": "Anderson .Paak",
+   "year": 2018,
+   "rank": 2,
+   "cleanId": 1355644460,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/34/39/cd3439e4-594b-3715-5289-ca74060f246a/mzaf_10899943500417177623.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/41/85/e04185e5-941e-dfe4-ab5a-69e6ef17c405/dj.ekozcedn.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "anderson paak|might be",
+   "title": "Might Be",
+   "artist": "Anderson .Paak",
+   "year": 2014,
+   "rank": 3,
+   "cleanId": 1887659419,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/ef/54/37ef5478-99a5-8e3f-b01a-1be4e68ba8e5/mzaf_9659916015769038319.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/eb/db/1febdb93-020f-d4c8-868b-029ed6d53238/888915031049_TImage.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "anderson paak|come down",
+   "title": "Come Down",
+   "artist": "Anderson .Paak",
+   "year": 2016,
+   "rank": 4,
+   "cleanId": 1115957084,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/15/9a/03159acc-0364-0c1c-1caa-2aeb24bb1809/mzaf_5744729879928934884.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/e8/e2/43/e8e24332-742c-c5c4-1c38-12690bbd8e95/888915232163_cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "anderson paak|come home",
+   "title": "Come Home",
+   "artist": "Anderson .Paak",
+   "year": 2019,
+   "rank": 5,
+   "cleanId": 1456175806,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/99/35/c8993598-75e1-618f-745f-93fc024d467b/mzaf_8036503372357919214.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/a3/06/e6a3061c-e6b2-1da8-b793-10e541537f3b/190296902970.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "anderson paak|am i wrong",
+   "title": "Am I Wrong",
+   "artist": "Anderson .Paak",
+   "year": 2015,
+   "rank": 6,
+   "cleanId": 1074098966,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/ec/b6/03ecb606-55d7-41f3-3ab8-c3e1ada60781/mzaf_3754355549347336073.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/04/f0/3204f09c-4580-3880-7f5f-254dfa4d258f/888915184455_cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "anderson paak|tints",
+   "title": "Tints",
+   "artist": "Anderson .Paak",
+   "year": 2018,
+   "rank": 7,
+   "cleanId": 1440321397,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1c/b8/32/1cb832fe-7bdd-0126-1c61-405ad7a67235/mzaf_7530287756542048394.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d7/85/b9/d785b916-1153-35c8-b8f2-09c4a7d8b99a/190296920103.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "anderson paak|heart don t stand a chance",
+   "title": "Heart Don't Stand a Chance",
+   "artist": "Anderson .Paak",
+   "year": 2016,
+   "rank": 8,
+   "cleanId": 1074098857,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ac/47/5e/ac475ebf-d9dc-9e82-48ac-f2ba45c36efa/mzaf_15033658047832213230.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/04/f0/3204f09c-4580-3880-7f5f-254dfa4d258f/888915184455_cover.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "anderson paak|bubblin",
+   "title": "Bubblin",
+   "artist": "Anderson .Paak",
+   "year": 2018,
+   "rank": 9,
+   "cleanId": 1383389659,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/22/27/872227d1-fa11-7ca6-19b0-059bfc327ade/mzaf_10787134594258070700.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ae/74/89/ae748988-1b79-75ff-0747-0d5245671d5d/190296954481.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "anderson paak|jet black",
+   "title": "Jet Black",
+   "artist": "Anderson .Paak",
+   "year": 2019,
+   "rank": 10,
+   "cleanId": 1456176190,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/55/de/0955dec3-ebc0-6835-9c47-b718db2dcd7c/mzaf_9049082357273713154.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/a3/06/e6a3061c-e6b2-1da8-b793-10e541537f3b/190296902970.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "earth wind and fire|september",
+   "title": "September",
+   "artist": "Earth, Wind & Fire",
+   "year": 1978,
+   "rank": 1,
+   "cleanId": 1456444818,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/93/c4/7793c4f4-a834-97f0-ec38-685e2d3d95d3/mzaf_4969122594945994096.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/66/3b/5d663b1f-dcc9-030d-0cf1-fc5d344d391d/886447618448.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "earth wind and fire|let s groove",
+   "title": "Let's Groove",
+   "artist": "Earth, Wind & Fire",
+   "year": 1981,
+   "rank": 2,
+   "cleanId": 1456444994,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/f3/94/99f3947c-5c7f-d4c8-d974-369fdc72be77/mzaf_7880397302369465444.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/66/3b/5d663b1f-dcc9-030d-0cf1-fc5d344d391d/886447618448.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "earth wind and fire|fantasy",
+   "title": "Fantasy",
+   "artist": "Earth, Wind & Fire",
+   "year": 1977,
+   "rank": 3,
+   "cleanId": 523223738,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/d8/e6/a5d8e628-4cde-80a5-a130-094bdb6162aa/mzaf_6602520248007817878.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/48/e7/e5/48e7e5be-c322-26ed-1b77-feb2f56eb06b/dj.hzoxakii.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "earth wind and fire|boogie wonderland",
+   "title": "Boogie Wonderland",
+   "artist": "Earth, Wind & Fire",
+   "year": 1979,
+   "rank": 4,
+   "cleanId": 523223725,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/0b/98/b70b9825-ae86-85b0-3ed0-b8cefb9fe7e8/mzaf_3286029532135755043.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1a/99/d8/1a99d83b-8949-029b-302b-ec6b62689b4e/886443461536.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "earth wind and fire|reasons",
+   "title": "Reasons",
+   "artist": "Earth, Wind & Fire",
+   "year": 1975,
+   "rank": 5,
+   "cleanId": 532975795,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/3d/9d/a63d9d10-4faa-b7b4-20b3-6619b0f34cc4/mzaf_8866086258551154936.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/1d/86/bc/1d86bc2d-1007-3b47-2652-f4a58fb0eaa0/dj.amgioild.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "earth wind and fire|shining star",
+   "title": "Shining Star",
+   "artist": "Earth, Wind & Fire",
+   "year": 1975,
+   "rank": 6,
+   "cleanId": 532975790,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/e3/a5/fee3a59e-84a1-74b4-1370-b57b41670d1f/mzaf_176989037408320573.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/1d/86/bc/1d86bc2d-1007-3b47-2652-f4a58fb0eaa0/dj.amgioild.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "earth wind and fire|that s the way of the world",
+   "title": "That's the Way of the World",
+   "artist": "Earth, Wind & Fire",
+   "year": 1975,
+   "rank": 7,
+   "cleanId": 532975791,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/b8/70/33b870f6-b19a-fed5-ffbf-443825178110/mzaf_8203739678540691541.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/1d/86/bc/1d86bc2d-1007-3b47-2652-f4a58fb0eaa0/dj.amgioild.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "earth wind and fire|after the love has gone",
+   "title": "After the Love Has Gone",
+   "artist": "Earth, Wind & Fire",
+   "year": 1979,
+   "rank": 8,
+   "cleanId": 523223723,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/72/77/3d7277c0-a4ec-8fe6-fdcd-1503a16b2801/mzaf_2231744054265929448.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1a/99/d8/1a99d83b-8949-029b-302b-ec6b62689b4e/886443461536.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "earth wind and fire|earth wind and fire",
+   "title": "Earth, Wind & Fire",
+   "artist": "Earth, Wind & Fire",
+   "year": 1976,
+   "rank": 9,
+   "cleanId": 523227120,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/b8/67/56b867ad-6bf0-201b-5cc2-2886809189b2/mzaf_16060218220745868051.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5a/43/e2/5a43e229-6089-8e7b-8969-7f94edb9c7e3/886443461482.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "earth wind and fire|love s holiday",
+   "title": "Love's Holiday",
+   "artist": "Earth, Wind & Fire",
+   "year": 1977,
+   "rank": 10,
+   "cleanId": 523223741,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/b2/2f/95b22f2c-ad99-8741-5f10-f7a6efdf68fc/mzaf_4122550695453743470.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/48/e7/e5/48e7e5be-c322-26ed-1b77-feb2f56eb06b/dj.hzoxakii.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "prince and the revolution|purple rain",
+   "title": "Purple Rain",
+   "artist": "Prince & The Revolution",
+   "year": 1984,
+   "rank": 1,
+   "cleanId": 1746833484,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/09/30/1109307b-cdbd-20b1-aebc-c39c632a73a4/mzaf_11384520489297938238.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/17/f2/0017f24f-e580-b77a-71a8-1bc7b75881bf/603497822065.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "prince|i wanna be your lover",
+   "title": "I Wanna Be Your Lover",
+   "artist": "Prince",
+   "year": 1979,
+   "rank": 2,
+   "cleanId": 1544298982,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/18/3d/d9183d82-91e1-97d2-47c5-7f1a6ae9b38d/mzaf_5850258491976440044.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d9/cc/e3/d9cce3ca-0825-8688-6007-87e4d5e73a60/886448895817.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "prince and the revolution|raspberry beret",
+   "title": "Raspberry Beret",
+   "artist": "Prince & The Revolution",
+   "year": 1985,
+   "rank": 3,
+   "cleanId": 1544292230,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/33/ec/6833ec2d-24b5-f2db-96e2-524e038c8c27/mzaf_502771219115490548.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/de/3c/76/de3c7606-c57a-09d1-0ca0-32e020fc7660/886448892939.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "prince and the revolution|let s go crazy",
+   "title": "Let's Go Crazy",
+   "artist": "Prince & The Revolution",
+   "year": 1984,
+   "rank": 4,
+   "cleanId": 1746833069,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/71/fb/2e71fb8b-8b6e-fb93-450b-b13fbe669b55/mzaf_15222909586812927924.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/17/f2/0017f24f-e580-b77a-71a8-1bc7b75881bf/603497822065.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "prince|little red corvette",
+   "title": "Little Red Corvette",
+   "artist": "Prince",
+   "year": 1982,
+   "rank": 5,
+   "cleanId": 1544301210,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/e6/a5/20e6a5e3-886d-a681-a32d-1ec4dd5b636e/mzaf_5734511007834082565.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/dd/09/7fdd0995-aef8-64af-ee5d-be49326fc7a8/886448921325.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "prince and the revolution|i would die 4 u",
+   "title": "I Would Die 4 U",
+   "artist": "Prince & The Revolution",
+   "year": 1984,
+   "rank": 6,
+   "cleanId": 1746833479,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/2e/07/e62e0703-1013-e827-6e5e-31f0618b5376/mzaf_14926281505661522486.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/17/f2/0017f24f-e580-b77a-71a8-1bc7b75881bf/603497822065.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "prince|1999",
+   "title": "1999",
+   "artist": "Prince",
+   "year": 1982,
+   "rank": 7,
+   "cleanId": 1544173942,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/05/e1/2105e148-0a40-2c9e-bb31-4ee552f1fcbd/mzaf_7312205148678559663.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/a7/64/56a7645d-4a05-f470-8fcd-5d9d68b7189d/886448877554.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "prince and the new power generation|diamonds and pearls",
+   "title": "Diamonds and Pearls",
+   "artist": "Prince & The New Power Generation",
+   "year": 1991,
+   "rank": 8,
+   "cleanId": 1544295353,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/52/c7/1152c766-e3cd-1276-e8b8-129a5a019575/mzaf_14758021352602382575.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ef/18/77/ef18776a-d99a-d16e-ee75-601ed8c03c1d/886448900085.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "prince|do me baby",
+   "title": "Do Me, Baby",
+   "artist": "Prince",
+   "year": 1981,
+   "rank": 9,
+   "cleanId": 1544294797,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/d8/6b/57d86bb8-4b02-9704-c6f0-9209900680d3/mzaf_3590570918981649170.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/b3/f8/a5b3f8b0-930e-1bdb-1b4c-2706ef7bd1c4/886448914976.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "prince and the revolution|when doves cry",
+   "title": "When Doves Cry",
+   "artist": "Prince & The Revolution",
+   "year": 1984,
+   "rank": 10,
+   "cleanId": 1229320475,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/69/f3/6069f3f3-cdd2-ce2b-ed87-58493411384a/mzaf_13131297816472586999.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c1/b6/79/c1b679f5-d59d-1b3e-62ab-514de20f06c6/093624912002.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "janet jackson|that s the way love goes",
+   "title": "That's the Way Love Goes",
+   "artist": "Janet Jackson",
+   "year": 1993,
+   "rank": 1,
+   "cleanId": 1388413850,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/b8/60/31b8605f-cd47-d363-df10-be824fa8c55e/mzaf_1024093574116992093.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/3a/15/b63a15ba-dd50-62b0-4054-03a81241774a/00602567743217.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "janet jackson|all for you",
+   "title": "All For You",
+   "artist": "Janet Jackson",
+   "year": 2001,
+   "rank": 2,
+   "cleanId": 724885384,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/ff/3f/deff3ff3-b7c1-f840-f848-8e40af695727/mzaf_6226773527009167708.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/04/ab/25/04ab2585-dd7b-dfed-3afe-86800393a7c2/13ULAIM48853.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "janet jackson|any time any place",
+   "title": "Any Time, Any Place",
+   "artist": "Janet Jackson",
+   "year": 1993,
+   "rank": 3,
+   "cleanId": 1692903342,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/61/b6/9f61b6ab-0a4a-db7f-3d6f-45bfa0477031/mzaf_13950839017517931950.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/4f/e6/544fe617-3dea-7e23-68a8-3a34f10be174/23UMGIM38698.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "janet jackson|someone to call my lover",
+   "title": "Someone To Call My Lover",
+   "artist": "Janet Jackson",
+   "year": 2001,
+   "rank": 4,
+   "cleanId": 724885760,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/e7/5d/43e75d71-a44e-77b0-17eb-f7c46b353544/mzaf_15291754835682979037.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/04/ab/25/04ab2585-dd7b-dfed-3afe-86800393a7c2/13ULAIM48853.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "janet jackson|escapade",
+   "title": "Escapade",
+   "artist": "Janet Jackson",
+   "year": 1989,
+   "rank": 5,
+   "cleanId": 1440839534,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/c6/25/0ac625ba-1663-d545-2897-e3dd153176a3/mzaf_16161016708822928364.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/06/a5/5c06a5fc-6424-25e4-37c4-da5a9a18dd8a/00602547592378.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "janet jackson|when i think of you",
+   "title": "When I Think of You",
+   "artist": "Janet Jackson",
+   "year": 1986,
+   "rank": 6,
+   "cleanId": 1440831862,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/55/eb/e455ebdf-ec15-a7ac-24b2-e885f68f9f92/mzaf_12011641339727682204.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ed/b0/20/edb02000-b77f-22f4-6b7f-c46f62d4517c/00602547592361.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "janet jackson|nasty",
+   "title": "Nasty",
+   "artist": "Janet Jackson",
+   "year": 1986,
+   "rank": 7,
+   "cleanId": 1440831855,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3e/50/88/3e5088f6-f815-4e02-fcbf-890d6d564026/mzaf_9742998156742896065.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ed/b0/20/edb02000-b77f-22f4-6b7f-c46f62d4517c/00602547592361.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "janet jackson|come back to me",
+   "title": "Come Back to Me",
+   "artist": "Janet Jackson",
+   "year": 1989,
+   "rank": 8,
+   "cleanId": 1440839622,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/84/af/75/84af75e1-16fd-e4a3-1f6f-194ab4a67266/mzaf_18013081755912651131.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/06/a5/5c06a5fc-6424-25e4-37c4-da5a9a18dd8a/00602547592378.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "janet jackson|i get lonely",
+   "title": "I Get Lonely",
+   "artist": "Janet Jackson",
+   "year": 1997,
+   "rank": 9,
+   "cleanId": 1646563792,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/e6/48/36e648b2-dbee-50af-cab4-39c62d3a73ec/mzaf_14300326479571178051.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c3/c4/94/c3c494ca-7981-9b5b-ea15-4804ffd7edd8/13UABIM57025.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "janet jackson|again",
+   "title": "Again",
+   "artist": "Janet Jackson",
+   "year": 1993,
+   "rank": 10,
+   "cleanId": 1388414162,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/9e/3f/b49e3f84-d8d3-aeba-69f2-604105167202/mzaf_2520941724220623134.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/3a/15/b63a15ba-dd50-62b0-4054-03a81241774a/00602567743217.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mary j blige|everything",
+   "title": "Everything",
+   "artist": "Mary J. Blige",
+   "year": 1997,
+   "rank": 1,
+   "cleanId": 1440818116,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/4f/f2/114ff24c-e842-5670-e560-e79b04d9c5fe/mzaf_17879263050410570023.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/05/b8/8005b825-34b2-c0dd-3ecf-cfbe7baf10b1/06UMGIM21088.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mary j blige|family affair",
+   "title": "Family Affair",
+   "artist": "Mary J. Blige",
+   "year": 2001,
+   "rank": 2,
+   "cleanId": 1442964068,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/b4/a1/1db4a1c1-3052-bbc2-f94b-cf85f05e8ceb/mzaf_5597565720171979084.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/d2/80/cfd2802e-9369-5b3e-5232-3abb3a4363ce/15UMGIM00598.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mary j blige|not gon cry",
+   "title": "Not Gon' Cry",
+   "artist": "Mary J. Blige",
+   "year": 1995,
+   "rank": 3,
+   "cleanId": 1440818137,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/9a/ed/b99aed19-dd0a-401d-7273-c9679f5480ed/mzaf_12059488383644517183.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/05/b8/8005b825-34b2-c0dd-3ecf-cfbe7baf10b1/06UMGIM21088.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mary j blige|real love",
+   "title": "Real Love",
+   "artist": "Mary J. Blige",
+   "year": 1992,
+   "rank": 4,
+   "cleanId": 1440817021,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/82/37/2f/82372f66-e823-4b1a-0341-d8d5b1f8bbd4/mzaf_7339866358727101520.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/f2/ef/08f2efee-145d-c61d-db92-04890d2d517a/06UMGIM05898.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mary j blige|just fine",
+   "title": "Just Fine",
+   "artist": "Mary J. Blige",
+   "year": 2007,
+   "rank": 5,
+   "cleanId": 1440828585,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/3f/77/d73f778a-1780-3673-a245-347cba678ede/mzaf_3873926561368536185.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/00/75/0e/00750e92-5272-64a8-5332-8420ba09d7aa/15UMGIM00470.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mary j blige|i m goin down",
+   "title": "I'm Goin' Down",
+   "artist": "Mary J. Blige",
+   "year": 1994,
+   "rank": 6,
+   "cleanId": 1440836612,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/a2/d2/9fa2d285-172f-5c4a-a807-278c32945111/mzaf_18379977887031834358.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/74/f6/43/74f643ad-5dc2-9550-82dd-90d7c6f2d420/15UMGIM00600.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mary j blige|mr wrong",
+   "title": "Mr. Wrong",
+   "artist": "Mary J. Blige",
+   "year": 2011,
+   "rank": 7,
+   "cleanId": 1442989073,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/91/52/189152de-0728-feb1-764d-c141e269dc40/mzaf_13846946225612106508.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e1/a1/9a/e1a19a8c-8fdc-a114-6c86-7cd334384d79/00602547208248.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mary j blige|take me as i am",
+   "title": "Take Me As I Am",
+   "artist": "Mary J. Blige",
+   "year": 2005,
+   "rank": 8,
+   "cleanId": 1440828379,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/ab/bb/61abbb6c-e9de-3acb-0ef8-683c699a60f7/mzaf_10446976072319954956.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8e/d0/84/8ed08455-44e9-718c-d2a3-2997ea329b12/15UMGIM00591.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mary j blige|sweet thing",
+   "title": "Sweet Thing",
+   "artist": "Mary J. Blige",
+   "year": 1992,
+   "rank": 9,
+   "cleanId": 1440817273,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/b3/62/5ab362da-7f18-8e28-68fe-ae319595d256/mzaf_15435303971335717570.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/f2/ef/08f2efee-145d-c61d-db92-04890d2d517a/06UMGIM05898.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "mary j blige|my life",
+   "title": "My Life",
+   "artist": "Mary J. Blige",
+   "year": 1994,
+   "rank": 10,
+   "cleanId": 1440838052,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/30/d5/4430d5ac-4d12-0e7f-93a6-7609bbce6ef8/mzaf_5443078317536819293.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1d/b2/fa/1db2fa7b-236e-ad08-4635-62be9b89e44f/15UMGIM00469.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luther vandross|never too much",
+   "title": "Never Too Much",
+   "artist": "Luther Vandross",
+   "year": 1981,
+   "rank": 1,
+   "cleanId": 190652482,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/dd/48/badd483d-a6be-854c-7885-b39a54921246/mzaf_596205640154743965.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/81/41/87/81418780-b371-faa6-a3b5-5073be62a6ae/mzi.mskephqn.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luther vandross|a house is not a home",
+   "title": "A House Is Not a Home",
+   "artist": "Luther Vandross",
+   "year": 1981,
+   "rank": 2,
+   "cleanId": 190653199,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/3e/a3/fc3ea3c0-f883-ea68-c7b6-6b838df26921/mzaf_4241173101379534702.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/81/41/87/81418780-b371-faa6-a3b5-5073be62a6ae/mzi.mskephqn.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luther vandross|here and now",
+   "title": "Here and Now",
+   "artist": "Luther Vandross",
+   "year": 1989,
+   "rank": 3,
+   "cleanId": 388152066,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/91/c9/8291c9eb-0952-665e-3efc-f10f387bd154/mzaf_6707167002949692019.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fc/c5/2efcc5c0-c3d6-e27e-4687-00e2c5ba2bbf/mzi.yejogkal.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luther vandross|if only for one night",
+   "title": "If Only for One Night",
+   "artist": "Luther Vandross",
+   "year": 1985,
+   "rank": 4,
+   "cleanId": 197980923,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/ce/97/50ce97a6-4d7f-6591-59ac-445b8774a068/mzaf_3032648728040695537.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/dc/05/a5/dc05a500-07ca-e0b1-364b-40985eccafb0/dj.llupprdq.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luther vandross|take you out",
+   "title": "Take You Out",
+   "artist": "Luther Vandross",
+   "year": 2001,
+   "rank": 5,
+   "cleanId": 265973303,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/48/74/b84874ea-bdf0-584f-2641-1d8597977122/mzaf_7753192738341129170.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/6f/62/af/mzi.lktlbvmr.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luther vandross|so amazing",
+   "title": "So Amazing",
+   "artist": "Luther Vandross",
+   "year": 1986,
+   "rank": 6,
+   "cleanId": 388151342,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a0/d8/0a/a0d80adc-79f4-ae12-b29b-a3948f827bdf/mzaf_5650446097773680518.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fc/c5/2efcc5c0-c3d6-e27e-4687-00e2c5ba2bbf/mzi.yejogkal.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luther vandross|wait for love",
+   "title": "Wait for Love",
+   "artist": "Luther Vandross",
+   "year": 1985,
+   "rank": 7,
+   "cleanId": 197981510,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8b/32/5c/8b325c50-796b-97f0-2d55-603f50cca8b9/mzaf_7685279649835247686.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/dc/05/a5/dc05a500-07ca-e0b1-364b-40985eccafb0/dj.llupprdq.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luther vandross|bad boy having a party",
+   "title": "Bad Boy / Having a Party",
+   "artist": "Luther Vandross",
+   "year": 1982,
+   "rank": 8,
+   "cleanId": 201407750,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/65/5e/eb655ee7-119a-369a-28af-0dd95a3e2030/mzaf_15043098467127884999.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/88/ef/14/88ef1431-4c8d-a3e1-bcb7-61131b7db1c7/dj.zazjjrxo.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luther vandross|dance with my father",
+   "title": "Dance with My Father",
+   "artist": "Luther Vandross",
+   "year": 2003,
+   "rank": 9,
+   "cleanId": 302995033,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/62/93/7162935d-f29a-9731-ed8a-d2de12d88b97/mzaf_10034486724291901616.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/b1/73/07/b173077c-7512-bda2-f4eb-da67c3e32c58/dj.qpzcznwg.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "luther vandross|superstar until you come back to me",
+   "title": "Superstar / Until You Come Back to Me (That's What I'm Gonna Do)",
+   "artist": "Luther Vandross",
+   "year": 1983,
+   "rank": 10,
+   "cleanId": 199994280,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/00/69/e80069d9-316a-acfb-34b8-5b9e0eac8006/mzaf_2160281278835625472.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/ed/1d/11ed1d05-3757-38dc-ef0b-022862c109c3/074643919623.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tlc|waterfalls",
+   "title": "Waterfalls",
+   "artist": "TLC",
+   "year": 1994,
+   "rank": 1,
+   "cleanId": 270246724,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/81/4e/e9814ecd-7282-e0cf-6a19-70ea78117382/mzaf_10928185948311762507.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a8/69/14a86912-841d-3cb8-cf55-0439b15c6cab/dj.mjduepez.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tlc|creep",
+   "title": "Creep",
+   "artist": "TLC",
+   "year": 1994,
+   "rank": 2,
+   "cleanId": 270246711,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/4d/1a/854d1ab6-85be-65d4-0c9a-6439800676be/mzaf_784336923403827515.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a8/69/14a86912-841d-3cb8-cf55-0439b15c6cab/dj.mjduepez.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tlc|no scrubs",
+   "title": "No Scrubs",
+   "artist": "TLC",
+   "year": 1999,
+   "rank": 3,
+   "cleanId": 1730998347,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/25/ad/5625ade0-8bc0-970e-c77f-4cca2c7ae9e4/mzaf_12736644218816986249.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/d1/f2/34d1f297-d26a-ecbd-2dce-092e628eadb7/196871848428.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tlc|red light special",
+   "title": "Red Light Special",
+   "artist": "TLC",
+   "year": 1994,
+   "rank": 4,
+   "cleanId": 270246722,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/7f/50/c97f501a-dd18-8c96-ad88-9675da670b5a/mzaf_11200752906575731888.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a8/69/14a86912-841d-3cb8-cf55-0439b15c6cab/dj.mjduepez.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tlc|unpretty",
+   "title": "Unpretty",
+   "artist": "TLC",
+   "year": 1999,
+   "rank": 5,
+   "cleanId": 309067021,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/bd/6d/58bd6dca-06d7-1125-a620-28a9a5334d98/mzaf_15597013057965862930.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2d/19/0c/2d190ce6-a157-6364-b5b4-e9b00265d313/mzi.ucefobwj.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tlc|baby baby baby",
+   "title": "Baby-Baby-Baby",
+   "artist": "TLC",
+   "year": 1992,
+   "rank": 6,
+   "cleanId": 258597575,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/21/64/412164cc-5598-e160-57bc-fdb4e4ea4dd1/mzaf_3866660879149054510.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/04/57/ff/0457ff48-ed0b-ea8f-c793-e23877e3517a/730082600323.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tlc|diggin on you",
+   "title": "Diggin' On You",
+   "artist": "TLC",
+   "year": 1994,
+   "rank": 7,
+   "cleanId": 270246717,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b6/aa/49/b6aa49ed-c925-d26e-6bce-c17570328679/mzaf_10823121799163127914.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a8/69/14a86912-841d-3cb8-cf55-0439b15c6cab/dj.mjduepez.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tlc|what about your friends",
+   "title": "What About Your Friends",
+   "artist": "TLC",
+   "year": 1992,
+   "rank": 8,
+   "cleanId": 258595869,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/7e/d2/767ed2f2-2242-1338-2f2c-52416a268840/mzaf_15607969852244873300.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/04/57/ff/0457ff48-ed0b-ea8f-c793-e23877e3517a/730082600323.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tlc|ain t 2 proud 2 beg",
+   "title": "Ain't 2 Proud 2 Beg",
+   "artist": "TLC",
+   "year": 1991,
+   "rank": 9,
+   "cleanId": 258594687,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/b5/09/52b5097a-fc0e-aa9d-21d3-c59e5cf9dffb/mzaf_13685667595061342732.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/04/57/ff/0457ff48-ed0b-ea8f-c793-e23877e3517a/730082600323.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "tlc|meant to be",
+   "title": "Meant To Be",
+   "artist": "TLC",
+   "year": 2013,
+   "rank": 10,
+   "cleanId": 721770653,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/6f/bc/406fbcec-bb2c-36c7-6c7d-7b55825b5844/mzaf_11203804921449453610.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/8c/b8/2f/8cb82f6e-6e0d-6971-cc86-a293178c23ce/886444247122.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "destiny s child|say my name",
+   "title": "Say My Name",
+   "artist": "Destiny's Child",
+   "year": 1999,
+   "rank": 1,
+   "cleanId": 266809802,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/b5/e9/04b5e9fa-35a0-73ea-e79f-2ceac7a19b88/mzaf_15538400809119445402.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/29/74/c92974ce-2bdd-4b86-a261-01adc901bb65/mzi.cmambura.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "destiny s child|soldier",
+   "title": "Soldier",
+   "artist": "Destiny's Child",
+   "year": 2004,
+   "rank": 2,
+   "cleanId": 207341076,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/ae/2c/e8ae2c95-108f-248b-6574-6609275ec557/mzaf_13841797126066615026.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/06/fa/55/06fa553a-33c2-282c-4625-d7d4e16812bb/mzi.loqhyccy.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "destiny s child|if",
+   "title": "If",
+   "artist": "Destiny's Child",
+   "year": 2004,
+   "rank": 3,
+   "cleanId": 207341266,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/ec/f2/f5ecf28b-3b51-e715-4bb9-89da29032b23/mzaf_846597579590364557.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/06/fa/55/06fa553a-33c2-282c-4625-d7d4e16812bb/mzi.loqhyccy.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "destiny s child|cater 2 u",
+   "title": "Cater 2 U",
+   "artist": "Destiny's Child",
+   "year": 2004,
+   "rank": 4,
+   "cleanId": 207341080,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/52/d1/b552d1ff-841e-dd0d-0af9-d7d0ded5fc76/mzaf_15562341710660288573.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/06/fa/55/06fa553a-33c2-282c-4625-d7d4e16812bb/mzi.loqhyccy.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "destiny s child|survivor",
+   "title": "Survivor",
+   "artist": "Destiny's Child",
+   "year": 2001,
+   "rank": 5,
+   "cleanId": 217363250,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/95/68/9e956830-e466-64b0-e719-546d815ef2c5/mzaf_6331976939945965822.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/67/1c/f9/mzi.giffxgjz.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "destiny s child|jumpin jumpin",
+   "title": "Jumpin', Jumpin'",
+   "artist": "Destiny's Child",
+   "year": 1999,
+   "rank": 6,
+   "cleanId": 266809755,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8d/57/2f/8d572f15-12b0-297f-954a-122f445656a9/mzaf_11968128009678860612.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/29/74/c92974ce-2bdd-4b86-a261-01adc901bb65/mzi.cmambura.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "destiny s child|bills bills bills",
+   "title": "Bills, Bills, Bills",
+   "artist": "Destiny's Child",
+   "year": 1999,
+   "rank": 7,
+   "cleanId": 266809619,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/05/26/14052679-c3ca-f479-b45f-04021b92e6f3/mzaf_17233141558253164305.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/29/74/c92974ce-2bdd-4b86-a261-01adc901bb65/mzi.cmambura.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "destiny s child|bootylicious",
+   "title": "Bootylicious",
+   "artist": "Destiny's Child",
+   "year": 2001,
+   "rank": 8,
+   "cleanId": 217363251,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/32/17/55/32175594-cf8a-fbd8-9e5d-27176b03e59d/mzaf_3960538872055453162.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/67/1c/f9/mzi.giffxgjz.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "destiny s child|independent women pt 1",
+   "title": "Independent Women, Pt. 1",
+   "artist": "Destiny's Child",
+   "year": 2000,
+   "rank": 9,
+   "cleanId": 217363246,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/a2/ce/39a2ce45-09d0-1f71-41cc-cd034b361251/mzaf_965337791333781365.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/67/1c/f9/mzi.giffxgjz.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "destiny s child|dangerously in love",
+   "title": "Dangerously In Love",
+   "artist": "Destiny's Child",
+   "year": 2001,
+   "rank": 10,
+   "cleanId": 217363381,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/fe/b1/a3feb142-90d3-f033-9348-d7d5ea0ee4e4/mzaf_15118296882332631858.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/67/1c/f9/mzi.giffxgjz.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris brown|residuals",
+   "title": "Residuals",
+   "artist": "Chris Brown",
+   "year": 2024,
+   "rank": 1,
+   "cleanId": 1740206493,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/2f/81/372f81ba-acf6-8bb7-57a2-d5308d51620f/mzaf_8185643471338514157.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/5c/c1/2d5cc1a6-86ce-ee16-5985-807f2fffa3cb/196871957267.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris brown|yo",
+   "title": "Yo (Excuse Me Miss)",
+   "artist": "Chris Brown",
+   "year": 2005,
+   "rank": 2,
+   "cleanId": 323098607,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/5c/b4/9f5cb46f-cb5d-7fc9-4123-595c4f2c5217/mzaf_3008420345524030514.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a6/2f/a7/a62fa746-9e76-0789-76b6-919019807d8a/828768451052.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris brown|take you down",
+   "title": "Take You Down",
+   "artist": "Chris Brown",
+   "year": 2007,
+   "rank": 3,
+   "cleanId": 267264880,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/23/29/2b2329d4-a3f6-b0bf-ad42-959626d2caaa/mzaf_9078977681311961177.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2f/ec/dd/2fecdd59-1ca1-47c1-a945-2969eb0d347b/888880280336.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris brown|wet the bed",
+   "title": "Wet the Bed",
+   "artist": "Chris Brown",
+   "year": 2011,
+   "rank": 4,
+   "cleanId": 422045131,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/f0/28/18f028aa-211a-6cb2-9f9f-ea61edbc330b/mzaf_4809523194825631421.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d4/39/fc/d439fc24-1392-ec40-1ef7-02c9b59d9cd3/884977932539.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris brown|kiss kiss",
+   "title": "Kiss Kiss",
+   "artist": "Chris Brown",
+   "year": 2007,
+   "rank": 5,
+   "cleanId": 267264869,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/a0/c8/04a0c895-821b-81c9-1a41-397d8fa7b921/mzaf_2977561870182964594.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2f/ec/dd/2fecdd59-1ca1-47c1-a945-2969eb0d347b/888880280336.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris brown|with you",
+   "title": "With You",
+   "artist": "Chris Brown",
+   "year": 2007,
+   "rank": 6,
+   "cleanId": 267264889,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/aa/4a/e3aa4a4f-8ba2-3eb9-3f3d-cab9e9fc5121/mzaf_3646073914644678040.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2f/ec/dd/2fecdd59-1ca1-47c1-a945-2969eb0d347b/888880280336.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris brown|don t judge me",
+   "title": "Don't Judge Me",
+   "artist": "Chris Brown",
+   "year": 2012,
+   "rank": 7,
+   "cleanId": 1456143994,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/1c/c2/471cc259-d1f1-7ceb-ad11-01985c425971/mzaf_3939742079137806269.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/87/c5/29/87c529c5-3da4-0c53-ff67-1dae41da5194/886443538733.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris brown|she ain t you",
+   "title": "She Ain't You",
+   "artist": "Chris Brown",
+   "year": 2011,
+   "rank": 8,
+   "cleanId": 422045114,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/84/49/87844979-79f4-7a93-e16c-8949321ec3c7/mzaf_10898568707128007354.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d4/39/fc/d439fc24-1392-ec40-1ef7-02c9b59d9cd3/884977932539.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris brown|say goodbye",
+   "title": "Say Goodbye",
+   "artist": "Chris Brown",
+   "year": 2005,
+   "rank": 9,
+   "cleanId": 323098618,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/d1/58/a3d1588d-450b-fbd1-44f2-60e79396d57d/mzaf_1850190787960782359.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a6/2f/a7/a62fa746-9e76-0789-76b6-919019807d8a/828768451052.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "chris brown|run it",
+   "title": "Run It!",
+   "artist": "Chris Brown",
+   "year": 2005,
+   "rank": 10,
+   "cleanId": 323098606,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c5/88/65/c58865cd-580e-3670-c1fa-81d7eae0aa69/mzaf_5150714021624500815.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a6/2f/a7/a62fa746-9e76-0789-76b6-919019807d8a/828768451052.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "h e r|damage",
+   "title": "Damage",
+   "artist": "H.E.R.",
+   "year": 2020,
+   "rank": 1,
+   "cleanId": 1535678349,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/a3/ee/45a3ee17-4f32-ca68-b9a3-a5e498ab6615/mzaf_16597606463400574291.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/94/1b/39/941b39bf-e997-4a29-ffb7-196d46d7e7a9/886448213802.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "h e r|could ve been",
+   "title": "Could've Been",
+   "artist": "H.E.R.",
+   "year": 2018,
+   "rank": 2,
+   "cleanId": 1477672845,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/db/25/d0db254f-a5c9-1336-5f4a-e0bfc185768b/mzaf_12278284843484230869.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/1e/31/73/1e3173e4-a0f0-4b26-5ff9-c2c07d4335a6/886447876732.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "h e r|best part",
+   "title": "Best Part",
+   "artist": "H.E.R.",
+   "year": 2017,
+   "rank": 3,
+   "cleanId": 1294891012,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/5a/30/575a30e2-83b2-0810-104d-681343521476/mzaf_10862779365075492896.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/40/34/274034b3-42d9-ba59-b22c-dc4f57672ee0/886446799513.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "h e r|focus",
+   "title": "Focus",
+   "artist": "H.E.R.",
+   "year": 2016,
+   "rank": 4,
+   "cleanId": 1294890800,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/f5/2b/82f52b11-fa97-29eb-26fd-c01289cd854e/mzaf_8611129255464452437.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/40/34/274034b3-42d9-ba59-b22c-dc4f57672ee0/886446799513.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "h e r|every kind of way",
+   "title": "Every Kind of Way",
+   "artist": "H.E.R.",
+   "year": 2017,
+   "rank": 5,
+   "cleanId": 1294890949,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/b1/23/12b123aa-183e-3bef-fdb9-205127e0869e/mzaf_4574700312912215081.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/40/34/274034b3-42d9-ba59-b22c-dc4f57672ee0/886446799513.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "h e r|comfortable",
+   "title": "Comfortable",
+   "artist": "H.E.R.",
+   "year": 2020,
+   "rank": 6,
+   "cleanId": 1497382823,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/4a/35/d54a35e8-7292-bece-169e-857b320db1d0/mzaf_2701380321809933628.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/df/10/30/df1030b2-5913-f5d9-6535-3cfbf69dc07d/886448101659.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "h e r|changes",
+   "title": "Changes",
+   "artist": "H.E.R.",
+   "year": 2017,
+   "rank": 7,
+   "cleanId": 1294891095,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/b7/d5/58b7d5f8-d5c5-ac6f-65df-501faf066d80/mzaf_15798339425499559659.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/40/34/274034b3-42d9-ba59-b22c-dc4f57672ee0/886446799513.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "h e r|as i am",
+   "title": "As I Am",
+   "artist": "H.E.R.",
+   "year": 2018,
+   "rank": 8,
+   "cleanId": 1477672850,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/35/8a/c0358a09-955f-3771-ca7a-e8354a2b4253/mzaf_178748659369741219.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/1e/31/73/1e3173e4-a0f0-4b26-5ff9-c2c07d4335a6/886447876732.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "h e r|hold on",
+   "title": "Hold On",
+   "artist": "H.E.R.",
+   "year": 2020,
+   "rank": 9,
+   "cleanId": 1572913767,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/85/27/118527fe-df65-4b60-fca6-4300fbccd3ec/mzaf_3234804505548831679.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/33/91/3b/33913b4d-adad-3b44-5331-11616ee907ef/886449360765.jpg/100x100bb.jpg"
+  },
+  {
+   "id": "h e r|take you there",
+   "title": "Take You There",
+   "artist": "H.E.R.",
+   "year": 2018,
+   "rank": 10,
+   "cleanId": 1477672849,
+   "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/d9/86/ead986a3-7093-7652-c555-a4254c1f5f78/mzaf_15581885335228346157.plus.aac.p.m4a",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/1e/31/73/1e3173e4-a0f0-4b26-5ff9-c2c07d4335a6/886447876732.jpg/100x100bb.jpg"
+  }
+ ]
+}
