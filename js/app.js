@@ -24,10 +24,10 @@ const LINK = { itunes: 'Get the full song on Apple Music', archive: 'View on the
 
 // ---------- settings (remembered per browser) ----------
 const settings = (() => {
-  // clean lyrics unless the listener opts in; the old `clean` and `mode` (Audius full tracks) flags are dropped
-  const defaults = { archive: false, explicit: false, style: 'club', smoke: false, strobe: false, volume: 0.9 };
+  // DJPJ always plays clean versions; flags from older versions of the site are dropped
+  const defaults = { archive: false, style: 'club', smoke: false, strobe: false, volume: 0.9 };
   try {
-    const { clean, mode, ...saved } = JSON.parse(localStorage.getItem('djpj:settings') || '{}');
+    const { clean, mode, explicit, ...saved } = JSON.parse(localStorage.getItem('djpj:settings') || '{}');
     return { ...defaults, ...saved };
   } catch { return defaults; }
 })();
@@ -116,7 +116,7 @@ function bindControls() {
     cb.addEventListener('change', () => {
       settings[cb.dataset.bind] = cb.checked;
       save();
-      dj.setOptions({ clean: !settings.explicit, archive: settings.archive }); // takes effect on the set that's playing
+      dj.setOptions({ archive: settings.archive }); // takes effect on the set that's playing
     });
   });
   $('#volume').value = settings.volume;
@@ -144,7 +144,7 @@ function startSet({ genreKey, seedTrack = null }) {
   ['#btn-pause', '#btn-skip'].forEach(s => { $(s).disabled = false; });
   for (const k in SHEETS) openSheet(k, false); // the DJ takes the stage
   requestWakeLock();
-  dj.play({ genreKey, seedTrack, archive: settings.archive, clean: !settings.explicit });
+  dj.play({ genreKey, seedTrack, archive: settings.archive });
   trackEvent(`set/${genreKey}${seedTrack ? '/search' : ''}`);
 }
 
@@ -173,7 +173,7 @@ async function doSearch(q) {
   box.hidden = false;
   box.innerHTML = '<div class="muted small">Flipping through the crates…</div>';
   const [hits, pd] = await Promise.allSettled([
-    itunes.search(q, { limit: 10, clean: !settings.explicit }),
+    itunes.search(q, { limit: 10 }),
     archive.search(q, 4),
   ]);
   if (token !== searchToken) return;

@@ -1,4 +1,5 @@
 // iTunes Search API: the real commercial catalog, but audio is limited to 30-second previews.
+// DJPJ only plays clean versions: every search asks for them and explicit cuts are dropped.
 // Apple's terms allow previews for promoting the song, so every track links back to its store page.
 // https://performance-partners.apple.com/search-api
 
@@ -55,13 +56,12 @@ export function toTrack(r) {
     link: r.trackViewUrl,
     isPreview: true,
     beatSync: true,
-    explicit: r.trackExplicitness === 'explicit',
   };
 }
 
 // explicit=No already asks Apple for clean versions; double-check each track's own label too
 const cleanOk = r => r.trackExplicitness !== 'explicit';
-const usable = r => r.kind === 'song' && r.previewUrl && !/\b(live|karaoke|instrumental)\b/i.test(r.trackName);
+const usable = r => r.kind === 'song' && r.previewUrl && cleanOk(r) && !/\b(live|karaoke|instrumental)\b/i.test(r.trackName);
 
 function dedupe(tracks) {
   const seen = new Set();
@@ -73,9 +73,9 @@ function dedupe(tracks) {
   });
 }
 
-export async function search(term, { limit = 10, clean = false } = {}) {
-  const res = await query({ term, limit: limit * 2, ...(clean ? { explicit: 'No' } : {}) });
-  return dedupe(res.filter(r => usable(r) && (!clean || cleanOk(r))).map(toTrack)).slice(0, limit);
+export async function search(term, { limit = 10 } = {}) {
+  const res = await query({ term, limit: limit * 2, explicit: 'No' });
+  return dedupe(res.filter(usable).map(toTrack)).slice(0, limit);
 }
 
 // Fresh preview links for catalog songs, by iTunes track id (one request for the batch).
@@ -88,9 +88,8 @@ export async function lookup(ids) {
 
 // A catalog song as a playable track. The catalog carries the preview link, so nothing is asked
 // of Apple's search; only if that link has gone stale is a fresh one looked up.
-export function fromCatalog(s, clean = true) {
-  const explicit = !clean && s.explicitId;
-  const id = explicit ? s.explicitId : s.cleanId;
+export function fromCatalog(s) {
+  const id = s.cleanId;
   return {
     id: 'it:' + id,
     songKey: s.id, // so exclusions and repeats match however Apple titles the track
@@ -98,7 +97,7 @@ export function fromCatalog(s, clean = true) {
     title: s.title,
     artist: s.artist,
     art: (s.art || '').replace('100x100bb', '600x600bb'),
-    url: (explicit ? s.explicitUrl : s.cleanUrl) || null,
+    url: s.cleanUrl || null,
     duration: 30,
     bpm: null,
     key: null,
@@ -107,7 +106,6 @@ export function fromCatalog(s, clean = true) {
     link: `https://music.apple.com/us/song/${id}`,
     isPreview: true,
     beatSync: true,
-    explicit: !!explicit,
     async refresh() {
       const [fresh] = await lookup([id]);
       if (!fresh) throw new Error('Preview no longer available');
@@ -119,12 +117,12 @@ export function fromCatalog(s, clean = true) {
 
 const artistCache = new Map(); // one search per artist per visit
 
-export async function byArtist(artist, { clean = false } = {}) {
-  const k = `${clean}|${artist}`;
+export async function byArtist(artist) {
+  const k = artist;
   if (!artistCache.has(k)) {
-    const res = await query({ term: artist, attribute: 'artistTerm', limit: 40, ...(clean ? { explicit: 'No' } : {}) });
+    const res = await query({ term: artist, attribute: 'artistTerm', limit: 40, explicit: 'No' });
     const want = norm(artist);
-    const mine = res.filter(r => usable(r) && (!clean || cleanOk(r)) && (norm(r.artistName).includes(want) || want.includes(norm(r.artistName))));
+    const mine = res.filter(r => usable(r) && (norm(r.artistName).includes(want) || want.includes(norm(r.artistName))));
     artistCache.set(k, dedupe(mine.map(toTrack)));
   }
   return [...artistCache.get(k)];

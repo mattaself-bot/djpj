@@ -17,7 +17,12 @@ export const GENRES = [
         '50 Cent', 'Future', 'Megan Thee Stallion', 'Doja Cat', 'JAY-Z', 'Nicki Minaj', 'Outkast', 'Ludacris', 'T.I.',
         'Lil Baby', '21 Savage', 'Missy Elliott'],
     },
-    catalog: {},
+    catalog: {
+      // staples of DJ sets and the charts beyond the roster above
+      more: [
+        'Cardi B', 'Nelly', 'Lil Jon & The East Side Boyz', 'Tyler, The Creator', 'GloRilla', 'Flo Rida',
+        'Macklemore & Ryan Lewis', 'Playboi Carti', 'Sexyy Red', 'DMX'],
+    },
     archive: null,
   },
   {
@@ -28,7 +33,12 @@ export const GENRES = [
         'The Notorious B.I.G.', '2Pac', 'Salt-N-Pepa', 'Beastie Boys', 'De La Soul', 'Wu-Tang Clan', 'The Sugarhill Gang',
         'Naughty By Nature', 'Eric B. & Rakim', 'Ice Cube', 'Nas', 'Coolio', 'House of Pain'],
     },
-    catalog: {},
+    catalog: {
+      // staples of DJ sets and the charts beyond the roster above
+      more: [
+        'Sir Mix-A-Lot', 'Vanilla Ice', 'MC Hammer', 'Young MC', 'Will Smith', 'DJ Jazzy Jeff & The Fresh Prince',
+        'Digital Underground', 'Tone-Loc', 'Kris Kross', 'Fugees', 'DMX', 'Cypress Hill', 'Warren G'],
+    },
     archive: null,
   },
   {
@@ -44,7 +54,9 @@ export const GENRES = [
       more: ['Cody Johnson', 'Lainey Wilson', 'Kane Brown', 'Thomas Rhett', 'Brad Paisley', 'Reba McEntire', 'Willie Nelson',
         'Dierks Bentley', 'Eric Church', 'Old Dominion', 'Dan + Shay', 'Kelsea Ballerini', 'Chris Young', 'Sam Hunt',
         'Rascal Flatts', 'Trace Adkins', 'Faith Hill', 'Randy Travis', 'Merle Haggard', 'Travis Tritt', 'Lee Brice',
-        'Riley Green', 'Bailey Zimmerman', 'HARDY', 'Jordan Davis', 'Parker McCollum', 'Megan Moroney', 'Ella Langley'],
+        'Riley Green', 'Bailey Zimmerman', 'HARDY', 'Jordan Davis', 'Parker McCollum', 'Megan Moroney', 'Ella Langley',
+        'Zac Brown Band', 'Shaboozey', 'Jelly Roll', 'Big & Rich', 'Florida Georgia Line', 'Zach Top', 'Lonestar', 'Sugarland',
+        'Alabama', 'The Chicks', 'Darius Rucker', 'Jon Pardi', 'Tyler Childers'],
     },
     archive: 'subject:country OR subject:hillbilly OR subject:fiddle OR subject:"old time"',
   },
@@ -56,7 +68,12 @@ export const GENRES = [
         'Martin Garrix', 'Marshmello', 'The Chemical Brothers', 'Fatboy Slim', 'The Prodigy', 'Tiësto', 'ILLENIUM', 'ODESZA',
         'Flume', 'Fred again..', 'Kaskade', 'Porter Robinson'],
     },
-    catalog: {},
+    catalog: {
+      // staples of DJ sets and the charts beyond the roster above
+      more: [
+        'Armin van Buuren', 'Anyma', 'Alok', 'Dimitri Vegas & Like Mike', 'Charlotte de Witte', 'AFROJACK',
+        'Timmy Trumpet', 'Steve Aoki', 'Hardwell', 'The Chainsmokers', 'RÜFÜS DU SOL', 'Major Lazer', 'DJ Snake'],
+    },
     archive: null,
   },
   {
@@ -64,10 +81,15 @@ export const GENRES = [
     itunes: {
       years: [0, 9999],
       artists: ['FISHER', 'Disclosure', 'Duke Dumont', 'Purple Disco Machine', 'John Summit', 'Dom Dolla', 'Frankie Knuckles',
-        'David Guetta', 'Robin S', 'Chris Lake', 'MK', 'Peggy Gou', 'Meduza', 'Joel Corry', 'Armand Van Helden', 'Stardust',
+        'David Guetta', 'Robin S', 'Chris Lake', 'MK', 'Peggy Gou', 'Meduza', 'Joel Corry', 'Armand Van Helden',
         'Robin Schulz', 'Black Coffee', 'Diplo', 'Martin Solveig'],
     },
-    catalog: {},
+    catalog: {
+      // staples of DJ sets and the charts beyond the roster above
+      more: [
+        'Max Styler', 'HUGEL', 'Mau P', 'Vintage Culture', 'ARTBAT', 'Prospa', 'CamelPhat', 'Chris Lorenzo',
+        'SIDEPIECE', 'Adam Port', 'Sonny Fodera', 'Gorgon City', 'Crystal Waters', 'CeCe Peniston'],
+    },
     archive: null,
   },
   {
@@ -79,7 +101,12 @@ export const GENRES = [
         'REO Speedwagon', 'The Who', 'Aerosmith', 'Bruce Springsteen', 'Creedence Clearwater Revival', 'Pat Benatar', 'Heart',
         'ZZ Top', 'KISS'],
     },
-    catalog: {},
+    catalog: {
+      // staples of DJ sets and the charts beyond the roster above
+      more: [
+        "Guns N' Roses", 'Pink Floyd', 'Ozzy Osbourne', 'Billy Idol', 'Joan Jett', 'Whitesnake', 'Scorpions',
+        'Bryan Adams', 'Bob Seger', 'Kansas', 'The Beatles', 'Toto', 'Steve Miller Band', 'Mötley Crüe'],
+    },
     archive: null,
   },
   {
@@ -90,7 +117,12 @@ export const GENRES = [
         'Justin Timberlake', 'Sabrina Carpenter', 'Olivia Rodrigo', 'Michael Jackson', 'Madonna', 'Britney Spears', 'Ed Sheeran',
         'Rihanna', 'Billie Eilish', 'Miley Cyrus', 'Whitney Houston', 'Mariah Carey'],
     },
-    catalog: {},
+    catalog: {
+      // staples of DJ sets and the charts beyond the roster above
+      more: [
+        'Black Eyed Peas', 'Kesha', 'P!nk', 'ABBA', 'LMFAO', 'Maroon 5', 'Adele', 'Justin Bieber', 'Chappell Roan',
+        'Backstreet Boys', '*NSYNC', 'Tate McRae', 'Benson Boone'],
+    },
     archive: 'subject:"fox trot" OR subject:popular',
   },
   {
@@ -101,7 +133,13 @@ export const GENRES = [
         'Frank Ocean', 'Anderson .Paak', 'Earth, Wind & Fire', 'Prince', 'Janet Jackson', 'Mary J. Blige', 'Luther Vandross',
         'TLC', "Destiny's Child", 'Al Green', 'Chris Brown', 'H.E.R.'],
     },
-    catalog: {},
+    catalog: {
+      // staples of DJ sets and the charts beyond the roster above
+      more: [
+        'The Temptations', 'James Brown', 'Kool & The Gang', 'The Commodores', 'The Isley Brothers', 'Sister Sledge',
+        'Ne-Yo', 'Jackson 5', 'Montell Jordan', 'Barry White', 'Bill Withers', 'Sade', 'The Gap Band',
+        'Rick James', 'Chaka Khan'],
+    },
     archive: 'subject:blues OR subject:jazz',
   },
   {
@@ -112,7 +150,12 @@ export const GENRES = [
         'Marc Anthony', 'Ozuna', 'Pitbull', 'Ricky Martin', 'Enrique Iglesias', 'Luis Fonsi', 'Peso Pluma', 'Rauw Alejandro',
         'UB40', 'Toots & The Maytals', 'Damian Marley', 'Becky G'],
     },
-    catalog: {},
+    catalog: {
+      // staples of DJ sets and the charts beyond the roster above
+      more: [
+        'Fuerza Regida', 'Don Omar', 'Maluma', 'Feid', 'Romeo Santos', 'Marcia Griffiths', 'Los Del Rio',
+        'Tito Double P', 'Elvis Crespo', 'ROSALÍA', 'Carín León', 'Celia Cruz', 'Inner Circle', 'Myke Towers'],
+    },
     archive: 'subject:tango OR subject:rumba OR subject:mexican OR subject:habanera OR subject:latin',
   },
   {
@@ -123,7 +166,12 @@ export const GENRES = [
         'Zach Williams', 'Elevation Worship', 'Phil Wickham', 'Crowder', 'Matthew West', 'Brandon Lake', 'Maverick City Music',
         'Jeremy Camp', 'Third Day', 'Newsboys', 'Kari Jobe', 'Danny Gokey', 'Cody Carnes'],
     },
-    catalog: {},
+    catalog: {
+      // staples of DJ sets and the charts beyond the roster above
+      more: [
+        'Forrest Frank', 'Josiah Queen', 'CeCe Winans', 'Kirk Franklin', 'Anne Wilson', 'Tauren Wells',
+        'Bethel Music', 'Lecrae', 'Chandler Moore', 'Tasha Cobbs Leonard'],
+    },
     archive: 'subject:sacred OR subject:hymn OR subject:spiritual OR subject:gospel',
   },
   {

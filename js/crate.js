@@ -31,9 +31,8 @@ export function tempoDistance(a, b) {
 }
 
 export class Crate {
-  constructor({ genreKey, seedTrack = null, archive: useArchive = false, clean = true }) {
+  constructor({ genreKey, seedTrack = null, archive: useArchive = false }) {
     this.genre = genreByKey(genreKey);
-    this.clean = clean;
     this.archiveOnly = !!this.genre.archiveOnly;
     this.useArchive = (useArchive || this.archiveOnly) && !!this.genre.archive;
     this.seed = seedTrack;
@@ -61,11 +60,7 @@ export class Crate {
     }
   }
 
-  // Settings changed mid-set: clean mode drops explicit cuts that are waiting in the crate.
-  setClean(clean) {
-    this.clean = clean;
-    if (clean) this.pool = this.pool.filter(t => !t.explicit);
-  }
+  // The listener switched public-domain records on or off mid-set.
   setArchive(on) {
     this.useArchive = (on || this.archiveOnly) && !!this.genre.archive;
     if (this.archiveOnly) return;
@@ -86,19 +81,18 @@ export class Crate {
 
     const songs = this.genre.catalog && !this.archiveOnly ? await loadCatalog(g.key) : null;
     if (songs) {
-      // a dozen unplayed songs, no more than two by one artist; clean mode skips songs with no clean cut
-      const cut = s => (this.clean ? s.cleanId : s.explicitId || s.cleanId);
-      const fresh = pickN(songs.filter(s => cut(s) && !this.seen.has(s.id) && !this.pool.some(t => t.songKey === s.id)), songs.length);
+      // a dozen unplayed songs, no more than two by one artist
+      const fresh = pickN(songs.filter(s => s.cleanId && !this.seen.has(s.id) && !this.pool.some(t => t.songKey === s.id)), songs.length);
       const perArtist = {}, batch = [];
       for (const s of fresh) {
         if (batch.length === 12) break;
         if ((perArtist[s.artist] = (perArtist[s.artist] || 0) + 1) <= 2) batch.push(s);
       }
       if (!batch.length) this.seen.clear(); // the whole catalog has played: start it over
-      else this.add(batch.map(s => itunes.fromCatalog(s, this.clean)), this.pool);
+      else this.add(batch.map(s => itunes.fromCatalog(s)), this.pool);
       // a set started from a searched song opens with a few more by that artist (one search, optional)
       if (first && this.seed?.source === 'itunes' && !itunes.throttled()) {
-        jobs.push(itunes.byArtist(this.seed.artist, { clean: this.clean }).then(l => {
+        jobs.push(itunes.byArtist(this.seed.artist).then(l => {
           this.add(pickN(l.filter(t => inYears(t, g.itunes.years)).slice(0, 20), 3), this.pool);
         }));
       }
@@ -109,7 +103,7 @@ export class Crate {
       if (first && this.seed?.source === 'itunes') artists.unshift(this.seed.artist);
       for (const a of artists) {
         this.artistsUsed.add(a);
-        jobs.push(itunes.byArtist(a, { clean: this.clean }).then(l => {
+        jobs.push(itunes.byArtist(a).then(l => {
           // the artist's best-known songs come first; take a few of their top 20
           this.add(pickN(l.filter(t => inYears(t, g.itunes.years)).slice(0, 20), 5), this.pool);
         }));

@@ -19,7 +19,7 @@ block ES modules on `file://`.
 
 | Source | What you get | Used for |
 |---|---|---|
-| [iTunes Search API](https://performance-partners.apple.com/search-api) | The real commercial catalog, clean versions by default, but only 30-second previews | Every genre (through saved catalogs) and song search |
+| [iTunes Search API](https://performance-partners.apple.com/search-api) | The real commercial catalog, clean versions only, and only 30-second previews | Every genre (through saved catalogs) and song search |
 | [Internet Archive · Great 78 Project](https://archive.org/details/georgeblood) | Full-length 78rpm records old enough to be US public domain | "Roaring '20s" genre and the "public-domain classics" option |
 
 Notes:
@@ -41,6 +41,9 @@ rests for a minute, and the genres keep playing.
 
 - `node tools/build-catalog.mjs <genre>` builds or rebuilds one (about a minute per 20 artists).
   `node tools/build-catalog.mjs all` does every genre.
+- `node tools/build-catalog.mjs <genre> --add` keeps the song list and fetches only the roster artists it has
+  no songs for. Use it after adding artists to `js/genres.js` (`itunes.artists` or `catalog.more`), or when a
+  build ends with a `NO SONGS for ...` line. Spell names the way Apple Music does.
 - `node tools/build-catalog.mjs <genre> --refresh` keeps the song list and only renews the preview links.
   Run it every few months: if a saved link goes stale the site looks up a fresh one on its own, but that
   costs a call to Apple each time.

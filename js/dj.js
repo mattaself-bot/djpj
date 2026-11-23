@@ -111,17 +111,8 @@ export class AutoDJ extends EventTarget {
   }
 
   // The listener changed a crate setting while a set plays.
-  setOptions({ clean, archive }) {
-    const crate = this.crate;
-    if (!crate) return;
-    if (archive != null) crate.setArchive(archive);
-    if (clean == null || clean === crate.clean) return;
-    crate.setClean(clean);
-    // an explicit cut that's cued but not yet mixing gets swapped for another record
-    if (clean && (this.pending?.track || this.next)?.explicit) {
-      this.pending = null;
-      this.prefetch();
-    }
+  setOptions({ archive }) {
+    if (archive != null) this.crate?.setArchive(archive);
   }
 
   // Get the next record ready. Like a DJ cueing in the headphones: if the first pick's tempo is
