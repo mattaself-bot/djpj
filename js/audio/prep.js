@@ -117,8 +117,7 @@ export async function prepareTrack(track, ctx, { signal, style = 'club', genre }
 
   const a = analyze(full, track.bpm);
   track.bpm = a.bpm;
-  // the middle of the record, where the full arrangement is playing
-  track.key ??= detectKey(full, a.start + (a.end - a.start) * 0.15, a.start + (a.end - a.start) * 0.85);
+  track.key ??= detectKey(full); // the whole record: more music heard, steadier answer
   if (a.confidence > 1.25) remember(track.id, a.bpm, track.key);
   const s = structure(full, a);
   const spb = 60 / a.bpm, bar = 4 * spb, phrase = 8 * bar;

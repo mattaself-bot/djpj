@@ -1,0 +1,159 @@
+# Songs with well-known keys, for scoring key detection (tools/keytest/index.html).
+# Artist | Title | Key. Keys are the commonly published ones, written from memory, so a few may be
+# off: use the score to compare detector versions, not as an absolute accuracy figure.
+Michael Jackson | Billie Jean | F# minor
+Michael Jackson | Beat It | D# minor
+Dua Lipa | Levitating | B minor
+Dua Lipa | Don't Start Now | B minor
+The Weeknd | Blinding Lights | F minor
+The Weeknd | Starboy | A minor
+Taylor Swift | Shake It Off | G major
+Taylor Swift | Blank Space | F major
+Taylor Swift | Anti-Hero | E major
+Bruno Mars | 24K Magic | F minor
+Bruno Mars | Locked Out of Heaven | D minor
+Bruno Mars | Just the Way You Are | F major
+Lady Gaga | Poker Face | G# minor
+Lady Gaga | Bad Romance | A minor
+Lady Gaga | Just Dance | C# minor
+Katy Perry | Firework | G# major
+Katy Perry | Roar | A# major
+Katy Perry | California Gurls | F major
+Britney Spears | ...Baby One More Time | C minor
+Britney Spears | Toxic | C minor
+Ed Sheeran | Shape of You | C# minor
+Ed Sheeran | Perfect | G# major
+Ed Sheeran | Thinking Out Loud | D major
+Rihanna | Umbrella | A# minor
+Rihanna | We Found Love | F# major
+Rihanna | Don't Stop the Music | F# minor
+Billie Eilish | bad guy | G minor
+Miley Cyrus | Flowers | A minor
+Miley Cyrus | Party In the U.S.A. | F# major
+Whitney Houston | I Wanna Dance with Somebody | F# major
+Adele | Rolling in the Deep | C minor
+Adele | Someone Like You | A major
+Adele | Hello | F minor
+Justin Timberlake | CAN'T STOP THE FEELING! | C major
+ABBA | Dancing Queen | A major
+ABBA | Gimme! Gimme! Gimme! | D minor
+ABBA | Mamma Mia | D major
+Maroon 5 | Moves Like Jagger | B minor
+Maroon 5 | Sugar | C# major
+Black Eyed Peas | I Gotta Feeling | G major
+Kesha | TiK ToK | D minor
+LMFAO | Party Rock Anthem | F minor
+Backstreet Boys | I Want It That Way | A major
+Backstreet Boys | Everybody | A# minor
+Olivia Rodrigo | drivers license | A# major
+Journey | Don't Stop Believin' | E major
+Bon Jovi | Livin' On a Prayer | E minor
+Bon Jovi | You Give Love a Bad Name | C minor
+Queen | Another One Bites the Dust | E minor
+Queen | Don't Stop Me Now | F major
+AC/DC | You Shook Me All Night Long | G major
+AC/DC | Highway to Hell | A major
+Guns N' Roses | Sweet Child O' Mine | C# major
+Boston | More Than a Feeling | G major
+Eagles | Hotel California | B minor
+Eagles | Take It Easy | G major
+Fleetwood Mac | Go Your Own Way | F major
+Fleetwood Mac | Don't Stop | E major
+Toto | Hold the Line | F# minor
+Van Halen | Jump | C major
+Bryan Adams | Summer of '69 | D major
+Rick Springfield | Jessie's Girl | D major
+Creedence Clearwater Revival | Bad Moon Rising | D major
+Creedence Clearwater Revival | Proud Mary | D major
+The Beatles | Hey Jude | F major
+The Beatles | Let It Be | C major
+The Beatles | Come Together | D minor
+The Beatles | Here Comes the Sun | A major
+Pink Floyd | Another Brick in the Wall, Pt. 2 | D minor
+Pink Floyd | Wish You Were Here | G major
+Pink Floyd | Comfortably Numb | B minor
+Kansas | Carry On Wayward Son | A minor
+Scorpions | Rock You Like a Hurricane | E minor
+Whitesnake | Here I Go Again | G major
+Ozzy Osbourne | Crazy Train | F# minor
+Joan Jett | I Love Rock 'N Roll | E major
+Billy Idol | White Wedding | B minor
+Pat Benatar | Hit Me with Your Best Shot | E major
+Bruce Springsteen | Born to Run | E major
+Bruce Springsteen | Dancing In the Dark | B major
+Tom Petty | Free Fallin' | F major
+Tom Petty | American Girl | D major
+REO Speedwagon | Can't Fight This Feeling | A major
+Led Zeppelin | Stairway to Heaven | A minor
+The Who | Baba O'Riley | F major
+Aerosmith | Dream On | F minor
+Steve Miller Band | The Joker | F major
+Stevie Wonder | Superstition | D# minor
+Stevie Wonder | Sir Duke | B major
+Stevie Wonder | Signed, Sealed, Delivered (I'm Yours) | F major
+Stevie Wonder | Isn't She Lovely | E major
+Marvin Gaye | Let's Get It On | D# major
+Marvin Gaye | What's Going On | E major
+Marvin Gaye | Sexual Healing | D# major
+Earth, Wind & Fire | September | A major
+Earth, Wind & Fire | Let's Groove | E minor
+Aretha Franklin | Respect | C major
+Bill Withers | Ain't No Sunshine | A minor
+Bill Withers | Lean On Me | C major
+Bill Withers | Lovely Day | E major
+Kool & The Gang | Celebration | G# major
+The Commodores | Easy | G# major
+Jackson 5 | I Want You Back | G# major
+Jackson 5 | ABC | G# major
+The Temptations | My Girl | C major
+USHER | Yeah! | G minor
+Alicia Keys | No One | E major
+Alicia Keys | If I Ain't Got You | G major
+Alicia Keys | Fallin' | E minor
+Beyoncé | Crazy In Love | D minor
+Beyoncé | Halo | A major
+Beyoncé | Single Ladies | E major
+Rick James | Super Freak | A minor
+Chaka Khan | Ain't Nobody | D# minor
+Prince | Kiss | A major
+Prince | When Doves Cry | A minor
+Prince | 1999 | F major
+Prince | Purple Rain | A# major
+TLC | No Scrubs | G# minor
+TLC | Waterfalls | D# major
+James Brown | I Got You (I Feel Good) | D major
+Sister Sledge | We Are Family | A major
+Avicii | Wake Me Up | B minor
+Avicii | Levels | C# minor
+Daft Punk | Get Lucky | F# minor
+Daft Punk | Harder, Better, Faster, Stronger | F# minor
+Calvin Harris | Feel So Close | G major
+Calvin Harris | This Is What You Came For | A minor
+Swedish House Mafia | Don't You Worry Child | B minor
+Zedd | Clarity | G# major
+Marshmello | Happier | F major
+The Chainsmokers | Closer | G# major
+David Guetta | Titanium | D# major
+Johnny Cash | Ring of Fire | G major
+Garth Brooks | Friends In Low Places | A major
+Shania Twain | Man! I Feel Like a Woman! | A# major
+Chris Stapleton | Tennessee Whiskey | A major
+Dolly Parton | Jolene | C# minor
+Dolly Parton | 9 to 5 | F# major
+Carrie Underwood | Before He Cheats | F# minor
+Eminem | Lose Yourself | D minor
+Outkast | Hey Ya! | G major
+Coolio | Gangsta's Paradise | C minor
+Vanilla Ice | Ice Ice Baby | D minor
+Luis Fonsi | Despacito | B minor
+Shakira | Hips Don't Lie | A# minor
+Shakira | Whenever, Wherever | C# minor
+Bob Marley | Three Little Birds | A major
+Bob Marley | Is This Love | F# minor
+Bob Marley | Could You Be Loved | B minor
+Los Del Rio | Macarena | G# major
+Ricky Martin | Livin' la Vida Loca | C# minor
+Enrique Iglesias | Bailando | E minor
+Enrique Iglesias | Hero | G major
+Pitbull | Timber | G# minor
+Shaggy | It Wasn't Me | C major

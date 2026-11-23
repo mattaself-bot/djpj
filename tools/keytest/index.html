@@ -1,0 +1,98 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>DJPJ key detection test</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 24px; max-width: 900px; }
+  table { border-collapse: collapse; margin-top: 12px; }
+  td, th { padding: 2px 10px; text-align: left; border-bottom: 1px solid #ddd; }
+  .exact { color: #0a7a2f; } .near { color: #9a6b00; } .wrong { color: #b00020; } .none { color: #777; }
+</style>
+<h1>Key detection test</h1>
+<p>Scores <code>detectKey</code> (js/audio/analyze.js) on catalog songs whose keys are listed in
+  <code>truth.txt</code>. Nothing is played: previews are downloaded and analyzed silently. Serve the
+  repo root (<code>python -m http.server 5173</code>) and open <code>/tools/keytest/</code>.</p>
+<p>Score per song (the MIREX key score): exact 1, a fifth away 0.5, relative major/minor 0.3, parallel
+  major/minor 0.2, anything else 0. "Blends" counts answers the Camelot wheel treats as compatible
+  with the true key, which is what matters for mixing.</p>
+<button id="run">Run</button> <span id="status"></span>
+<pre id="summary"></pre>
+<table id="rows"></table>
+<script type="module">
+import { detectKey } from '../../js/audio/analyze.js';
+import { norm } from '../../js/sources/itunes.js';
+import { keysCompatible } from '../../js/keys.js';
+import { GENRES } from '../../js/genres.js';
+
+const NOTES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+const parse = k => { const [n, m] = k.split(' '); return { pc: NOTES.indexOf(n), minor: m === 'minor' }; };
+export function mirex(truth, got) {
+  if (!got) return 0;
+  const t = parse(truth), g = parse(got), d = (g.pc - t.pc + 12) % 12;
+  if (d === 0 && t.minor === g.minor) return 1;
+  if (t.minor === g.minor && (d === 7 || d === 5)) return 0.5;
+  if (!t.minor && g.minor && d === 9) return 0.3;
+  if (t.minor && !g.minor && d === 3) return 0.3;
+  if (d === 0) return 0.2;
+  return 0;
+}
+
+const bytes = new Map(); // downloaded previews, kept between runs
+let songs = null;
+async function testSet() {
+  if (songs) return songs;
+  const truth = (await (await fetch('truth.txt')).text()).split('\n').filter(l => l.trim() && !l.startsWith('#'))
+    .map(l => l.split('|').map(x => x.trim()));
+  const all = (await Promise.all(GENRES.filter(g => g.catalog).map(g =>
+    fetch(`../../data/catalog/${g.key}.json`).then(r => r.json()).then(c => c.songs)))).flat();
+  songs = [];
+  for (const [artist, title, key] of truth) {
+    const a = norm(artist), t = norm(title);
+    const s = all.find(s => norm(s.artist).startsWith(a) && norm(s.title) === t) ||
+              all.find(s => norm(s.artist).startsWith(a) && norm(s.title).startsWith(t));
+    if (s) songs.push({ name: `${s.artist} · ${s.title}`, url: s.cleanUrl, key });
+  }
+  return songs;
+}
+
+// Runs the detector over the test set. `detect(buffer)` returns a key name or null.
+export async function run(detect = b => detectKey(b), onRow = () => {}) {
+  const list = await testSet();
+  const ctx = new OfflineAudioContext(2, 1, 44100);
+  const rows = [];
+  for (const s of list) {
+    try {
+      if (!bytes.has(s.url)) bytes.set(s.url, await (await fetch(s.url)).arrayBuffer());
+      const buffer = await ctx.decodeAudioData(bytes.get(s.url).slice(0));
+      const got = detect(buffer);
+      rows.push({ ...s, got, score: mirex(s.key, got), blends: !!got && keysCompatible(s.key, got) });
+    } catch (e) {
+      rows.push({ ...s, got: null, score: 0, blends: false, error: e.message });
+    }
+    onRow(rows.at(-1), rows.length, list.length);
+  }
+  const answered = rows.filter(r => r.got);
+  const sum = (l, f) => l.reduce((n, r) => n + f(r), 0);
+  return {
+    songs: rows.length,
+    answered: answered.length,
+    exact: sum(rows, r => +(r.score === 1)),
+    blends: sum(rows, r => +r.blends),
+    clashes: answered.length - sum(rows, r => +r.blends), // a key was given and it would not blend
+    mirex: +(sum(rows, r => r.score) / rows.length).toFixed(3),
+    rows,
+  };
+}
+window.keytest = { run, mirex, detectKey };
+
+document.querySelector('#run').addEventListener('click', async () => {
+  const status = document.querySelector('#status'), table = document.querySelector('#rows');
+  table.innerHTML = '<tr><th>Song</th><th>True</th><th>Detected</th><th>Score</th></tr>';
+  const res = await run(undefined, (r, i, n) => {
+    status.textContent = `${i}/${n}`;
+    const cls = !r.got ? 'none' : r.score === 1 ? 'exact' : r.blends ? 'near' : 'wrong';
+    table.insertAdjacentHTML('beforeend', `<tr class="${cls}"><td>${r.name}</td><td>${r.key}</td><td>${r.got || 'no answer'}</td><td>${r.score}</td></tr>`);
+  });
+  const { rows, ...summary } = res;
+  document.querySelector('#summary').textContent = JSON.stringify(summary, null, 1);
+});
+</script>

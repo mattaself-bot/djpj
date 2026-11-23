@@ -66,6 +66,11 @@ either way, and every record varies around it the way it does in a real set.
   harmonically compatible keys (`keys.js`, Camelot wheel), never plays an artist twice in a row and spaces
   them a few records apart. Apple doesn't publish tempo or key, so DJPJ measures both the first time a record
   plays (`analyze.js`) and remembers them in the browser (`memory.js`) for later sets.
+- Key detection (`detectKey` in `analyze.js`) finds the notes as peaks in the spectrum, corrects for the
+  record's tuning and matches the result against key profiles made for dance and pop music. It only reports
+  a key when it is confident; otherwise the record simply gets no key bonus. `tools/keytest/` scores it
+  against songs with known keys (`truth.txt`): serve the repo and open `/tools/keytest/`. Rerun it after
+  any change to the detector. Nothing is played aloud.
 - Cueing: when the next pick's tempo is more than 6% from what's playing (too far to beat-match without the
   pitch change being heard), DJPJ auditions up to two more records and keeps the closest, like a DJ checking
   records in the headphones. The others go back in the crate.
