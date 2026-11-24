@@ -87,7 +87,9 @@ export async function lookup(ids) {
 }
 
 // A catalog song as a playable track. The catalog carries the preview link, so nothing is asked
-// of Apple's search; only if that link has gone stale is a fresh one looked up.
+// of Apple's search; only if that link has gone stale is a fresh one looked up. It also carries the
+// tempo and key measured ahead of time (tools/measure-catalog.mjs), so a record can be picked to
+// fit before it has ever been played here.
 export function fromCatalog(s) {
   const id = s.cleanId;
   return {
@@ -99,8 +101,8 @@ export function fromCatalog(s) {
     art: (s.art || '').replace('100x100bb', '600x600bb'),
     url: s.cleanUrl || null,
     duration: 30,
-    bpm: null,
-    key: null,
+    bpm: s.bpm ?? null,
+    key: s.key ?? null,
     genre: null,
     year: s.year || null,
     link: `https://music.apple.com/us/song/${id}`,

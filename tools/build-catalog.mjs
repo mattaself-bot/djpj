@@ -91,6 +91,15 @@ async function build(genre) {
     }
     await sleep(PAUSE);
   }
+  // a full rebuild keeps the tempo and key already measured for songs that are still here
+  if (!old) {
+    const prev = await readFile(fileFor(genre.key), 'utf8').then(JSON.parse, () => null);
+    const kept = new Map((prev?.songs || []).filter(s => s.measured).map(s => [s.cleanId, s]));
+    for (const s of songs) {
+      const m = kept.get(s.cleanId);
+      if (m) Object.assign(s, { bpm: m.bpm, key: m.key, measured: m.measured });
+    }
+  }
   if (empty.length) console.warn(`${genre.key}: NO SONGS for ${empty.join(', ')} (rerun with --add to try them again)`);
   return { genre: genre.key, built: new Date().toISOString().slice(0, 10), artists: names, songs: [...new Map(songs.map(s => [s.id, s])).values()] };
 }

@@ -45,7 +45,10 @@
    "rank": 1,
    "cleanId": 254344996,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/7d/b0/0c7db03a-edca-e054-8a40-29240e342d0f/mzaf_1265977749455777128.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/76/21/da762101-ee6b-d3b5-954e-9dab4c16c45a/078221640824.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/76/21/da762101-ee6b-d3b5-954e-9dab4c16c45a/078221640824.jpg/100x100bb.jpg",
+   "bpm": 105.42,
+   "key": "C major",
+   "measured": 2
   },
   {
    "id": "run dmc|it s tricky",
@@ -55,7 +58,10 @@
    "rank": 2,
    "cleanId": 1308514621,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/42/00/22420075-91d2-7350-cbce-b195c296eb8a/mzaf_7064894115664637056.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/52/83/6c5283eb-146f-bde5-30aa-0e9892b6fc04/888880788566.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/52/83/6c5283eb-146f-bde5-30aa-0e9892b6fc04/888880788566.jpg/100x100bb.jpg",
+   "bpm": 128,
+   "key": "C major",
+   "measured": 2
   },
   {
    "id": "run dmc|peter piper",
@@ -65,7 +71,9 @@
    "rank": 3,
    "cleanId": 254344786,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/5d/68/c85d6825-7084-1264-29d2-4249d295fd24/mzaf_3430438062034503190.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/76/21/da762101-ee6b-d3b5-954e-9dab4c16c45a/078221640824.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/76/21/da762101-ee6b-d3b5-954e-9dab4c16c45a/078221640824.jpg/100x100bb.jpg",
+   "bpm": 140.67,
+   "measured": 2
   },
   {
    "id": "run dmc|sucker m c s",
@@ -75,7 +83,10 @@
    "rank": 4,
    "cleanId": 281812957,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/26/fe/8e26feb5-3045-2e76-732f-c795d949d4f2/mzaf_13648044852487341842.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/8b/83/6b8b83ef-751f-6bf6-53e2-0270d863db19/828766956023.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/8b/83/6b8b83ef-751f-6bf6-53e2-0270d863db19/828766956023.jpg/100x100bb.jpg",
+   "bpm": 137.35,
+   "key": "B major",
+   "measured": 2
   },
   {
    "id": "run dmc|king of rock",
@@ -85,7 +96,9 @@
    "rank": 5,
    "cleanId": 250873683,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/3b/39/f43b39e5-d181-d872-e68a-9ee697507e94/mzaf_18202505113731888598.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/77/1c/48771ca3-9eae-a4c2-eff7-a2619c9344f8/828766955828.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/77/1c/48771ca3-9eae-a4c2-eff7-a2619c9344f8/828766955828.jpg/100x100bb.jpg",
+   "bpm": 130.65,
+   "measured": 2
   },
   {
    "id": "run dmc|my adidas",
@@ -95,7 +108,9 @@
    "rank": 6,
    "cleanId": 1308514622,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/65/14/4c651492-5a8a-35b9-51f4-315194b4d57f/mzaf_7823226870575706074.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/52/83/6c5283eb-146f-bde5-30aa-0e9892b6fc04/888880788566.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/52/83/6c5283eb-146f-bde5-30aa-0e9892b6fc04/888880788566.jpg/100x100bb.jpg",
+   "bpm": 95.65,
+   "measured": 2
   },
   {
    "id": "run dmc|you be illin",
@@ -105,7 +120,9 @@
    "rank": 7,
    "cleanId": 1498287843,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/29/41/25/294125b5-5cc0-1b62-4ebe-ac25f47ea406/mzaf_15404837189821050969.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/0f/58/a00f586d-2146-fde9-a252-b6871e53e1fb/886448245346.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/0f/58/a00f586d-2146-fde9-a252-b6871e53e1fb/886448245346.jpg/100x100bb.jpg",
+   "bpm": 85.12,
+   "measured": 2
   },
   {
    "id": "run dmc|jam master jay",
@@ -115,7 +132,10 @@
    "rank": 8,
    "cleanId": 281812955,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/94/3b/4d943beb-bee8-f308-c025-e9844f03353b/mzaf_13778450126680074335.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/8b/83/6b8b83ef-751f-6bf6-53e2-0270d863db19/828766956023.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/8b/83/6b8b83ef-751f-6bf6-53e2-0270d863db19/828766956023.jpg/100x100bb.jpg",
+   "bpm": 99.08,
+   "key": "C minor",
+   "measured": 2
   },
   {
    "id": "run dmc|down with the king",
@@ -125,7 +145,9 @@
    "rank": 9,
    "cleanId": 258594662,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/83/0f/5c830faa-97af-6964-9805-7c1068cba9e1/mzaf_1249367580263307134.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/59/89/e55989bc-02c0-fcc7-3145-0c2349c0ace6/078221641227.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/59/89/e55989bc-02c0-fcc7-3145-0c2349c0ace6/078221641227.jpg/100x100bb.jpg",
+   "bpm": 132.01,
+   "measured": 2
   },
   {
    "id": "run dmc|mary mary",
@@ -135,7 +157,10 @@
    "rank": 10,
    "cleanId": 251085295,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/38/7e/bb387e52-5aae-ee26-ec1d-0e59968ba104/mzaf_5232345196170129837.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/2f/33/d22f33bc-55e6-182c-182e-d0b609d8174e/828766955927.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/2f/33/d22f33bc-55e6-182c-182e-d0b609d8174e/828766955927.jpg/100x100bb.jpg",
+   "bpm": 115.04,
+   "key": "A# major",
+   "measured": 2
   },
   {
    "id": "ll cool j|i need love",
@@ -145,7 +170,9 @@
    "rank": 1,
    "cleanId": 1443931203,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/3b/10/a73b10f7-248b-ac05-27b0-95a751bf0a3f/mzaf_14161369812853794091.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/35/bc/98/35bc98da-1ef7-ba88-02bf-1d84ca604a57/09UMGIM38227.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/35/bc/98/35bc98da-1ef7-ba88-02bf-1d84ca604a57/09UMGIM38227.rgb.jpg/100x100bb.jpg",
+   "bpm": 117.6,
+   "measured": 2
   },
   {
    "id": "ll cool j|hey lover",
@@ -155,7 +182,9 @@
    "rank": 2,
    "cleanId": 1444061078,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/24/a2/2224a269-da18-b28d-107b-519e7ec3244b/mzaf_3146402988127539538.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg",
+   "bpm": 88.09,
+   "measured": 2
   },
   {
    "id": "ll cool j|loungin",
@@ -165,7 +194,9 @@
    "rank": 3,
    "cleanId": 1444061486,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/3e/4e/2d3e4eb5-f562-015c-1c8a-6de6f66b8f61/mzaf_325754539350972046.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg",
+   "bpm": 91.07,
+   "measured": 2
   },
   {
    "id": "ll cool j|make it hot",
@@ -175,7 +206,10 @@
    "rank": 4,
    "cleanId": 1444060869,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/60/82/4b608234-7533-42bd-e941-b1e9cb3098e2/mzaf_10058976714760319454.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg",
+   "bpm": 88.04,
+   "key": "C# minor",
+   "measured": 2
   },
   {
    "id": "ll cool j|candy",
@@ -185,7 +219,9 @@
    "rank": 5,
    "cleanId": 1442840263,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/df/a0/87dfa057-4c1f-baaf-86ab-4f8cdc6d8582/mzaf_1139367722146292322.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/4e/9f/b84e9f9a-5e6e-81e1-f42a-cd87bc1a6c36/00731453918627.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/4e/9f/b84e9f9a-5e6e-81e1-f42a-cd87bc1a6c36/00731453918627.rgb.jpg/100x100bb.jpg",
+   "bpm": 89.55,
+   "measured": 2
   },
   {
    "id": "ll cool j|hip hop",
@@ -195,7 +231,10 @@
    "rank": 6,
    "cleanId": 1444061061,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/f4/30/7af430d8-f1b5-c7ca-106c-67cbc46ebd27/mzaf_11137279769257746363.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg",
+   "bpm": 88.04,
+   "key": "F minor",
+   "measured": 2
   },
   {
    "id": "ll cool j|how i m comin",
@@ -205,7 +244,9 @@
    "rank": 7,
    "cleanId": 1443168925,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/e8/f0/01e8f0a3-aca4-35f3-959e-a1a19f1939ba/mzaf_286723028221156854.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/bc/a3/d5/bca3d5eb-8525-a895-dba5-ea3e450033f9/00731452348821.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/bc/a3/d5/bca3d5eb-8525-a895-dba5-ea3e450033f9/00731452348821.rgb.jpg/100x100bb.jpg",
+   "bpm": 144.55,
+   "measured": 2
   },
   {
    "id": "ll cool j|mr smith",
@@ -215,7 +256,10 @@
    "rank": 8,
    "cleanId": 1444061342,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/68/fa/7868fa09-e67f-7101-6dc5-3f3258f317a5/mzaf_12911415540649773462.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg",
+   "bpm": 104.46,
+   "key": "F# minor",
+   "measured": 2
   },
   {
    "id": "ll cool j|jack the ripper",
@@ -225,7 +269,9 @@
    "rank": 9,
    "cleanId": 1443851519,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/18/78/7d1878a6-f761-1b16-936e-d3de0598e552/mzaf_2633804802175410916.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/ca/05/37ca0594-b366-3aad-2f4c-e5018dc84d6e/06UMGIM07870.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/ca/05/37ca0594-b366-3aad-2f4c-e5018dc84d6e/06UMGIM07870.rgb.jpg/100x100bb.jpg",
+   "bpm": 126.3,
+   "measured": 2
   },
   {
    "id": "ll cool j|hollis to hollywood",
@@ -235,7 +281,10 @@
    "rank": 10,
    "cleanId": 1444061491,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/de/77/f9de7723-e285-6c97-6931-a38e2d7c9ef5/mzaf_16016235900202761236.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/90/6b/12906b2c-1988-2582-d306-e4f71a365a5d/15UMGIM29380.rgb.jpg/100x100bb.jpg",
+   "bpm": 114.09,
+   "key": "G# minor",
+   "measured": 2
   },
   {
    "id": "public enemy|fight the power",
@@ -245,7 +294,9 @@
    "rank": 1,
    "cleanId": 1440838444,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/61/32/e1613217-35ee-c7f2-560c-450c1f9034c0/mzaf_6375906548184350106.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/56/ff/5f56ff7b-71b3-3e5f-208a-3b20d96bb4b0/06UMGIM21173.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/56/ff/5f56ff7b-71b3-3e5f-208a-3b20d96bb4b0/06UMGIM21173.rgb.jpg/100x100bb.jpg",
+   "bpm": 142.45,
+   "measured": 2
   },
   {
    "id": "public enemy|rebel without a pause",
@@ -255,7 +306,9 @@
    "rank": 2,
    "cleanId": 1440838179,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/96/81/e6968109-4959-b7cc-1bbc-5eb3405d3d93/mzaf_16565895304547489062.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/49/d0/9f49d09b-6842-081e-8cec-67b19a686397/06UMGIM18700.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/49/d0/9f49d09b-6842-081e-8cec-67b19a686397/06UMGIM18700.rgb.jpg/100x100bb.jpg",
+   "bpm": 93.96,
+   "measured": 2
   },
   {
    "id": "public enemy|can t truss it",
@@ -265,7 +318,9 @@
    "rank": 3,
    "cleanId": 1434918699,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/e2/66/5ce2663f-2251-a71e-c23f-f38cf6b0a60c/mzaf_2509500111166962929.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/3b/59/d73b5930-eca1-9640-3b56-cd406ed9a575/00602567822998.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/3b/59/d73b5930-eca1-9640-3b56-cd406ed9a575/00602567822998.rgb.jpg/100x100bb.jpg",
+   "bpm": 99.83,
+   "measured": 2
   },
   {
    "id": "public enemy|don t believe the hype",
@@ -275,7 +330,9 @@
    "rank": 4,
    "cleanId": 1440837952,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/27/d3/f027d365-f516-cc3b-fc5b-41fbf3dd3b55/mzaf_9983883799661634024.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/49/d0/9f49d09b-6842-081e-8cec-67b19a686397/06UMGIM18700.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/49/d0/9f49d09b-6842-081e-8cec-67b19a686397/06UMGIM18700.rgb.jpg/100x100bb.jpg",
+   "bpm": 98.48,
+   "measured": 2
   },
   {
    "id": "public enemy|welcome to the terrordome",
@@ -285,7 +342,9 @@
    "rank": 5,
    "cleanId": 1440837631,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/f8/4c/87f84c8e-9f0d-ffcc-7d79-37da82e8a043/mzaf_14937218102865064311.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/56/ff/5f56ff7b-71b3-3e5f-208a-3b20d96bb4b0/06UMGIM21173.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/56/ff/5f56ff7b-71b3-3e5f-208a-3b20d96bb4b0/06UMGIM21173.rgb.jpg/100x100bb.jpg",
+   "bpm": 110.51,
+   "measured": 2
   },
   {
    "id": "public enemy|bring the noise",
@@ -295,7 +354,9 @@
    "rank": 6,
    "cleanId": 1440837951,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/1a/12/121a1232-3fad-9a7a-9734-11972e86b7a8/mzaf_13075811155776916431.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/49/d0/9f49d09b-6842-081e-8cec-67b19a686397/06UMGIM18700.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/49/d0/9f49d09b-6842-081e-8cec-67b19a686397/06UMGIM18700.rgb.jpg/100x100bb.jpg",
+   "bpm": 110.21,
+   "measured": 2
   },
   {
    "id": "public enemy|public enemy no 1",
@@ -305,7 +366,10 @@
    "rank": 7,
    "cleanId": 1427782477,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/67/a7/b767a7dd-d593-d04f-5960-07f06e8c0059/mzaf_8946963314697264822.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/10/fb/a7/10fba71e-2975-d352-4bfb-0b5dfc370979/00602567842712.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/10/fb/a7/10fba71e-2975-d352-4bfb-0b5dfc370979/00602567842712.rgb.jpg/100x100bb.jpg",
+   "bpm": 134.5,
+   "key": "B major",
+   "measured": 2
   },
   {
    "id": "public enemy|brothers gonna work it out",
@@ -315,7 +379,10 @@
    "rank": 8,
    "cleanId": 1440837534,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/9a/61/1e9a6186-d254-0e31-2c09-42348e6292e6/mzaf_2024651845278356076.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/56/ff/5f56ff7b-71b3-3e5f-208a-3b20d96bb4b0/06UMGIM21173.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/56/ff/5f56ff7b-71b3-3e5f-208a-3b20d96bb4b0/06UMGIM21173.rgb.jpg/100x100bb.jpg",
+   "bpm": 104.92,
+   "key": "A# major",
+   "measured": 2
   },
   {
    "id": "public enemy|miuzi weighs a ton",
@@ -325,7 +392,9 @@
    "rank": 9,
    "cleanId": 1427782451,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/be/33/dbbe336f-c602-0fed-ddaf-7248fcffcb4d/mzaf_8565973249107584210.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/10/fb/a7/10fba71e-2975-d352-4bfb-0b5dfc370979/00602567842712.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/10/fb/a7/10fba71e-2975-d352-4bfb-0b5dfc370979/00602567842712.rgb.jpg/100x100bb.jpg",
+   "bpm": 167.76,
+   "measured": 2
   },
   {
    "id": "public enemy|louder than a bomb",
@@ -335,7 +404,9 @@
    "rank": 10,
    "cleanId": 1440837960,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/63/d1/7a63d1a9-4c47-c993-afa7-a9ea90fc8226/mzaf_9555694538999042866.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/49/d0/9f49d09b-6842-081e-8cec-67b19a686397/06UMGIM18700.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/49/d0/9f49d09b-6842-081e-8cec-67b19a686397/06UMGIM18700.rgb.jpg/100x100bb.jpg",
+   "bpm": 99.38,
+   "measured": 2
   },
   {
    "id": "a tribe called quest|can i kick it",
@@ -345,7 +416,9 @@
    "rank": 1,
    "cleanId": 266768597,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/f8/18/09f81854-c797-f866-0208-0c66115d4bab/mzaf_11907907713335138863.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/28/e9/f828e985-7724-112e-1658-80f9dea61952/dj.zpkqadnl.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/28/e9/f828e985-7724-112e-1658-80f9dea61952/dj.zpkqadnl.jpg/100x100bb.jpg",
+   "bpm": 96.66,
+   "measured": 2
   },
   {
    "id": "a tribe called quest|electric relaxation",
@@ -355,7 +428,9 @@
    "rank": 2,
    "cleanId": 265670650,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/1a/f2/1b1af283-3a8d-71ce-79a9-7c6ebdb26ca4/mzaf_8096826353053836454.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg",
+   "bpm": 98.21,
+   "measured": 2
   },
   {
    "id": "a tribe called quest|check the rhime",
@@ -365,7 +440,10 @@
    "rank": 3,
    "cleanId": 278911473,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/d9/ff/b6d9ff32-4a23-b512-326c-859dd0d36731/mzaf_5796514024984352966.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/14/c8/e014c80a-425b-e01a-1124-cee985bcb5e6/dj.qafpkddz.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/14/c8/e014c80a-425b-e01a-1124-cee985bcb5e6/dj.qafpkddz.jpg/100x100bb.jpg",
+   "bpm": 96.4,
+   "key": "D major",
+   "measured": 2
   },
   {
    "id": "a tribe called quest|bonita applebum",
@@ -375,7 +453,9 @@
    "rank": 4,
    "cleanId": 266768447,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/91/d7/2891d765-3a45-cb85-c2df-703193b54ed9/mzaf_16828634348563730984.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/28/e9/f828e985-7724-112e-1658-80f9dea61952/dj.zpkqadnl.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/28/e9/f828e985-7724-112e-1658-80f9dea61952/dj.zpkqadnl.jpg/100x100bb.jpg",
+   "bpm": 113.45,
+   "measured": 2
   },
   {
    "id": "a tribe called quest|we can get down",
@@ -385,7 +465,9 @@
    "rank": 5,
    "cleanId": 265670614,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/2d/fd/f22dfd6e-e5a4-786d-3e40-06ccc62c430d/mzaf_16386303615035800706.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg",
+   "bpm": 114.04,
+   "measured": 2
   },
   {
    "id": "a tribe called quest|steve biko",
@@ -395,7 +477,9 @@
    "rank": 6,
    "cleanId": 265670549,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/68/e9/5168e9f3-27f1-3d3a-a321-51576ee5d654/mzaf_16248297834569905481.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg",
+   "bpm": 95.25,
+   "measured": 2
   },
   {
    "id": "a tribe called quest|lyrics to go",
@@ -405,7 +489,9 @@
    "rank": 7,
    "cleanId": 265670742,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/a6/37/33a637cd-c4ce-f597-11f2-4c78fe520d20/mzaf_1570237872438069154.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg",
+   "bpm": 129.2,
+   "measured": 2
   },
   {
    "id": "a tribe called quest|the pressure",
@@ -415,7 +501,10 @@
    "rank": 8,
    "cleanId": 254977316,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/ff/09/a5ff09be-02aa-5550-b596-b7f71733f3be/mzaf_9019227175522410767.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/02/90/01/029001ed-7fb8-1794-25c9-39fdc0fa6312/dj.ouvfuois.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/02/90/01/029001ed-7fb8-1794-25c9-39fdc0fa6312/dj.ouvfuois.jpg/100x100bb.jpg",
+   "bpm": 112.35,
+   "key": "G minor",
+   "measured": 2
   },
   {
    "id": "a tribe called quest|midnight marauders tour guide",
@@ -425,7 +514,9 @@
    "rank": 9,
    "cleanId": 265670547,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/ea/4e/bfea4ebc-f559-ec19-4bba-23fa90850e7e/mzaf_5049676814961678213.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg",
+   "bpm": 148.51,
+   "measured": 2
   },
   {
    "id": "a tribe called quest|money maker",
@@ -435,7 +526,9 @@
    "rank": 10,
    "cleanId": 254661331,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/05/3d/95053dec-bc42-94d6-2a5b-d1227644dc2a/mzaf_10529626304319382014.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ba/8d/9a/ba8d9ae1-b30d-d19c-04ff-0f305921350b/mzm.nkbvkfzr.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ba/8d/9a/ba8d9ae1-b30d-d19c-04ff-0f305921350b/mzm.nkbvkfzr.jpg/100x100bb.jpg",
+   "bpm": 93.51,
+   "measured": 2
   },
   {
    "id": "n w a|if it ain t ruff",
@@ -445,7 +538,9 @@
    "rank": 1,
    "cleanId": 1478946365,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/aa/6d/47/aa6d4763-b5d1-2de8-f95f-2f0435d87acf/mzaf_12936189900656121521.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg",
+   "bpm": 100.08,
+   "measured": 2
   },
   {
    "id": "n w a|express yourself",
@@ -455,7 +550,10 @@
    "rank": 2,
    "cleanId": 1440836037,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/62/79/3462790a-f45e-359d-d130-cc255435f9f7/mzaf_2724263283128000156.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/19/b4a31958-0323-07de-dedc-38d321ee0f88/15UMGIM66228.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/19/b4a31958-0323-07de-dedc-38d321ee0f88/15UMGIM66228.rgb.jpg/100x100bb.jpg",
+   "bpm": 130.65,
+   "key": "D# major",
+   "measured": 2
   },
   {
    "id": "n w a|quiet on tha set",
@@ -465,7 +563,9 @@
    "rank": 3,
    "cleanId": 1478946374,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/bd/f1/98bdf117-cff9-4304-4e6b-0f3c3826167d/mzaf_5772680316089592542.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg",
+   "bpm": 139.52,
+   "measured": 2
   },
   {
    "id": "n w a|gangsta gangsta",
@@ -475,7 +575,9 @@
    "rank": 4,
    "cleanId": 1440835805,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/31/8e/34318e9b-e6a6-7740-75fb-2d5e3af5e2f5/mzaf_9333666701043317917.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/19/b4a31958-0323-07de-dedc-38d321ee0f88/15UMGIM66228.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/19/b4a31958-0323-07de-dedc-38d321ee0f88/15UMGIM66228.rgb.jpg/100x100bb.jpg",
+   "bpm": 78.5,
+   "measured": 2
   },
   {
    "id": "n w a|straight outta compton",
@@ -485,7 +587,10 @@
    "rank": 5,
    "cleanId": 1478946359,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/de/3f/7ade3fef-eaaf-29d7-177f-44053f47da4a/mzaf_2815859573567003534.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg",
+   "bpm": 102.11,
+   "key": "D# major",
+   "measured": 2
   },
   {
    "id": "n w a|dopeman",
@@ -495,7 +600,9 @@
    "rank": 6,
    "cleanId": 1478946373,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/fa/dd/18fadd22-6330-3274-7b57-74162e0ab4de/mzaf_8686599811856621158.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg",
+   "bpm": 117.6,
+   "measured": 2
   },
   {
    "id": "n w a|parental discretion iz advised",
@@ -505,7 +612,9 @@
    "rank": 7,
    "cleanId": 1478946366,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/8f/1d/bb8f1d69-739d-503a-8275-ba591313b2d6/mzaf_4865626130824291014.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg",
+   "bpm": 96.96,
+   "measured": 2
   },
   {
    "id": "n w a|i ain t tha 1",
@@ -515,7 +624,9 @@
    "rank": 8,
    "cleanId": 1478946372,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/11/3a/8e113a54-0498-a723-ec1d-9653333d34f6/mzaf_441774181356785813.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg",
+   "bpm": 106.22,
+   "measured": 2
   },
   {
    "id": "n w a|f k tha police",
@@ -525,7 +636,9 @@
    "rank": 9,
    "cleanId": 1478946360,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/ee/b2/96eeb2ed-c45d-61af-501a-84483a9c50a9/mzaf_10542427719116818504.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4c/b1/32/4cb13290-7d01-1949-57e9-a8a1874e60a2/19UMGIM79184.rgb.jpg/100x100bb.jpg",
+   "bpm": 95.05,
+   "measured": 2
   },
   {
    "id": "n w a|f k the police",
@@ -535,7 +648,9 @@
    "rank": 10,
    "cleanId": 1440836035,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/a7/46/83a74669-293c-77b4-ba98-884ceca0c4ec/mzaf_5606805154572891216.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/19/b4a31958-0323-07de-dedc-38d321ee0f88/15UMGIM66228.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/19/b4a31958-0323-07de-dedc-38d321ee0f88/15UMGIM66228.rgb.jpg/100x100bb.jpg",
+   "bpm": 95.9,
+   "measured": 2
   },
   {
    "id": "dr dre|been there done that",
@@ -545,7 +660,9 @@
    "rank": 1,
    "cleanId": 1444001602,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d2/4e/9a/d24e9a11-33b7-17f7-d6e8-a011c49b4628/mzaf_79517689424809552.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/56/24/d75624cd-6dc0-8c7b-c50a-6e44e0b55a71/00606949004422.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/56/24/d75624cd-6dc0-8c7b-c50a-6e44e0b55a71/00606949004422.rgb.jpg/100x100bb.jpg",
+   "bpm": 131.81,
+   "measured": 2
   },
   {
    "id": "dr dre and snoop dogg|nuthin but a g thang",
@@ -555,7 +672,9 @@
    "rank": 2,
    "cleanId": 1683195629,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/97/72/bc9772df-87cb-3365-72ec-0e0f6749c609/mzaf_7750869326903744255.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/59/5c/49/595c49ca-20af-1a27-3716-fe1fe481c45e/617513535860_cover.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/59/5c/49/595c49ca-20af-1a27-3716-fe1fe481c45e/617513535860_cover.jpg/100x100bb.jpg",
+   "bpm": 93.79,
+   "measured": 2
   },
   {
    "id": "dr dre|let me ride",
@@ -565,7 +684,9 @@
    "rank": 3,
    "cleanId": 1683195636,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/c0/bc/0ac0bc09-ce44-5af4-cf7c-bb5b3b990014/mzaf_6462134226408300602.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/59/5c/49/595c49ca-20af-1a27-3716-fe1fe481c45e/617513535860_cover.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/59/5c/49/595c49ca-20af-1a27-3716-fe1fe481c45e/617513535860_cover.jpg/100x100bb.jpg",
+   "bpm": 123.1,
+   "measured": 2
   },
   {
    "id": "snoop dogg|who am i",
@@ -575,7 +696,10 @@
    "rank": 1,
    "cleanId": 1683195631,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/6a/e1/766ae182-0d66-b421-d809-a07d15e874d2/mzaf_6437760214089931451.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/59/5c/49/595c49ca-20af-1a27-3716-fe1fe481c45e/617513535860_cover.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/59/5c/49/595c49ca-20af-1a27-3716-fe1fe481c45e/617513535860_cover.jpg/100x100bb.jpg",
+   "bpm": 96.7,
+   "key": "B minor",
+   "measured": 2
   },
   {
    "id": "the notorious b i g|big poppa",
@@ -585,7 +709,10 @@
    "rank": 1,
    "cleanId": 204669732,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/67/9e/a7679ee9-f358-dd4d-f6bc-85cb6b2d39da/mzaf_555885344151662906.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/100x100bb.jpg",
+   "bpm": 84.67,
+   "key": "D minor",
+   "measured": 2
   },
   {
    "id": "the notorious b i g|juicy",
@@ -595,7 +722,10 @@
    "rank": 2,
    "cleanId": 204669680,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/0f/47/dd0f4778-50bb-3e3f-dcea-5866600eba40/mzaf_15801848187432565404.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/100x100bb.jpg",
+   "bpm": 97.41,
+   "key": "E major",
+   "measured": 2
   },
   {
    "id": "the notorious b i g|warning",
@@ -605,7 +735,9 @@
    "rank": 3,
    "cleanId": 204669580,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/d6/f7/9ad6f718-7268-536a-60de-2db56ef50c9c/mzaf_13144094442502721464.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/100x100bb.jpg",
+   "bpm": 104.17,
+   "measured": 2
   },
   {
    "id": "the notorious b i g|i love the dough",
@@ -615,7 +747,9 @@
    "rank": 4,
    "cleanId": 906586718,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/91/b9/4491b9eb-39dc-f7f9-58e8-d1d70855b7ad/mzaf_13989858306636934285.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/9d/c8/d09dc822-43c6-b392-7980-ab492aa9a257/dj.bywycbiu.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/9d/c8/d09dc822-43c6-b392-7980-ab492aa9a257/dj.bywycbiu.jpg/100x100bb.jpg",
+   "bpm": 99.08,
+   "measured": 2
   },
   {
    "id": "the notorious b i g|mo money mo problems",
@@ -625,7 +759,10 @@
    "rank": 5,
    "cleanId": 906586721,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/af/a2/c8afa2f2-ea4f-b338-d43d-a08586f26e68/mzaf_10139011686141721684.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/9d/c8/d09dc822-43c6-b392-7980-ab492aa9a257/dj.bywycbiu.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/9d/c8/d09dc822-43c6-b392-7980-ab492aa9a257/dj.bywycbiu.jpg/100x100bb.jpg",
+   "bpm": 138.97,
+   "key": "G# minor",
+   "measured": 2
   },
   {
    "id": "the notorious b i g|get money",
@@ -635,7 +772,10 @@
    "rank": 6,
    "cleanId": 217613717,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/72/d7/0d72d7ca-cb08-2c3f-4fca-b5bf18eee355/mzaf_8250543387129277581.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/08/66/e3/0866e3ef-c111-c0a2-f18e-a10035a5bb07/dj.hpsoegav.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/08/66/e3/0866e3ef-c111-c0a2-f18e-a10035a5bb07/dj.hpsoegav.jpg/100x100bb.jpg",
+   "bpm": 121.55,
+   "key": "D major",
+   "measured": 2
   },
   {
    "id": "the notorious b i g|sky s the limit",
@@ -645,7 +785,10 @@
    "rank": 7,
    "cleanId": 906586726,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bb/a0/41/bba041f3-b6a2-e6f8-9538-9d2355f65e0c/mzaf_11897509466925979351.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/9d/c8/d09dc822-43c6-b392-7980-ab492aa9a257/dj.bywycbiu.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/9d/c8/d09dc822-43c6-b392-7980-ab492aa9a257/dj.bywycbiu.jpg/100x100bb.jpg",
+   "bpm": 90.99,
+   "key": "E minor",
+   "measured": 2
   },
   {
    "id": "the notorious b i g|machine gun funk",
@@ -655,7 +798,9 @@
    "rank": 8,
    "cleanId": 204669541,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/4b/27/b94b27f4-249c-8d24-7a24-2f59b32bf2ab/mzaf_458801343497824149.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/100x100bb.jpg",
+   "bpm": 93.79,
+   "measured": 2
   },
   {
    "id": "the notorious b i g|everyday struggle",
@@ -665,7 +810,10 @@
    "rank": 9,
    "cleanId": 204669683,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/1f/eb/3f1febe5-e835-08d9-a2f3-0538f2aac603/mzaf_16429541041024394810.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/100x100bb.jpg",
+   "bpm": 96.1,
+   "key": "D# minor",
+   "measured": 2
   },
   {
    "id": "the notorious b i g|going back to cali",
@@ -675,7 +823,10 @@
    "rank": 10,
    "cleanId": 906586727,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/19/cc/1d19cc23-96fe-041b-fa5b-3e1b8929faec/mzaf_12753298039984896518.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/9d/c8/d09dc822-43c6-b392-7980-ab492aa9a257/dj.bywycbiu.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/9d/c8/d09dc822-43c6-b392-7980-ab492aa9a257/dj.bywycbiu.jpg/100x100bb.jpg",
+   "bpm": 99.03,
+   "key": "C# minor",
+   "measured": 2
   },
   {
    "id": "2pac|i get around",
@@ -685,7 +836,10 @@
    "rank": 1,
    "cleanId": 1440662034,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/58/d6/2558d685-0346-99ad-5462-41b97102b80e/mzaf_4578327602483946105.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg",
+   "bpm": 96.2,
+   "key": "A minor",
+   "measured": 2
   },
   {
    "id": "2pac|dear mama",
@@ -695,7 +849,10 @@
    "rank": 2,
    "cleanId": 1440662208,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/51/7e/0a517e4a-8106-400f-f4a0-050d79b30293/mzaf_1121910821221536917.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg",
+   "bpm": 168.16,
+   "key": "D# minor",
+   "measured": 2
   },
   {
    "id": "2pac|all about u",
@@ -705,7 +862,10 @@
    "rank": 3,
    "cleanId": 1588493095,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/a4/4d/aba44da1-948b-cea5-96cb-8bc739e15c99/mzaf_5276467984076185693.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e5/7c/55e57cf2-8325-a088-7d54-3aeedad1143f/21UM1IM16263.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e5/7c/55e57cf2-8325-a088-7d54-3aeedad1143f/21UM1IM16263.rgb.jpg/100x100bb.jpg",
+   "bpm": 103.21,
+   "key": "D major",
+   "measured": 2
   },
   {
    "id": "2pac|how do u want it",
@@ -715,7 +875,9 @@
    "rank": 4,
    "cleanId": 1588493349,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/ca/68/68ca68ff-c5fc-cb5f-0bcf-bf3599c5828d/mzaf_16410981005078108399.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e5/7c/55e57cf2-8325-a088-7d54-3aeedad1143f/21UM1IM16263.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e5/7c/55e57cf2-8325-a088-7d54-3aeedad1143f/21UM1IM16263.rgb.jpg/100x100bb.jpg",
+   "bpm": 92.51,
+   "measured": 2
   },
   {
    "id": "2pac|california love",
@@ -725,7 +887,9 @@
    "rank": 5,
    "cleanId": 1440662041,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/70/83/62708320-c29a-05c1-444e-f54a4dc11b78/mzaf_180909787822676774.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg",
+   "bpm": 91.54,
+   "measured": 2
   },
   {
    "id": "2pac|2 of amerikaz most wanted",
@@ -735,7 +899,9 @@
    "rank": 6,
    "cleanId": 1588493354,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ae/ef/c1/aeefc1f1-92f1-a19f-ecc9-b57286f56490/mzaf_10531122805826550295.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e5/7c/55e57cf2-8325-a088-7d54-3aeedad1143f/21UM1IM16263.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e5/7c/55e57cf2-8325-a088-7d54-3aeedad1143f/21UM1IM16263.rgb.jpg/100x100bb.jpg",
+   "bpm": 99.23,
+   "measured": 2
   },
   {
    "id": "2pac|keep ya head up",
@@ -745,7 +911,9 @@
    "rank": 7,
    "cleanId": 1440661721,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/23/72/b723722a-57ed-8543-61b1-66ad28942b3a/mzaf_5078570779089291363.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg",
+   "bpm": 86.08,
+   "measured": 2
   },
   {
    "id": "2pac|hit em up",
@@ -755,7 +923,9 @@
    "rank": 8,
    "cleanId": 1440661926,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/d5/7b/2bd57b22-f7c7-aa74-f09d-03691390b8ff/mzaf_16067229147945979824.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg",
+   "bpm": 95.2,
+   "measured": 2
   },
   {
    "id": "2pac|hail mary",
@@ -765,7 +935,9 @@
    "rank": 9,
    "cleanId": 1440661820,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/27/aa/b427aa00-9bad-6fe7-7683-1e576b48e0c3/mzaf_5404417223813696452.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/100x100bb.jpg",
+   "bpm": 109.46,
+   "measured": 2
   },
   {
    "id": "2pac|ambitionz az a ridah",
@@ -775,7 +947,10 @@
    "rank": 10,
    "cleanId": 1588493080,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/9b/6b/ab9b6bb6-131a-600f-afa4-f6f86c1f10fc/mzaf_4361110318809234711.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e5/7c/55e57cf2-8325-a088-7d54-3aeedad1143f/21UM1IM16263.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e5/7c/55e57cf2-8325-a088-7d54-3aeedad1143f/21UM1IM16263.rgb.jpg/100x100bb.jpg",
+   "bpm": 116.35,
+   "key": "D minor",
+   "measured": 2
   },
   {
    "id": "beastie boys|no sleep till brooklyn",
@@ -785,7 +960,9 @@
    "rank": 1,
    "cleanId": 1440912354,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/f0/22/38f022c8-a187-a078-1c96-7e4bc2abe579/mzaf_17812634625468836235.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg",
+   "bpm": 100.43,
+   "measured": 2
   },
   {
    "id": "beastie boys|brass monkey",
@@ -795,7 +972,9 @@
    "rank": 2,
    "cleanId": 1440912369,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/69/8d/91698d17-3660-4f33-d0aa-49561c80d4b5/mzaf_12579131418788807201.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg",
+   "bpm": 116.25,
+   "measured": 2
   },
   {
    "id": "beastie boys|fight for your right",
@@ -805,7 +984,10 @@
    "rank": 3,
    "cleanId": 1440912353,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/ed/1b/81ed1bad-3be1-3bc6-9425-a1008485dd37/mzaf_10760364814248560971.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg",
+   "bpm": 127.3,
+   "key": "G# major",
+   "measured": 2
   },
   {
    "id": "beastie boys|intergalactic",
@@ -815,7 +997,10 @@
    "rank": 4,
    "cleanId": 721224385,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/29/1b/6e291b7b-5cc5-79c2-af0d-47178644868e/mzaf_17397847024195052275.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/aa/95/31/aa953192-7552-3a1d-d87f-e724717f3947/13UABIM07217.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/aa/95/31/aa953192-7552-3a1d-d87f-e724717f3947/13UABIM07217.rgb.jpg/100x100bb.jpg",
+   "bpm": 119.34,
+   "key": "D major",
+   "measured": 2
   },
   {
    "id": "beastie boys|paul revere",
@@ -825,7 +1010,9 @@
    "rank": 5,
    "cleanId": 1440912357,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/a7/a4/a1a7a48e-a8de-7a39-685d-773bf5971d17/mzaf_7141464957977967372.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg",
+   "bpm": 122.45,
+   "measured": 2
   },
   {
    "id": "beastie boys|girls",
@@ -835,7 +1022,10 @@
    "rank": 6,
    "cleanId": 1440912350,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/64/0b/54640bf0-6b87-8a36-0183-52db3dc235a1/mzaf_5089451741038552773.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg",
+   "bpm": 139.67,
+   "key": "F major",
+   "measured": 2
   },
   {
    "id": "beastie boys|the new style",
@@ -845,7 +1035,9 @@
    "rank": 7,
    "cleanId": 1440912036,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/9c/02/469c027b-eaf5-1d75-f776-57a8a66814e3/mzaf_8210183891763518233.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg",
+   "bpm": 132.26,
+   "measured": 2
   },
   {
    "id": "beastie boys|rhymin and stealin",
@@ -855,7 +1047,9 @@
    "rank": 8,
    "cleanId": 1440912033,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/9e/37/e19e3784-6867-afd2-d605-afc501d7283e/mzaf_16114879058712262798.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg",
+   "bpm": 120.54,
+   "measured": 2
   },
   {
    "id": "beastie boys|she s crafty",
@@ -865,7 +1059,10 @@
    "rank": 9,
    "cleanId": 1440912347,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/15/cc/5215cc7b-ea19-4694-eb4d-53eac97a3111/mzaf_10241899611784577096.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/d7/81/e4d781e8-bd3f-486a-cd18-e9b3a7d12b34/00731452735126.rgb.jpg/100x100bb.jpg",
+   "bpm": 116.05,
+   "key": "A# minor",
+   "measured": 2
   },
   {
    "id": "beastie boys|shake your rump",
@@ -875,7 +1072,9 @@
    "rank": 10,
    "cleanId": 721277055,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/07/17/e8071761-c900-bebe-7995-df804adcf12f/mzaf_17296762675549098285.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/bf/b9/82/bfb9825b-e130-0664-2f2f-3a766a1161c6/05099969330056.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/bf/b9/82/bfb9825b-e130-0664-2f2f-3a766a1161c6/05099969330056.rgb.jpg/100x100bb.jpg",
+   "bpm": 138.52,
+   "measured": 2
   },
   {
    "id": "de la soul|me myself and i",
@@ -885,7 +1084,10 @@
    "rank": 1,
    "cleanId": 1657705243,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/f9/b1/59f9b16e-e931-2b25-267f-a8dfd7581fc9/mzaf_12900603430412658280.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg",
+   "bpm": 114.49,
+   "key": "C major",
+   "measured": 2
   },
   {
    "id": "de la soul|the magic number",
@@ -895,7 +1097,9 @@
    "rank": 2,
    "cleanId": 1657705065,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/f3/39/b8f3397f-07d3-01d3-0504-143af2d573a1/mzaf_3831865970800610214.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg",
+   "bpm": 100.48,
+   "measured": 2
   },
   {
    "id": "de la soul|eye know",
@@ -905,7 +1109,9 @@
    "rank": 3,
    "cleanId": 1657705231,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/ea/2d/b1ea2d3d-9f6d-8ae3-a27d-51c164b8908d/mzaf_5353647127081739577.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg",
+   "bpm": 112.5,
+   "measured": 2
   },
   {
    "id": "de la soul|buddy",
@@ -915,7 +1121,9 @@
    "rank": 4,
    "cleanId": 1657705241,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/da/c8/86dac80f-dcb9-1eb1-1f66-b0c747e98cd7/mzaf_14205655652056436736.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg",
+   "bpm": 99.23,
+   "measured": 2
   },
   {
    "id": "de la soul|plug tunin",
@@ -925,7 +1133,9 @@
    "rank": 5,
    "cleanId": 1657705239,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/67/8e/5c678e1d-1a61-4fc6-3052-0f883aa9ce8e/mzaf_8984033554341878668.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg",
+   "bpm": 97.76,
+   "measured": 2
   },
   {
    "id": "de la soul|change in speak",
@@ -935,7 +1145,9 @@
    "rank": 6,
    "cleanId": 1657705217,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/33/c1/9933c108-867f-7d0b-684d-1508e67b2219/mzaf_13058119374984845060.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg",
+   "bpm": 106.97,
+   "measured": 2
   },
   {
    "id": "de la soul|tread water",
@@ -945,7 +1157,9 @@
    "rank": 7,
    "cleanId": 1657705234,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6d/67/24/6d6724bf-30c0-b3f8-5b83-612992a073f4/mzaf_10577591405560505235.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d7/21/a8d72124-208c-c85c-b72e-a6c7cd54aed4/810098502627.png/100x100bb.jpg",
+   "bpm": 113.3,
+   "measured": 2
   },
   {
    "id": "de la soul|a roller skating jam named saturdays",
@@ -955,7 +1169,10 @@
    "rank": 8,
    "cleanId": 1664602260,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/5d/82/935d824e-96f9-e87a-ee93-27a27a21bf8c/mzaf_5647625745792339931.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/95/c6/6195c62e-5ab7-da8b-b751-5a488060d728/810098503105.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/95/c6/6195c62e-5ab7-da8b-b751-5a488060d728/810098503105.png/100x100bb.jpg",
+   "bpm": 110.85,
+   "key": "G major",
+   "measured": 2
   },
   {
    "id": "de la soul|bitties in the bk lounge",
@@ -965,7 +1182,10 @@
    "rank": 9,
    "cleanId": 1664602263,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/0a/ae/040aae2d-1d11-cd1f-506a-0407b6129e8e/mzaf_12157722596915631135.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/95/c6/6195c62e-5ab7-da8b-b751-5a488060d728/810098503105.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/95/c6/6195c62e-5ab7-da8b-b751-5a488060d728/810098503105.png/100x100bb.jpg",
+   "bpm": 108.71,
+   "key": "F major",
+   "measured": 2
   },
   {
    "id": "de la soul|ring ring ring",
@@ -975,7 +1195,9 @@
    "rank": 10,
    "cleanId": 1664602606,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/a2/1d/08a21d02-ab5b-775d-eef7-50216657b32f/mzaf_10415171941928037887.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/95/c6/6195c62e-5ab7-da8b-b751-5a488060d728/810098503105.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/95/c6/6195c62e-5ab7-da8b-b751-5a488060d728/810098503105.png/100x100bb.jpg",
+   "bpm": 103.96,
+   "measured": 2
   },
   {
    "id": "wu tang clan|after the laughter comes tears",
@@ -985,7 +1207,9 @@
    "rank": 1,
    "cleanId": 1437568218,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/5f/2f/ba5f2f72-881f-da0f-b19e-7b3d0292ed0d/mzaf_17374891403663568101.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/13/3c/82/133c826b-e0b0-e156-c183-f3b28149a9cc/886446442174.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/13/3c/82/133c826b-e0b0-e156-c183-f3b28149a9cc/886446442174.jpg/100x100bb.jpg",
+   "bpm": 92.59,
+   "measured": 2
   },
   {
    "id": "wu tang clan|clan in da front",
@@ -995,7 +1219,9 @@
    "rank": 2,
    "cleanId": 1746566644,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/32/ec/3532ec78-d2f0-974c-dec7-0a87f46b0085/mzaf_3150697027661398968.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/20/1f/8c201f03-7617-2d8b-3d8d-e0ba2d55041b/196872123784.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/20/1f/8c201f03-7617-2d8b-3d8d-e0ba2d55041b/196872123784.jpg/100x100bb.jpg",
+   "bpm": 132.11,
+   "measured": 2
   },
   {
    "id": "wu tang clan|wu tang clan ain t nuthing ta f wit",
@@ -1005,7 +1231,10 @@
    "rank": 3,
    "cleanId": 1746566974,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/9e/e5/db9ee59f-8ac4-6a1d-1748-ee84e25d3699/mzaf_16002365263339405150.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/20/1f/8c201f03-7617-2d8b-3d8d-e0ba2d55041b/196872123784.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/20/1f/8c201f03-7617-2d8b-3d8d-e0ba2d55041b/196872123784.jpg/100x100bb.jpg",
+   "bpm": 101.33,
+   "key": "C minor",
+   "measured": 2
   },
   {
    "id": "wu tang clan|protect ya neck",
@@ -1015,7 +1244,10 @@
    "rank": 4,
    "cleanId": 1746567085,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/9e/49/109e49fc-bde7-ee89-caa6-d61ca194c0eb/mzaf_17322852598698011391.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/20/1f/8c201f03-7617-2d8b-3d8d-e0ba2d55041b/196872123784.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/20/1f/8c201f03-7617-2d8b-3d8d-e0ba2d55041b/196872123784.jpg/100x100bb.jpg",
+   "bpm": 155.21,
+   "key": "G# minor",
+   "measured": 2
   },
   {
    "id": "wu tang clan|c r e a m",
@@ -1025,7 +1257,9 @@
    "rank": 5,
    "cleanId": 269846347,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/3b/1f/293b1fc5-2c92-02d7-c3a9-de3351080d58/mzaf_5313804908603278844.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7c/58/b1/7c58b153-2525-d47f-ab7a-9c9fe6882826/888880400017.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7c/58/b1/7c58b153-2525-d47f-ab7a-9c9fe6882826/888880400017.jpg/100x100bb.jpg",
+   "bpm": 86.23,
+   "measured": 2
   },
   {
    "id": "wu tang clan|tearz",
@@ -1035,7 +1269,9 @@
    "rank": 6,
    "cleanId": 1746567091,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/a2/43/d2a2438c-ecd6-7843-f760-32f427bf0f57/mzaf_7581026553217688717.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/20/1f/8c201f03-7617-2d8b-3d8d-e0ba2d55041b/196872123784.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/20/1f/8c201f03-7617-2d8b-3d8d-e0ba2d55041b/196872123784.jpg/100x100bb.jpg",
+   "bpm": 91.54,
+   "measured": 2
   },
   {
    "id": "wu tang clan|reunited",
@@ -1045,7 +1281,9 @@
    "rank": 7,
    "cleanId": 1568606480,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/25/c6/e2/25c6e2b4-bcf9-1261-dd3e-317da1481adb/mzaf_1000274717316905225.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/58/50/ac58500a-facd-917e-8835-2aba71177abf/886449271801.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/58/50/ac58500a-facd-917e-8835-2aba71177abf/886449271801.jpg/100x100bb.jpg",
+   "bpm": 120.09,
+   "measured": 2
   },
   {
    "id": "wu tang clan|method man",
@@ -1055,7 +1293,9 @@
    "rank": 8,
    "cleanId": 1746566960,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/ff/fd/b6fffdeb-b8de-87bf-d1d2-7ebf059ae1a8/mzaf_15303928822645049172.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/20/1f/8c201f03-7617-2d8b-3d8d-e0ba2d55041b/196872123784.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/20/1f/8c201f03-7617-2d8b-3d8d-e0ba2d55041b/196872123784.jpg/100x100bb.jpg",
+   "bpm": 101.58,
+   "measured": 2
   },
   {
    "id": "wu tang clan|triumph",
@@ -1065,7 +1305,9 @@
    "rank": 9,
    "cleanId": 1568606492,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cd/f7/09/cdf709aa-781e-d3fc-8153-c416743b2bf6/mzaf_9258725109651160748.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/58/50/ac58500a-facd-917e-8835-2aba71177abf/886449271801.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/58/50/ac58500a-facd-917e-8835-2aba71177abf/886449271801.jpg/100x100bb.jpg",
+   "bpm": 91.02,
+   "measured": 2
   },
   {
    "id": "wu tang clan|diesel",
@@ -1075,7 +1317,9 @@
    "rank": 10,
    "cleanId": 1099972941,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/20/fd/be20fd4e-469e-b081-07d9-da08a920f980/mzaf_10072309391083981372.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/43/46/15/43461592-488f-e7bd-bcc0-d131c8685d21/886445776591.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/43/46/15/43461592-488f-e7bd-bcc0-d131c8685d21/886445776591.jpg/100x100bb.jpg",
+   "bpm": 90.6,
+   "measured": 2
   },
   {
    "id": "the sugarhill gang|apache",
@@ -1085,7 +1329,9 @@
    "rank": 1,
    "cleanId": 547478040,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/75/16/f3751656-6906-a9ce-c3c0-e24ddf3c3a06/mzaf_8969911744100102617.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/60/2b/76602b81-5e69-b9d6-cf86-ea691da91f4c/603497930418.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/60/2b/76602b81-5e69-b9d6-cf86-ea691da91f4c/603497930418.jpg/100x100bb.jpg",
+   "bpm": 114.94,
+   "measured": 2
   },
   {
    "id": "the sugarhill gang|8th wonder",
@@ -1095,7 +1341,9 @@
    "rank": 2,
    "cleanId": 547478039,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/96/b9/cb96b923-98f9-5c77-e29f-8716f6c4ed91/mzaf_454755577970112821.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/60/2b/76602b81-5e69-b9d6-cf86-ea691da91f4c/603497930418.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/60/2b/76602b81-5e69-b9d6-cf86-ea691da91f4c/603497930418.jpg/100x100bb.jpg",
+   "bpm": 106.57,
+   "measured": 2
   },
   {
    "id": "the sugarhill gang|rapper s reprise",
@@ -1105,7 +1353,9 @@
    "rank": 3,
    "cleanId": 320995070,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/8e/e9/0f8ee994-2233-8d06-bc56-25ab36e1d6f5/mzaf_9628778949476749545.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features/01/39/40/dj.rferassr.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features/01/39/40/dj.rferassr.jpg/100x100bb.jpg",
+   "bpm": 113.59,
+   "measured": 2
   },
   {
    "id": "the sugarhill gang|hot hot summer day",
@@ -1115,7 +1365,10 @@
    "rank": 4,
    "cleanId": 547478043,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/9a/23/709a2368-55ff-eeb1-da4d-3f704db78114/mzaf_11167091371108692427.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/60/2b/76602b81-5e69-b9d6-cf86-ea691da91f4c/603497930418.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/60/2b/76602b81-5e69-b9d6-cf86-ea691da91f4c/603497930418.jpg/100x100bb.jpg",
+   "bpm": 113.54,
+   "key": "D minor",
+   "measured": 2
   },
   {
    "id": "the sugarhill gang|giggalo",
@@ -1125,7 +1378,10 @@
    "rank": 5,
    "cleanId": 547478042,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/08/1f/18081fa1-29a6-98ae-47ef-792cb777899a/mzaf_8964118898532901443.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/60/2b/76602b81-5e69-b9d6-cf86-ea691da91f4c/603497930418.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/60/2b/76602b81-5e69-b9d6-cf86-ea691da91f4c/603497930418.jpg/100x100bb.jpg",
+   "bpm": 102.01,
+   "key": "C major",
+   "measured": 2
   },
   {
    "id": "the sugarhill gang|girls",
@@ -1135,7 +1391,9 @@
    "rank": 6,
    "cleanId": 322038026,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ff/7d/55/ff7d5537-70f9-314b-1cc4-45fd305ecda6/mzaf_17828533794933210857.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e7/ff/9a/mzi.wqglxisu.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e7/ff/9a/mzi.wqglxisu.jpg/100x100bb.jpg",
+   "bpm": 113.3,
+   "measured": 2
   },
   {
    "id": "the sugarhill gang|fast lane",
@@ -1145,7 +1403,9 @@
    "rank": 7,
    "cleanId": 322038032,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6e/51/0b/6e510b46-6c88-3cdd-623c-9d0073993893/mzaf_7649878165454039220.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e7/ff/9a/mzi.wqglxisu.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/e7/ff/9a/mzi.wqglxisu.jpg/100x100bb.jpg",
+   "bpm": 110.21,
+   "measured": 2
   },
   {
    "id": "the sugarhill gang|livin in the fast lane",
@@ -1155,7 +1415,9 @@
    "rank": 8,
    "cleanId": 52311004,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/fc/81/abfc8182-a112-2158-3cb1-43e6a9c54b41/mzaf_1349607660612879831.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/08/59/3f/08593fb1-9fa6-3f9c-5753-f5eb6620b644/dj.jnqewlpv.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/08/59/3f/08593fb1-9fa6-3f9c-5753-f5eb6620b644/dj.jnqewlpv.jpg/100x100bb.jpg",
+   "bpm": 109.96,
+   "measured": 2
   },
   {
    "id": "the sugarhill gang|funk box",
@@ -1165,7 +1427,10 @@
    "rank": 9,
    "cleanId": 547478037,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ad/e3/41/ade34115-779c-8a8b-417f-328b23b196f6/mzaf_800194228855355371.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/60/2b/76602b81-5e69-b9d6-cf86-ea691da91f4c/603497930418.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/60/2b/76602b81-5e69-b9d6-cf86-ea691da91f4c/603497930418.jpg/100x100bb.jpg",
+   "bpm": 101.98,
+   "key": "E major",
+   "measured": 2
   },
   {
    "id": "the sugarhill gang|the word is out",
@@ -1175,7 +1440,10 @@
    "rank": 10,
    "cleanId": 209030248,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/fa/79/29fa79f3-ded0-c275-e520-bb3d211e6542/mzaf_5449878307158729277.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/97/ad/7b/97ad7bc4-e57b-94cf-0f10-0fb76cf5e460/mzi.vkdsixhn.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/97/ad/7b/97ad7bc4-e57b-94cf-0f10-0fb76cf5e460/mzi.vkdsixhn.jpg/100x100bb.jpg",
+   "bpm": 111.6,
+   "key": "F# minor",
+   "measured": 2
   },
   {
    "id": "naughty by nature|o p p",
@@ -1185,7 +1453,9 @@
    "rank": 1,
    "cleanId": 1604630329,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/6f/09/2d6f0951-9ccf-abc6-67ad-3e845f787f4f/mzaf_11156728003879346563.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/18/0d/16/180d1658-965f-dba0-c1d6-632c3d5c3905/081227921965.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/18/0d/16/180d1658-965f-dba0-c1d6-632c3d5c3905/081227921965.png/100x100bb.jpg",
+   "bpm": 131.91,
+   "measured": 2
   },
   {
    "id": "naughty by nature|hip hop hooray",
@@ -1195,7 +1465,9 @@
    "rank": 2,
    "cleanId": 1604622951,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/f8/53/47f853fa-c411-8d8c-87c5-911916118e9c/mzaf_2779878926236897517.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/26/56/6e/26566ee4-d5de-e236-06f0-c50e02923d1b/081227922061.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/26/56/6e/26566ee4-d5de-e236-06f0-c50e02923d1b/081227922061.png/100x100bb.jpg",
+   "bpm": 132.31,
+   "measured": 2
   },
   {
    "id": "naughty by nature|feel me flow",
@@ -1205,7 +1477,10 @@
    "rank": 3,
    "cleanId": 1604619966,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/f3/8b/93f38bc0-73ef-3c88-f6de-dc1dd40a52d2/mzaf_18095385490335509144.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/df/08/ed/df08ed70-1592-d7e9-59c5-327efd4c670e/603497944606.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/df/08/ed/df08ed70-1592-d7e9-59c5-327efd4c670e/603497944606.png/100x100bb.jpg",
+   "bpm": 90.17,
+   "key": "A# minor",
+   "measured": 2
   },
   {
    "id": "naughty by nature|clap yo hands",
@@ -1215,7 +1490,9 @@
    "rank": 4,
    "cleanId": 1604619900,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/86/2f/65862f85-4650-b980-ed39-c93083e06ba6/mzaf_10709766613649809618.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/df/08/ed/df08ed70-1592-d7e9-59c5-327efd4c670e/603497944606.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/df/08/ed/df08ed70-1592-d7e9-59c5-327efd4c670e/603497944606.png/100x100bb.jpg",
+   "bpm": 104.92,
+   "measured": 2
   },
   {
    "id": "naughty by nature|pin the tail on the donkey",
@@ -1225,7 +1502,9 @@
    "rank": 5,
    "cleanId": 1604630334,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c9/b3/43/c9b343dc-c6d5-345c-f67a-3e128460de42/mzaf_14745650584514777715.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/18/0d/16/180d1658-965f-dba0-c1d6-632c3d5c3905/081227921965.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/18/0d/16/180d1658-965f-dba0-c1d6-632c3d5c3905/081227921965.png/100x100bb.jpg",
+   "bpm": 133.71,
+   "measured": 2
   },
   {
    "id": "naughty by nature|poverty s paradise",
@@ -1235,7 +1514,9 @@
    "rank": 6,
    "cleanId": 1604619899,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/c4/43/c6c443c2-e964-a9bd-8bbc-9d1e96c9d63e/mzaf_5015153531053489335.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/df/08/ed/df08ed70-1592-d7e9-59c5-327efd4c670e/603497944606.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/df/08/ed/df08ed70-1592-d7e9-59c5-327efd4c670e/603497944606.png/100x100bb.jpg",
+   "bpm": 84.63,
+   "measured": 2
   },
   {
    "id": "naughty by nature|klickow klickow",
@@ -1245,7 +1526,9 @@
    "rank": 7,
    "cleanId": 1604619974,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/83/98/d7839808-ffca-d844-f873-94f7a29f23c9/mzaf_2658902653513078603.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/df/08/ed/df08ed70-1592-d7e9-59c5-327efd4c670e/603497944606.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/df/08/ed/df08ed70-1592-d7e9-59c5-327efd4c670e/603497944606.png/100x100bb.jpg",
+   "bpm": 97.91,
+   "measured": 2
   },
   {
    "id": "naughty by nature|rhyme ll shine on",
@@ -1255,7 +1538,10 @@
    "rank": 8,
    "cleanId": 1604630337,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/89/c8/cc89c8ce-157b-ce6a-df5e-87428644e85a/mzaf_14029046924041464106.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/18/0d/16/180d1658-965f-dba0-c1d6-632c3d5c3905/081227921965.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/18/0d/16/180d1658-965f-dba0-c1d6-632c3d5c3905/081227921965.png/100x100bb.jpg",
+   "bpm": 122.85,
+   "key": "C minor",
+   "measured": 2
   },
   {
    "id": "naughty by nature|shout out",
@@ -1265,7 +1551,9 @@
    "rank": 9,
    "cleanId": 1605189047,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/3b/00/1e3b0073-0b28-b053-c9c4-b2846b08be99/mzaf_15341283903583736292.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ea/32/08/ea320810-0c10-f27c-c3f9-376353db1546/016998511466.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ea/32/08/ea320810-0c10-f27c-c3f9-376353db1546/016998511466.png/100x100bb.jpg",
+   "bpm": 90.05,
+   "measured": 2
   },
   {
    "id": "naughty by nature|the hood comes first",
@@ -1275,7 +1563,9 @@
    "rank": 10,
    "cleanId": 1604622955,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/79/67/cb796747-df0d-dd50-1cfa-9de507dfed42/mzaf_14529587732412301179.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/26/56/6e/26566ee4-d5de-e236-06f0-c50e02923d1b/081227922061.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/26/56/6e/26566ee4-d5de-e236-06f0-c50e02923d1b/081227922061.png/100x100bb.jpg",
+   "bpm": 128.85,
+   "measured": 2
   },
   {
    "id": "eric b and rakim|paid in full",
@@ -1285,7 +1575,10 @@
    "rank": 1,
    "cleanId": 1440841589,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/cd/5f/e7cd5ffb-0090-5d69-8aca-90814a06f1b2/mzaf_13504407719687116269.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg",
+   "bpm": 132.01,
+   "key": "F minor",
+   "measured": 2
   },
   {
    "id": "eric b and rakim|i ain t no joke",
@@ -1295,7 +1588,10 @@
    "rank": 2,
    "cleanId": 1440841581,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/1f/68/0a1f685f-a817-bc2e-07ef-51bfddade74c/mzaf_6933357662950674065.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg",
+   "bpm": 139.07,
+   "key": "A# major",
+   "measured": 2
   },
   {
    "id": "eric b and rakim|don t sweat the technique",
@@ -1305,7 +1601,9 @@
    "rank": 3,
    "cleanId": 1440798552,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/10/00/89/1000899b-cf1c-28b6-1eae-95e320fa25b2/mzaf_12558203180377719466.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/28/7a/39/287a394b-b8c1-df54-7041-52a41c0cc094/00008811059422.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/28/7a/39/287a394b-b8c1-df54-7041-52a41c0cc094/00008811059422.rgb.jpg/100x100bb.jpg",
+   "bpm": 105.82,
+   "measured": 2
   },
   {
    "id": "eric b and rakim|microphone fiend",
@@ -1315,7 +1613,9 @@
    "rank": 4,
    "cleanId": 1442940594,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/a8/a6/8ba8a690-c500-96d7-ef4a-c1e16c49ab56/mzaf_17383281548690180633.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/53/ca/ab/53caabae-f289-5265-c483-0e1ff454858f/00602547742131.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/53/ca/ab/53caabae-f289-5265-c483-0e1ff454858f/00602547742131.rgb.jpg/100x100bb.jpg",
+   "bpm": 93.79,
+   "measured": 2
   },
   {
    "id": "eric b and rakim|i know you got soul",
@@ -1325,7 +1625,9 @@
    "rank": 5,
    "cleanId": 1440841586,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/d8/2e/e2d82ef2-7f4d-788c-9439-457a602e0dea/mzaf_9729202924309332272.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg",
+   "bpm": 104.11,
+   "measured": 2
   },
   {
    "id": "eric b and rakim|eric b is president",
@@ -1335,7 +1637,9 @@
    "rank": 6,
    "cleanId": 1440841595,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/9c/7a/fe9c7acc-e296-e4b4-4760-da18bb75670d/mzaf_5227856370693285670.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg",
+   "bpm": 129.2,
+   "measured": 2
   },
   {
    "id": "eric b and rakim|my melody",
@@ -1345,7 +1649,9 @@
    "rank": 7,
    "cleanId": 1440841585,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/6a/fe/b66afef3-4ff9-0a42-0ad3-82e861bc1566/mzaf_10207037725875335081.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg",
+   "bpm": 118,
+   "measured": 2
   },
   {
    "id": "eric b and rakim|move the crowd",
@@ -1355,7 +1661,10 @@
    "rank": 8,
    "cleanId": 1440841588,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/b4/1b/87b41b12-4f6d-0d8a-62f0-176e2e558d72/mzaf_4122721579124883499.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/11/10/13111001-0c28-9fd7-9d50-194e72e23f53/00602547742254.rgb.jpg/100x100bb.jpg",
+   "bpm": 121.24,
+   "key": "D minor",
+   "measured": 2
   },
   {
    "id": "eric b and rakim|follow the leader",
@@ -1365,7 +1674,9 @@
    "rank": 9,
    "cleanId": 1440747376,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/e6/ce/cae6ceb5-56ba-edfb-816a-7a80d1692a9a/mzaf_9804776201664271839.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/64/3c/e1/643ce1e4-bf7f-74ee-fc1a-850540889059/00602498804230.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/64/3c/e1/643ce1e4-bf7f-74ee-fc1a-850540889059/00602498804230.rgb.jpg/100x100bb.jpg",
+   "bpm": 144.15,
+   "measured": 2
   },
   {
    "id": "eric b and rakim|know the ledge",
@@ -1375,7 +1686,9 @@
    "rank": 10,
    "cleanId": 1440853459,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/a9/c2/0aa9c2b9-f4fb-ebdb-1ff0-6eab469b77ea/mzaf_10759448189673764565.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/93/d4/96/93d49650-dd11-f857-d331-43751cca39d5/00602547135377.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/93/d4/96/93d49650-dd11-f857-d331-43751cca39d5/00602547135377.rgb.jpg/100x100bb.jpg",
+   "bpm": 115.95,
+   "measured": 2
   },
   {
    "id": "ice cube|jackin for beats",
@@ -1385,7 +1698,9 @@
    "rank": 1,
    "cleanId": 723749924,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/3c/75/2b3c751b-40c9-8ad1-bf54-324af66e74ea/mzaf_7144314832576600471.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/5e/c8/b05ec89f-bfe5-fb12-4eff-9f4dbe3f6252/00724358194456.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/5e/c8/b05ec89f-bfe5-fb12-4eff-9f4dbe3f6252/00724358194456.jpg/100x100bb.jpg",
+   "bpm": 104.21,
+   "measured": 2
   },
   {
    "id": "ice cube|it was a good day",
@@ -1395,7 +1710,9 @@
    "rank": 2,
    "cleanId": 1444057383,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/37/6a/12376a04-b358-6874-c339-9ca5f889a125/mzaf_3990442595635444954.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/67/fb/4967fbed-fc6b-cf55-a31d-548968a6a8fd/00602557778458.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/67/fb/4967fbed-fc6b-cf55-a31d-548968a6a8fd/00602557778458.rgb.jpg/100x100bb.jpg",
+   "bpm": 82.25,
+   "measured": 2
   },
   {
    "id": "ice cube|you know how we do it",
@@ -1405,7 +1722,9 @@
    "rank": 3,
    "cleanId": 724571112,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/f6/3f/44f63f69-a652-9296-d607-d5acb48dfc90/mzaf_2773983674701427467.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d1/1c/cc/d11ccc63-ce31-f5db-81bf-0bff8598ec78/00724358194555.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d1/1c/cc/d11ccc63-ce31-f5db-81bf-0bff8598ec78/00724358194555.jpg/100x100bb.jpg",
+   "bpm": 92.79,
+   "measured": 2
   },
   {
    "id": "ice cube|check yo self",
@@ -1415,7 +1734,9 @@
    "rank": 4,
    "cleanId": 1444057517,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/05/a3/6405a344-8656-c4f0-bebc-b3ac6349e513/mzaf_13772067491995678693.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/67/fb/4967fbed-fc6b-cf55-a31d-548968a6a8fd/00602557778458.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/67/fb/4967fbed-fc6b-cf55-a31d-548968a6a8fd/00602557778458.rgb.jpg/100x100bb.jpg",
+   "bpm": 103.36,
+   "measured": 2
   },
   {
    "id": "ice cube|ghetto bird",
@@ -1425,7 +1746,9 @@
    "rank": 5,
    "cleanId": 724571095,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/71/29/57712921-b828-6d3c-0c88-bf7daa1a5e41/mzaf_3892618676600898558.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d1/1c/cc/d11ccc63-ce31-f5db-81bf-0bff8598ec78/00724358194555.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d1/1c/cc/d11ccc63-ce31-f5db-81bf-0bff8598ec78/00724358194555.jpg/100x100bb.jpg",
+   "bpm": 137.45,
+   "measured": 2
   },
   {
    "id": "ice cube|bop gun",
@@ -1435,7 +1758,10 @@
    "rank": 6,
    "cleanId": 724571136,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/9b/db/739bdbda-7521-23fb-d2ed-d28f9ff869b8/mzaf_10377279370730565053.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d1/1c/cc/d11ccc63-ce31-f5db-81bf-0bff8598ec78/00724358194555.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d1/1c/cc/d11ccc63-ce31-f5db-81bf-0bff8598ec78/00724358194555.jpg/100x100bb.jpg",
+   "bpm": 103.16,
+   "key": "D# minor",
+   "measured": 2
   },
   {
    "id": "ice cube|a gangsta s fairytale",
@@ -1445,7 +1771,9 @@
    "rank": 7,
    "cleanId": 723749722,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d5/34/f6/d534f6bb-705e-8421-597c-a12512bec62a/mzaf_9751794364197739831.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/5e/c8/b05ec89f-bfe5-fb12-4eff-9f4dbe3f6252/00724358194456.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/5e/c8/b05ec89f-bfe5-fb12-4eff-9f4dbe3f6252/00724358194456.jpg/100x100bb.jpg",
+   "bpm": 109.81,
+   "measured": 2
   },
   {
    "id": "ice cube|dead homiez",
@@ -1455,7 +1783,9 @@
    "rank": 8,
    "cleanId": 723749944,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8e/c8/7a/8ec87a29-bcce-34b1-abb0-812381bd3d7c/mzaf_11479798221362996444.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/5e/c8/b05ec89f-bfe5-fb12-4eff-9f4dbe3f6252/00724358194456.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/5e/c8/b05ec89f-bfe5-fb12-4eff-9f4dbe3f6252/00724358194456.jpg/100x100bb.jpg",
+   "bpm": 84.17,
+   "measured": 2
   },
   {
    "id": "ice cube|amerikkka s most wanted",
@@ -1465,7 +1795,9 @@
    "rank": 9,
    "cleanId": 723749673,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ab/ff/36/abff36c1-8396-92c6-6c4e-cf4d78b4684e/mzaf_13759886089312959172.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/5e/c8/b05ec89f-bfe5-fb12-4eff-9f4dbe3f6252/00724358194456.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/5e/c8/b05ec89f-bfe5-fb12-4eff-9f4dbe3f6252/00724358194456.jpg/100x100bb.jpg",
+   "bpm": 105.67,
+   "measured": 2
   },
   {
    "id": "ice cube|down for whatever",
@@ -1475,7 +1807,9 @@
    "rank": 10,
    "cleanId": 724571480,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/75/1d/cb751d18-5637-a39c-5e6b-73913d1f9c7c/mzaf_5467854708895023581.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d1/1c/cc/d11ccc63-ce31-f5db-81bf-0bff8598ec78/00724358194555.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d1/1c/cc/d11ccc63-ce31-f5db-81bf-0bff8598ec78/00724358194555.jpg/100x100bb.jpg",
+   "bpm": 147.66,
+   "measured": 2
   },
   {
    "id": "nas|if i ruled the world",
@@ -1485,7 +1819,10 @@
    "rank": 1,
    "cleanId": 1223060395,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/e6/37/0de63788-95cb-9561-ac30-613c3c2f9715/mzaf_7901908647833863061.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ae/68/a7/ae68a7c5-8490-b9b4-fb6a-ed9216eedab2/886445395167.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ae/68/a7/ae68a7c5-8490-b9b4-fb6a-ed9216eedab2/886445395167.jpg/100x100bb.jpg",
+   "bpm": 93.86,
+   "key": "A# minor",
+   "measured": 2
   },
   {
    "id": "nas|the world is yours",
@@ -1495,7 +1832,10 @@
    "rank": 2,
    "cleanId": 856131734,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/eb/df/6bebdf12-1eaf-dc29-7ef0-5d9852fc595f/mzaf_12432531786190381240.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/eb/cc/b9ebccbc-5ba4-2cdb-5332-b065739abd9a/886444567619.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/eb/cc/b9ebccbc-5ba4-2cdb-5332-b065739abd9a/886444567619.jpg/100x100bb.jpg",
+   "bpm": 88.4,
+   "key": "G major",
+   "measured": 2
   },
   {
    "id": "nas|it ain t hard to tell",
@@ -1505,7 +1845,10 @@
    "rank": 3,
    "cleanId": 856131740,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/44/19/b4441987-0e86-4090-b184-b8e643cdda2b/mzaf_5665819407263225233.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/eb/cc/b9ebccbc-5ba4-2cdb-5332-b065739abd9a/886444567619.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/eb/cc/b9ebccbc-5ba4-2cdb-5332-b065739abd9a/886444567619.jpg/100x100bb.jpg",
+   "bpm": 129.3,
+   "key": "A minor",
+   "measured": 2
   },
   {
    "id": "nas|n y state of mind",
@@ -1515,7 +1858,10 @@
    "rank": 4,
    "cleanId": 856131732,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/74/b2/5974b206-28f9-0444-76f1-833bc416d4fb/mzaf_869709703522937445.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/eb/cc/b9ebccbc-5ba4-2cdb-5332-b065739abd9a/886444567619.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/eb/cc/b9ebccbc-5ba4-2cdb-5332-b065739abd9a/886444567619.jpg/100x100bb.jpg",
+   "bpm": 84.63,
+   "key": "C# minor",
+   "measured": 2
   },
   {
    "id": "coolio|gangsta s paradise",
@@ -1525,7 +1871,10 @@
    "rank": 1,
    "cleanId": 1604645502,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/8f/60/918f605a-f8a9-e976-f43a-1bb5f0a8199d/mzaf_11718273018999451377.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/100x100bb.jpg",
+   "bpm": 79.96,
+   "key": "C minor",
+   "measured": 2
   },
   {
    "id": "coolio|1 2 3 4",
@@ -1535,7 +1884,9 @@
    "rank": 2,
    "cleanId": 1604645506,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/9d/84/059d84cd-6601-8967-8610-08eb93e145c5/mzaf_10075148101628223765.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/100x100bb.jpg",
+   "bpm": 115.19,
+   "measured": 2
   },
   {
    "id": "coolio|cruisin",
@@ -1545,7 +1896,10 @@
    "rank": 3,
    "cleanId": 1604645504,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/e4/8c/5ee48c9b-2b02-85a1-6f90-cf1a22aee52a/mzaf_630303921020278643.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/100x100bb.jpg",
+   "bpm": 166.96,
+   "key": "B major",
+   "measured": 2
   },
   {
    "id": "coolio|the winner",
@@ -1555,7 +1909,10 @@
    "rank": 4,
    "cleanId": 1604638760,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/9d/f1/e19df1e2-1b8d-05a7-04e4-4b97e8e05262/mzaf_10088037808882667889.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/6a/96/f76a9657-34d2-755b-5893-55cc53d1d3c6/603497928002.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/6a/96/f76a9657-34d2-755b-5893-55cc53d1d3c6/603497928002.png/100x100bb.jpg",
+   "bpm": 100.53,
+   "key": "D major",
+   "measured": 2
   },
   {
    "id": "coolio|c u when u get there",
@@ -1565,7 +1922,10 @@
    "rank": 5,
    "cleanId": 1604622826,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/53/98/ed53984f-2fd4-4c38-c865-1c2589d423b7/mzaf_5740570583844683121.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/c7/43/a1c74385-e42a-511e-8c7e-46e83f340aaa/081227515669.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/c7/43/a1c74385-e42a-511e-8c7e-46e83f340aaa/081227515669.png/100x100bb.jpg",
+   "bpm": 91.17,
+   "key": "G minor",
+   "measured": 2
   },
   {
    "id": "coolio|smilin",
@@ -1575,7 +1935,9 @@
    "rank": 6,
    "cleanId": 1604645507,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/83/56/cd83565f-b00a-4f4b-189b-4d75bad3a467/mzaf_9538381335306884662.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/100x100bb.jpg",
+   "bpm": 94.55,
+   "measured": 2
   },
   {
    "id": "coolio|a thing going on",
@@ -1585,7 +1947,10 @@
    "rank": 7,
    "cleanId": 1604645513,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/b7/60/50b7600d-e258-41b9-e04e-33f48860327d/mzaf_9917551231412297999.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/100x100bb.jpg",
+   "bpm": 155.11,
+   "key": "D# major",
+   "measured": 2
   },
   {
    "id": "coolio|ghetto cartoon",
@@ -1595,7 +1960,9 @@
    "rank": 8,
    "cleanId": 1604634649,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a9/47/76/a9477603-f720-d5c9-e353-9914a8e30030/mzaf_6141611879984861733.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/9c/05/6f9c0577-9b2a-2e60-170a-b03bab725792/081227882266.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/9c/05/6f9c0577-9b2a-2e60-170a-b03bab725792/081227882266.png/100x100bb.jpg",
+   "bpm": 96.86,
+   "measured": 2
   },
   {
    "id": "coolio|rollin with my homies",
@@ -1605,7 +1972,9 @@
    "rank": 9,
    "cleanId": 1783039632,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/bb/2c/b1bb2c12-d666-d5ae-dc00-5b2dc430682a/mzaf_8838739643719254119.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/04/7d/1a047dba-42c8-1c2a-4243-c50128d7c432/016998556863.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/04/7d/1a047dba-42c8-1c2a-4243-c50128d7c432/016998556863.png/100x100bb.jpg",
+   "bpm": 104.42,
+   "measured": 2
   },
   {
    "id": "coolio|smokin stix",
@@ -1615,7 +1984,9 @@
    "rank": 10,
    "cleanId": 1604634650,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/50/7f/90507f7c-b7cc-5e13-6a25-a21c03e8d4f0/mzaf_7224083532233372513.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/9c/05/6f9c0577-9b2a-2e60-170a-b03bab725792/081227882266.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/9c/05/6f9c0577-9b2a-2e60-170a-b03bab725792/081227882266.png/100x100bb.jpg",
+   "bpm": 79.36,
+   "measured": 2
   },
   {
    "id": "house of pain|jump around",
@@ -1625,7 +1996,9 @@
    "rank": 1,
    "cleanId": 1604628161,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/ff/46/1bff4615-9327-bc85-fef3-b9334bf55c89/mzaf_4586239461601648720.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/100x100bb.jpg",
+   "bpm": 109.56,
+   "measured": 2
   },
   {
    "id": "house of pain|put your head out",
@@ -1635,7 +2008,9 @@
    "rank": 2,
    "cleanId": 1604628162,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/cd/3c/decd3c54-575a-13ee-0298-4c831d25edd0/mzaf_17022537221224017081.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/100x100bb.jpg",
+   "bpm": 97.88,
+   "measured": 2
   },
   {
    "id": "house of pain|house of pain anthem",
@@ -1645,7 +2020,9 @@
    "rank": 3,
    "cleanId": 1604628167,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/f0/a0/3cf0a0d9-cd4f-361b-b363-39ccc888b944/mzaf_8075593007284531810.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/100x100bb.jpg",
+   "bpm": 106.17,
+   "measured": 2
   },
   {
    "id": "house of pain|salutations",
@@ -1655,7 +2032,10 @@
    "rank": 4,
    "cleanId": 1604628160,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/3e/8b/1c3e8b41-b037-4c30-faa5-2f98edabc686/mzaf_14333604044022878195.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/100x100bb.jpg",
+   "bpm": 133.16,
+   "key": "D minor",
+   "measured": 2
   },
   {
    "id": "house of pain|all my love",
@@ -1665,7 +2045,10 @@
    "rank": 5,
    "cleanId": 1604628177,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1c/d5/f5/1cd5f51c-40ee-df7d-27b4-e231ec500914/mzaf_8636848524283650588.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/100x100bb.jpg",
+   "bpm": 107.87,
+   "key": "A# minor",
+   "measured": 2
   },
   {
    "id": "house of pain|back from the dead",
@@ -1675,7 +2058,9 @@
    "rank": 6,
    "cleanId": 1604625642,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/82/6c/ea/826cea79-eefb-0a22-5b21-3cc4725c2424/mzaf_9399320699974192428.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/32/5c/bb/325cbbb7-6b68-b129-0e53-0cbe2ff29a91/603497953561.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/32/5c/bb/325cbbb7-6b68-b129-0e53-0cbe2ff29a91/603497953561.png/100x100bb.jpg",
+   "bpm": 97.61,
+   "measured": 2
   },
   {
    "id": "house of pain|runnin up on ya",
@@ -1685,7 +2070,9 @@
    "rank": 7,
    "cleanId": 1604623116,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/a8/f2/29a8f2d3-bc16-9a04-45a2-a6a213f876a5/mzaf_17830925694221714620.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7b/f4/6e/7bf46e01-6b38-6f9b-ff09-1b907d31ec53/603497209163.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7b/f4/6e/7bf46e01-6b38-6f9b-ff09-1b907d31ec53/603497209163.png/100x100bb.jpg",
+   "bpm": 104.72,
+   "measured": 2
   },
   {
    "id": "house of pain|on point",
@@ -1695,7 +2082,9 @@
    "rank": 8,
    "cleanId": 1604625645,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/91/a8/45/91a84579-0891-f181-2a5c-7a9e5e950225/mzaf_8572249284159975940.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/32/5c/bb/325cbbb7-6b68-b129-0e53-0cbe2ff29a91/603497953561.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/32/5c/bb/325cbbb7-6b68-b129-0e53-0cbe2ff29a91/603497953561.png/100x100bb.jpg",
+   "bpm": 108.57,
+   "measured": 2
   },
   {
    "id": "salt n pepa|shake your thang",
@@ -1705,7 +2094,10 @@
    "rank": 1,
    "cleanId": 1444145065,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/21/36/d2/2136d261-24d7-c788-d0bc-2268282a3b6a/mzaf_15653732504693237251.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5b/94/7c/5b947ce3-e921-a483-dabf-07366f5c993a/00602498607671.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5b/94/7c/5b947ce3-e921-a483-dabf-07366f5c993a/00602498607671.rgb.jpg/100x100bb.jpg",
+   "bpm": 103.01,
+   "key": "G major",
+   "measured": 2
   },
   {
    "id": "salt n pepa|ain t nuthin but a she thing",
@@ -1715,7 +2107,9 @@
    "rank": 2,
    "cleanId": 1646673128,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/fb/e5/93fbe5f1-721b-fb14-3497-1fd9f8fd151e/mzaf_18433718273384749589.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cc/e7/0f/cce70f21-bdb1-f448-f833-71ff6a0fb989/22UM1IM05396.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cc/e7/0f/cce70f21-bdb1-f448-f833-71ff6a0fb989/22UM1IM05396.rgb.jpg/100x100bb.jpg",
+   "bpm": 96.96,
+   "measured": 2
   },
   {
    "id": "salt n pepa and en vogue|whatta man",
@@ -1725,7 +2119,9 @@
    "rank": 3,
    "cleanId": 357897896,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/62/c1/9062c1ae-67f8-65a9-b96a-e39366367788/mzaf_3823543114167402855.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/94/ac/3b/mzi.vxchinqr.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/94/ac/3b/mzi.vxchinqr.jpg/100x100bb.jpg",
+   "bpm": 86.63,
+   "measured": 2
   },
   {
    "id": "salt n pepa|champagne",
@@ -1735,7 +2131,9 @@
    "rank": 4,
    "cleanId": 1528640504,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/3e/3e/9b3e3efc-fdd8-56de-e0ec-d0468f8ae41d/mzaf_16089478181521807190.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/db/93/6edb93d1-2b58-55da-5b62-88f1697c6c03/20UMGIM71380.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/db/93/6edb93d1-2b58-55da-5b62-88f1697c6c03/20UMGIM71380.rgb.jpg/100x100bb.jpg",
+   "bpm": 97.91,
+   "measured": 2
   },
   {
    "id": "salt n pepa|push it",
@@ -1745,7 +2143,10 @@
    "rank": 5,
    "cleanId": 1443011388,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/c1/6a/8cc16a47-8936-9089-4147-d3d142e13bda/mzaf_16095413955823846145.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/31/e5/42/31e54235-1e4f-65d6-6536-d456186ab2e4/13UAAIM06691.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/31/e5/42/31e54235-1e4f-65d6-6536-d456186ab2e4/13UAAIM06691.rgb.jpg/100x100bb.jpg",
+   "bpm": 128.6,
+   "key": "A minor",
+   "measured": 2
   },
   {
    "id": "salt n pepa|expression",
@@ -1755,7 +2156,10 @@
    "rank": 6,
    "cleanId": 1478457373,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/74/ce/9e74ce2a-246c-7afd-a587-e76944a00caf/mzaf_4659846847513529653.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/03/ef/53/03ef5302-65c7-b0e1-9877-926257626ead/15UMGIM77911.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/03/ef/53/03ef5302-65c7-b0e1-9877-926257626ead/15UMGIM77911.rgb.jpg/100x100bb.jpg",
+   "bpm": 107.77,
+   "key": "D# major",
+   "measured": 2
   },
   {
    "id": "salt n pepa|upside down",
@@ -1765,7 +2169,10 @@
    "rank": 7,
    "cleanId": 1170755186,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/df/ec/81dfec6b-663e-409c-4529-42d730fa5b64/mzaf_14260790306205698742.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/74/0d/94/740d9464-ef6c-6db0-5617-ffee13f43cd0/603497870356.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/74/0d/94/740d9464-ef6c-6db0-5617-ffee13f43cd0/603497870356.jpg/100x100bb.jpg",
+   "bpm": 98.01,
+   "key": "C minor",
+   "measured": 2
   },
   {
    "id": "sir mix a lot|lockjaw",
@@ -1775,7 +2182,10 @@
    "rank": 1,
    "cleanId": 1440811086,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/8a/06/df8a06de-0014-d6da-a7be-9394341524b1/mzaf_14355081638966635878.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg",
+   "bpm": 128.05,
+   "key": "D minor",
+   "measured": 2
   },
   {
    "id": "sir mix a lot|my hooptie",
@@ -1785,7 +2195,10 @@
    "rank": 2,
    "cleanId": 1444074829,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/29/16/2d2916cc-7750-2743-edfe-08e84aac06fa/mzaf_13978680892049102376.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/33/8c/c1/338cc152-79d5-9c63-af60-8b3ceeb522c6/00602537351237.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/33/8c/c1/338cc152-79d5-9c63-af60-8b3ceeb522c6/00602537351237.rgb.jpg/100x100bb.jpg",
+   "bpm": 91.94,
+   "key": "C# minor",
+   "measured": 2
   },
   {
    "id": "sir mix a lot|one time s got no case",
@@ -1795,7 +2208,10 @@
    "rank": 3,
    "cleanId": 1440811069,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/1c/c1/ee1cc11e-8127-1174-d4ad-299e0dbfda5d/mzaf_9206569939889988720.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg",
+   "bpm": 108.02,
+   "key": "A major",
+   "measured": 2
   },
   {
    "id": "sir mix a lot|testarossa",
@@ -1805,7 +2221,10 @@
    "rank": 4,
    "cleanId": 1440811277,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/07/97/dd0797b7-0bda-5177-a58d-af81c2927b0e/mzaf_9544869852735039203.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg",
+   "bpm": 131.21,
+   "key": "A major",
+   "measured": 2
   },
   {
    "id": "sir mix a lot|mack daddy",
@@ -1815,7 +2234,10 @@
    "rank": 5,
    "cleanId": 1440811074,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/b8/17/15b81759-79cd-5bda-b454-db0a63df482b/mzaf_14621807210785900558.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg",
+   "bpm": 124.15,
+   "key": "E minor",
+   "measured": 2
   },
   {
    "id": "sir mix a lot|beepers",
@@ -1825,7 +2247,10 @@
    "rank": 6,
    "cleanId": 1444074825,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/e6/ab/93e6abc1-f322-b9a3-9054-a5a96308c59e/mzaf_8893127110062032803.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/33/8c/c1/338cc152-79d5-9c63-af60-8b3ceeb522c6/00602537351237.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/33/8c/c1/338cc152-79d5-9c63-af60-8b3ceeb522c6/00602537351237.rgb.jpg/100x100bb.jpg",
+   "bpm": 109.96,
+   "key": "G# minor",
+   "measured": 2
   },
   {
    "id": "sir mix a lot|gortex",
@@ -1835,7 +2260,9 @@
    "rank": 7,
    "cleanId": 1444074830,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/38/99/17389937-180c-b41b-8f58-0634ea612919/mzaf_15060643073059762201.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/33/8c/c1/338cc152-79d5-9c63-af60-8b3ceeb522c6/00602537351237.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/33/8c/c1/338cc152-79d5-9c63-af60-8b3ceeb522c6/00602537351237.rgb.jpg/100x100bb.jpg",
+   "bpm": 91.94,
+   "measured": 2
   },
   {
    "id": "sir mix a lot|i got game",
@@ -1845,7 +2272,9 @@
    "rank": 8,
    "cleanId": 1444074836,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/6f/92/5c6f92d4-7ac3-30c6-fc9c-7059ce81cb7b/mzaf_13939816853573633754.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/33/8c/c1/338cc152-79d5-9c63-af60-8b3ceeb522c6/00602537351237.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/33/8c/c1/338cc152-79d5-9c63-af60-8b3ceeb522c6/00602537351237.rgb.jpg/100x100bb.jpg",
+   "bpm": 81.3,
+   "measured": 2
   },
   {
    "id": "sir mix a lot|seattle ain t bullshittin",
@@ -1855,7 +2284,10 @@
    "rank": 9,
    "cleanId": 1440811082,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/39/14/5f3914eb-2ba7-b5c9-60c1-9f4d1459e183/mzaf_615691626335807774.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg",
+   "bpm": 90.99,
+   "key": "F major",
+   "measured": 2
   },
   {
    "id": "sir mix a lot|a rapper s reputation",
@@ -1865,7 +2297,9 @@
    "rank": 10,
    "cleanId": 1440811282,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/da/97/71/da9771d4-8ed7-3fe0-4d90-7d785068a3f1/mzaf_12601520381592579499.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/20/96/59209622-9efb-ea58-ecff-804e3a85abc9/00602537351213.rgb.jpg/100x100bb.jpg",
+   "bpm": 118.79,
+   "measured": 2
   },
   {
    "id": "vanilla ice|ice ice baby",
@@ -1875,7 +2309,9 @@
    "rank": 1,
    "cleanId": 716691562,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/e2/7c/2de27ce7-0673-f8e0-30e7-c79084ea5a11/mzaf_9504996243608700414.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg",
+   "bpm": 115.69,
+   "measured": 2
   },
   {
    "id": "vanilla ice|play that funky music",
@@ -1885,7 +2321,9 @@
    "rank": 2,
    "cleanId": 716692079,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/03/99/b3039938-c236-082e-de1a-ac4a3cfb7436/mzaf_8978811778354756410.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg",
+   "bpm": 133.86,
+   "measured": 2
   },
   {
    "id": "vanilla ice|hooked",
@@ -1895,7 +2333,9 @@
    "rank": 3,
    "cleanId": 716691989,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/fb/3e/fdfb3e14-ec89-895b-8482-72394a147d1f/mzaf_2710042173809656159.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg",
+   "bpm": 101.88,
+   "measured": 2
   },
   {
    "id": "vanilla ice|too cold",
@@ -1905,7 +2345,9 @@
    "rank": 4,
    "cleanId": 1443723269,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/93/94/a093943f-0f3f-8f17-5ba1-e1dae4aecccc/mzaf_3994997282286852253.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5d/d8/e8/5dd8e867-28eb-b26b-cf6e-a636526244e2/00601215318524.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5d/d8/e8/5dd8e867-28eb-b26b-cf6e-a636526244e2/00601215318524.rgb.jpg/100x100bb.jpg",
+   "bpm": 131.61,
+   "measured": 2
   },
   {
    "id": "vanilla ice|fantasy",
@@ -1915,7 +2357,9 @@
    "rank": 5,
    "cleanId": 716692077,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/a4/45/f2a445c2-28c4-a553-deca-d1f3809b1fb5/mzaf_9662999777543406823.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg",
+   "bpm": 96.15,
+   "measured": 2
   },
   {
    "id": "vanilla ice|it s a party",
@@ -1925,7 +2369,10 @@
    "rank": 6,
    "cleanId": 716692084,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/b6/7a/acb67a72-621d-5eda-fbde-b0e62f3fccc9/mzaf_1076130351609108786.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg",
+   "bpm": 155.76,
+   "key": "G minor",
+   "measured": 2
   },
   {
    "id": "vanilla ice|stop that train",
@@ -1935,7 +2382,9 @@
    "rank": 7,
    "cleanId": 716691839,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/46/27/0946271c-9cd6-4590-dbcd-5670f610e2bc/mzaf_16676862251630777991.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg",
+   "bpm": 115.59,
+   "measured": 2
   },
   {
    "id": "vanilla ice|havin a roni",
@@ -1945,7 +2394,9 @@
    "rank": 8,
    "cleanId": 716692248,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/26/4c/56264c73-69b6-036f-ed8e-c7cf692bb010/mzaf_2117715749974360211.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg",
+   "bpm": 131.16,
+   "measured": 2
   },
   {
    "id": "vanilla ice|dancin",
@@ -1955,7 +2406,9 @@
    "rank": 9,
    "cleanId": 716692082,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/0b/87/7f0b8759-a285-5df1-cf10-a76d6f2d2930/mzaf_14849128941878500567.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg",
+   "bpm": 144.45,
+   "measured": 2
   },
   {
    "id": "vanilla ice|i love you",
@@ -1965,7 +2418,9 @@
    "rank": 10,
    "cleanId": 716692242,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/1d/1c/0e1d1c99-225c-1df9-2bcf-267db868dca1/mzaf_2162729297143601346.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/100x100bb.jpg",
+   "bpm": 94.71,
+   "measured": 2
   },
   {
    "id": "mc hammer|u can t touch this",
@@ -1975,7 +2430,9 @@
    "rank": 1,
    "cleanId": 724647729,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/f9/c5/84f9c5ee-0805-6a0c-3fca-23f176f7cda2/mzaf_4185008744916208606.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg",
+   "bpm": 133.36,
+   "measured": 2
   },
   {
    "id": "mc hammer|too legit to quit",
@@ -1985,7 +2442,10 @@
    "rank": 2,
    "cleanId": 724647732,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/1f/52/9c1f52f6-172f-fd22-b33b-c52f47faf9bd/mzaf_11125220515819687865.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg",
+   "bpm": 83,
+   "key": "C minor",
+   "measured": 2
   },
   {
    "id": "mc hammer|let s get it started",
@@ -1995,7 +2455,10 @@
    "rank": 3,
    "cleanId": 724651564,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/ad/49/2dad492c-a2b9-2228-9a5e-9e2d53a7f156/mzaf_7631285893838721911.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/13/76/6e/13766e60-409f-e551-0209-a95d9cad9a24/00077779092451.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/13/76/6e/13766e60-409f-e551-0209-a95d9cad9a24/00077779092451.jpg/100x100bb.jpg",
+   "bpm": 115.44,
+   "key": "C minor",
+   "measured": 2
   },
   {
    "id": "mc hammer|pray",
@@ -2005,7 +2468,9 @@
    "rank": 4,
    "cleanId": 724647741,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/75/e2/1275e28f-b42d-82e2-1cdc-b958f6efa971/mzaf_15805789134305161074.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg",
+   "bpm": 121.44,
+   "measured": 2
   },
   {
    "id": "mc hammer|turn this mutha out",
@@ -2015,7 +2480,9 @@
    "rank": 5,
    "cleanId": 724647738,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/a2/87/c9a28701-617c-4c24-874f-5d60106bd045/mzaf_14412917253867531188.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg",
+   "bpm": 111.4,
+   "measured": 2
   },
   {
    "id": "mc hammer|2 legit 2 quit",
@@ -2025,7 +2492,10 @@
    "rank": 6,
    "cleanId": 715954880,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/30/d0/18/30d018fc-082b-eaa7-90b2-9ce3198a6cc4/mzaf_12361408171831726699.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/31/fc/a0/31fca060-6c03-0870-6182-a47020bb1efe/00094637584057.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/31/fc/a0/31fca060-6c03-0870-6182-a47020bb1efe/00094637584057.jpg/100x100bb.jpg",
+   "bpm": 83.1,
+   "key": "C minor",
+   "measured": 2
   },
   {
    "id": "mc hammer|have you seen her",
@@ -2035,7 +2505,10 @@
    "rank": 7,
    "cleanId": 724647822,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/bf/d3/04bfd34b-6a17-c986-e7a0-5294481402e2/mzaf_16116446678413235899.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg",
+   "bpm": 144.4,
+   "key": "E major",
+   "measured": 2
   },
   {
    "id": "mc hammer|addams groove",
@@ -2045,7 +2518,9 @@
    "rank": 8,
    "cleanId": 724647744,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/41/68/4c41685e-5152-e4ff-6f53-26fb90b8d406/mzaf_12843822838765465558.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0c/a5/7c/0ca57c94-601d-f973-eb79-3941573aac7c/13UABIM74018.rgb.jpg/100x100bb.jpg",
+   "bpm": 90,
+   "measured": 2
   },
   {
    "id": "mc hammer|it s all good",
@@ -2055,7 +2530,9 @@
    "rank": 9,
    "cleanId": 357909238,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/c3/de/8cc3dec2-2a05-b213-ddb0-013dc6d5af8f/mzaf_3252520371586506128.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/d6/8e/49d68e99-6ba3-5962-57b6-9490bbca6215/mzi.diudjdby.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/d6/8e/49d68e99-6ba3-5962-57b6-9490bbca6215/mzi.diudjdby.jpg/100x100bb.jpg",
+   "bpm": 108.46,
+   "measured": 2
   },
   {
    "id": "mc hammer|pump it up",
@@ -2065,7 +2542,9 @@
    "rank": 10,
    "cleanId": 724651735,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/80/b7/e880b7c5-3eb9-c806-dae0-d0cc33d988fd/mzaf_17824153552874590879.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/13/76/6e/13766e60-409f-e551-0209-a95d9cad9a24/00077779092451.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/13/76/6e/13766e60-409f-e551-0209-a95d9cad9a24/00077779092451.jpg/100x100bb.jpg",
+   "bpm": 116.19,
+   "measured": 2
   },
   {
    "id": "young mc|bust a move",
@@ -2075,7 +2554,9 @@
    "rank": 1,
    "cleanId": 1440915125,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/b2/2c/03b22c9e-4d6b-a63f-151b-1e2879588d69/mzaf_10692287922303504008.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg",
+   "bpm": 116.95,
+   "measured": 2
   },
   {
    "id": "young mc|principal s office",
@@ -2085,7 +2566,9 @@
    "rank": 2,
    "cleanId": 1440915123,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/58/51/23585122-7d21-7cba-3d5f-b184b2df80fd/mzaf_13732781989357994152.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg",
+   "bpm": 95.45,
+   "measured": 2
   },
   {
    "id": "young mc|know how",
@@ -2095,7 +2578,10 @@
    "rank": 3,
    "cleanId": 1440915163,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/4a/44/5b4a442b-5727-a3bb-6087-a292d926d599/mzaf_12225649245538081113.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg",
+   "bpm": 116.75,
+   "key": "G major",
+   "measured": 2
   },
   {
    "id": "young mc|fastest rhyme",
@@ -2105,7 +2591,9 @@
    "rank": 4,
    "cleanId": 1440915129,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/71/d7/4e71d7f4-5e4b-0fbd-3607-91cdd928bac8/mzaf_17881361325934815822.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg",
+   "bpm": 98.26,
+   "measured": 2
   },
   {
    "id": "young mc|got more rhymes",
@@ -2115,7 +2603,9 @@
    "rank": 5,
    "cleanId": 1440901321,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/af/a4/f6afa4f6-b0bc-ea17-f057-31fc04d3b846/mzaf_9443101007256153217.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1e/bf/92/1ebf9258-e1be-afef-5465-790e61a80fad/00610447550329.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1e/bf/92/1ebf9258-e1be-afef-5465-790e61a80fad/00610447550329.rgb.jpg/100x100bb.jpg",
+   "bpm": 88.95,
+   "measured": 2
   },
   {
    "id": "young mc|my name is young",
@@ -2125,7 +2615,9 @@
    "rank": 6,
    "cleanId": 1440915130,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/32/61/a63261bd-8bbe-62d6-8a3b-2cd940aeed12/mzaf_8334817988048871671.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg",
+   "bpm": 78.35,
+   "measured": 2
   },
   {
    "id": "young mc|roll with the punches",
@@ -2135,7 +2627,9 @@
    "rank": 7,
    "cleanId": 1440901313,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/6c/7a/9e6c7aec-873c-7107-4039-82805979dc72/mzaf_9885893330152932507.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1e/bf/92/1ebf9258-e1be-afef-5465-790e61a80fad/00610447550329.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1e/bf/92/1ebf9258-e1be-afef-5465-790e61a80fad/00610447550329.rgb.jpg/100x100bb.jpg",
+   "bpm": 93.39,
+   "measured": 2
   },
   {
    "id": "young mc|non stop",
@@ -2145,7 +2639,9 @@
    "rank": 8,
    "cleanId": 1440901305,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/5f/96/2d5f96cf-a2e2-2e56-e38a-974346843b7d/mzaf_12805909892189222270.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1e/bf/92/1ebf9258-e1be-afef-5465-790e61a80fad/00610447550329.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1e/bf/92/1ebf9258-e1be-afef-5465-790e61a80fad/00610447550329.rgb.jpg/100x100bb.jpg",
+   "bpm": 125.35,
+   "measured": 2
   },
   {
    "id": "young mc|that s the way love goes",
@@ -2155,7 +2651,10 @@
    "rank": 9,
    "cleanId": 1473993646,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/e5/b3/e5e5b3d9-4e11-f28e-2af3-61722db7b682/mzaf_2156095158765450173.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/59/5b/42/595b42f8-0de1-6aca-79fb-9a10ebb2e117/19UMGIM67574.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/59/5b/42/595b42f8-0de1-6aca-79fb-9a10ebb2e117/19UMGIM67574.rgb.jpg/100x100bb.jpg",
+   "bpm": 118.3,
+   "key": "C# minor",
+   "measured": 2
   },
   {
    "id": "young mc|i let em know",
@@ -2165,7 +2664,9 @@
    "rank": 10,
    "cleanId": 1440915169,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/af/a3/4dafa384-46ca-9f0f-7e72-43bbc036aaad/mzaf_2137989592637395513.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/d1/0f/13d10fe8-2232-d254-ec22-1fa91c7dbc4a/00669910397350.rgb.jpg/100x100bb.jpg",
+   "bpm": 100.88,
+   "measured": 2
   },
   {
    "id": "will smith|gettin jiggy wit it",
@@ -2175,7 +2676,9 @@
    "rank": 1,
    "cleanId": 161525098,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/8a/f3/538af38d-0fcd-8675-364b-d99bf58d914f/mzaf_15201814939438473635.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg",
+   "bpm": 107.92,
+   "measured": 2
   },
   {
    "id": "will smith|miami",
@@ -2185,7 +2688,9 @@
    "rank": 2,
    "cleanId": 206201782,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/32/83/913283b0-4e0d-ef0a-68c8-770b16d635be/mzaf_13116975505489704547.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/86/2b/83862bab-beb9-5736-509e-74eb6f261e83/dj.qtjkodwa.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/86/2b/83862bab-beb9-5736-509e-74eb6f261e83/dj.qtjkodwa.jpg/100x100bb.jpg",
+   "bpm": 108.17,
+   "measured": 2
   },
   {
    "id": "will smith|just the two of us",
@@ -2195,7 +2700,9 @@
    "rank": 3,
    "cleanId": 161525365,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/b3/5f/43b35f68-6bb6-4f9d-f4f0-5badb0e1fef7/mzaf_17707435569372651959.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg",
+   "bpm": 126.05,
+   "measured": 2
   },
   {
    "id": "will smith|men in black",
@@ -2205,7 +2712,10 @@
    "rank": 4,
    "cleanId": 161525438,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/00/18/f80018b0-61e3-15f3-5a9e-7e0f12a7d9ce/mzaf_2388099332315998827.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg",
+   "bpm": 107.57,
+   "key": "D# major",
+   "measured": 2
   },
   {
    "id": "will smith|candy",
@@ -2215,7 +2725,10 @@
    "rank": 5,
    "cleanId": 161525102,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/3b/6c/703b6c5f-24bd-7353-5d62-39ddea95da5d/mzaf_17845336504352758102.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg",
+   "bpm": 104.86,
+   "key": "B minor",
+   "measured": 2
   },
   {
    "id": "will smith|just cruisin",
@@ -2225,7 +2738,10 @@
    "rank": 6,
    "cleanId": 206201773,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/dd/da/dcddda39-3f62-76e7-389b-b960f53a1c2f/mzaf_9468982685209363562.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/86/2b/83862bab-beb9-5736-509e-74eb6f261e83/dj.qtjkodwa.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/86/2b/83862bab-beb9-5736-509e-74eb6f261e83/dj.qtjkodwa.jpg/100x100bb.jpg",
+   "bpm": 90.52,
+   "key": "C# minor",
+   "measured": 2
   },
   {
    "id": "will smith|chasing forever",
@@ -2235,7 +2751,10 @@
    "rank": 7,
    "cleanId": 161525202,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/19/ce/f919ce74-e052-ac14-e79a-e79d126a52fb/mzaf_8543538820818983671.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg",
+   "bpm": 91.19,
+   "key": "C# major",
+   "measured": 2
   },
   {
    "id": "will smith|it s all good",
@@ -2245,7 +2764,10 @@
    "rank": 8,
    "cleanId": 161525350,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/af/6f/26af6fd7-7926-77b2-9826-19ad3e312ad9/mzaf_4121115021839834671.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg",
+   "bpm": 99.08,
+   "key": "A# minor",
+   "measured": 2
   },
   {
    "id": "will smith|big willie style",
@@ -2255,7 +2777,9 @@
    "rank": 9,
    "cleanId": 161525423,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/30/ff/be30ff5e-36c1-300e-179d-12b3af96b17f/mzaf_5503491620849716004.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg",
+   "bpm": 85.02,
+   "measured": 2
   },
   {
    "id": "will smith|yes yes y all",
@@ -2265,7 +2789,9 @@
    "rank": 10,
    "cleanId": 161525279,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/42/8a/b1428aeb-61f3-c5bc-6318-f818fda202cd/mzaf_9215647241828067650.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/100x100bb.jpg",
+   "bpm": 125.2,
+   "measured": 2
   },
   {
    "id": "dj jazzy jeff and the fresh prince|summertime",
@@ -2275,7 +2801,9 @@
    "rank": 1,
    "cleanId": 303162581,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/25/51/7925516a-b68d-03b9-91f1-c3290416e8f7/mzaf_8079175482036327857.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/68/2b/94/682b94b0-aa4b-f07d-3300-3a6658b61b9c/012414139221.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/68/2b/94/682b94b0-aa4b-f07d-3300-3a6658b61b9c/012414139221.jpg/100x100bb.jpg",
+   "bpm": 134.75,
+   "measured": 2
   },
   {
    "id": "dj jazzy jeff and the fresh prince|a nightmare on my street",
@@ -2285,7 +2813,9 @@
    "rank": 2,
    "cleanId": 206201760,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/4a/65/e04a6588-cdd7-cbd7-f2e8-7ed57af5acaa/mzaf_3360706516268960418.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/86/2b/83862bab-beb9-5736-509e-74eb6f261e83/dj.qtjkodwa.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/86/2b/83862bab-beb9-5736-509e-74eb6f261e83/dj.qtjkodwa.jpg/100x100bb.jpg",
+   "bpm": 85.17,
+   "measured": 2
   },
   {
    "id": "dj jazzy jeff and the fresh prince|the fresh prince of bel air",
@@ -2295,7 +2825,9 @@
    "rank": 3,
    "cleanId": 206201765,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/d0/06/b8d006d9-1053-7c7d-18ea-f7803ad4f217/mzaf_460986286834511183.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/86/2b/83862bab-beb9-5736-509e-74eb6f261e83/dj.qtjkodwa.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/86/2b/83862bab-beb9-5736-509e-74eb6f261e83/dj.qtjkodwa.jpg/100x100bb.jpg",
+   "bpm": 101.86,
+   "measured": 2
   },
   {
    "id": "dj jazzy jeff and the fresh prince|boom shake the room",
@@ -2305,7 +2837,10 @@
    "rank": 4,
    "cleanId": 304746843,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/84/93/79/84937960-1d2b-700c-c7f5-40e0f9281da6/mzaf_133796469945981880.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/40/3b/6c/mzi.glrrjjzh.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/40/3b/6c/mzi.glrrjjzh.jpg/100x100bb.jpg",
+   "bpm": 96.91,
+   "key": "D# minor",
+   "measured": 2
   },
   {
    "id": "dj jazzy jeff and the fresh prince|i wanna rock",
@@ -2315,7 +2850,9 @@
    "rank": 5,
    "cleanId": 304746855,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/30/d8/6f30d8aa-647a-0146-da63-e2727309ee03/mzaf_15280344963130404725.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/40/3b/6c/mzi.glrrjjzh.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/40/3b/6c/mzi.glrrjjzh.jpg/100x100bb.jpg",
+   "bpm": 116.85,
+   "measured": 2
   },
   {
    "id": "dj jazzy jeff and the fresh prince|rock the house",
@@ -2325,7 +2862,9 @@
    "rank": 6,
    "cleanId": 269619449,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/df/f8/51dff8d5-6b95-d60b-161a-1878999979b4/mzaf_1797329844120079433.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/38/af/cb/mzi.kbfznhoh.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/38/af/cb/mzi.kbfznhoh.jpg/100x100bb.jpg",
+   "bpm": 133.01,
+   "measured": 2
   },
   {
    "id": "dj jazzy jeff and the fresh prince|ain t no place like home",
@@ -2335,7 +2874,10 @@
    "rank": 7,
    "cleanId": 304746854,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/26/37/bd2637b0-c32b-d253-c734-71399deb1755/mzaf_4042250814245626862.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/40/3b/6c/mzi.glrrjjzh.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/40/3b/6c/mzi.glrrjjzh.jpg/100x100bb.jpg",
+   "bpm": 168.01,
+   "key": "D minor",
+   "measured": 2
   },
   {
    "id": "dj jazzy jeff and the fresh prince|brand new funk",
@@ -2345,7 +2887,10 @@
    "rank": 8,
    "cleanId": 306676849,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/29/c5/3c29c567-0b89-4046-1759-64ebdf8aca7a/mzaf_3451662015852652443.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/43/3e/07/433e0757-a3ab-4bbf-1e41-73e37e9fbec2/mzi.txqhprue.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/43/3e/07/433e0757-a3ab-4bbf-1e41-73e37e9fbec2/mzi.txqhprue.jpg/100x100bb.jpg",
+   "bpm": 131.01,
+   "key": "C# major",
+   "measured": 2
   },
   {
    "id": "dj jazzy jeff and the fresh prince|i think i can beat mike tyson",
@@ -2355,7 +2900,9 @@
    "rank": 9,
    "cleanId": 304751011,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/80/7b/36807b22-d618-f6db-4927-59cd62113537/mzaf_13972840774081234780.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/ea/5c/3d/mzi.slivqntj.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/ea/5c/3d/mzi.slivqntj.jpg/100x100bb.jpg",
+   "bpm": 107.92,
+   "measured": 2
   },
   {
    "id": "dj jazzy jeff and the fresh prince|the magnificent jazzy jeff",
@@ -2365,7 +2912,9 @@
    "rank": 10,
    "cleanId": 269619621,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/9a/00/129a00cc-a7ef-a852-0c8f-1c21331b5b41/mzaf_11481038801141994316.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/38/af/cb/mzi.kbfznhoh.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/38/af/cb/mzi.kbfznhoh.jpg/100x100bb.jpg",
+   "bpm": 98.01,
+   "measured": 2
   },
   {
    "id": "digital underground|the humpty dance",
@@ -2375,7 +2924,9 @@
    "rank": 1,
    "cleanId": 1604634220,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/c0/84/1cc08424-2f11-ba00-61cc-86d554cf8a12/mzaf_8927935492997487065.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg",
+   "bpm": 103.51,
+   "measured": 2
   },
   {
    "id": "digital underground|same song",
@@ -2385,7 +2936,9 @@
    "rank": 2,
    "cleanId": 1604630068,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/76/fb/1176fbf0-63f1-b2a6-8068-47933df8ea04/mzaf_7363811648442152656.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/3f/b2/093fb2a1-3a88-8e0c-00ca-4e1e1b2b762f/016998508367.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/3f/b2/093fb2a1-3a88-8e0c-00ca-4e1e1b2b762f/016998508367.png/100x100bb.jpg",
+   "bpm": 103.16,
+   "measured": 2
   },
   {
    "id": "digital underground|freaks of the industry",
@@ -2395,7 +2948,9 @@
    "rank": 3,
    "cleanId": 1604634227,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/99/21/9d992153-debd-b913-8ae0-5cf3f00747dc/mzaf_13922490990016108220.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg",
+   "bpm": 166.31,
+   "measured": 2
   },
   {
    "id": "digital underground|doowutchyalike",
@@ -2405,7 +2960,9 @@
    "rank": 4,
    "cleanId": 1604634228,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/ec/73/78ec73ce-5600-b1d1-b7ac-449e843ef9e4/mzaf_6288136554849985451.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg",
+   "bpm": 110.95,
+   "measured": 2
   },
   {
    "id": "digital underground|kiss you back",
@@ -2415,7 +2972,10 @@
    "rank": 5,
    "cleanId": 1604630823,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/01/35/a3/0135a34a-b966-40db-a877-074d3e1feff7/mzaf_3864399403176201482.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e7/85/51/e7855121-280f-0348-e774-9c414610e1a0/016998104569.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e7/85/51/e7855121-280f-0348-e774-9c414610e1a0/016998104569.png/100x100bb.jpg",
+   "bpm": 113,
+   "key": "E minor",
+   "measured": 2
   },
   {
    "id": "digital underground|sex packets",
@@ -2425,7 +2985,9 @@
    "rank": 6,
    "cleanId": 1604634231,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/2e/fc/992efc99-558e-7c14-e5c6-42ff8cf6176a/mzaf_5913476273686755570.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg",
+   "bpm": 129.55,
+   "measured": 2
   },
   {
    "id": "digital underground|no nose job",
@@ -2435,7 +2997,9 @@
    "rank": 7,
    "cleanId": 1604630820,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/67/1e/e0/671ee0b3-5ab9-1d2e-d022-49f57f224c79/mzaf_17443082992945766647.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e7/85/51/e7855121-280f-0348-e774-9c414610e1a0/016998104569.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e7/85/51/e7855121-280f-0348-e774-9c414610e1a0/016998104569.png/100x100bb.jpg",
+   "bpm": 108.72,
+   "measured": 2
   },
   {
    "id": "digital underground|packet man",
@@ -2445,7 +3009,10 @@
    "rank": 8,
    "cleanId": 1604634233,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/cc/f4/c2ccf429-7feb-c285-817a-ca95984dc95d/mzaf_533355360329103599.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg",
+   "bpm": 98.11,
+   "key": "A# major",
+   "measured": 2
   },
   {
    "id": "digital underground|rhymin on the funk",
@@ -2455,7 +3022,9 @@
    "rank": 9,
    "cleanId": 1604634222,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/c2/d8/97c2d886-2d9e-1487-ee82-49a72cbd3ac4/mzaf_11019348014861783798.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg",
+   "bpm": 125.45,
+   "measured": 2
   },
   {
    "id": "digital underground|packet prelude",
@@ -2465,7 +3034,10 @@
    "rank": 10,
    "cleanId": 1604634229,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/67/d9/6e67d9ac-33ae-1329-aab8-997b35fa5efd/mzaf_15626740392565186778.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/100x100bb.jpg",
+   "bpm": 121.14,
+   "key": "A# minor",
+   "measured": 2
   },
   {
    "id": "tone loc|funky cold medina",
@@ -2475,7 +3047,9 @@
    "rank": 1,
    "cleanId": 1440804766,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/06/d9/4806d90b-234e-e417-63b6-6ddf2e3a167f/mzaf_11201261390380483192.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/8b/1e/c78b1eae-509c-31c3-8c37-25439ad62c46/14CMGIM01104.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/8b/1e/c78b1eae-509c-31c3-8c37-25439ad62c46/14CMGIM01104.rgb.jpg/100x100bb.jpg",
+   "bpm": 117.45,
+   "measured": 2
   },
   {
    "id": "tone loc|wild thing",
@@ -2485,7 +3059,9 @@
    "rank": 2,
    "cleanId": 1440804415,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/9c/6f/439c6faf-242b-c73e-0bb8-9de2baacd845/mzaf_15909191911303218530.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/8b/1e/c78b1eae-509c-31c3-8c37-25439ad62c46/14CMGIM01104.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/8b/1e/c78b1eae-509c-31c3-8c37-25439ad62c46/14CMGIM01104.rgb.jpg/100x100bb.jpg",
+   "bpm": 125.5,
+   "measured": 2
   },
   {
    "id": "tone loc|i got it goin on",
@@ -2495,7 +3071,9 @@
    "rank": 3,
    "cleanId": 1440904852,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/e9/5a/76e95a11-1a05-2ed7-2146-6ff267228ac8/mzaf_12337147528253965141.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/a7/bc/6ea7bcc6-4b7c-a6ba-2680-e409478eb7de/00669910397251.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/a7/bc/6ea7bcc6-4b7c-a6ba-2680-e409478eb7de/00669910397251.rgb.jpg/100x100bb.jpg",
+   "bpm": 141.79,
+   "measured": 2
   },
   {
    "id": "tone loc|funky beats",
@@ -2505,7 +3083,9 @@
    "rank": 4,
    "cleanId": 1440805502,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/f5/37/08f537d9-bbba-a296-a105-9c42d8b66c79/mzaf_16925635111022854218.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/8b/1e/c78b1eae-509c-31c3-8c37-25439ad62c46/14CMGIM01104.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/8b/1e/c78b1eae-509c-31c3-8c37-25439ad62c46/14CMGIM01104.rgb.jpg/100x100bb.jpg",
+   "bpm": 117.6,
+   "measured": 2
   },
   {
    "id": "tone loc|next episode",
@@ -2515,7 +3095,9 @@
    "rank": 5,
    "cleanId": 1440904861,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/1d/87/281d87d6-de8a-6f83-6a88-158c3e55ad63/mzaf_16052478508439020559.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/a7/bc/6ea7bcc6-4b7c-a6ba-2680-e409478eb7de/00669910397251.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/a7/bc/6ea7bcc6-4b7c-a6ba-2680-e409478eb7de/00669910397251.rgb.jpg/100x100bb.jpg",
+   "bpm": 103.31,
+   "measured": 2
   },
   {
    "id": "tone loc|cutting rhythms",
@@ -2525,7 +3107,10 @@
    "rank": 6,
    "cleanId": 1440904854,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/ed/7a/95ed7a14-789a-69af-3622-cc55412f4f4e/mzaf_1867887627383405329.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/a7/bc/6ea7bcc6-4b7c-a6ba-2680-e409478eb7de/00669910397251.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/a7/bc/6ea7bcc6-4b7c-a6ba-2680-e409478eb7de/00669910397251.rgb.jpg/100x100bb.jpg",
+   "bpm": 116.05,
+   "key": "B major",
+   "measured": 2
   },
   {
    "id": "tone loc|on fire",
@@ -2535,7 +3120,9 @@
    "rank": 7,
    "cleanId": 1440805275,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/32/f9/5832f9fd-c136-efbc-ec60-c37bd169a465/mzaf_8039279029948338961.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/8b/1e/c78b1eae-509c-31c3-8c37-25439ad62c46/14CMGIM01104.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/8b/1e/c78b1eae-509c-31c3-8c37-25439ad62c46/14CMGIM01104.rgb.jpg/100x100bb.jpg",
+   "bpm": 154.27,
+   "measured": 2
   },
   {
    "id": "tone loc|loc in on the shaw",
@@ -2545,7 +3132,9 @@
    "rank": 8,
    "cleanId": 1440904870,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/2c/cb/e52ccb27-375f-159f-fa31-c6dd4213c4da/mzaf_17900472587199768508.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/a7/bc/6ea7bcc6-4b7c-a6ba-2680-e409478eb7de/00669910397251.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/a7/bc/6ea7bcc6-4b7c-a6ba-2680-e409478eb7de/00669910397251.rgb.jpg/100x100bb.jpg",
+   "bpm": 104.41,
+   "measured": 2
   },
   {
    "id": "tone loc|the fine line between hyper and stupid",
@@ -2555,7 +3144,9 @@
    "rank": 9,
    "cleanId": 1440805487,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/98/f6/8998f6b3-e58a-8df9-3d92-074995a505e8/mzaf_6617661556981930877.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/8b/1e/c78b1eae-509c-31c3-8c37-25439ad62c46/14CMGIM01104.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/8b/1e/c78b1eae-509c-31c3-8c37-25439ad62c46/14CMGIM01104.rgb.jpg/100x100bb.jpg",
+   "bpm": 118.95,
+   "measured": 2
   },
   {
    "id": "tone loc|hit the coast",
@@ -2565,7 +3156,9 @@
    "rank": 10,
    "cleanId": 818740237,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/48/f2/4f/48f24f2c-bb1f-7517-c649-733bc509c9d0/mzaf_3114677436072406094.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/38/5f/a4/385fa4bc-6fef-c2da-f0e0-4b9dcbabb12d/603497905362.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/38/5f/a4/385fa4bc-6fef-c2da-f0e0-4b9dcbabb12d/603497905362.jpg/100x100bb.jpg",
+   "bpm": 121.7,
+   "measured": 2
   },
   {
    "id": "kris kross|jump",
@@ -2575,7 +3168,10 @@
    "rank": 1,
    "cleanId": 170147030,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/5b/2c/ba5b2c8a-6c06-d124-b5f4-52693513d23d/mzaf_3684504517524894673.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/100x100bb.jpg",
+   "bpm": 127.5,
+   "key": "F# minor",
+   "measured": 2
   },
   {
    "id": "kris kross|warm it up",
@@ -2585,7 +3181,10 @@
    "rank": 2,
    "cleanId": 170147080,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/86/b0/5a86b00c-e794-b0fd-b8b6-261ddd491dad/mzaf_6583572760231812582.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/100x100bb.jpg",
+   "bpm": 102.83,
+   "key": "C major",
+   "measured": 2
   },
   {
    "id": "kris kross|i missed the bus",
@@ -2595,7 +3194,9 @@
    "rank": 3,
    "cleanId": 170147575,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/f3/92/3ef3920c-70e2-2870-6ce3-ca8f42dbf875/mzaf_10831432083439045451.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/100x100bb.jpg",
+   "bpm": 107.82,
+   "measured": 2
   },
   {
    "id": "kris kross|alright",
@@ -2605,7 +3206,10 @@
    "rank": 4,
    "cleanId": 169702278,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/27/99/7327999a-36c5-2e81-80c0-04feca884ee4/mzaf_3377192057772458898.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a0/8d/75/a08d75cb-0733-5667-847f-e2e5f9100db0/074645727820.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a0/8d/75/a08d75cb-0733-5667-847f-e2e5f9100db0/074645727820.jpg/100x100bb.jpg",
+   "bpm": 97.2,
+   "key": "D# major",
+   "measured": 2
   },
   {
    "id": "kris kross|it s a shame",
@@ -2615,7 +3219,9 @@
    "rank": 5,
    "cleanId": 170147461,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/eb/d2/f2ebd208-acbc-fbfe-9c4d-18e6a164a0aa/mzaf_4089381952128822174.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/100x100bb.jpg",
+   "bpm": 117.55,
+   "measured": 2
   },
   {
    "id": "kris kross|da streets ain t right",
@@ -2625,7 +3231,10 @@
    "rank": 6,
    "cleanId": 341547375,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/98/bc/b698bc8a-ca22-3e05-e6d7-ac303bd9fcc0/mzaf_14984150531638581916.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fa/fa/d5/fafad530-c8a6-bc47-a9e9-f075bb53ac15/884977442878.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fa/fa/d5/fafad530-c8a6-bc47-a9e9-f075bb53ac15/884977442878.jpg/100x100bb.jpg",
+   "bpm": 85.93,
+   "key": "D minor",
+   "measured": 2
   },
   {
    "id": "kris kross|young rich and dangerous",
@@ -2635,7 +3244,10 @@
    "rank": 7,
    "cleanId": 341547370,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/32/7f/0e327f2d-e116-e613-3aee-cd064e48dedf/mzaf_11529869530146444898.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fa/fa/d5/fafad530-c8a6-bc47-a9e9-f075bb53ac15/884977442878.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fa/fa/d5/fafad530-c8a6-bc47-a9e9-f075bb53ac15/884977442878.jpg/100x100bb.jpg",
+   "bpm": 88,
+   "key": "C minor",
+   "measured": 2
   },
   {
    "id": "kris kross|da bomb",
@@ -2645,7 +3257,9 @@
    "rank": 8,
    "cleanId": 169702161,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/b1/58/e5b15812-d6a9-35b5-4405-cb9316d546e5/mzaf_8397714365810126959.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a0/8d/75/a08d75cb-0733-5667-847f-e2e5f9100db0/074645727820.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a0/8d/75/a08d75cb-0733-5667-847f-e2e5f9100db0/074645727820.jpg/100x100bb.jpg",
+   "bpm": 125.25,
+   "measured": 2
   },
   {
    "id": "kris kross|i m real",
@@ -2655,7 +3269,9 @@
    "rank": 9,
    "cleanId": 169702345,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/e0/53/5de05353-7e90-f122-9c2e-138ac8f1b015/mzaf_11993653756792993481.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a0/8d/75/a08d75cb-0733-5667-847f-e2e5f9100db0/074645727820.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a0/8d/75/a08d75cb-0733-5667-847f-e2e5f9100db0/074645727820.jpg/100x100bb.jpg",
+   "bpm": 94.25,
+   "measured": 2
   },
   {
    "id": "kris kross|lil boys in da hood",
@@ -2665,7 +3281,9 @@
    "rank": 10,
    "cleanId": 170147056,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/a2/7e/bda27e91-3d26-d99a-f3c6-a85ca5090643/mzaf_1849696393455538796.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/100x100bb.jpg",
+   "bpm": 137.11,
+   "measured": 2
   },
   {
    "id": "fugees|no woman no cry",
@@ -2675,7 +3293,10 @@
    "rank": 1,
    "cleanId": 281701807,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/f5/e3/f4f5e3f6-60a1-3e48-1ce3-aa59e99045eb/mzaf_9156531530937888848.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c3/66/3f/c3663fe2-5c90-f701-93f8-54d5b56bc1df/888880608932.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c3/66/3f/c3663fe2-5c90-f701-93f8-54d5b56bc1df/888880608932.jpg/100x100bb.jpg",
+   "bpm": 86.63,
+   "key": "C major",
+   "measured": 2
   },
   {
    "id": "fugees|killing me softly with his song",
@@ -2685,7 +3306,10 @@
    "rank": 2,
    "cleanId": 1054461710,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/cd/9e/24cd9efd-b801-6a36-2e51-9dde9702f365/mzaf_18173782009843353762.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/d1/5b/0ed15b14-271c-35d5-5909-49f18fbfb32b/886445600605.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/d1/5b/0ed15b14-271c-35d5-5909-49f18fbfb32b/886445600605.jpg/100x100bb.jpg",
+   "bpm": 92.44,
+   "key": "E minor",
+   "measured": 2
   },
   {
    "id": "fugees|ready or not",
@@ -2695,7 +3319,10 @@
    "rank": 3,
    "cleanId": 1054461705,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/88/40/00884067-8a69-912a-91b8-369d3c05c6a1/mzaf_16037652664837693241.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/d1/5b/0ed15b14-271c-35d5-5909-49f18fbfb32b/886445600605.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/d1/5b/0ed15b14-271c-35d5-5909-49f18fbfb32b/886445600605.jpg/100x100bb.jpg",
+   "bpm": 89.1,
+   "key": "A# minor",
+   "measured": 2
   },
   {
    "id": "fugees|fu gee la",
@@ -2705,7 +3332,10 @@
    "rank": 4,
    "cleanId": 1054461708,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/4b/4c/424b4ced-d0ee-13b3-1243-565c6326733f/mzaf_12332392614296323717.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/d1/5b/0ed15b14-271c-35d5-5909-49f18fbfb32b/886445600605.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/d1/5b/0ed15b14-271c-35d5-5909-49f18fbfb32b/886445600605.jpg/100x100bb.jpg",
+   "bpm": 90,
+   "key": "C minor",
+   "measured": 2
   },
   {
    "id": "fugees and bounty killer|hip hopera",
@@ -2715,7 +3345,9 @@
    "rank": 5,
    "cleanId": 947102222,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/99/ae/8499aef6-42db-e79e-0ac0-e2e532ddc3b6/mzaf_9519757950528891772.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/78/20/c5/7820c55d-48fc-bd58-ba38-262c180444d6/884385175542.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/78/20/c5/7820c55d-48fc-bd58-ba38-262c180444d6/884385175542.jpg/100x100bb.jpg",
+   "bpm": 84.78,
+   "measured": 2
   },
   {
    "id": "fugees|some seek stardom",
@@ -2725,7 +3357,10 @@
    "rank": 6,
    "cleanId": 169704802,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/f9/56/41f95646-c8b4-55c4-d39d-17167692fbad/mzaf_5248993624000228791.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/76/c1/46/76c146b1-e0fc-6878-4186-41d9cbdffae5/074645746227.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/76/c1/46/76c146b1-e0fc-6878-4186-41d9cbdffae5/074645746227.jpg/100x100bb.jpg",
+   "bpm": 89.9,
+   "key": "G major",
+   "measured": 2
   },
   {
    "id": "fugees|the score",
@@ -2735,7 +3370,9 @@
    "rank": 7,
    "cleanId": 391711884,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/82/74/128274e6-7d4c-3fe3-bc76-64112980b14a/mzaf_1366258376929301484.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/98/be/63/mzi.kndrrmov.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/98/be/63/mzi.kndrrmov.jpg/100x100bb.jpg",
+   "bpm": 134.5,
+   "measured": 2
   },
   {
    "id": "fugees|cowboys",
@@ -2745,7 +3382,9 @@
    "rank": 8,
    "cleanId": 391711883,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/10/69/a6106992-2b8d-1f07-99da-b6dcc591eef3/mzaf_7558028344750325812.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/98/be/63/mzi.kndrrmov.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/98/be/63/mzi.kndrrmov.jpg/100x100bb.jpg",
+   "bpm": 143.9,
+   "measured": 2
   },
   {
    "id": "fugees|nappy heads",
@@ -2755,7 +3394,10 @@
    "rank": 9,
    "cleanId": 169704480,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/9a/cf/a89acf2b-3b60-f178-4bfc-92b24b71ba01/mzaf_5893154906473859945.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/76/c1/46/76c146b1-e0fc-6878-4186-41d9cbdffae5/074645746227.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/76/c1/46/76c146b1-e0fc-6878-4186-41d9cbdffae5/074645746227.jpg/100x100bb.jpg",
+   "bpm": 101.86,
+   "key": "G minor",
+   "measured": 2
   },
   {
    "id": "fugees|zealots",
@@ -2765,7 +3407,9 @@
    "rank": 10,
    "cleanId": 1054461706,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3e/6b/b6/3e6bb6bf-a1d0-49ce-de33-9c5f10a7034c/mzaf_8930128791654382124.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/d1/5b/0ed15b14-271c-35d5-5909-49f18fbfb32b/886445600605.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/d1/5b/0ed15b14-271c-35d5-5909-49f18fbfb32b/886445600605.jpg/100x100bb.jpg",
+   "bpm": 160,
+   "measured": 2
   },
   {
    "id": "dmx|slippin",
@@ -2775,7 +3419,10 @@
    "rank": 1,
    "cleanId": 1444533404,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/a3/85/8ea3853a-98b9-3a69-4258-11cb777cd69e/mzaf_8313698577197291143.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/c0/c5/f5c0c5e1-cf8a-e5c6-5141-6fa789dc451f/09UMGIM40130.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/c0/c5/f5c0c5e1-cf8a-e5c6-5141-6fa789dc451f/09UMGIM40130.rgb.jpg/100x100bb.jpg",
+   "bpm": 118.7,
+   "key": "C# major",
+   "measured": 2
   },
   {
    "id": "dmx|how s it goin down",
@@ -2785,7 +3432,10 @@
    "rank": 2,
    "cleanId": 1434901666,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/74/2e/55742e06-743f-330c-3a02-92443ffce27e/mzaf_2583713389769630172.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg",
+   "bpm": 120.59,
+   "key": "B minor",
+   "measured": 2
   },
   {
    "id": "dmx|ruff ryders anthem",
@@ -2795,7 +3445,10 @@
    "rank": 3,
    "cleanId": 1434901439,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/f6/0e/4af60eb1-1a21-4735-cc01-1f94f8786f49/mzaf_6613141070557975112.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg",
+   "bpm": 91.07,
+   "key": "A# minor",
+   "measured": 2
   },
   {
    "id": "dmx|let me fly",
@@ -2805,7 +3458,9 @@
    "rank": 4,
    "cleanId": 1434901449,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/ce/a8/c1cea81a-1edf-c14c-7f37-fc24b40c8744/mzaf_6104522887641124989.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg",
+   "bpm": 129,
+   "measured": 2
   },
   {
    "id": "dmx|look thru my eyes",
@@ -2815,7 +3470,9 @@
    "rank": 5,
    "cleanId": 1434901445,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/05/d6/3905d6b1-047b-914e-0c4e-aea81159a71c/mzaf_16486220185232251714.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg",
+   "bpm": 95.8,
+   "measured": 2
   },
   {
    "id": "dmx|i can feel it",
@@ -2825,7 +3482,10 @@
    "rank": 6,
    "cleanId": 1434901678,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/fb/9f/5afb9f32-d26f-cb58-96f5-a0a56cabecbf/mzaf_12796060725908514240.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg",
+   "bpm": 95.01,
+   "key": "D minor",
+   "measured": 2
   },
   {
    "id": "dmx|n z done started something",
@@ -2835,7 +3495,10 @@
    "rank": 7,
    "cleanId": 1434901763,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/f2/8c/3ef28cf2-38b7-bb2b-2215-9f323a1b3273/mzaf_3962311454830814335.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg",
+   "bpm": 89.1,
+   "key": "C# minor",
+   "measured": 2
   },
   {
    "id": "dmx|crime story",
@@ -2845,7 +3508,9 @@
    "rank": 8,
    "cleanId": 1434901668,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/2f/f8/132ff8b7-f7b1-fdac-ff22-2a31935837cf/mzaf_9508869431221029565.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg",
+   "bpm": 86.43,
+   "measured": 2
   },
   {
    "id": "dmx|x is coming",
@@ -2855,7 +3520,9 @@
    "rank": 9,
    "cleanId": 1434901662,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/b1/5a/75b15ac0-1e9a-1131-ccbc-544b4e8bf67a/mzaf_8795475519451133630.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg",
+   "bpm": 86.78,
+   "measured": 2
   },
   {
    "id": "dmx|the convo",
@@ -2865,7 +3532,9 @@
    "rank": 10,
    "cleanId": 1434901680,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bb/a3/95/bba3959b-a333-2e51-77cc-0c958d86057d/mzaf_10125151496597674265.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/100x100bb.jpg",
+   "bpm": 87.85,
+   "measured": 2
   },
   {
    "id": "cypress hill|born to get busy",
@@ -2875,7 +3544,9 @@
    "rank": 1,
    "cleanId": 192755386,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/9c/6b/a89c6ba1-82f4-7a83-2072-d322806847e0/mzaf_17405355014608535086.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/44/a2/ec/44a2ecab-940d-063e-c567-a01992949159/mzi.vnndlpuh.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/44/a2/ec/44a2ecab-940d-063e-c567-a01992949159/mzi.vnndlpuh.jpg/100x100bb.jpg",
+   "bpm": 104.86,
+   "measured": 2
   },
   {
    "id": "cypress hill|insane in the brain",
@@ -2885,7 +3556,9 @@
    "rank": 2,
    "cleanId": 159573861,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/27/0e/71270e3f-980f-af2c-3bac-f4ea0531d6a7/mzaf_13766612513637675953.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/13/82/43/138243e4-785f-6f1b-c7a4-7b6932d53fbc/827969778920.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/13/82/43/138243e4-785f-6f1b-c7a4-7b6932d53fbc/827969778920.jpg/100x100bb.jpg",
+   "bpm": 102.13,
+   "measured": 2
   },
   {
    "id": "cypress hill|hits from the bong",
@@ -2895,7 +3568,9 @@
    "rank": 3,
    "cleanId": 181585806,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/06/84/6806845e-8577-6f18-bc38-4995c574cfc2/mzaf_10968075255303867233.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/01/43/63014383-c3f0-d31d-46a7-5cecb3dece1d/074645729626.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/01/43/63014383-c3f0-d31d-46a7-5cecb3dece1d/074645729626.jpg/100x100bb.jpg",
+   "bpm": 115.09,
+   "measured": 2
   },
   {
    "id": "cypress hill|ultraviolet dreams",
@@ -2905,7 +3580,9 @@
    "rank": 4,
    "cleanId": 192755232,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/f9/df/a6f9dfc2-7069-420f-188f-2db76dfa201d/mzaf_6187150027133096572.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/44/a2/ec/44a2ecab-940d-063e-c567-a01992949159/mzi.vnndlpuh.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/44/a2/ec/44a2ecab-940d-063e-c567-a01992949159/mzi.vnndlpuh.jpg/100x100bb.jpg",
+   "bpm": 168.06,
+   "measured": 2
   },
   {
    "id": "cypress hill|how i could just kill a man",
@@ -2915,7 +3592,9 @@
    "rank": 5,
    "cleanId": 920156782,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/70/1e/af701eff-ff6b-f706-6345-0edf673dc79c/mzaf_6449503172944863176.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/3e/50/c13e5023-a4d9-7df5-8ed9-4ce6f0dafbf5/886444729420.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/3e/50/c13e5023-a4d9-7df5-8ed9-4ce6f0dafbf5/886444729420.jpg/100x100bb.jpg",
+   "bpm": 118.85,
+   "measured": 2
   },
   {
    "id": "cypress hill|dr greenthumb",
@@ -2925,7 +3604,9 @@
    "rank": 6,
    "cleanId": 217555911,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/bc/b5/e1bcb5b4-95a4-d06d-efa3-8ca026e0255a/mzaf_5695613010835258488.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/2f/4a/01/2f4a01ef-595e-1a83-e055-205b860aea94/dj.kmjmgsph.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/2f/4a/01/2f4a01ef-595e-1a83-e055-205b860aea94/dj.kmjmgsph.jpg/100x100bb.jpg",
+   "bpm": 138.47,
+   "measured": 2
   },
   {
    "id": "cypress hill|when the ship goes down",
@@ -2935,7 +3616,9 @@
    "rank": 7,
    "cleanId": 181585148,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/7e/ba/507eba5a-0909-c07b-d55a-19cc80bd2806/mzaf_1379721576635125113.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/01/43/63014383-c3f0-d31d-46a7-5cecb3dece1d/074645729626.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/01/43/63014383-c3f0-d31d-46a7-5cecb3dece1d/074645729626.jpg/100x100bb.jpg",
+   "bpm": 88.14,
+   "measured": 2
   },
   {
    "id": "cypress hill|break it up",
@@ -2945,7 +3628,10 @@
    "rank": 8,
    "cleanId": 192755255,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/1a/1e/901a1eff-d806-5631-c0fe-2fb3069af567/mzaf_9632424556570783418.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/44/a2/ec/44a2ecab-940d-063e-c567-a01992949159/mzi.vnndlpuh.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/44/a2/ec/44a2ecab-940d-063e-c567-a01992949159/mzi.vnndlpuh.jpg/100x100bb.jpg",
+   "bpm": 95.5,
+   "key": "F major",
+   "measured": 2
   },
   {
    "id": "cypress hill|something for the blunted",
@@ -2955,7 +3641,10 @@
    "rank": 9,
    "cleanId": 192755310,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/e6/c0/d3e6c0b9-2381-d009-a552-a62b312d8a12/mzaf_11852006619864289758.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/44/a2/ec/44a2ecab-940d-063e-c567-a01992949159/mzi.vnndlpuh.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/44/a2/ec/44a2ecab-940d-063e-c567-a01992949159/mzi.vnndlpuh.jpg/100x100bb.jpg",
+   "bpm": 104.87,
+   "key": "F major",
+   "measured": 2
   },
   {
    "id": "cypress hill|i ain t goin out like that",
@@ -2965,7 +3654,9 @@
    "rank": 10,
    "cleanId": 181584924,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/1e/bc/cd1ebc9a-496e-64c7-0857-efdb4c0a40f0/mzaf_18053660435319929375.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/01/43/63014383-c3f0-d31d-46a7-5cecb3dece1d/074645729626.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/01/43/63014383-c3f0-d31d-46a7-5cecb3dece1d/074645729626.jpg/100x100bb.jpg",
+   "bpm": 102.56,
+   "measured": 2
   },
   {
    "id": "warren g|regulate",
@@ -2975,7 +3666,10 @@
    "rank": 1,
    "cleanId": 1478457166,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/10/43/ba10439c-7f56-d383-94fb-760c7c9c50bb/mzaf_5624041190120364871.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/03/ef/53/03ef5302-65c7-b0e1-9877-926257626ead/15UMGIM77911.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/03/ef/53/03ef5302-65c7-b0e1-9877-926257626ead/15UMGIM77911.rgb.jpg/100x100bb.jpg",
+   "bpm": 131.21,
+   "key": "E minor",
+   "measured": 2
   },
   {
    "id": "warren g|my house",
@@ -2985,7 +3679,9 @@
    "rank": 2,
    "cleanId": 1020512634,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/1e/94/411e9416-6e56-c08b-9a3f-64d1d70bacb1/mzaf_13325581626007128448.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/85/92/21/8592211c-87d8-1410-0bef-3d19cb94b9af/889326312123_Cover.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/85/92/21/8592211c-87d8-1410-0bef-3d19cb94b9af/889326312123_Cover.jpg/100x100bb.jpg",
+   "bpm": 95,
+   "measured": 2
   },
   {
    "id": "warren g|saturday",
@@ -2995,7 +3691,10 @@
    "rank": 3,
    "cleanId": 1020512635,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/6c/6b/4a6c6bb3-8ad9-0b29-a302-aa374e2f6d80/mzaf_2106261917933811912.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/85/92/21/8592211c-87d8-1410-0bef-3d19cb94b9af/889326312123_Cover.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/85/92/21/8592211c-87d8-1410-0bef-3d19cb94b9af/889326312123_Cover.jpg/100x100bb.jpg",
+   "bpm": 134.63,
+   "key": "D# major",
+   "measured": 2
   },
   {
    "id": "warren g|keep on hustlin",
@@ -3005,7 +3704,10 @@
    "rank": 4,
    "cleanId": 1020512636,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/1a/1d/d71a1dd4-fb24-ddf1-3ccf-31288f330945/mzaf_7161724212468451936.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/85/92/21/8592211c-87d8-1410-0bef-3d19cb94b9af/889326312123_Cover.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/85/92/21/8592211c-87d8-1410-0bef-3d19cb94b9af/889326312123_Cover.jpg/100x100bb.jpg",
+   "bpm": 121.64,
+   "key": "B minor",
+   "measured": 2
   },
   {
    "id": "warren g|transformers",
@@ -3015,7 +3717,9 @@
    "rank": 5,
    "cleanId": 1443885914,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/4a/63/f84a63b6-01cc-bf54-0245-1a08ec1cb1bb/mzaf_7323318579967063535.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/a0/25/a3a0254b-3cc6-ba95-57ca-21fba102249b/00731453723429.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/a0/25/a3a0254b-3cc6-ba95-57ca-21fba102249b/00731453723429.rgb.jpg/100x100bb.jpg",
+   "bpm": 92.34,
+   "measured": 2
   },
   {
    "id": "warren g|reality",
@@ -3025,7 +3729,10 @@
    "rank": 6,
    "cleanId": 1443885617,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/d3/c2/a0d3c2e2-928f-e41a-e257-bbbc2067f689/mzaf_17522721924871615575.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/a0/25/a3a0254b-3cc6-ba95-57ca-21fba102249b/00731453723429.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/a0/25/a3a0254b-3cc6-ba95-57ca-21fba102249b/00731453723429.rgb.jpg/100x100bb.jpg",
+   "bpm": 92.54,
+   "key": "A# minor",
+   "measured": 2
   },
   {
    "id": "warren g|dead wrong",
@@ -3035,7 +3742,9 @@
    "rank": 7,
    "cleanId": 1020512637,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/4a/89/034a897f-7628-84d5-d703-ee801d78394a/mzaf_11151057076690553567.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/85/92/21/8592211c-87d8-1410-0bef-3d19cb94b9af/889326312123_Cover.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/85/92/21/8592211c-87d8-1410-0bef-3d19cb94b9af/889326312123_Cover.jpg/100x100bb.jpg",
+   "bpm": 90,
+   "measured": 2
   },
   {
    "id": "warren g|we brings heat",
@@ -3045,7 +3754,10 @@
    "rank": 8,
    "cleanId": 1443885639,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/99/4c/9b994c64-df9c-11c1-758b-ade47bb77676/mzaf_15229302521689881219.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/a0/25/a3a0254b-3cc6-ba95-57ca-21fba102249b/00731453723429.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/a0/25/a3a0254b-3cc6-ba95-57ca-21fba102249b/00731453723429.rgb.jpg/100x100bb.jpg",
+   "bpm": 126.7,
+   "key": "A minor",
+   "measured": 2
   },
   {
    "id": "warren g|what we go through",
@@ -3055,7 +3767,10 @@
    "rank": 9,
    "cleanId": 1443885633,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/c6/cc/d3c6cc2b-3015-96e7-c9d3-0d112692e456/mzaf_16079679091243747871.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/a0/25/a3a0254b-3cc6-ba95-57ca-21fba102249b/00731453723429.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/a0/25/a3a0254b-3cc6-ba95-57ca-21fba102249b/00731453723429.rgb.jpg/100x100bb.jpg",
+   "bpm": 93.69,
+   "key": "A# minor",
+   "measured": 2
   },
   {
    "id": "warren g|young fun",
@@ -3065,7 +3780,10 @@
    "rank": 10,
    "cleanId": 1443885629,
    "cleanUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/41/16/654116d2-2e67-0f01-b8ef-8a5a9e880794/mzaf_13708872314501809999.plus.aac.p.m4a",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/a0/25/a3a0254b-3cc6-ba95-57ca-21fba102249b/00731453723429.rgb.jpg/100x100bb.jpg"
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/a0/25/a3a0254b-3cc6-ba95-57ca-21fba102249b/00731453723429.rgb.jpg/100x100bb.jpg",
+   "bpm": 92.89,
+   "key": "D# minor",
+   "measured": 2
   }
  ]
 }

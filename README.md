@@ -49,6 +49,10 @@ rests for a minute, and the genres keep playing.
   costs a call to Apple each time.
 - Country's list was hand-reviewed with `tools/review/` (the private review page), so refresh it rather than
   rebuild it. Songs taken out live in `data/catalog/exclude.json`, so a rebuild never brings them back.
+- `node tools/measure-catalog.mjs`, then open `http://localhost:5174/tools/measure/` and press Run: measures
+  each song's tempo and key (silently, with the site's own detector) and saves them in the catalog, so DJPJ
+  can pick records that beat-match and blend the first time a visitor hears them. Only unmeasured songs are
+  done, so run it after `--add` or a rebuild; add `?redo` to the address after changing the detector.
 - If a catalog file is missing, the genre falls back to searching its artists live.
 
 ## How the mixing works

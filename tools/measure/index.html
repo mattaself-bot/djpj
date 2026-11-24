@@ -1,0 +1,76 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>DJPJ catalog measuring</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 24px; max-width: 800px; }
+  td, th { padding: 2px 12px; text-align: left; border-bottom: 1px solid #ddd; }
+  table { border-collapse: collapse; margin-top: 12px; }
+</style>
+<h1>Catalog measuring</h1>
+<p>Measures the tempo and key of every catalog song with the site's own detector and saves them in
+  <code>data/catalog/</code>. Nothing is played. Run <code>node tools/measure-catalog.mjs</code> and
+  open this page from it; add <code>?redo</code> to measure songs that already have values.</p>
+<button id="run">Run</button> <span id="status"></span>
+<table id="rows"><tr><th>Genre</th><th>Songs</th><th>Measured</th><th>Tempo saved</th><th>Key saved</th><th>Failed</th></tr></table>
+<script type="module">
+import { analyze, detectKey } from '../../js/audio/analyze.js';
+import { GENRES } from '../../js/genres.js';
+
+const VERSION = 2;      // matches KEY_VERSION in js/memory.js: bump both when the detector changes
+const STEADY = 1.25;    // same bar prep.js uses before it trusts a tempo
+const AT_ONCE = 6;
+const redo = new URLSearchParams(location.search).has('redo');
+const state = (window.measure = { running: false, done: false, genres: {} });
+
+async function measureSong(ctx, s) {
+  const res = await fetch(s.cleanUrl);
+  if (!res.ok) throw new Error(`download ${res.status}`);
+  const buffer = await ctx.decodeAudioData(await res.arrayBuffer());
+  const a = analyze(buffer);
+  return [a.confidence > STEADY ? a.bpm : null, detectKey(buffer)];
+}
+
+const send = (genre, results) => fetch('/save', { method: 'POST', body: JSON.stringify({ genre, version: VERSION, results }) })
+  .then(r => { if (!r.ok) throw new Error(`save ${r.status}`); });
+
+async function runGenre(key, row) {
+  const cat = await (await fetch(`../../data/catalog/${key}.json`, { cache: 'reload' })).json();
+  const todo = cat.songs.filter(s => s.cleanId && s.cleanUrl && (redo || s.measured !== VERSION));
+  const g = (state.genres[key] = { songs: cat.songs.length, todo: todo.length, measured: 0, bpm: 0, key: 0, failed: 0 });
+  const ctx = new OfflineAudioContext(2, 1, 44100);
+  let batch = {}, at = 0;
+  const flush = async () => { const b = batch; batch = {}; if (Object.keys(b).length) await send(key, b); };
+  const worker = async () => {
+    while (at < todo.length) {
+      const s = todo[at++];
+      try {
+        const r = await measureSong(ctx, s);
+        batch[s.cleanId] = r;
+        g.measured++; g.bpm += !!r[0]; g.key += !!r[1];
+      } catch (e) {
+        g.failed++; // left unmeasured: the next run tries it again
+        console.warn(key, s.title, e.message);
+      }
+      if (Object.keys(batch).length >= 40) await flush();
+      row.innerHTML = `<td>${key}</td><td>${g.songs}</td><td>${g.measured}/${g.todo}</td><td>${g.bpm}</td><td>${g.key}</td><td>${g.failed}</td>`;
+    }
+  };
+  await Promise.all(Array.from({ length: AT_ONCE }, worker));
+  await flush();
+}
+
+async function run() {
+  if (state.running) return;
+  state.running = true;
+  const table = document.querySelector('#rows'), status = document.querySelector('#status');
+  for (const g of GENRES.filter(g => g.catalog)) {
+    status.textContent = g.key;
+    const row = table.insertRow();
+    try { await runGenre(g.key, row); } catch (e) { state.genres[g.key] = { error: e.message }; row.innerHTML = `<td>${g.key}</td><td colspan="5">${e.message}</td>`; }
+  }
+  status.textContent = 'done';
+  state.running = false; state.done = true;
+}
+document.querySelector('#run').addEventListener('click', run);
+window.measure.run = run;
+</script>

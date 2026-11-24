@@ -53,7 +53,7 @@ export class Crate {
   add(list, into) {
     for (const t of list) {
       if (this.isSeen(t) || into.some(x => x.id === t.id || this.sig(x) === this.sig(t))) continue;
-      // tempo and key DJPJ measured the last time this record played, so it can be picked to fit
+      // tempo and key DJPJ measured the last time this record played (catalog songs come with theirs)
       const known = recall(t.id);
       if (known) { t.bpm ??= known.bpm; t.key ??= known.key; }
       into.push(t);
@@ -81,11 +81,13 @@ export class Crate {
 
     const songs = this.genre.catalog && !this.archiveOnly ? await loadCatalog(g.key) : null;
     if (songs) {
-      // a dozen unplayed songs, no more than two by one artist
+      // a few dozen unplayed songs, no more than two by one artist. Their tempo and key are already
+      // known and nothing is downloaded until one is picked, so a wide choice costs nothing and
+      // makes it far likelier that something both beat-matches and blends
       const fresh = pickN(songs.filter(s => s.cleanId && !this.seen.has(s.id) && !this.pool.some(t => t.songKey === s.id)), songs.length);
       const perArtist = {}, batch = [];
       for (const s of fresh) {
-        if (batch.length === 12) break;
+        if (batch.length === 36) break;
         if ((perArtist[s.artist] = (perArtist[s.artist] || 0) + 1) <= 2) batch.push(s);
       }
       if (!batch.length) this.seen.clear(); // the whole catalog has played: start it over
@@ -125,7 +127,8 @@ export class Crate {
       this.sincePD = 0;
       return this.take(this.pdPool, prev);
     }
-    for (let i = 0; i < 3 && this.pool.length < 4; i++) await this.refill();
+    const low = this.genre.catalog ? 18 : 4; // live artist searches are rationed; catalog songs aren't
+    for (let i = 0; i < 3 && this.pool.length < low; i++) await this.refill();
     if (!this.pool.length) return this.pdPool.length ? this.take(this.pdPool, prev) : null;
     this.sincePD++;
     return this.take(this.pool, prev);
@@ -155,7 +158,7 @@ export class Crate {
       const d = tempoDistance(prevBpm, t.bpm);
       s += d < 0.03 ? 2.5 : d < 0.06 ? 1.8 : d < 0.085 ? -0.5 : -3;
     }
-    if (prev?.key && t.key && keysCompatible(prev.key, t.key)) s += 1;
+    if (prev?.key && t.key && keysCompatible(prev.key, t.key)) s += 1.5;
     // no artist twice in a row, and not again within a few records
     const who = lead(t.artist);
     this.lastArtists.forEach((a, i) => { if (a === who) s -= i === 0 ? 8 : 2; });

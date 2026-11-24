@@ -1,6 +1,7 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "djpj", "runtimeExecutable": "python", "runtimeArgs": ["-m", "http.server", "5173"], "port": 5173 }
+    { "name": "djpj", "runtimeExecutable": "python", "runtimeArgs": ["-m", "http.server", "5173"], "port": 5173 },
+    { "name": "measure", "runtimeExecutable": "node", "runtimeArgs": ["tools/measure-catalog.mjs"], "port": 5174 }
   ]
 }
