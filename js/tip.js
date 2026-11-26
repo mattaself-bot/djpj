@@ -58,6 +58,7 @@ export function initTips() {
 
 function openTip() {
   say('');
+  window.dispatchEvent(new CustomEvent('djpj:tipopen'));
   $('#tip-dialog').showModal();
   update();
   if (stripeReady()) mountWallet().catch(e => console.warn('[tips] wallet unavailable', e));

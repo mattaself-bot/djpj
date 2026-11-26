@@ -6,7 +6,7 @@ import { camelotLabel } from './keys.js';
 import * as itunes from './sources/itunes.js';
 import * as archive from './sources/archive.js';
 import { FX_LIST, runFX } from './audio/fx.js';
-import { initMonetization, trackEvent } from './monetize.js';
+import { initMonetization, trackEvent, appleLink } from './monetize.js';
 import { initTips } from './tip.js';
 
 const $ = s => document.querySelector(s);
@@ -20,6 +20,8 @@ window.djpj = { dj, engine }; // handy for poking at the set from the browser co
 const PAGE_TITLE = document.title;
 const SOURCE = { itunes: '30-sec preview · iTunes', archive: 'Public domain · Archive' };
 const SHORT = { itunes: 'Hit · 30s', archive: '1920s' };
+// the bar's link: a short call that fits a phone, and the rest where there's room
+const GET = { itunes: ['Get the song ›', 'Apple Music · preview courtesy of iTunes'], archive: ['Full record ›', 'Internet Archive'] };
 const LINK = { itunes: 'Get the full song on Apple Music', archive: 'View on the Internet Archive' };
 
 // ---------- settings (remembered per browser) ----------
@@ -230,6 +232,8 @@ function resetNowPlaying() {
   $('#np-progress').style.width = '0';
   $('#np-time').textContent = '0:00';
   $('#np-link').hidden = true;
+  $('#np-get').hidden = true;
+  $('#np-credit').hidden = true;
   $('#history').innerHTML = '';
   $('#up-next').innerHTML = '<li>Picking records…</li>';
   setPauseButton(false);
@@ -253,15 +257,39 @@ function showTrack(t) {
   $('#np-bpm').textContent = t.prep ? `${Math.round(t.prep.bpm)} BPM` : '';
   $('#np-key').textContent = camelotLabel(t.key) ? `Key ${camelotLabel(t.key)}` : '';
   document.title = `${t.title} · ${t.artist} | DJPJ`;
+  // Apple asks that every preview sits next to a way to get the song and a credit to iTunes
+  const href = t.source === 'itunes' ? appleLink(t.link) : t.link;
   const link = $('#np-link');
-  link.hidden = !t.link;
-  link.href = t.link || '#';
+  link.hidden = !href;
+  link.href = href || '#';
   link.textContent = LINK[t.source];
+  const get = $('#np-get');
+  get.hidden = !href;
+  get.href = href || '#';
+  get.innerHTML = `${GET[t.source][0]} <span class="wide">${GET[t.source][1]}</span>`;
+  $('#np-credit').hidden = t.source !== 'itunes';
+  nudgeForTip();
   $('#history').innerHTML = dj.history.slice(0, 40).map(h => li(h, SHORT[h.source])).join('');
   queueState = {};
   renderUpNext();
   document.querySelector('.fx[data-fx="bass"]')?.setAttribute('aria-pressed', 'false');
   updateMediaSession(t);
+}
+
+// ---------- tip jar: one gentle nudge a visit, once the set has earned it ----------
+const TIP_AFTER = 10, TIP_REST = 30 * 864e5; // records played before asking; days of quiet after a tip
+let played = 0, nudged = false;
+const lastTip = () => { try { return +localStorage.getItem('djpj:tipped') || 0; } catch { return 0; } };
+
+function nudgeForTip() {
+  const jar = $('.tip-jar');
+  if (++played < TIP_AFTER || nudged || jar.hidden || Date.now() - lastTip() < TIP_REST) return;
+  nudged = true;
+  trackEvent('tip/prompt');
+  jar.classList.add('nudge', 'jingle');
+  jar.querySelector('small').textContent = `${played} records in. Enjoying the set?`;
+  setTimeout(() => jar.classList.remove('jingle'), 700);
+  setTimeout(() => jar.classList.remove('nudge'), 20000);
 }
 
 const li = (t, note) => `<li><b>${esc(t.title)}</b> · ${esc(t.artist)}<span class="src">${esc(note)}</span></li>`;
@@ -381,6 +409,7 @@ function bindPlayer() {
     dance(null);
     $('#strobe').style.opacity = 0;
     $('#np-details').hidden = true;
+    $('#np-get').hidden = true;
     $('#np-art').removeAttribute('src');
     $('#np-progress').style.width = '0';
     $('#np-time').textContent = '0:00';
@@ -646,8 +675,22 @@ bindPlayer();
 initMonetization();
 initTips();
 // a successful tip gets an air horn salute if a set is playing
+window.addEventListener('djpj:tipopen', () => trackEvent('tip/open'));
+$('#venmo-link').addEventListener('click', () => trackEvent('tip/venmo'));
+for (const sel of ['#np-get', '#np-link']) {
+  $(sel).addEventListener('click', e => {
+    e.stopPropagation(); // the bar around it opens the crate
+    trackEvent(dj.current?.track.source === 'itunes' ? 'apple/click' : 'archive/click');
+  });
+}
 window.addEventListener('djpj:tipped', () => {
   trackEvent('tip');
+  try { localStorage.setItem('djpj:tipped', Date.now()); } catch { /* private mode */ }
+  nudged = true;
+  $('.tip-jar').classList.remove('nudge');
+  $('.tip-jar b').textContent = 'Thank you!';
+  $('.tip-jar small').textContent = 'You keep the decks spinning';
+  say('🙏 Big thanks for the tip!');
   $('.tip-jar').classList.add('jingle');
   setTimeout(() => $('.tip-jar').classList.remove('jingle'), 700);
   perform('tip');

@@ -9,8 +9,17 @@ function loadScript(src, attrs = {}) {
   document.head.appendChild(s);
 }
 
+// An Apple Music link, with the affiliate tracking added when it's configured.
+export function appleLink(url) {
+  const extra = CONFIG.apple?.linkParams;
+  if (!url || !extra) return url;
+  return url + (url.includes('?') ? '&' : '?') + extra;
+}
+
 export function initMonetization() {
   const { ads, analytics } = CONFIG;
+  const note = document.querySelector('#affiliate-note');
+  if (note && CONFIG.apple?.linkParams) note.hidden = false;
 
   if (ads.enabled && ads.adsenseClient) {
     loadScript(`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ads.adsenseClient}`, { crossorigin: 'anonymous' });

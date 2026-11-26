@@ -388,6 +388,8 @@ button { font: inherit; color: inherit; }
 .stage:has(.booth.playing) .tip-jar svg { animation: jar-bob calc(var(--beat) * 2) ease-in-out infinite; }
 .stage:has(.booth.paused) .tip-jar svg { animation-play-state: paused; }
 @keyframes jar-bob { 0%, 100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg) translateY(-2px); } }
+.tip-jar.nudge { animation: nudge 1.6s ease-in-out infinite; }
+@keyframes nudge { 50% { box-shadow: 0 0 0 10px rgba(255, 176, 32, .3), 0 14px 44px rgba(255, 176, 32, .7); transform: translateY(-2px); } }
 .tip-jar.jingle svg { animation: jingle .6s ease-in-out; }
 @keyframes jingle { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-16deg); } 50% { transform: rotate(12deg); } 75% { transform: rotate(-6deg); } }
 
@@ -423,6 +425,8 @@ button { font: inherit; color: inherit; }
 .ticker.scroll span { animation: ticker var(--ticker-dur, 14s) linear infinite; }
 @keyframes ticker { to { transform: translateX(-50%); } }
 .progress { height: 5px; background: #2a1f4a; border-radius: 99px; overflow: hidden; margin-top: 6px; }
+.np-get { display: block; margin-top: 4px; font-size: 11px; font-weight: 700; color: var(--muted); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.np-get:hover { color: var(--cyan); }
 .progress-bar { height: 100%; width: 0; background: linear-gradient(90deg, var(--pink), var(--cyan)); }
 .icon-btn:disabled { opacity: .4; cursor: default; }
 .now-bar .icon-btn { flex: none; font-size: 16px; }
@@ -458,6 +462,9 @@ button { font: inherit; color: inherit; }
 .badge.archive { background: #8a5a00; }
 .badge.ghost { background: transparent; border: 1px solid var(--line); color: var(--muted); }
 .badge:empty { display: none; }
+.np-link { display: inline-block; padding: 8px 14px; border-radius: 10px; background: #fff; color: #111; font-size: 13px; font-weight: 800; text-decoration: none; }
+.np-link:hover { background: var(--cyan); }
+.np-credit { margin: 6px 0 0; }
 .end-set { margin-top: 10px; }
 .vol { display: flex; align-items: center; gap: 8px; margin: 14px 0 4px; }
 .vol input { flex: 1; accent-color: var(--pink); }
@@ -533,7 +540,7 @@ button { font: inherit; color: inherit; }
   .dock-badge .txt { display: none; }
   .now-bar { gap: 8px; }
   .np-art { width: 38px; height: 38px; }
-  .np-time { display: none; }
+  .np-time, .np-get .wide { display: none; }
   .now-bar .icon-btn { width: 38px; height: 38px; }
   .sheet, .sheet.left, .sheet.right { left: 8px; right: 8px; width: auto; max-height: calc(100dvh - var(--dock-h) - 72px); }
   .bubble { font-size: 13px; padding: 7px 12px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }

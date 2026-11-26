@@ -112,12 +112,20 @@ Everything lives in `js/config.js`:
 
 - **Ads:** apply for [Google AdSense](https://adsense.google.com) once the site has its own domain and some traffic.
   Then set `ads.enabled`, `adsenseClient` and the two slot IDs. Ad spots already sit in the crate and DJ effects sheets.
-- **Tips:** the tip jar (right under DJPJ) opens a pop-up over the page, so the set keeps playing. It offers quick amounts, a Venmo
+- **Tips:** the tip jar (right under DJPJ) opens a pop-up over the page, so the set keeps playing. After ten
+  records it glows once and asks; it stays quiet for 30 days after someone tips. It offers quick amounts, a Venmo
   button (opens the app on phones), and a Venmo QR code for people on computers. Change the handle in
   `tips.venmo`. Apple Pay / Google Pay through Stripe is built in. Follow [worker/README.md](worker/README.md)
   to switch it on: a Stripe account, a free Cloudflare Worker, then two values in `tips.stripe`.
 - **Analytics:** set `analytics.goatcounter` to a free [GoatCounter](https://www.goatcounter.com) site code.
   It counts visits plus which genres people start sets with. No cookies, so no consent banner is needed.
+  It also counts tip-jar opens (`tip/open`), Venmo taps (`tip/venmo`), finished wallet tips (`tip`), the
+  tip nudge (`tip/prompt`) and clicks through to Apple Music (`apple/click`).
+- **Apple Music commissions:** once [Apple's Performance Partners program](https://performance-partners.apple.com)
+  approves the site, put the tracking part of its links in `apple.linkParams`. Every Apple Music link then
+  carries it, and the footer shows the commission notice Apple requires.
+- **Apple's rules for previews:** each preview must sit next to a way to get the song and a "courtesy of
+  iTunes" credit, which is why the player bar and the crate both show them. Keep them.
 
 ## Mobile notes
 

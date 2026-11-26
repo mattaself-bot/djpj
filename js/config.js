@@ -17,6 +17,13 @@ export const CONFIG = {
     },
   },
 
+  // Apple Music links. Once Apple's Performance Partners program approves the site, put the tracking
+  // part of its links here, e.g. 'at=1000lXXXX&ct=djpj'. It is added to every Apple Music link, and a
+  // commission notice appears in the footer (Apple requires one).
+  apple: {
+    linkParams: '',
+  },
+
   analytics: {
     goatcounter: '',         // e.g. 'djpj' for https://djpj.goatcounter.com (free, no cookies)
   },
