@@ -81,13 +81,13 @@ export class Crate {
 
     const songs = this.genre.catalog && !this.archiveOnly ? await loadCatalog(g.key) : null;
     if (songs) {
-      // a few dozen unplayed songs, no more than two by one artist. Their tempo and key are already
+      // up to a hundred unplayed songs, no more than two by one artist. Their tempo and key are already
       // known and nothing is downloaded until one is picked, so a wide choice costs nothing and
       // makes it far likelier that something both beat-matches and blends
       const fresh = pickN(songs.filter(s => s.cleanId && !this.seen.has(s.id) && !this.pool.some(t => t.songKey === s.id)), songs.length);
       const perArtist = {}, batch = [];
       for (const s of fresh) {
-        if (batch.length === 36) break;
+        if (batch.length === 100) break;
         if ((perArtist[s.artist] = (perArtist[s.artist] || 0) + 1) <= 2) batch.push(s);
       }
       if (!batch.length) this.seen.clear(); // the whole catalog has played: start it over
@@ -127,7 +127,7 @@ export class Crate {
       this.sincePD = 0;
       return this.take(this.pdPool, prev);
     }
-    const low = this.genre.catalog ? 18 : 4; // live artist searches are rationed; catalog songs aren't
+    const low = this.genre.catalog ? 70 : 4; // live artist searches are rationed; catalog songs aren't
     for (let i = 0; i < 3 && this.pool.length < low; i++) await this.refill();
     if (!this.pool.length) return this.pdPool.length ? this.take(this.pdPool, prev) : null;
     this.sincePD++;
@@ -153,12 +153,15 @@ export class Crate {
   score(t, prev) {
     let s = Math.random() * 2;
     const prevBpm = prev?.prep?.bpm || prev?.bpm;
+    let matchable = true;
     if (prevBpm && t.bpm) {
       // close enough to beat-match is what matters; a known clash waits for a better moment
       const d = tempoDistance(prevBpm, t.bpm);
       s += d < 0.03 ? 2.5 : d < 0.06 ? 1.8 : d < 0.085 ? -0.5 : -3;
+      matchable = d < 0.06;
     }
-    if (prev?.key && t.key && keysCompatible(prev.key, t.key)) s += 1.5;
+    // among records that beat-match, one in a blending key wins; a key never excuses a tempo clash
+    if (matchable && prev?.key && t.key && keysCompatible(prev.key, t.key)) s += 3;
     // no artist twice in a row, and not again within a few records
     const who = lead(t.artist);
     this.lastArtists.forEach((a, i) => { if (a === who) s -= i === 0 ? 8 : 2; });
